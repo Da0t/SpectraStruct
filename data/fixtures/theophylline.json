@@ -1,0 +1,20 @@
+{
+  "id": "theophylline",
+  "display_name": "Theophylline",
+  "smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O",
+  "formula": "C7H8N4O2",
+  "mw": 180.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/theophylline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/theophylline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O",
+      "name": "Theophylline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

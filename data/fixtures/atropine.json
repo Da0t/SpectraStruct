@@ -1,0 +1,9 @@
+{
+  "id": "atropine",
+  "display_name": "Atropine",
+  "smiles": "CN1C2CCC1CC(OC(=O)C(CO)c1ccccc1)C2",
+  "formula": "C17H23NO3",
+  "mw": 289.38,
+  "has_nmr": true,
+  "has_ms": true
+}

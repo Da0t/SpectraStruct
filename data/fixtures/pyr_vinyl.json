@@ -1,0 +1,9 @@
+{
+  "id": "pyr_vinyl",
+  "display_name": "Pyr Vinyl",
+  "smiles": "C=Cc1ccncc1",
+  "formula": "C7H7N",
+  "mw": 105.14,
+  "has_nmr": true,
+  "has_ms": true
+}

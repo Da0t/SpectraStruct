@@ -1,0 +1,9 @@
+{
+  "id": "doxycycline",
+  "display_name": "Doxycycline",
+  "smiles": "CN(C)[C@H]1C(O)=C(C(N)=O)C(=O)[C@@]2(O)C(O)=C3C(=O)c4c(O)cccc4[C@@]4(C)OC(=O)C4=C(O)[C@H]3C[C@@H]12",
+  "formula": "C25H24N2O10",
+  "mw": 512.47,
+  "has_nmr": true,
+  "has_ms": true
+}

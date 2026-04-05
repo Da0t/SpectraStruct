@@ -1,0 +1,9 @@
+{
+  "id": "bht",
+  "display_name": "Bht",
+  "smiles": "Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1",
+  "formula": "C15H24O",
+  "mw": 220.36,
+  "has_nmr": true,
+  "has_ms": true
+}

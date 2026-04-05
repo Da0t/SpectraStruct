@@ -1,0 +1,9 @@
+{
+  "id": "triazole_1h",
+  "display_name": "Triazole 1H",
+  "smiles": "c1cn[nH]n1",
+  "formula": "C2H3N3",
+  "mw": 69.07,
+  "has_nmr": true,
+  "has_ms": true
+}

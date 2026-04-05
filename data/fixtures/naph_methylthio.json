@@ -1,0 +1,9 @@
+{
+  "id": "naph_methylthio",
+  "display_name": "Naph Methylthio",
+  "smiles": "SCc1ccc2ccccc2c1",
+  "formula": "C11H10S",
+  "mw": 174.27,
+  "has_nmr": true,
+  "has_ms": true
+}

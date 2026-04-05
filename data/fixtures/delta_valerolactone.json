@@ -1,0 +1,9 @@
+{
+  "id": "delta_valerolactone",
+  "display_name": "Delta Valerolactone",
+  "smiles": "O=C1CCCCO1",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "has_nmr": true,
+  "has_ms": true
+}

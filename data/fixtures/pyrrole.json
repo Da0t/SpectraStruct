@@ -1,0 +1,20 @@
+{
+  "id": "pyrrole",
+  "display_name": "Pyrrole",
+  "smiles": "c1cc[nH]c1",
+  "formula": "C4H5N",
+  "mw": 67.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pyrrole_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pyrrole_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1cc[nH]c1",
+      "name": "Pyrrole",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

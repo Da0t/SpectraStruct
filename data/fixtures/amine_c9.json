@@ -1,0 +1,9 @@
+{
+  "id": "amine_c9",
+  "display_name": "Amine C9",
+  "smiles": "CCCCCCCCCN",
+  "formula": "C9H21N",
+  "mw": 143.27,
+  "has_nmr": true,
+  "has_ms": true
+}

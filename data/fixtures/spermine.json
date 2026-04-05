@@ -1,0 +1,20 @@
+{
+  "id": "spermine",
+  "display_name": "Spermine",
+  "smiles": "NCCCNCCCCNCCCN",
+  "formula": "C10H26N4",
+  "mw": 202.35,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/spermine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/spermine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCCNCCCCNCCCN",
+      "name": "Spermine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

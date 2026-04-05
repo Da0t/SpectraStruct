@@ -1,0 +1,9 @@
+{
+  "id": "sinapic_acid",
+  "display_name": "Sinapic Acid",
+  "smiles": "COc1cc(/C=C/C(=O)O)cc(OC)c1O",
+  "formula": "C11H12O5",
+  "mw": 224.21,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "glucuronic_acid",
+  "display_name": "Glucuronic Acid",
+  "smiles": "O=C(O)[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+  "formula": "C6H10O7",
+  "mw": 194.14,
+  "has_nmr": true,
+  "has_ms": true
+}

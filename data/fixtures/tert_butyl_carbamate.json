@@ -1,0 +1,9 @@
+{
+  "id": "tert_butyl_carbamate",
+  "display_name": "Tert Butyl Carbamate",
+  "smiles": "CC(C)(C)OC(N)=O",
+  "formula": "C5H11NO2",
+  "mw": 117.15,
+  "has_nmr": true,
+  "has_ms": true
+}

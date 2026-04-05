@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ipr_5sme",
+  "display_name": "Benz 2Ipr 5Sme",
+  "smiles": "CCCc1cccc(SC)c1",
+  "formula": "C10H14S",
+  "mw": 166.29,
+  "has_nmr": true,
+  "has_ms": true
+}

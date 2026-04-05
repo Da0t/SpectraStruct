@@ -1,0 +1,9 @@
+{
+  "id": "ethylene_glycol",
+  "display_name": "Ethylene Glycol",
+  "smiles": "OCCO",
+  "formula": "C2H6O2",
+  "mw": 62.07,
+  "has_nmr": true,
+  "has_ms": true
+}

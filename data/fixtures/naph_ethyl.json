@@ -1,0 +1,9 @@
+{
+  "id": "naph_ethyl",
+  "display_name": "Naph Ethyl",
+  "smiles": "CCc1ccc2ccccc2c1",
+  "formula": "C12H12",
+  "mw": 156.23,
+  "has_nmr": true,
+  "has_ms": true
+}

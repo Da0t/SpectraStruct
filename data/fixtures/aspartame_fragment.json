@@ -1,0 +1,9 @@
+{
+  "id": "aspartame_fragment",
+  "display_name": "Aspartame Fragment",
+  "smiles": "N[C@@H](CC(=O)O)C(=O)O",
+  "formula": "C4H7NO4",
+  "mw": 133.1,
+  "has_nmr": true,
+  "has_ms": true
+}

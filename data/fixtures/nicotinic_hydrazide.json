@@ -1,0 +1,9 @@
+{
+  "id": "nicotinic_hydrazide",
+  "display_name": "Nicotinic Hydrazide",
+  "smiles": "NNC(=O)c1cccnc1",
+  "formula": "C6H7N3O",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "clonazepam",
+  "display_name": "Clonazepam",
+  "smiles": "O=C1CN=C(c2ccccc2Cl)c2cc([N+](=O)[O-])ccc2NC1=O",
+  "formula": "C16H10ClN3O4",
+  "mw": 343.73,
+  "has_nmr": true,
+  "has_ms": true
+}

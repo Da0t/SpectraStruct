@@ -1,0 +1,9 @@
+{
+  "id": "phenyl_benzoate",
+  "display_name": "Phenyl Benzoate",
+  "smiles": "O=C(Oc1ccccc1)c1ccccc1",
+  "formula": "C13H10O2",
+  "mw": 198.22,
+  "has_nmr": true,
+  "has_ms": true
+}

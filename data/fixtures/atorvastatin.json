@@ -1,0 +1,20 @@
+{
+  "id": "atorvastatin",
+  "display_name": "Atorvastatin",
+  "smiles": "CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CCC(O)CC(O)CC(=O)O",
+  "formula": "C33H35FN2O5",
+  "mw": 558.65,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/atorvastatin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/atorvastatin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CCC(O)CC(O)CC(=O)O",
+      "name": "Atorvastatin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

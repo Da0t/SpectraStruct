@@ -1,0 +1,9 @@
+{
+  "id": "maleic_acid",
+  "display_name": "Maleic Acid",
+  "smiles": "O=C(O)/C=C\\C(=O)O",
+  "formula": "C4H4O4",
+  "mw": 116.07,
+  "has_nmr": true,
+  "has_ms": true
+}

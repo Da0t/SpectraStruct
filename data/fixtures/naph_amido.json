@@ -1,0 +1,9 @@
+{
+  "id": "naph_amido",
+  "display_name": "Naph Amido",
+  "smiles": "O=CNc1ccc2ccccc2c1",
+  "formula": "C11H9NO",
+  "mw": 171.2,
+  "has_nmr": true,
+  "has_ms": true
+}

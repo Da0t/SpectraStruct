@@ -1,0 +1,9 @@
+{
+  "id": "diamine_7",
+  "display_name": "Diamine 7",
+  "smiles": "NCCCCCCCN",
+  "formula": "C7H18N2",
+  "mw": 130.23,
+  "has_nmr": true,
+  "has_ms": true
+}

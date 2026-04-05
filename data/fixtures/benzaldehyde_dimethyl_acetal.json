@@ -1,0 +1,9 @@
+{
+  "id": "benzaldehyde_dimethyl_acetal",
+  "display_name": "Benzaldehyde Dimethyl Acetal",
+  "smiles": "COC(OC)c1ccccc1",
+  "formula": "C9H12O2",
+  "mw": 152.19,
+  "has_nmr": true,
+  "has_ms": true
+}

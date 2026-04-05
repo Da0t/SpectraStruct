@@ -1,0 +1,9 @@
+{
+  "id": "naph_chloro",
+  "display_name": "Naph Chloro",
+  "smiles": "Clc1ccc2ccccc2c1",
+  "formula": "C10H7Cl",
+  "mw": 162.62,
+  "has_nmr": true,
+  "has_ms": true
+}

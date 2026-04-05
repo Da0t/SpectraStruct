@@ -1,0 +1,9 @@
+{
+  "id": "benz_carboxyl",
+  "display_name": "Benz Carboxyl",
+  "smiles": "O=COc1ccccc1",
+  "formula": "C7H6O2",
+  "mw": 122.12,
+  "has_nmr": true,
+  "has_ms": true
+}

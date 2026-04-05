@@ -1,0 +1,9 @@
+{
+  "id": "trimethylsilanol",
+  "display_name": "Trimethylsilanol",
+  "smiles": "C[Si](C)(C)O",
+  "formula": "C3H10OSi",
+  "mw": 90.2,
+  "has_nmr": true,
+  "has_ms": true
+}

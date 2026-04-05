@@ -1,0 +1,9 @@
+{
+  "id": "2h_chromene",
+  "display_name": "2H Chromene",
+  "smiles": "C1=COc2ccccc2C1",
+  "formula": "C9H8O",
+  "mw": 132.16,
+  "has_nmr": true,
+  "has_ms": true
+}

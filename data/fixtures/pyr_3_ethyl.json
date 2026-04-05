@@ -1,0 +1,9 @@
+{
+  "id": "pyr_3_ethyl",
+  "display_name": "Pyr 3 Ethyl",
+  "smiles": "CCc1cccnc1",
+  "formula": "C7H9N",
+  "mw": 107.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5_methyl_1_phenylpyrazole",
+  "display_name": "5 Methyl 1 Phenylpyrazole",
+  "smiles": "Cc1ccnn1-c1ccccc1",
+  "formula": "C10H10N2",
+  "mw": 158.2,
+  "has_nmr": true,
+  "has_ms": true
+}

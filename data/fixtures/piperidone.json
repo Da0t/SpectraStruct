@@ -1,0 +1,9 @@
+{
+  "id": "piperidone",
+  "display_name": "Piperidone",
+  "smiles": "O=C1CCNCC1",
+  "formula": "C5H9NO",
+  "mw": 99.13,
+  "has_nmr": true,
+  "has_ms": true
+}

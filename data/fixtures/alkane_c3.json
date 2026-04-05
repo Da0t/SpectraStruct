@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c3",
+  "display_name": "Alkane C3",
+  "smiles": "CCC",
+  "formula": "C3H8",
+  "mw": 44.1,
+  "has_nmr": true,
+  "has_ms": true
+}

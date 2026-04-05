@@ -1,0 +1,9 @@
+{
+  "id": "succinimide",
+  "display_name": "Succinimide",
+  "smiles": "O=C1CCC(=O)N1",
+  "formula": "C4H5NO2",
+  "mw": 99.09,
+  "has_nmr": true,
+  "has_ms": true
+}

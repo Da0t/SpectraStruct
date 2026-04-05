@@ -1,0 +1,9 @@
+{
+  "id": "d_serine",
+  "display_name": "D Serine",
+  "smiles": "N[C@H](CO)C(=O)O",
+  "formula": "C3H7NO3",
+  "mw": 105.09,
+  "has_nmr": true,
+  "has_ms": true
+}

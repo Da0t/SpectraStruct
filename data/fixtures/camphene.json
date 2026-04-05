@@ -1,0 +1,9 @@
+{
+  "id": "camphene",
+  "display_name": "Camphene",
+  "smiles": "CC1(C)C2=CCC1CC2",
+  "formula": "C9H14",
+  "mw": 122.21,
+  "has_nmr": true,
+  "has_ms": true
+}

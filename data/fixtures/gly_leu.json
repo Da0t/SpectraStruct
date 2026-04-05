@@ -1,0 +1,9 @@
+{
+  "id": "gly_leu",
+  "display_name": "Gly Leu",
+  "smiles": "CC(C)CC(NC(=O)CN)C(=O)O",
+  "formula": "C8H16N2O3",
+  "mw": 188.23,
+  "has_nmr": true,
+  "has_ms": true
+}

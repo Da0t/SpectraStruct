@@ -1,0 +1,9 @@
+{
+  "id": "dibenzylamine",
+  "display_name": "Dibenzylamine",
+  "smiles": "c1ccc(CNc2ccccc2)cc1",
+  "formula": "C13H13N",
+  "mw": 183.25,
+  "has_nmr": true,
+  "has_ms": true
+}

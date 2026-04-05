@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c5",
+  "display_name": "Thiol C5",
+  "smiles": "CCCCCS",
+  "formula": "C5H12S",
+  "mw": 104.22,
+  "has_nmr": true,
+  "has_ms": true
+}

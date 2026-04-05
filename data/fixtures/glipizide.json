@@ -1,0 +1,20 @@
+{
+  "id": "glipizide",
+  "display_name": "Glipizide",
+  "smiles": "Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1",
+  "formula": "C21H27N5O4S",
+  "mw": 445.55,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/glipizide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/glipizide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1",
+      "name": "Glipizide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cooh_5f",
+  "display_name": "Benz 2Cooh 5F",
+  "smiles": "O=COc1cccc(F)c1",
+  "formula": "C7H5FO2",
+  "mw": 140.11,
+  "has_nmr": true,
+  "has_ms": true
+}

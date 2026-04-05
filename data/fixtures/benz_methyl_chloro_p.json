@@ -1,0 +1,9 @@
+{
+  "id": "benz_methyl_chloro_p",
+  "display_name": "Benz Methyl Chloro P",
+  "smiles": "Cc1ccc(Cl)cc1",
+  "formula": "C7H7Cl",
+  "mw": 126.59,
+  "has_nmr": true,
+  "has_ms": true
+}

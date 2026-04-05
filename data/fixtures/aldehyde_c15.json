@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c15",
+  "display_name": "Aldehyde C15",
+  "smiles": "CCCCCCCCCCCCCCC=O",
+  "formula": "C15H30O",
+  "mw": 226.4,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "glycerol",
+  "display_name": "Glycerol",
+  "smiles": "OCC(O)CO",
+  "formula": "C3H8O3",
+  "mw": 92.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/glycerol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/glycerol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC(O)CO",
+      "name": "Glycerol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

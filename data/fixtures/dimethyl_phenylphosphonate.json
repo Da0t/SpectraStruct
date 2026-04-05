@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_phenylphosphonate",
+  "display_name": "Dimethyl Phenylphosphonate",
+  "smiles": "COP(=O)(OC)c1ccccc1",
+  "formula": "C8H11O3P",
+  "mw": 186.15,
+  "has_nmr": true,
+  "has_ms": true
+}

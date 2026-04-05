@@ -1,0 +1,20 @@
+{
+  "id": "famotidine",
+  "display_name": "Famotidine",
+  "smiles": "NC(N)=Nc1nc(CSCCC(N)=NS(N)(=O)=O)cs1",
+  "formula": "C8H15N7O2S3",
+  "mw": 337.46,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/famotidine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/famotidine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(N)=Nc1nc(CSCCC(N)=NS(N)(=O)=O)cs1",
+      "name": "Famotidine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

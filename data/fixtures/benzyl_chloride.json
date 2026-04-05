@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_chloride",
+  "display_name": "Benzyl-Chloride",
+  "smiles": "ClCc1ccccc1",
+  "formula": "C7H7Cl",
+  "mw": 126.59,
+  "has_nmr": true,
+  "has_ms": true
+}

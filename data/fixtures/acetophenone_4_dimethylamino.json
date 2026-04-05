@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_4_dimethylamino",
+  "display_name": "Acetophenone 4 Dimethylamino",
+  "smiles": "CC(=O)c1ccc(N(C)C)cc1",
+  "formula": "C10H13NO",
+  "mw": 163.22,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dioxane",
+  "display_name": "Dioxane",
+  "smiles": "C1COCCO1",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "has_nmr": true,
+  "has_ms": true
+}

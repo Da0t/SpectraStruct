@@ -1,0 +1,20 @@
+{
+  "id": "isoquinoline",
+  "display_name": "Isoquinoline",
+  "smiles": "c1ccc2cnccc2c1",
+  "formula": "C9H7N",
+  "mw": 129.16,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/isoquinoline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/isoquinoline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc2cnccc2c1",
+      "name": "Isoquinoline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

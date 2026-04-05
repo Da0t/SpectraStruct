@@ -1,0 +1,9 @@
+{
+  "id": "n_methylazetidine",
+  "display_name": "N Methylazetidine",
+  "smiles": "CN1CCC1",
+  "formula": "C4H9N",
+  "mw": 71.12,
+  "has_nmr": true,
+  "has_ms": true
+}

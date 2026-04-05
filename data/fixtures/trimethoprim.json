@@ -1,0 +1,20 @@
+{
+  "id": "trimethoprim",
+  "display_name": "Trimethoprim",
+  "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+  "formula": "C14H18N4O3",
+  "mw": 290.32,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/trimethoprim_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/trimethoprim_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+      "name": "Trimethoprim",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

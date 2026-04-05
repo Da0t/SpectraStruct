@@ -1,0 +1,9 @@
+{
+  "id": "allylamine",
+  "display_name": "Allylamine",
+  "smiles": "C=CCN",
+  "formula": "C3H7N",
+  "mw": 57.1,
+  "has_nmr": true,
+  "has_ms": true
+}

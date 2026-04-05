@@ -1,0 +1,9 @@
+{
+  "id": "dabco",
+  "display_name": "Dabco",
+  "smiles": "C1CN2CCN1CC2",
+  "formula": "C6H12N2",
+  "mw": 112.18,
+  "has_nmr": true,
+  "has_ms": true
+}

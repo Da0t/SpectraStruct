@@ -1,0 +1,20 @@
+{
+  "id": "quercetin",
+  "display_name": "Quercetin",
+  "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+  "formula": "C15H10O7",
+  "mw": 302.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/quercetin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/quercetin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+      "name": "Quercetin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

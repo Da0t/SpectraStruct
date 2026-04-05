@@ -1,0 +1,9 @@
+{
+  "id": "3_methyl_1h_indole",
+  "display_name": "3 Methyl 1H Indole",
+  "smiles": "Cc1c[nH]c2ccccc12",
+  "formula": "C9H9N",
+  "mw": 131.18,
+  "has_nmr": true,
+  "has_ms": true
+}

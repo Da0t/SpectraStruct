@@ -1,0 +1,9 @@
+{
+  "id": "pinacol_borane",
+  "display_name": "Pinacol-Borane",
+  "smiles": "CC1(C)OB(c2ccccc2)OC1(C)C",
+  "formula": "C12H17BO2",
+  "mw": 204.08,
+  "has_nmr": true,
+  "has_ms": true
+}

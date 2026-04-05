@@ -1,0 +1,9 @@
+{
+  "id": "isohexane",
+  "display_name": "Isohexane",
+  "smiles": "CCCC(C)C",
+  "formula": "C6H14",
+  "mw": 86.18,
+  "has_nmr": true,
+  "has_ms": true
+}

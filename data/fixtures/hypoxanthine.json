@@ -1,0 +1,9 @@
+{
+  "id": "hypoxanthine",
+  "display_name": "Hypoxanthine",
+  "smiles": "O=c1[nH]cnc2[nH]cnc12",
+  "formula": "C5H4N4O",
+  "mw": 136.11,
+  "has_nmr": true,
+  "has_ms": true
+}

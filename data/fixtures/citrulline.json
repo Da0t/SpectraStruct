@@ -1,0 +1,9 @@
+{
+  "id": "citrulline",
+  "display_name": "Citrulline",
+  "smiles": "NC(=O)NCCC[C@@H](N)C(=O)O",
+  "formula": "C6H13N3O3",
+  "mw": 175.19,
+  "has_nmr": true,
+  "has_ms": true
+}

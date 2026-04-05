@@ -1,0 +1,9 @@
+{
+  "id": "n_methylpiperidine",
+  "display_name": "N Methylpiperidine",
+  "smiles": "CN1CCCCC1",
+  "formula": "C6H13N",
+  "mw": 99.18,
+  "has_nmr": true,
+  "has_ms": true
+}

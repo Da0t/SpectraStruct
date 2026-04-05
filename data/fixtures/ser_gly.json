@@ -1,0 +1,9 @@
+{
+  "id": "ser_gly",
+  "display_name": "Ser Gly",
+  "smiles": "NC(CO)C(=O)NCC(=O)O",
+  "formula": "C5H10N2O4",
+  "mw": 162.15,
+  "has_nmr": true,
+  "has_ms": true
+}

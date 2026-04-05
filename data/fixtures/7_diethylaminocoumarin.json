@@ -1,0 +1,9 @@
+{
+  "id": "7_diethylaminocoumarin",
+  "display_name": "7 Diethylaminocoumarin",
+  "smiles": "CCN(CC)c1ccc2ccc(=O)oc2c1",
+  "formula": "C13H15NO2",
+  "mw": 217.27,
+  "has_nmr": true,
+  "has_ms": true
+}

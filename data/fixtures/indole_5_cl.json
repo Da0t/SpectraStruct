@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_cl",
+  "display_name": "Indole 5 Cl",
+  "smiles": "Clc1ccc2[nH]ccc2c1",
+  "formula": "C8H6ClN",
+  "mw": 151.6,
+  "has_nmr": true,
+  "has_ms": true
+}

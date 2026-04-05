@@ -1,0 +1,9 @@
+{
+  "id": "neopentane",
+  "display_name": "Neopentane",
+  "smiles": "CC(C)(C)C",
+  "formula": "C5H12",
+  "mw": 72.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "maltose",
+  "display_name": "Maltose",
+  "smiles": "OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
+  "formula": "C12H22O11",
+  "mw": 342.3,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/maltose_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/maltose_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O",
+      "name": "Maltose",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

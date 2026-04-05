@@ -1,0 +1,20 @@
+{
+  "id": "tryptamine",
+  "display_name": "Tryptamine",
+  "smiles": "NCCc1c[nH]c2ccccc12",
+  "formula": "C10H12N2",
+  "mw": 160.22,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tryptamine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tryptamine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCc1c[nH]c2ccccc12",
+      "name": "Tryptamine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

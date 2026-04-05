@@ -1,0 +1,9 @@
+{
+  "id": "amine_c11",
+  "display_name": "Amine C11",
+  "smiles": "CCCCCCCCCCCN",
+  "formula": "C11H25N",
+  "mw": 171.33,
+  "has_nmr": true,
+  "has_ms": true
+}

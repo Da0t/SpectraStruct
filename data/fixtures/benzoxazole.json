@@ -1,0 +1,9 @@
+{
+  "id": "benzoxazole",
+  "display_name": "Benzoxazole",
+  "smiles": "c1ccc2ocnc2c1",
+  "formula": "C7H5NO",
+  "mw": 119.12,
+  "has_nmr": true,
+  "has_ms": true
+}

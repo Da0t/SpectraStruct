@@ -1,0 +1,9 @@
+{
+  "id": "sebacic_acid",
+  "display_name": "Sebacic Acid",
+  "smiles": "O=C(O)CCCCCCCCC(=O)O",
+  "formula": "C10H18O4",
+  "mw": 202.25,
+  "has_nmr": true,
+  "has_ms": true
+}

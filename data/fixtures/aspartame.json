@@ -1,0 +1,20 @@
+{
+  "id": "aspartame",
+  "display_name": "Aspartame",
+  "smiles": "COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(=O)O",
+  "formula": "C14H18N2O5",
+  "mw": 294.31,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/aspartame_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/aspartame_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(=O)O",
+      "name": "Aspartame",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

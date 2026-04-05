@@ -1,0 +1,20 @@
+{
+  "id": "acenaphthene",
+  "display_name": "Acenaphthene",
+  "smiles": "c1cc2c3c(cccc3c1)CC2",
+  "formula": "C12H10",
+  "mw": 154.21,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/acenaphthene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/acenaphthene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1cc2c3c(cccc3c1)CC2",
+      "name": "Acenaphthene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

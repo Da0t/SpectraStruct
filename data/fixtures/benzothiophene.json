@@ -1,0 +1,9 @@
+{
+  "id": "benzothiophene",
+  "display_name": "Benzothiophene",
+  "smiles": "c1ccc2sccc2c1",
+  "formula": "C8H6S",
+  "mw": 134.2,
+  "has_nmr": true,
+  "has_ms": true
+}

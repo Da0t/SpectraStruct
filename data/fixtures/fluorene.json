@@ -1,0 +1,20 @@
+{
+  "id": "fluorene",
+  "display_name": "Fluorene",
+  "smiles": "c1ccc2c(c1)Cc1ccccc1-2",
+  "formula": "C13H10",
+  "mw": 166.22,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/fluorene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/fluorene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc2c(c1)Cc1ccccc1-2",
+      "name": "Fluorene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

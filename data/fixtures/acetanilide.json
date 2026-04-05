@@ -1,0 +1,20 @@
+{
+  "id": "acetanilide",
+  "display_name": "Acetanilide",
+  "smiles": "CC(=O)Nc1ccccc1",
+  "formula": "C8H9NO",
+  "mw": 135.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/acetanilide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/acetanilide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(=O)Nc1ccccc1",
+      "name": "Acetanilide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

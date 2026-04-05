@@ -1,0 +1,20 @@
+{
+  "id": "stearic_acid",
+  "display_name": "Stearic Acid",
+  "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+  "formula": "C18H36O2",
+  "mw": 284.48,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/stearic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/stearic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+      "name": "Stearic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

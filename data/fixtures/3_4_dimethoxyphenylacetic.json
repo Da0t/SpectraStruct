@@ -1,0 +1,9 @@
+{
+  "id": "3_4_dimethoxyphenylacetic",
+  "display_name": "3 4 Dimethoxyphenylacetic",
+  "smiles": "COc1ccc(CC(=O)O)cc1OC",
+  "formula": "C10H12O4",
+  "mw": 196.2,
+  "has_nmr": true,
+  "has_ms": true
+}

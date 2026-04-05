@@ -1,0 +1,20 @@
+{
+  "id": "azithromycin",
+  "display_name": "Azithromycin",
+  "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)CN(C)C(C)C(O)C1(C)O",
+  "formula": "C38H72N2O12",
+  "mw": 749.0,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/azithromycin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/azithromycin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)CN(C)C(C)C(O)C1(C)O",
+      "name": "Azithromycin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

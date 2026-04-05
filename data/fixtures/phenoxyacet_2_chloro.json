@@ -1,0 +1,9 @@
+{
+  "id": "phenoxyacet_2_chloro",
+  "display_name": "Phenoxyacet 2 Chloro",
+  "smiles": "O=C(O)COc1ccccc1Cl",
+  "formula": "C8H7ClO3",
+  "mw": 186.59,
+  "has_nmr": true,
+  "has_ms": true
+}

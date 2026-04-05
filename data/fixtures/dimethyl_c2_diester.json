@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_c2_diester",
+  "display_name": "Dimethyl C2 Diester",
+  "smiles": "COC(=O)CCC(=O)OC",
+  "formula": "C6H10O4",
+  "mw": 146.14,
+  "has_nmr": true,
+  "has_ms": true
+}

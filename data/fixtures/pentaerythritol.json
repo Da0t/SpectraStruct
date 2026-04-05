@@ -1,0 +1,9 @@
+{
+  "id": "pentaerythritol",
+  "display_name": "Pentaerythritol",
+  "smiles": "OCC(CO)(CO)CO",
+  "formula": "C5H12O4",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

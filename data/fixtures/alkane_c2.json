@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c2",
+  "display_name": "Alkane C2",
+  "smiles": "CC",
+  "formula": "C2H6",
+  "mw": 30.07,
+  "has_nmr": true,
+  "has_ms": true
+}

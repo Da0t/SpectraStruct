@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_n_phenylcarbamate",
+  "display_name": "Ethyl N Phenylcarbamate",
+  "smiles": "CCOC(=O)Nc1ccccc1",
+  "formula": "C9H11NO2",
+  "mw": 165.19,
+  "has_nmr": true,
+  "has_ms": true
+}

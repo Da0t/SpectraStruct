@@ -1,0 +1,9 @@
+{
+  "id": "isophorone",
+  "display_name": "Isophorone",
+  "smiles": "CC1=CC(=O)CC(C)(C)C1",
+  "formula": "C9H14O",
+  "mw": 138.21,
+  "has_nmr": true,
+  "has_ms": true
+}

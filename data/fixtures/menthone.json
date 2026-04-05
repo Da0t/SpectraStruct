@@ -1,0 +1,9 @@
+{
+  "id": "menthone",
+  "display_name": "Menthone",
+  "smiles": "CC(C)[C@H]1C[C@H](C)CCC1=O",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "has_nmr": true,
+  "has_ms": true
+}

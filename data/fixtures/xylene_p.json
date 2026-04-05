@@ -1,0 +1,9 @@
+{
+  "id": "xylene_p",
+  "display_name": "Xylene P",
+  "smiles": "Cc1ccc(C)cc1",
+  "formula": "C8H10",
+  "mw": 106.17,
+  "has_nmr": true,
+  "has_ms": true
+}

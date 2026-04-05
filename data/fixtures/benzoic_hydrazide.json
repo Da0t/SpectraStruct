@@ -1,0 +1,9 @@
+{
+  "id": "benzoic_hydrazide",
+  "display_name": "Benzoic Hydrazide",
+  "smiles": "NNC(=O)c1ccccc1",
+  "formula": "C7H8N2O",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pyr_3_fluoro",
+  "display_name": "Pyr 3 Fluoro",
+  "smiles": "Fc1cccnc1",
+  "formula": "C5H4FN",
+  "mw": 97.09,
+  "has_nmr": true,
+  "has_ms": true
+}

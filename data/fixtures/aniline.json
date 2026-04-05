@@ -1,0 +1,21 @@
+{
+  "id": "aniline",
+  "display_name": "Aniline",
+  "smiles": "Nc1ccccc1",
+  "formula": "C6H7N",
+  "mw": 93.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/aniline_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/aniline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Nc1ccccc1",
+      "name": "Aniline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n 14 14  0  0  0  0  0  0  0  0999 V2000\n    2.0913    0.4855   -0.8837 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8568    0.1707   -0.3026 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.2168   -1.0313   -0.6160 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0665   -1.3036   -0.1346 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7390   -0.3547    0.6317 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1346    0.8714    0.8991 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1489    1.1383    0.4150 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6109    1.1944   -0.3763 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6586   -0.3279   -1.0998 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.7140   -1.7692   -1.2396 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5444   -2.2504   -0.3712 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.7393   -0.5619    1.0019 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6658    1.6270    1.4715 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5924    2.1118    0.6047 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  6  7  2  0\n  7  2  1  0\n  1  8  1  0\n  1  9  1  0\n  3 10  1  0\n  4 11  1  0\n  5 12  1  0\n  6 13  1  0\n  7 14  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

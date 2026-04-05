@@ -1,0 +1,9 @@
+{
+  "id": "ketoconazole_drug",
+  "display_name": "Ketoconazole Drug",
+  "smiles": "CC(=O)N1CCN(c2ccc(OC[C@H]3COC(Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+  "formula": "C26H28Cl2N4O4",
+  "mw": 531.44,
+  "has_nmr": true,
+  "has_ms": true
+}

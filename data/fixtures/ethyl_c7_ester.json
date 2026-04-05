@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_c7_ester",
+  "display_name": "Ethyl C7 Ester",
+  "smiles": "CCCCCCC(=O)OCC",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "has_nmr": true,
+  "has_ms": true
+}

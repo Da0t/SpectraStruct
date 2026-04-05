@@ -1,0 +1,9 @@
+{
+  "id": "naph_methyl",
+  "display_name": "Naph Methyl",
+  "smiles": "Cc1ccc2ccccc2c1",
+  "formula": "C11H10",
+  "mw": 142.2,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "3_methylanisole",
+  "display_name": "3 Methylanisole",
+  "smiles": "COc1cccc(C)c1",
+  "formula": "C8H10O",
+  "mw": 122.17,
+  "has_nmr": true,
+  "has_ms": true
+}

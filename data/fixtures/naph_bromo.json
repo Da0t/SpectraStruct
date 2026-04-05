@@ -1,0 +1,9 @@
+{
+  "id": "naph_bromo",
+  "display_name": "Naph Bromo",
+  "smiles": "Brc1ccc2ccccc2c1",
+  "formula": "C10H7Br",
+  "mw": 207.07,
+  "has_nmr": true,
+  "has_ms": true
+}

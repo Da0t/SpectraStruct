@@ -1,0 +1,9 @@
+{
+  "id": "benz_dimethylamino",
+  "display_name": "Benz Dimethylamino",
+  "smiles": "CNCc1ccccc1",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "has_nmr": true,
+  "has_ms": true
+}

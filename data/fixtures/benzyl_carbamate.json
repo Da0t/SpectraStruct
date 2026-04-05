@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_carbamate",
+  "display_name": "Benzyl Carbamate",
+  "smiles": "NC(=O)OCc1ccccc1",
+  "formula": "C8H9NO2",
+  "mw": 151.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "gamma_butyrolactone",
+  "display_name": "Gamma Butyrolactone",
+  "smiles": "O=C1CCCO1",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "has_nmr": true,
+  "has_ms": true
+}

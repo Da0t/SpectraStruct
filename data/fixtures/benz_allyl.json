@@ -1,0 +1,9 @@
+{
+  "id": "benz_allyl",
+  "display_name": "Benz Allyl",
+  "smiles": "CC=Cc1ccccc1",
+  "formula": "C9H10",
+  "mw": 118.18,
+  "has_nmr": true,
+  "has_ms": true
+}

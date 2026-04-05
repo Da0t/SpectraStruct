@@ -1,0 +1,9 @@
+{
+  "id": "propanolamine",
+  "display_name": "Propanolamine",
+  "smiles": "NCCCO",
+  "formula": "C3H9NO",
+  "mw": 75.11,
+  "has_nmr": true,
+  "has_ms": true
+}

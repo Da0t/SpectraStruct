@@ -1,0 +1,9 @@
+{
+  "id": "xylenol",
+  "display_name": "Xylenol",
+  "smiles": "Cc1cc(C)cc(O)c1",
+  "formula": "C8H10O",
+  "mw": 122.17,
+  "has_nmr": true,
+  "has_ms": true
+}

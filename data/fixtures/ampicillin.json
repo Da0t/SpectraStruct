@@ -1,0 +1,20 @@
+{
+  "id": "ampicillin",
+  "display_name": "Ampicillin",
+  "smiles": "CC1(C)SC2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)O",
+  "formula": "C16H19N3O4S",
+  "mw": 349.41,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ampicillin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ampicillin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC1(C)SC2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)O",
+      "name": "Ampicillin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

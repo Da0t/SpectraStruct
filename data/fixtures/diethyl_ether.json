@@ -1,0 +1,20 @@
+{
+  "id": "diethyl_ether",
+  "display_name": "Diethyl Ether",
+  "smiles": "CCOCC",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/diethyl_ether_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/diethyl_ether_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCOCC",
+      "name": "Diethyl Ether",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

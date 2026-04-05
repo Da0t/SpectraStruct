@@ -1,0 +1,9 @@
+{
+  "id": "pyr_3_chloro",
+  "display_name": "Pyr 3 Chloro",
+  "smiles": "Clc1cccnc1",
+  "formula": "C5H4ClN",
+  "mw": 113.55,
+  "has_nmr": true,
+  "has_ms": true
+}

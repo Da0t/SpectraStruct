@@ -1,0 +1,9 @@
+{
+  "id": "isatin",
+  "display_name": "Isatin",
+  "smiles": "O=C1Nc2ccccc2C1=O",
+  "formula": "C8H5NO2",
+  "mw": 147.13,
+  "has_nmr": true,
+  "has_ms": true
+}

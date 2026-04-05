@@ -1,0 +1,9 @@
+{
+  "id": "amino_alc_1_4",
+  "display_name": "Amino Alc 1 4",
+  "smiles": "NCCCCO",
+  "formula": "C4H11NO",
+  "mw": 89.14,
+  "has_nmr": true,
+  "has_ms": true
+}

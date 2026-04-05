@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c5_ester",
+  "display_name": "Methyl C5 Ester",
+  "smiles": "CCCCC(=O)OC",
+  "formula": "C6H12O2",
+  "mw": 116.16,
+  "has_nmr": true,
+  "has_ms": true
+}

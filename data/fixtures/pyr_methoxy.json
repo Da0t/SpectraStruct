@@ -1,0 +1,9 @@
+{
+  "id": "pyr_methoxy",
+  "display_name": "Pyr Methoxy",
+  "smiles": "OCc1ccncc1",
+  "formula": "C6H7NO",
+  "mw": 109.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "iodoacetic_acid",
+  "display_name": "Iodoacetic Acid",
+  "smiles": "O=C(O)CI",
+  "formula": "C2H3IO2",
+  "mw": 185.95,
+  "has_nmr": true,
+  "has_ms": true
+}

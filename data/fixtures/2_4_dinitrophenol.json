@@ -1,0 +1,9 @@
+{
+  "id": "2_4_dinitrophenol",
+  "display_name": "2 4 Dinitrophenol",
+  "smiles": "O=[N+]([O-])c1ccc(O)c([N+](=O)[O-])c1",
+  "formula": "C6H4N2O5",
+  "mw": 184.11,
+  "has_nmr": true,
+  "has_ms": true
+}

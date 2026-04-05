@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c9",
+  "display_name": "Aldehyde C9",
+  "smiles": "CCCCCCCCC=O",
+  "formula": "C9H18O",
+  "mw": 142.24,
+  "has_nmr": true,
+  "has_ms": true
+}

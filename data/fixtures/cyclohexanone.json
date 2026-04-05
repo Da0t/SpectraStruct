@@ -1,0 +1,20 @@
+{
+  "id": "cyclohexanone",
+  "display_name": "Cyclohexanone",
+  "smiles": "O=C1CCCCC1",
+  "formula": "C6H10O",
+  "mw": 98.14,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/cyclohexanone_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/cyclohexanone_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C1CCCCC1",
+      "name": "Cyclohexanone",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

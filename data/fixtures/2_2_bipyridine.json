@@ -1,0 +1,9 @@
+{
+  "id": "2_2_bipyridine",
+  "display_name": "2 2 Bipyridine",
+  "smiles": "c1ccc(-c2ccccn2)nc1",
+  "formula": "C10H8N2",
+  "mw": 156.19,
+  "has_nmr": true,
+  "has_ms": true
+}

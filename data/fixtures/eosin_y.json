@@ -1,0 +1,9 @@
+{
+  "id": "eosin_y",
+  "display_name": "Eosin Y",
+  "smiles": "O=C(O)c1ccccc1-c1c2cc(Br)c(=O)c(Br)c-2oc2c(Br)c(O)c(Br)cc12",
+  "formula": "C20H8Br4O5",
+  "mw": 647.9,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "c8_nitrile",
+  "display_name": "C8 Nitrile",
+  "smiles": "CCCCCCCCC#N",
+  "formula": "C9H17N",
+  "mw": 139.24,
+  "has_nmr": true,
+  "has_ms": true
+}

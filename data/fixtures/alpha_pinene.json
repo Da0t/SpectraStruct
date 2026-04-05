@@ -1,0 +1,9 @@
+{
+  "id": "alpha_pinene",
+  "display_name": "Alpha Pinene",
+  "smiles": "CC1=CCC2CC1C2(C)C",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "has_nmr": true,
+  "has_ms": true
+}

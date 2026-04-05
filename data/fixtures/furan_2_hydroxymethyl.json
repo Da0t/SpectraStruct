@@ -1,0 +1,9 @@
+{
+  "id": "furan_2_hydroxymethyl",
+  "display_name": "Furan 2 Hydroxymethyl",
+  "smiles": "COc1ccco1",
+  "formula": "C5H6O2",
+  "mw": 98.1,
+  "has_nmr": true,
+  "has_ms": true
+}

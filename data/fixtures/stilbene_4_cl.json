@@ -1,0 +1,9 @@
+{
+  "id": "stilbene_4_cl",
+  "display_name": "Stilbene 4 Cl",
+  "smiles": "Clc1ccc(/C=C/c2ccccc2)cc1",
+  "formula": "C14H11Cl",
+  "mw": 214.7,
+  "has_nmr": true,
+  "has_ms": true
+}

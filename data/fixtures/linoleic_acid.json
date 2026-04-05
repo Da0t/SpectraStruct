@@ -1,0 +1,20 @@
+{
+  "id": "linoleic_acid",
+  "display_name": "Linoleic Acid",
+  "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O",
+  "formula": "C18H32O2",
+  "mw": 280.45,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/linoleic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/linoleic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCC=CCC=CCCCCCCCC(=O)O",
+      "name": "Linoleic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

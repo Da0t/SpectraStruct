@@ -1,0 +1,9 @@
+{
+  "id": "maleimide",
+  "display_name": "Maleimide",
+  "smiles": "O=C1C=CC(=O)N1",
+  "formula": "C4H3NO2",
+  "mw": 97.07,
+  "has_nmr": true,
+  "has_ms": true
+}

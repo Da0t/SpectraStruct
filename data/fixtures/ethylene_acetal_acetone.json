@@ -1,0 +1,9 @@
+{
+  "id": "ethylene_acetal_acetone",
+  "display_name": "Ethylene Acetal Acetone",
+  "smiles": "CC1(C)OCCO1",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

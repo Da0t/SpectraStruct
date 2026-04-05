@@ -1,0 +1,20 @@
+{
+  "id": "amoxicillin",
+  "display_name": "Amoxicillin",
+  "smiles": "CC1(C)SC2C(NC(=O)C(N)c3ccc(O)cc3)C(=O)N2C1C(=O)O",
+  "formula": "C16H19N3O5S",
+  "mw": 365.41,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/amoxicillin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/amoxicillin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC1(C)SC2C(NC(=O)C(N)c3ccc(O)cc3)C(=O)N2C1C(=O)O",
+      "name": "Amoxicillin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

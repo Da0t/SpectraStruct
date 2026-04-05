@@ -1,0 +1,9 @@
+{
+  "id": "hexamethyldisiloxane",
+  "display_name": "Hexamethyldisiloxane",
+  "smiles": "C[Si](C)(C)O[Si](C)(C)C",
+  "formula": "C6H18OSi2",
+  "mw": 162.38,
+  "has_nmr": true,
+  "has_ms": true
+}

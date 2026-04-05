@@ -1,0 +1,9 @@
+{
+  "id": "bromo_c_c1",
+  "display_name": "Bromo C C1",
+  "smiles": "CBr",
+  "formula": "CH3Br",
+  "mw": 94.94,
+  "has_nmr": true,
+  "has_ms": true
+}

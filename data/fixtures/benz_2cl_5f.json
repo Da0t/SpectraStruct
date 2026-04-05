@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cl_5f",
+  "display_name": "Benz 2Cl 5F",
+  "smiles": "Fc1cccc(Cl)c1",
+  "formula": "C6H4ClF",
+  "mw": 130.55,
+  "has_nmr": true,
+  "has_ms": true
+}

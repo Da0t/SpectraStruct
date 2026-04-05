@@ -1,0 +1,9 @@
+{
+  "id": "n_butylamine",
+  "display_name": "N Butylamine",
+  "smiles": "CCCCN",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "has_nmr": true,
+  "has_ms": true
+}

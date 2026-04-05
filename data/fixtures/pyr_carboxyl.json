@@ -1,0 +1,9 @@
+{
+  "id": "pyr_carboxyl",
+  "display_name": "Pyr Carboxyl",
+  "smiles": "O=COc1ccncc1",
+  "formula": "C6H5NO2",
+  "mw": 123.11,
+  "has_nmr": true,
+  "has_ms": true
+}

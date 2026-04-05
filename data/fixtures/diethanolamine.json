@@ -1,0 +1,9 @@
+{
+  "id": "diethanolamine",
+  "display_name": "Diethanolamine",
+  "smiles": "OCCNCCO",
+  "formula": "C4H11NO2",
+  "mw": 105.14,
+  "has_nmr": true,
+  "has_ms": true
+}

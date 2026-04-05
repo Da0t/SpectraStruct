@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_chloride",
+  "display_name": "Vinyl-Chloride",
+  "smiles": "C=CCl",
+  "formula": "C2H3Cl",
+  "mw": 62.5,
+  "has_nmr": true,
+  "has_ms": true
+}

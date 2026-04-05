@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_nh2",
+  "display_name": "Biphenyl 4 Nh2",
+  "smiles": "Nc1ccc(-c2ccccc2)cc1",
+  "formula": "C12H11N",
+  "mw": 169.23,
+  "has_nmr": true,
+  "has_ms": true
+}

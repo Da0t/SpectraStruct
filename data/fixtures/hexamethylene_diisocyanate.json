@@ -1,0 +1,9 @@
+{
+  "id": "hexamethylene_diisocyanate",
+  "display_name": "Hexamethylene Diisocyanate",
+  "smiles": "O=C=NCCCCCCN=C=O",
+  "formula": "C8H12N2O2",
+  "mw": 168.2,
+  "has_nmr": true,
+  "has_ms": true
+}

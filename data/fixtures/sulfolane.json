@@ -1,0 +1,9 @@
+{
+  "id": "sulfolane",
+  "display_name": "Sulfolane",
+  "smiles": "O=S1(=O)CCCC1",
+  "formula": "C4H8O2S",
+  "mw": 120.17,
+  "has_nmr": true,
+  "has_ms": true
+}

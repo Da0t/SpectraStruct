@@ -1,0 +1,9 @@
+{
+  "id": "2_ethylhexanoic_acid",
+  "display_name": "2 Ethylhexanoic Acid",
+  "smiles": "CCCCC(CC)C(=O)O",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "has_nmr": true,
+  "has_ms": true
+}

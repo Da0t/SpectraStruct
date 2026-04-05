@@ -1,0 +1,9 @@
+{
+  "id": "4_methylbenzophenone",
+  "display_name": "4 Methylbenzophenone",
+  "smiles": "Cc1ccc(C(=O)c2ccccc2)cc1",
+  "formula": "C14H12O",
+  "mw": 196.25,
+  "has_nmr": true,
+  "has_ms": true
+}

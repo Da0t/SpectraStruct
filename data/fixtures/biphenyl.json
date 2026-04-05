@@ -1,0 +1,20 @@
+{
+  "id": "biphenyl",
+  "display_name": "Biphenyl",
+  "smiles": "c1ccc(-c2ccccc2)cc1",
+  "formula": "C12H10",
+  "mw": 154.21,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/biphenyl_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/biphenyl_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc(-c2ccccc2)cc1",
+      "name": "Biphenyl",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

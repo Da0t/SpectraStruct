@@ -1,0 +1,9 @@
+{
+  "id": "nicotinamide_n_oxide",
+  "display_name": "Nicotinamide N Oxide",
+  "smiles": "NC(=O)c1ccc[n+]([O-])c1",
+  "formula": "C6H6N2O2",
+  "mw": 138.13,
+  "has_nmr": true,
+  "has_ms": true
+}

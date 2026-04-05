@@ -1,0 +1,9 @@
+{
+  "id": "ornidazole",
+  "display_name": "Ornidazole",
+  "smiles": "Cc1ncc([N+](=O)[O-])n1CC(O)CCl",
+  "formula": "C7H10ClN3O3",
+  "mw": 219.63,
+  "has_nmr": true,
+  "has_ms": true
+}

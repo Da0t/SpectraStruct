@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_cooh",
+  "display_name": "Biphenyl 4 Cooh",
+  "smiles": "O=COc1ccc(-c2ccccc2)cc1",
+  "formula": "C13H10O2",
+  "mw": 198.22,
+  "has_nmr": true,
+  "has_ms": true
+}

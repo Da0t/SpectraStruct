@@ -1,0 +1,20 @@
+{
+  "id": "tadalafil",
+  "display_name": "Tadalafil",
+  "smiles": "CN1CC(=O)N2C(Cc3c([nH]c4ccccc34)C2c2ccc3c(c2)OCO3)C1=O",
+  "formula": "C22H19N3O4",
+  "mw": 389.41,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tadalafil_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tadalafil_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN1CC(=O)N2C(Cc3c([nH]c4ccccc34)C2c2ccc3c(c2)OCO3)C1=O",
+      "name": "Tadalafil",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

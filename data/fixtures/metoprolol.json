@@ -1,0 +1,20 @@
+{
+  "id": "metoprolol",
+  "display_name": "Metoprolol",
+  "smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+  "formula": "C15H25NO3",
+  "mw": 267.37,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/metoprolol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/metoprolol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COCCc1ccc(OCC(O)CNC(C)C)cc1",
+      "name": "Metoprolol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

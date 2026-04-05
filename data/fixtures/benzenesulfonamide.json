@@ -1,0 +1,9 @@
+{
+  "id": "benzenesulfonamide",
+  "display_name": "Benzenesulfonamide",
+  "smiles": "NS(=O)(=O)c1ccccc1",
+  "formula": "C6H7NO2S",
+  "mw": 157.19,
+  "has_nmr": true,
+  "has_ms": true
+}

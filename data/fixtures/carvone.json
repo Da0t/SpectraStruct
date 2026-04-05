@@ -1,0 +1,9 @@
+{
+  "id": "carvone",
+  "display_name": "Carvone",
+  "smiles": "C=C(C)[C@@H]1CC=C(C)C(=O)C1",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "has_nmr": true,
+  "has_ms": true
+}

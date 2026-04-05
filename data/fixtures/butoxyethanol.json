@@ -1,0 +1,9 @@
+{
+  "id": "butoxyethanol",
+  "display_name": "Butoxyethanol",
+  "smiles": "CCCCOCCO",
+  "formula": "C6H14O2",
+  "mw": 118.18,
+  "has_nmr": true,
+  "has_ms": true
+}

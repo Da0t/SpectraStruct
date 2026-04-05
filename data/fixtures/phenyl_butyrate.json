@@ -1,0 +1,9 @@
+{
+  "id": "phenyl_butyrate",
+  "display_name": "Phenyl Butyrate",
+  "smiles": "CCCC(=O)Oc1ccccc1",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "has_nmr": true,
+  "has_ms": true
+}

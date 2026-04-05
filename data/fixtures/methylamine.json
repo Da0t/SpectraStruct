@@ -1,0 +1,9 @@
+{
+  "id": "methylamine",
+  "display_name": "Methylamine",
+  "smiles": "CN",
+  "formula": "CH5N",
+  "mw": 31.06,
+  "has_nmr": true,
+  "has_ms": true
+}

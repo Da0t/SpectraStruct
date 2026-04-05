@@ -1,0 +1,9 @@
+{
+  "id": "keto_acid_3",
+  "display_name": "Keto Acid 3",
+  "smiles": "CC(=O)CCCC(=O)O",
+  "formula": "C6H10O3",
+  "mw": 130.14,
+  "has_nmr": true,
+  "has_ms": true
+}

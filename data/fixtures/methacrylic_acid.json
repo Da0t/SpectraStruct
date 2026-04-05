@@ -1,0 +1,9 @@
+{
+  "id": "methacrylic_acid",
+  "display_name": "Methacrylic Acid",
+  "smiles": "C=C(C)C(=O)O",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "has_nmr": true,
+  "has_ms": true
+}

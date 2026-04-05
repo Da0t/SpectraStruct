@@ -1,0 +1,9 @@
+{
+  "id": "benz_2et_4me",
+  "display_name": "Benz 2Et 4Me",
+  "smiles": "CCc1ccc(C)cc1",
+  "formula": "C9H12",
+  "mw": 120.19,
+  "has_nmr": true,
+  "has_ms": true
+}

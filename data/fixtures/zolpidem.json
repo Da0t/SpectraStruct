@@ -1,0 +1,9 @@
+{
+  "id": "zolpidem",
+  "display_name": "Zolpidem",
+  "smiles": "Cc1ccc(-n2c(CC(=O)N3CCN(C)CC3)c(C)c3cc(C)ccc32)cc1",
+  "formula": "C24H29N3O",
+  "mw": 375.52,
+  "has_nmr": true,
+  "has_ms": true
+}

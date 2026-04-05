@@ -1,0 +1,21 @@
+{
+  "id": "glycine",
+  "display_name": "Glycine",
+  "smiles": "NCC(=O)O",
+  "formula": "C2H5NO2",
+  "mw": 75.07,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/glycine_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/glycine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCC(=O)O",
+      "name": "Glycine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n 10  9  0  0  0  0  0  0  0  0999 V2000\n   -1.6199    0.4090    0.1524 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5347   -0.5604   -0.0905 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8281    0.1128   -0.0127 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0483    1.2922    0.2166 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8434   -0.7458   -0.2302 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4505    0.8537    1.0574 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5183    1.1730   -0.5194 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6597   -0.9945   -1.0866 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5844   -1.3492    0.6654 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6477   -0.1907   -0.1524 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  3  4  2  0\n  3  5  1  0\n  1  6  1  0\n  1  7  1  0\n  2  8  1  0\n  2  9  1  0\n  5 10  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

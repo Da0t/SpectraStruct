@@ -1,0 +1,9 @@
+{
+  "id": "chloro_c_c1",
+  "display_name": "Chloro C C1",
+  "smiles": "CCl",
+  "formula": "CH3Cl",
+  "mw": 50.49,
+  "has_nmr": true,
+  "has_ms": true
+}

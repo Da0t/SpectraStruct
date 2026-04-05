@@ -1,0 +1,20 @@
+{
+  "id": "dichloromethane",
+  "display_name": "Dichloromethane",
+  "smiles": "ClCCl",
+  "formula": "CH2Cl2",
+  "mw": 84.93,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/dichloromethane_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/dichloromethane_ms.csv",
+  "candidates": [
+    {
+      "smiles": "ClCCl",
+      "name": "Dichloromethane",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

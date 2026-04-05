@@ -1,0 +1,9 @@
+{
+  "id": "naph_acetamido",
+  "display_name": "Naph Acetamido",
+  "smiles": "NC(=O)Cc1ccc2ccccc2c1",
+  "formula": "C12H11NO",
+  "mw": 185.23,
+  "has_nmr": true,
+  "has_ms": true
+}

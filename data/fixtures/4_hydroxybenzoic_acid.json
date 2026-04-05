@@ -1,0 +1,9 @@
+{
+  "id": "4_hydroxybenzoic_acid",
+  "display_name": "4 Hydroxybenzoic Acid",
+  "smiles": "O=C(O)c1ccc(O)cc1",
+  "formula": "C7H6O3",
+  "mw": 138.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "indane",
+  "display_name": "Indane",
+  "smiles": "c1ccc2c(c1)CCC2",
+  "formula": "C9H10",
+  "mw": 118.18,
+  "has_nmr": true,
+  "has_ms": true
+}

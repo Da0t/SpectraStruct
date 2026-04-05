@@ -1,0 +1,20 @@
+{
+  "id": "amlodipine",
+  "display_name": "Amlodipine",
+  "smiles": "CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+  "formula": "C20H25ClN2O5",
+  "mw": 408.88,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/amlodipine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/amlodipine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+      "name": "Amlodipine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "gluconic_acid",
+  "display_name": "Gluconic Acid",
+  "smiles": "O=C(O)C(O)C(O)C(O)C(O)CO",
+  "formula": "C6H12O7",
+  "mw": 196.16,
+  "has_nmr": true,
+  "has_ms": true
+}

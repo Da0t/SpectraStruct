@@ -1,0 +1,20 @@
+{
+  "id": "colchicine",
+  "display_name": "Colchicine",
+  "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2",
+  "formula": "C22H25NO6",
+  "mw": 399.44,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/colchicine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/colchicine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1C(NC(C)=O)CC2",
+      "name": "Colchicine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

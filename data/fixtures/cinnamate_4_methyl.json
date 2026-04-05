@@ -1,0 +1,9 @@
+{
+  "id": "cinnamate_4_methyl",
+  "display_name": "Cinnamate 4 Methyl",
+  "smiles": "Cc1ccc(/C=C/C(=O)O)cc1",
+  "formula": "C10H10O2",
+  "mw": 162.19,
+  "has_nmr": true,
+  "has_ms": true
+}

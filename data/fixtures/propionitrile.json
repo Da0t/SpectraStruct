@@ -1,0 +1,9 @@
+{
+  "id": "propionitrile",
+  "display_name": "Propionitrile",
+  "smiles": "CCC#N",
+  "formula": "C3H5N",
+  "mw": 55.08,
+  "has_nmr": true,
+  "has_ms": true
+}

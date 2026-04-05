@@ -1,0 +1,9 @@
+{
+  "id": "norleucine",
+  "display_name": "Norleucine",
+  "smiles": "CCCC[C@@H](N)C(=O)O",
+  "formula": "C6H13NO2",
+  "mw": 131.18,
+  "has_nmr": true,
+  "has_ms": true
+}

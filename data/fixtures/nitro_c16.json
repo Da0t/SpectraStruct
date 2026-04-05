@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c16",
+  "display_name": "Nitro C16",
+  "smiles": "CCCCCCCCCCCCCCCC[N+](=O)[O-]",
+  "formula": "C16H33NO2",
+  "mw": 271.44,
+  "has_nmr": true,
+  "has_ms": true
+}

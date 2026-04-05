@@ -1,0 +1,9 @@
+{
+  "id": "mesitylene",
+  "display_name": "Mesitylene",
+  "smiles": "Cc1cc(C)cc(C)c1",
+  "formula": "C9H12",
+  "mw": 120.19,
+  "has_nmr": true,
+  "has_ms": true
+}

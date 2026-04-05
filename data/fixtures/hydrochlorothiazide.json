@@ -1,0 +1,20 @@
+{
+  "id": "hydrochlorothiazide",
+  "display_name": "Hydrochlorothiazide",
+  "smiles": "NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O",
+  "formula": "C7H8ClN3O4S2",
+  "mw": 297.75,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/hydrochlorothiazide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/hydrochlorothiazide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O",
+      "name": "Hydrochlorothiazide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

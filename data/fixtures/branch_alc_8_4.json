@@ -1,0 +1,9 @@
+{
+  "id": "branch_alc_8_4",
+  "display_name": "Branch Alc 8 4",
+  "smiles": "CCCCC(O)CCCC",
+  "formula": "C9H20O",
+  "mw": 144.26,
+  "has_nmr": true,
+  "has_ms": true
+}

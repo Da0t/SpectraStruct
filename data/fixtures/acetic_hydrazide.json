@@ -1,0 +1,9 @@
+{
+  "id": "acetic_hydrazide",
+  "display_name": "Acetic Hydrazide",
+  "smiles": "CC(=O)NN",
+  "formula": "C2H6N2O",
+  "mw": 74.08,
+  "has_nmr": true,
+  "has_ms": true
+}

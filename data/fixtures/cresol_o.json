@@ -1,0 +1,9 @@
+{
+  "id": "cresol_o",
+  "display_name": "Cresol-O",
+  "smiles": "Cc1ccccc1O",
+  "formula": "C7H8O",
+  "mw": 108.14,
+  "has_nmr": true,
+  "has_ms": true
+}

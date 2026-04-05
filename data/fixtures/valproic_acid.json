@@ -1,0 +1,20 @@
+{
+  "id": "valproic_acid",
+  "display_name": "Valproic Acid",
+  "smiles": "CCCC(CCC)C(=O)O",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/valproic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/valproic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCC(CCC)C(=O)O",
+      "name": "Valproic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

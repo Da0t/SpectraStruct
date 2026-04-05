@@ -1,0 +1,20 @@
+{
+  "id": "l_isoleucine",
+  "display_name": "Isoleucine",
+  "smiles": "CCC(C)C(N)C(=O)O",
+  "formula": "C6H13NO2",
+  "mw": 131.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_isoleucine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_isoleucine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCC(C)C(N)C(=O)O",
+      "name": "Isoleucine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

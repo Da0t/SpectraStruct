@@ -1,0 +1,9 @@
+{
+  "id": "strychnine",
+  "display_name": "Strychnine",
+  "smiles": "O=C1C[C@H]2OCC=C3CN4CCC5=C(c6ccccc65)[C@@H]4C[C@@H]3[C@@H]2N1c1ccccc1",
+  "formula": "C27H26N2O2",
+  "mw": 410.52,
+  "has_nmr": true,
+  "has_ms": true
+}

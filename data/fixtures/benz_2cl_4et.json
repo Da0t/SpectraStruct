@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cl_4et",
+  "display_name": "Benz 2Cl 4Et",
+  "smiles": "CCc1ccc(Cl)cc1",
+  "formula": "C8H9Cl",
+  "mw": 140.61,
+  "has_nmr": true,
+  "has_ms": true
+}

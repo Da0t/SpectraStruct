@@ -1,0 +1,9 @@
+{
+  "id": "naph_acetyl",
+  "display_name": "Naph Acetyl",
+  "smiles": "O=CCc1ccc2ccccc2c1",
+  "formula": "C12H10O",
+  "mw": 170.21,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benzalanine",
+  "display_name": "Benzalanine",
+  "smiles": "CC(/N=C/c1ccccc1)C(=O)O",
+  "formula": "C10H11NO2",
+  "mw": 177.2,
+  "has_nmr": true,
+  "has_ms": true
+}

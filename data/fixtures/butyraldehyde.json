@@ -1,0 +1,9 @@
+{
+  "id": "butyraldehyde",
+  "display_name": "Butyraldehyde",
+  "smiles": "CCCC=O",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true
+}

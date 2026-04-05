@@ -1,0 +1,9 @@
+{
+  "id": "iodo_ccc_c3",
+  "display_name": "Iodo Ccc C3",
+  "smiles": "CCCI",
+  "formula": "C3H7I",
+  "mw": 169.99,
+  "has_nmr": true,
+  "has_ms": true
+}

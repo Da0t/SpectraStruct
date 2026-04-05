@@ -1,0 +1,9 @@
+{
+  "id": "ionone_alpha",
+  "display_name": "Ionone Alpha",
+  "smiles": "CC(=O)C=CC=C(C)C1=CCCCC1",
+  "formula": "C13H18O",
+  "mw": 190.29,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "quinoline_2_f",
+  "display_name": "Quinoline 2 F",
+  "smiles": "Fc1ccc2ccccc2n1",
+  "formula": "C9H6FN",
+  "mw": 147.15,
+  "has_nmr": true,
+  "has_ms": true
+}

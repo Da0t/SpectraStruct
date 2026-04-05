@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c8",
+  "display_name": "Alcohol C8",
+  "smiles": "CCCCCCCCO",
+  "formula": "C8H18O",
+  "mw": 130.23,
+  "has_nmr": true,
+  "has_ms": true
+}

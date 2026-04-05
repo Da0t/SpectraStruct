@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_benzoate",
+  "display_name": "Ethyl-Benzoate",
+  "smiles": "CCOC(=O)c1ccccc1",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "has_nmr": true,
+  "has_ms": true
+}

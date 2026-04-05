@@ -1,0 +1,9 @@
+{
+  "id": "toluenesulfonamide",
+  "display_name": "Toluenesulfonamide",
+  "smiles": "Cc1ccc(S(N)(=O)=O)cc1",
+  "formula": "C7H9NO2S",
+  "mw": 171.22,
+  "has_nmr": true,
+  "has_ms": true
+}

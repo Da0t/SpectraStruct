@@ -1,0 +1,9 @@
+{
+  "id": "4_chloro_benzenesulfonamide",
+  "display_name": "4 Chloro Benzenesulfonamide",
+  "smiles": "NS(=O)(=O)c1ccc(Cl)cc1",
+  "formula": "C6H6ClNO2S",
+  "mw": 191.64,
+  "has_nmr": true,
+  "has_ms": true
+}

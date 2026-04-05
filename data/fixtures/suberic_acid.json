@@ -1,0 +1,9 @@
+{
+  "id": "suberic_acid",
+  "display_name": "Suberic Acid",
+  "smiles": "O=C(O)CCCCCCC(=O)O",
+  "formula": "C8H14O4",
+  "mw": 174.2,
+  "has_nmr": true,
+  "has_ms": true
+}

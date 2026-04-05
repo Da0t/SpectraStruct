@@ -1,0 +1,9 @@
+{
+  "id": "5_hmf",
+  "display_name": "5 Hmf",
+  "smiles": "O=Cc1ccc(CO)o1",
+  "formula": "C6H6O3",
+  "mw": 126.11,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "creatine",
+  "display_name": "Creatine",
+  "smiles": "CN(CC(=O)O)C(=N)N",
+  "formula": "C4H9N3O2",
+  "mw": 131.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/creatine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/creatine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(CC(=O)O)C(=N)N",
+      "name": "Creatine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

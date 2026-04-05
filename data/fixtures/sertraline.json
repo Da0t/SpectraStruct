@@ -1,0 +1,20 @@
+{
+  "id": "sertraline",
+  "display_name": "Sertraline",
+  "smiles": "CNC1CCC(c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "formula": "C17H17Cl2N",
+  "mw": 306.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/sertraline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/sertraline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CNC1CCC(c2ccc(Cl)c(Cl)c2)c2ccccc21",
+      "name": "Sertraline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

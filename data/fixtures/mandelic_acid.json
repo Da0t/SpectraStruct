@@ -1,0 +1,9 @@
+{
+  "id": "mandelic_acid",
+  "display_name": "Mandelic Acid",
+  "smiles": "O=C(O)C(O)c1ccccc1",
+  "formula": "C8H8O3",
+  "mw": 152.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "isopropanol",
+  "display_name": "Isopropanol",
+  "smiles": "CC(C)O",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "has_nmr": true,
+  "has_ms": true
+}

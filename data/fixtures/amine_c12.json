@@ -1,0 +1,9 @@
+{
+  "id": "amine_c12",
+  "display_name": "Amine C12",
+  "smiles": "CCCCCCCCCCCCN",
+  "formula": "C12H27N",
+  "mw": 185.35,
+  "has_nmr": true,
+  "has_ms": true
+}

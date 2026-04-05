@@ -1,0 +1,9 @@
+{
+  "id": "dithiooxamide",
+  "display_name": "Dithiooxamide",
+  "smiles": "NC(=S)C(N)=S",
+  "formula": "C2H4N2S2",
+  "mw": 120.2,
+  "has_nmr": true,
+  "has_ms": true
+}

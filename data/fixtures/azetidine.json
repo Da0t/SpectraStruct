@@ -1,0 +1,9 @@
+{
+  "id": "azetidine",
+  "display_name": "Azetidine",
+  "smiles": "C1CNC1",
+  "formula": "C3H7N",
+  "mw": 57.1,
+  "has_nmr": true,
+  "has_ms": true
+}

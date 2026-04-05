@@ -1,0 +1,21 @@
+{
+  "id": "acetic_acid",
+  "display_name": "Acetic Acid",
+  "smiles": "CC(=O)O",
+  "formula": "C2H4O2",
+  "mw": 60.05,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/acetic_acid_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/acetic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(=O)O",
+      "name": "Acetic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n   -0.9335   -0.0601   -0.2304 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4936    0.2789    0.0469 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0325    1.3566   -0.1361 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1814   -0.7645    0.5462 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4427    0.8203   -0.6327 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4305   -0.3576    0.6963 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9867   -0.8625   -0.9702 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0859   -0.4112    0.6800 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  2  4  1  0\n  1  5  1  0\n  1  6  1  0\n  1  7  1  0\n  4  8  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dimethylformamide",
+  "display_name": "Dimethylformamide",
+  "smiles": "CN(C)C=O",
+  "formula": "C3H7NO",
+  "mw": 73.09,
+  "has_nmr": true,
+  "has_ms": true
+}

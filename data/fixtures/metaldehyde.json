@@ -1,0 +1,9 @@
+{
+  "id": "metaldehyde",
+  "display_name": "Metaldehyde",
+  "smiles": "CC1OC(C)OC(C)OC(C)O1",
+  "formula": "C8H16O4",
+  "mw": 176.21,
+  "has_nmr": true,
+  "has_ms": true
+}

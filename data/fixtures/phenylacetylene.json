@@ -1,0 +1,9 @@
+{
+  "id": "phenylacetylene",
+  "display_name": "Phenylacetylene",
+  "smiles": "C#Cc1ccccc1",
+  "formula": "C8H6",
+  "mw": 102.14,
+  "has_nmr": true,
+  "has_ms": true
+}

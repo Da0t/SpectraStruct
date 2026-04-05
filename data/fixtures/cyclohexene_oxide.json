@@ -1,0 +1,9 @@
+{
+  "id": "cyclohexene_oxide",
+  "display_name": "Cyclohexene Oxide",
+  "smiles": "C1CCC2OC2CC1",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "has_nmr": true,
+  "has_ms": true
+}

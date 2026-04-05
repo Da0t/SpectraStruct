@@ -1,0 +1,9 @@
+{
+  "id": "quinoline_2_cl",
+  "display_name": "Quinoline 2 Cl",
+  "smiles": "Clc1ccc2ccccc2n1",
+  "formula": "C9H6ClN",
+  "mw": 163.61,
+  "has_nmr": true,
+  "has_ms": true
+}

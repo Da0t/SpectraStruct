@@ -1,0 +1,9 @@
+{
+  "id": "fluoro_ccccccc_c7",
+  "display_name": "Fluoro Ccccccc C7",
+  "smiles": "CCCCCCCF",
+  "formula": "C7H15F",
+  "mw": 118.2,
+  "has_nmr": true,
+  "has_ms": true
+}

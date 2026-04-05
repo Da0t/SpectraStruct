@@ -1,0 +1,9 @@
+{
+  "id": "homopiperazine",
+  "display_name": "Homopiperazine",
+  "smiles": "C1CNCCNC1",
+  "formula": "C5H12N2",
+  "mw": 100.17,
+  "has_nmr": true,
+  "has_ms": true
+}

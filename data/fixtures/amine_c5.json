@@ -1,0 +1,9 @@
+{
+  "id": "amine_c5",
+  "display_name": "Amine C5",
+  "smiles": "CCCCCN",
+  "formula": "C5H13N",
+  "mw": 87.17,
+  "has_nmr": true,
+  "has_ms": true
+}

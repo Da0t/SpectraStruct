@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_acrylate",
+  "display_name": "Ethyl Acrylate",
+  "smiles": "C=CC(=O)OCC",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "purine",
+  "display_name": "Purine",
+  "smiles": "c1ncc2[nH]cnc2n1",
+  "formula": "C5H4N4",
+  "mw": 120.11,
+  "has_nmr": true,
+  "has_ms": true
+}

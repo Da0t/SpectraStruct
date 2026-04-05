@@ -1,0 +1,9 @@
+{
+  "id": "articaine",
+  "display_name": "Articaine",
+  "smiles": "CCCSc1cc(C(=O)NC(C)CN(C)C)cs1",
+  "formula": "C13H22N2OS2",
+  "mw": 286.47,
+  "has_nmr": true,
+  "has_ms": true
+}

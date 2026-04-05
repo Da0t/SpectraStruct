@@ -1,0 +1,20 @@
+{
+  "id": "verapamil",
+  "display_name": "Verapamil",
+  "smiles": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+  "formula": "C27H38N2O4",
+  "mw": 454.61,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/verapamil_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/verapamil_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+      "name": "Verapamil",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

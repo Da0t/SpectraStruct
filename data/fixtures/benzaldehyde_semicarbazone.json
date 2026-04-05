@@ -1,0 +1,9 @@
+{
+  "id": "benzaldehyde_semicarbazone",
+  "display_name": "Benzaldehyde Semicarbazone",
+  "smiles": "NC(=O)NN=Cc1ccccc1",
+  "formula": "C8H9N3O",
+  "mw": 163.18,
+  "has_nmr": true,
+  "has_ms": true
+}

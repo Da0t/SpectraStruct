@@ -1,0 +1,9 @@
+{
+  "id": "protocatechuic_acid",
+  "display_name": "Protocatechuic Acid",
+  "smiles": "O=C(O)c1ccc(O)c(O)c1",
+  "formula": "C7H6O4",
+  "mw": 154.12,
+  "has_nmr": true,
+  "has_ms": true
+}

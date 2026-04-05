@@ -1,0 +1,9 @@
+{
+  "id": "topiramate",
+  "display_name": "Topiramate",
+  "smiles": "CC1(C)O[C@@H]2[C@H]3OC(C)(C)O[C@]3(COS(N)(=O)=O)OC[C@H]2O1",
+  "formula": "C12H21NO8S",
+  "mw": 339.37,
+  "has_nmr": true,
+  "has_ms": true
+}

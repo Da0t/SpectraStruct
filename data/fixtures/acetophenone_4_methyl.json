@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_4_methyl",
+  "display_name": "Acetophenone 4 Methyl",
+  "smiles": "CC(=O)c1ccc(C)cc1",
+  "formula": "C9H10O",
+  "mw": 134.18,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "azobenzene",
+  "display_name": "Azobenzene",
+  "smiles": "c1ccc(/N=N/c2ccccc2)cc1",
+  "formula": "C12H10N2",
+  "mw": 182.23,
+  "has_nmr": true,
+  "has_ms": true
+}

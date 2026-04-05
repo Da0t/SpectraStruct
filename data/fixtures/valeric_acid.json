@@ -1,0 +1,9 @@
+{
+  "id": "valeric_acid",
+  "display_name": "Valeric Acid",
+  "smiles": "CCCCC(=O)O",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

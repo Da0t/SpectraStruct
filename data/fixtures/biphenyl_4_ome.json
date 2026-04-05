@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_ome",
+  "display_name": "Biphenyl 4 Ome",
+  "smiles": "OCc1ccc(-c2ccccc2)cc1",
+  "formula": "C13H12O",
+  "mw": 184.24,
+  "has_nmr": true,
+  "has_ms": true
+}

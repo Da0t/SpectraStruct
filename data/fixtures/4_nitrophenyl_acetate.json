@@ -1,0 +1,9 @@
+{
+  "id": "4_nitrophenyl_acetate",
+  "display_name": "4 Nitrophenyl Acetate",
+  "smiles": "CC(=O)Oc1ccc([N+](=O)[O-])cc1",
+  "formula": "C8H7NO4",
+  "mw": 181.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "adenosine",
+  "display_name": "Adenosine",
+  "smiles": "Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O",
+  "formula": "C10H13N5O4",
+  "mw": 267.25,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/adenosine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/adenosine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O",
+      "name": "Adenosine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

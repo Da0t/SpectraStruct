@@ -1,0 +1,9 @@
+{
+  "id": "benzoquinone",
+  "display_name": "Benzoquinone",
+  "smiles": "O=C1C=CC(=O)C=C1",
+  "formula": "C6H4O2",
+  "mw": 108.1,
+  "has_nmr": true,
+  "has_ms": true
+}

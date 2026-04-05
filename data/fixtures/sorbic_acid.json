@@ -1,0 +1,9 @@
+{
+  "id": "sorbic_acid",
+  "display_name": "Sorbic Acid",
+  "smiles": "CC=CC=CC(=O)O",
+  "formula": "C6H8O2",
+  "mw": 112.13,
+  "has_nmr": true,
+  "has_ms": true
+}

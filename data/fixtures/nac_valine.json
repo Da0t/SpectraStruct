@@ -1,0 +1,9 @@
+{
+  "id": "nac_valine",
+  "display_name": "Nac Valine",
+  "smiles": "CC(=O)NC(C(=O)O)C(C)C",
+  "formula": "C7H13NO3",
+  "mw": 159.18,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benz_propyl",
+  "display_name": "Benz Propyl",
+  "smiles": "CCCc1ccccc1",
+  "formula": "C9H12",
+  "mw": 120.19,
+  "has_nmr": true,
+  "has_ms": true
+}

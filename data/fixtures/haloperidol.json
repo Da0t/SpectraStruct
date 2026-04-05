@@ -1,0 +1,9 @@
+{
+  "id": "haloperidol",
+  "display_name": "Haloperidol",
+  "smiles": "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1",
+  "formula": "C21H23ClFNO2",
+  "mw": 375.87,
+  "has_nmr": true,
+  "has_ms": true
+}

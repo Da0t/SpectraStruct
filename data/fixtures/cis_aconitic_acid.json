@@ -1,0 +1,9 @@
+{
+  "id": "cis_aconitic_acid",
+  "display_name": "Cis Aconitic Acid",
+  "smiles": "O=C(O)C=C(CC(=O)O)C(=O)O",
+  "formula": "C6H6O6",
+  "mw": 174.11,
+  "has_nmr": true,
+  "has_ms": true
+}

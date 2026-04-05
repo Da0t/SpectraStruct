@@ -1,0 +1,20 @@
+{
+  "id": "codeine",
+  "display_name": "Codeine",
+  "smiles": "COc1ccc2c3c1OC1C(O)C=CC4C(C2)N(C)CCC341",
+  "formula": "C18H21NO3",
+  "mw": 299.37,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/codeine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/codeine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1ccc2c3c1OC1C(O)C=CC4C(C2)N(C)CCC341",
+      "name": "Codeine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

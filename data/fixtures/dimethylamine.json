@@ -1,0 +1,9 @@
+{
+  "id": "dimethylamine",
+  "display_name": "Dimethylamine",
+  "smiles": "CNC",
+  "formula": "C2H7N",
+  "mw": 45.09,
+  "has_nmr": true,
+  "has_ms": true
+}

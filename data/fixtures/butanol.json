@@ -1,0 +1,20 @@
+{
+  "id": "butanol",
+  "display_name": "Butanol",
+  "smiles": "CCCCO",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/butanol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/butanol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCO",
+      "name": "Butanol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "l_tryptophan",
+  "display_name": "Tryptophan",
+  "smiles": "NC(Cc1c[nH]c2ccccc12)C(=O)O",
+  "formula": "C11H12N2O2",
+  "mw": 204.23,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_tryptophan_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_tryptophan_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(Cc1c[nH]c2ccccc12)C(=O)O",
+      "name": "Tryptophan",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

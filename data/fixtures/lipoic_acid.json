@@ -1,0 +1,9 @@
+{
+  "id": "lipoic_acid",
+  "display_name": "Lipoic Acid",
+  "smiles": "O=C(O)CCCCC1CCSS1",
+  "formula": "C8H14O2S2",
+  "mw": 206.33,
+  "has_nmr": true,
+  "has_ms": true
+}

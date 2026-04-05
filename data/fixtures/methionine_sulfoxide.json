@@ -1,0 +1,9 @@
+{
+  "id": "methionine_sulfoxide",
+  "display_name": "Methionine Sulfoxide",
+  "smiles": "CS(=O)CC[C@@H](N)C(=O)O",
+  "formula": "C5H11NO3S",
+  "mw": 165.21,
+  "has_nmr": true,
+  "has_ms": true
+}

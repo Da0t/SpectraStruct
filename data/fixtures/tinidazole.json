@@ -1,0 +1,9 @@
+{
+  "id": "tinidazole",
+  "display_name": "Tinidazole",
+  "smiles": "CCS(=O)(=O)CCn1c([N+](=O)[O-])cnc1C",
+  "formula": "C8H13N3O4S",
+  "mw": 247.28,
+  "has_nmr": true,
+  "has_ms": true
+}

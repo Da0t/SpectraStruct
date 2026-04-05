@@ -1,0 +1,9 @@
+{
+  "id": "diphenylmethanol",
+  "display_name": "Diphenylmethanol",
+  "smiles": "OC(c1ccccc1)c1ccccc1",
+  "formula": "C13H12O",
+  "mw": 184.24,
+  "has_nmr": true,
+  "has_ms": true
+}

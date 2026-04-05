@@ -1,0 +1,9 @@
+{
+  "id": "acid_c15",
+  "display_name": "Acid C15",
+  "smiles": "CCCCCCCCCCCCCCC(=O)O",
+  "formula": "C15H30O2",
+  "mw": 242.4,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "cycloheptanone",
+  "display_name": "Cycloheptanone",
+  "smiles": "O=C1CCCCCC1",
+  "formula": "C7H12O",
+  "mw": 112.17,
+  "has_nmr": true,
+  "has_ms": true
+}

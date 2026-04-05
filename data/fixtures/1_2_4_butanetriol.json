@@ -1,0 +1,9 @@
+{
+  "id": "1_2_4_butanetriol",
+  "display_name": "1 2 4 Butanetriol",
+  "smiles": "OCCC(O)CO",
+  "formula": "C4H10O3",
+  "mw": 106.12,
+  "has_nmr": true,
+  "has_ms": true
+}

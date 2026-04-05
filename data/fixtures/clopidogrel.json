@@ -1,0 +1,20 @@
+{
+  "id": "clopidogrel",
+  "display_name": "Clopidogrel",
+  "smiles": "COC(=O)C(c1ccccc1Cl)N1CCc2sccc2C1",
+  "formula": "C16H16ClNO2S",
+  "mw": 321.83,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/clopidogrel_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/clopidogrel_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COC(=O)C(c1ccccc1Cl)N1CCc2sccc2C1",
+      "name": "Clopidogrel",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

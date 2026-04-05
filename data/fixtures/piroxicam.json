@@ -1,0 +1,9 @@
+{
+  "id": "piroxicam",
+  "display_name": "Piroxicam",
+  "smiles": "CN1C(C(=O)Nc2ccccn2)=C(O)c2ccccc2S1(=O)=O",
+  "formula": "C15H13N3O4S",
+  "mw": 331.35,
+  "has_nmr": true,
+  "has_ms": true
+}

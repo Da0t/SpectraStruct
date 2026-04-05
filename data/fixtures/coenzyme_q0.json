@@ -1,0 +1,9 @@
+{
+  "id": "coenzyme_q0",
+  "display_name": "Coenzyme Q0",
+  "smiles": "COC1=C(OC)C(=O)C(C)=C(C)C1=O",
+  "formula": "C10H12O4",
+  "mw": 196.2,
+  "has_nmr": true,
+  "has_ms": true
+}

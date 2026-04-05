@@ -1,0 +1,9 @@
+{
+  "id": "deoxybenzoin",
+  "display_name": "Deoxybenzoin",
+  "smiles": "O=C(Cc1ccccc1)c1ccccc1",
+  "formula": "C14H12O",
+  "mw": 196.25,
+  "has_nmr": true,
+  "has_ms": true
+}

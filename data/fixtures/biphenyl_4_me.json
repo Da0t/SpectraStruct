@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_me",
+  "display_name": "Biphenyl 4 Me",
+  "smiles": "Cc1ccc(-c2ccccc2)cc1",
+  "formula": "C13H12",
+  "mw": 168.24,
+  "has_nmr": true,
+  "has_ms": true
+}

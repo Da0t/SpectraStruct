@@ -1,0 +1,20 @@
+{
+  "id": "thymol",
+  "display_name": "Thymol",
+  "smiles": "Cc1ccc(C(C)C)c(O)c1",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/thymol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/thymol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1ccc(C(C)C)c(O)c1",
+      "name": "Thymol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

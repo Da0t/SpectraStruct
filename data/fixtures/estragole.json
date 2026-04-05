@@ -1,0 +1,9 @@
+{
+  "id": "estragole",
+  "display_name": "Estragole",
+  "smiles": "C=CCc1ccc(OC)cc1",
+  "formula": "C10H12O",
+  "mw": 148.2,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "n_propylpiperidine",
+  "display_name": "N Propylpiperidine",
+  "smiles": "CCCN1CCCCC1",
+  "formula": "C8H17N",
+  "mw": 127.23,
+  "has_nmr": true,
+  "has_ms": true
+}

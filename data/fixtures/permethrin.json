@@ -1,0 +1,9 @@
+{
+  "id": "permethrin",
+  "display_name": "Permethrin",
+  "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc1cccc(Oc2ccccc2)c1",
+  "formula": "C21H20Cl2O3",
+  "mw": 391.29,
+  "has_nmr": true,
+  "has_ms": true
+}

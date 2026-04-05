@@ -1,0 +1,9 @@
+{
+  "id": "phenylpropanolamine",
+  "display_name": "Phenylpropanolamine",
+  "smiles": "CC(N)C(O)c1ccccc1",
+  "formula": "C9H13NO",
+  "mw": 151.21,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "salicylamide",
+  "display_name": "Salicylamide",
+  "smiles": "NC(=O)c1ccccc1O",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/salicylamide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/salicylamide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(=O)c1ccccc1O",
+      "name": "Salicylamide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

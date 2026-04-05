@@ -1,0 +1,9 @@
+{
+  "id": "2_hydroxypyridine",
+  "display_name": "2 Hydroxypyridine",
+  "smiles": "Oc1ccccn1",
+  "formula": "C5H5NO",
+  "mw": 95.1,
+  "has_nmr": true,
+  "has_ms": true
+}

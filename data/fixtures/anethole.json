@@ -1,0 +1,9 @@
+{
+  "id": "anethole",
+  "display_name": "Anethole",
+  "smiles": "C/C=C/c1ccc(OC)cc1",
+  "formula": "C10H12O",
+  "mw": 148.2,
+  "has_nmr": true,
+  "has_ms": true
+}

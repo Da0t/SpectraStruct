@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c8",
+  "display_name": "Thiol C8",
+  "smiles": "CCCCCCCCS",
+  "formula": "C8H18S",
+  "mw": 146.3,
+  "has_nmr": true,
+  "has_ms": true
+}

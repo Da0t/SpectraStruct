@@ -1,0 +1,9 @@
+{
+  "id": "phenoxyacet_2_methyl",
+  "display_name": "Phenoxyacet 2 Methyl",
+  "smiles": "Cc1ccccc1OCC(=O)O",
+  "formula": "C9H10O3",
+  "mw": 166.18,
+  "has_nmr": true,
+  "has_ms": true
+}

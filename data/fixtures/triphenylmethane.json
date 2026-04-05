@@ -1,0 +1,9 @@
+{
+  "id": "triphenylmethane",
+  "display_name": "Triphenylmethane",
+  "smiles": "c1ccc(C(c2ccccc2)c2ccccc2)cc1",
+  "formula": "C19H16",
+  "mw": 244.34,
+  "has_nmr": true,
+  "has_ms": true
+}

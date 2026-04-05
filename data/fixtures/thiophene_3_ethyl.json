@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_3_ethyl",
+  "display_name": "Thiophene 3 Ethyl",
+  "smiles": "CCc1ccsc1",
+  "formula": "C6H8S",
+  "mw": 112.2,
+  "has_nmr": true,
+  "has_ms": true
+}

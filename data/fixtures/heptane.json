@@ -1,0 +1,9 @@
+{
+  "id": "heptane",
+  "display_name": "Heptane",
+  "smiles": "CCCCCCC",
+  "formula": "C7H16",
+  "mw": 100.2,
+  "has_nmr": true,
+  "has_ms": true
+}

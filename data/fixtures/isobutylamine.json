@@ -1,0 +1,9 @@
+{
+  "id": "isobutylamine",
+  "display_name": "Isobutylamine",
+  "smiles": "CC(C)CN",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pyr_methyl",
+  "display_name": "Pyr Methyl",
+  "smiles": "Cc1ccncc1",
+  "formula": "C6H7N",
+  "mw": 93.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "carnosine",
+  "display_name": "Carnosine",
+  "smiles": "NCCC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)O",
+  "formula": "C9H14N4O3",
+  "mw": 226.24,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vinylidene_chloride",
+  "display_name": "Vinylidene Chloride",
+  "smiles": "C=C(Cl)Cl",
+  "formula": "C2H2Cl2",
+  "mw": 96.94,
+  "has_nmr": true,
+  "has_ms": true
+}

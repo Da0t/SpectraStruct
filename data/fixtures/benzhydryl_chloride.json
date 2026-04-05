@@ -1,0 +1,9 @@
+{
+  "id": "benzhydryl_chloride",
+  "display_name": "Benzhydryl Chloride",
+  "smiles": "ClC(c1ccccc1)c1ccccc1",
+  "formula": "C13H11Cl",
+  "mw": 202.68,
+  "has_nmr": true,
+  "has_ms": true
+}

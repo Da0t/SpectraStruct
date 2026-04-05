@@ -1,0 +1,20 @@
+{
+  "id": "citalopram",
+  "display_name": "Citalopram",
+  "smiles": "CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+  "formula": "C20H21FN2O",
+  "mw": 324.4,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/citalopram_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/citalopram_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+      "name": "Citalopram",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

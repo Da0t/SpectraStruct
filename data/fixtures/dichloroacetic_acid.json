@@ -1,0 +1,9 @@
+{
+  "id": "dichloroacetic_acid",
+  "display_name": "Dichloroacetic Acid",
+  "smiles": "O=C(O)C(Cl)Cl",
+  "formula": "C2H2Cl2O2",
+  "mw": 128.94,
+  "has_nmr": true,
+  "has_ms": true
+}

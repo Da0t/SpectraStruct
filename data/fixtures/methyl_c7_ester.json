@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c7_ester",
+  "display_name": "Methyl C7 Ester",
+  "smiles": "CCCCCCC(=O)OC",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "has_nmr": true,
+  "has_ms": true
+}

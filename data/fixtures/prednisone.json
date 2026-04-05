@@ -1,0 +1,20 @@
+{
+  "id": "prednisone",
+  "display_name": "Prednisone",
+  "smiles": "CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO",
+  "formula": "C21H26O5",
+  "mw": 358.43,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/prednisone_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/prednisone_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO",
+      "name": "Prednisone",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

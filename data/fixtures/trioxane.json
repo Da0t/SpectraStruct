@@ -1,0 +1,9 @@
+{
+  "id": "trioxane",
+  "display_name": "Trioxane",
+  "smiles": "C1OCOCO1",
+  "formula": "C3H6O3",
+  "mw": 90.08,
+  "has_nmr": true,
+  "has_ms": true
+}

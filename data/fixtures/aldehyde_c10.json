@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c10",
+  "display_name": "Aldehyde C10",
+  "smiles": "CCCCCCCCCC=O",
+  "formula": "C10H20O",
+  "mw": 156.27,
+  "has_nmr": true,
+  "has_ms": true
+}

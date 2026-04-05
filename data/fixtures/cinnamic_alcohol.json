@@ -1,0 +1,9 @@
+{
+  "id": "cinnamic_alcohol",
+  "display_name": "Cinnamic Alcohol",
+  "smiles": "OC/C=C/c1ccccc1",
+  "formula": "C9H10O",
+  "mw": 134.18,
+  "has_nmr": true,
+  "has_ms": true
+}

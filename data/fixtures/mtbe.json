@@ -1,0 +1,9 @@
+{
+  "id": "mtbe",
+  "display_name": "Mtbe",
+  "smiles": "COC(C)(C)C",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "has_nmr": true,
+  "has_ms": true
+}

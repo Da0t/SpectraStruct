@@ -1,0 +1,9 @@
+{
+  "id": "2_amino_2_methyl_1_propanol",
+  "display_name": "2 Amino 2 Methyl 1 Propanol",
+  "smiles": "CC(C)(N)CO",
+  "formula": "C4H11NO",
+  "mw": 89.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "cyclooctanone",
+  "display_name": "Cyclooctanone",
+  "smiles": "O=C1CCCCCCC1",
+  "formula": "C8H14O",
+  "mw": 126.2,
+  "has_nmr": true,
+  "has_ms": true
+}

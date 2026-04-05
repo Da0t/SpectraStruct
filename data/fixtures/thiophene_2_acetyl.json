@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_2_acetyl",
+  "display_name": "Thiophene 2 Acetyl",
+  "smiles": "O=CCc1cccs1",
+  "formula": "C6H6OS",
+  "mw": 126.18,
+  "has_nmr": true,
+  "has_ms": true
+}

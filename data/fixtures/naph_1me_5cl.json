@@ -1,0 +1,9 @@
+{
+  "id": "naph_1me_5cl",
+  "display_name": "Naph 1Me 5Cl",
+  "smiles": "Cc1cccc2c(Cl)cccc12",
+  "formula": "C11H9Cl",
+  "mw": 176.65,
+  "has_nmr": true,
+  "has_ms": true
+}

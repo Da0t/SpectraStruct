@@ -1,0 +1,9 @@
+{
+  "id": "fluorescein",
+  "display_name": "Fluorescein",
+  "smiles": "O=C(O)c1ccccc1-c1c2ccc(=O)cc-2oc2cc(O)ccc12",
+  "formula": "C20H12O5",
+  "mw": 332.31,
+  "has_nmr": true,
+  "has_ms": true
+}

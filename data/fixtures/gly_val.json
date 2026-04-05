@@ -1,0 +1,9 @@
+{
+  "id": "gly_val",
+  "display_name": "Gly Val",
+  "smiles": "CC(C)C(NC(=O)CN)C(=O)O",
+  "formula": "C7H14N2O3",
+  "mw": 174.2,
+  "has_nmr": true,
+  "has_ms": true
+}

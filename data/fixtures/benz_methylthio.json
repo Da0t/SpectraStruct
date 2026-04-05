@@ -1,0 +1,9 @@
+{
+  "id": "benz_methylthio",
+  "display_name": "Benz Methylthio",
+  "smiles": "SCc1ccccc1",
+  "formula": "C7H8S",
+  "mw": 124.21,
+  "has_nmr": true,
+  "has_ms": true
+}

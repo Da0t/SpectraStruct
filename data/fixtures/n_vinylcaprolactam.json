@@ -1,0 +1,9 @@
+{
+  "id": "n_vinylcaprolactam",
+  "display_name": "N Vinylcaprolactam",
+  "smiles": "C=CN1CCCCCC1=O",
+  "formula": "C8H13NO",
+  "mw": 139.2,
+  "has_nmr": true,
+  "has_ms": true
+}

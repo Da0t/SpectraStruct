@@ -1,0 +1,9 @@
+{
+  "id": "2_acetylpyrrole",
+  "display_name": "2 Acetylpyrrole",
+  "smiles": "CC(=O)c1ccc[nH]1",
+  "formula": "C6H7NO",
+  "mw": 109.13,
+  "has_nmr": true,
+  "has_ms": true
+}

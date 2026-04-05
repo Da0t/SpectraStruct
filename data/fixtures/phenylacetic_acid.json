@@ -1,0 +1,9 @@
+{
+  "id": "phenylacetic_acid",
+  "display_name": "Phenylacetic Acid",
+  "smiles": "O=C(O)Cc1ccccc1",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

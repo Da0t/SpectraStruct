@@ -1,0 +1,9 @@
+{
+  "id": "trifluoromethane_sulfonamide",
+  "display_name": "Trifluoromethane Sulfonamide",
+  "smiles": "NS(=O)(=O)C(F)(F)F",
+  "formula": "CH2F3NO2S",
+  "mw": 149.09,
+  "has_nmr": true,
+  "has_ms": true
+}

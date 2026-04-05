@@ -1,0 +1,9 @@
+{
+  "id": "pyr_sulfonyl",
+  "display_name": "Pyr Sulfonyl",
+  "smiles": "O=[SH](=O)Cc1ccncc1",
+  "formula": "C6H7NO2S",
+  "mw": 157.19,
+  "has_nmr": true,
+  "has_ms": true
+}

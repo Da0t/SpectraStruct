@@ -1,0 +1,9 @@
+{
+  "id": "ethylenediamine",
+  "display_name": "Ethylenediamine",
+  "smiles": "NCCN",
+  "formula": "C2H8N2",
+  "mw": 60.1,
+  "has_nmr": true,
+  "has_ms": true
+}

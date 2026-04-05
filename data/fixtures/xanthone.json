@@ -1,0 +1,9 @@
+{
+  "id": "xanthone",
+  "display_name": "Xanthone",
+  "smiles": "O=c1c2ccccc2oc2ccccc12",
+  "formula": "C13H8O2",
+  "mw": 196.2,
+  "has_nmr": true,
+  "has_ms": true
+}

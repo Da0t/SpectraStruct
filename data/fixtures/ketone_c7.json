@@ -1,0 +1,9 @@
+{
+  "id": "ketone_c7",
+  "display_name": "Ketone C7",
+  "smiles": "CCCCC(=O)CCC",
+  "formula": "C8H16O",
+  "mw": 128.21,
+  "has_nmr": true,
+  "has_ms": true
+}

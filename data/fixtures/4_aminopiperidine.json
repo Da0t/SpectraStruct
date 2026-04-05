@@ -1,0 +1,9 @@
+{
+  "id": "4_aminopiperidine",
+  "display_name": "4 Aminopiperidine",
+  "smiles": "NC1CCNCC1",
+  "formula": "C5H12N2",
+  "mw": 100.16,
+  "has_nmr": true,
+  "has_ms": true
+}

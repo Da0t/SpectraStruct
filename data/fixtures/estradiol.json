@@ -1,0 +1,9 @@
+{
+  "id": "estradiol",
+  "display_name": "Estradiol",
+  "smiles": "C[C@]12CC[C@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O",
+  "formula": "C18H24O2",
+  "mw": 272.39,
+  "has_nmr": true,
+  "has_ms": true
+}

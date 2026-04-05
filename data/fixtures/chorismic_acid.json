@@ -1,0 +1,9 @@
+{
+  "id": "chorismic_acid",
+  "display_name": "Chorismic Acid",
+  "smiles": "O=C(O)C=CC1OC1C=CC(=O)O",
+  "formula": "C8H8O5",
+  "mw": 184.15,
+  "has_nmr": true,
+  "has_ms": true
+}

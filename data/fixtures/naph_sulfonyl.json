@@ -1,0 +1,9 @@
+{
+  "id": "naph_sulfonyl",
+  "display_name": "Naph Sulfonyl",
+  "smiles": "O=[SH](=O)Cc1ccc2ccccc2c1",
+  "formula": "C11H10O2S",
+  "mw": 206.27,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fluorene_ome",
+  "display_name": "Fluorene Ome",
+  "smiles": "OCC1c2ccccc2-c2ccccc21",
+  "formula": "C14H12O",
+  "mw": 196.25,
+  "has_nmr": true,
+  "has_ms": true
+}

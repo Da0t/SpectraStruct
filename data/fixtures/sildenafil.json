@@ -1,0 +1,20 @@
+{
+  "id": "sildenafil",
+  "display_name": "Sildenafil",
+  "smiles": "CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12",
+  "formula": "C22H30N6O4S",
+  "mw": 474.59,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/sildenafil_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/sildenafil_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12",
+      "name": "Sildenafil",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arachidonic_acid",
+  "display_name": "Arachidonic Acid",
+  "smiles": "CCCCCC=CCC=CCC=CCC=CCCCC(=O)O",
+  "formula": "C20H32O2",
+  "mw": 304.47,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/arachidonic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/arachidonic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCC=CCC=CCC=CCC=CCCCC(=O)O",
+      "name": "Arachidonic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

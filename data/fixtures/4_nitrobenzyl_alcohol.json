@@ -1,0 +1,9 @@
+{
+  "id": "4_nitrobenzyl_alcohol",
+  "display_name": "4 Nitrobenzyl Alcohol",
+  "smiles": "O=[N+]([O-])c1ccc(CO)cc1",
+  "formula": "C7H7NO3",
+  "mw": 153.14,
+  "has_nmr": true,
+  "has_ms": true
+}

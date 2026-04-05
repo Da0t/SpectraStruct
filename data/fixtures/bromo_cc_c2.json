@@ -1,0 +1,9 @@
+{
+  "id": "bromo_cc_c2",
+  "display_name": "Bromo Cc C2",
+  "smiles": "CCBr",
+  "formula": "C2H5Br",
+  "mw": 108.97,
+  "has_nmr": true,
+  "has_ms": true
+}

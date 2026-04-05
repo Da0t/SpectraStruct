@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_bromide",
+  "display_name": "Vinyl Bromide",
+  "smiles": "C=CBr",
+  "formula": "C2H3Br",
+  "mw": 106.95,
+  "has_nmr": true,
+  "has_ms": true
+}

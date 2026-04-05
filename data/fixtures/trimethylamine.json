@@ -1,0 +1,9 @@
+{
+  "id": "trimethylamine",
+  "display_name": "Trimethylamine",
+  "smiles": "CN(C)C",
+  "formula": "C3H9N",
+  "mw": 59.11,
+  "has_nmr": true,
+  "has_ms": true
+}

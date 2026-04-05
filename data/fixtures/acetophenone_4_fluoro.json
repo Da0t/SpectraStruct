@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_4_fluoro",
+  "display_name": "Acetophenone 4 Fluoro",
+  "smiles": "CC(=O)c1ccc(F)cc1",
+  "formula": "C8H7FO",
+  "mw": 138.14,
+  "has_nmr": true,
+  "has_ms": true
+}

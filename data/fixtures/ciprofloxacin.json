@@ -1,0 +1,20 @@
+{
+  "id": "ciprofloxacin",
+  "display_name": "Ciprofloxacin",
+  "smiles": "O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+  "formula": "C17H18FN3O3",
+  "mw": 331.35,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ciprofloxacin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ciprofloxacin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+      "name": "Ciprofloxacin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

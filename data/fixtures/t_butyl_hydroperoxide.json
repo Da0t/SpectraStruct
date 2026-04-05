@@ -1,0 +1,9 @@
+{
+  "id": "t_butyl_hydroperoxide",
+  "display_name": "T Butyl Hydroperoxide",
+  "smiles": "CC(C)(C)OO",
+  "formula": "C4H10O2",
+  "mw": 90.12,
+  "has_nmr": true,
+  "has_ms": true
+}

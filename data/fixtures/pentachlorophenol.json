@@ -1,0 +1,9 @@
+{
+  "id": "pentachlorophenol",
+  "display_name": "Pentachlorophenol",
+  "smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+  "formula": "C6HCl5O",
+  "mw": 266.34,
+  "has_nmr": true,
+  "has_ms": true
+}

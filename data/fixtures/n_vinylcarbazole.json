@@ -1,0 +1,9 @@
+{
+  "id": "n_vinylcarbazole",
+  "display_name": "N Vinylcarbazole",
+  "smiles": "C=Cn1c2ccccc2c2ccccc21",
+  "formula": "C14H11N",
+  "mw": 193.25,
+  "has_nmr": true,
+  "has_ms": true
+}

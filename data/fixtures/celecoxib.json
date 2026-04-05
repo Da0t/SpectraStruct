@@ -1,0 +1,9 @@
+{
+  "id": "celecoxib",
+  "display_name": "Celecoxib",
+  "smiles": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+  "formula": "C17H14F3N3O2S",
+  "mw": 381.38,
+  "has_nmr": true,
+  "has_ms": true
+}

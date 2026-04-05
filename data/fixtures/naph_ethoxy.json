@@ -1,0 +1,9 @@
+{
+  "id": "naph_ethoxy",
+  "display_name": "Naph Ethoxy",
+  "smiles": "OCCc1ccc2ccccc2c1",
+  "formula": "C12H12O",
+  "mw": 172.23,
+  "has_nmr": true,
+  "has_ms": true
+}

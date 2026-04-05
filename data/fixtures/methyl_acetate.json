@@ -1,0 +1,9 @@
+{
+  "id": "methyl_acetate",
+  "display_name": "Methyl-Acetate",
+  "smiles": "COC(C)=O",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "has_nmr": true,
+  "has_ms": true
+}

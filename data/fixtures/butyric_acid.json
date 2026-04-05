@@ -1,0 +1,20 @@
+{
+  "id": "butyric_acid",
+  "display_name": "Butyric Acid",
+  "smiles": "CCCC(=O)O",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/butyric_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/butyric_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCC(=O)O",
+      "name": "Butyric Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

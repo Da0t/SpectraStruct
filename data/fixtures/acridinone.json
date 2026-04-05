@@ -1,0 +1,9 @@
+{
+  "id": "acridinone",
+  "display_name": "Acridinone",
+  "smiles": "O=c1c2ccccc2[nH]c2ccccc12",
+  "formula": "C13H9NO",
+  "mw": 195.22,
+  "has_nmr": true,
+  "has_ms": true
+}

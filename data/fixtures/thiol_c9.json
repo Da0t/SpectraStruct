@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c9",
+  "display_name": "Thiol C9",
+  "smiles": "CCCCCCCCCS",
+  "formula": "C9H20S",
+  "mw": 160.33,
+  "has_nmr": true,
+  "has_ms": true
+}

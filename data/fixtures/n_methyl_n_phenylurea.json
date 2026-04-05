@@ -1,0 +1,9 @@
+{
+  "id": "n_methyl_n_phenylurea",
+  "display_name": "N Methyl N Phenylurea",
+  "smiles": "CN(C(N)=O)c1ccccc1",
+  "formula": "C8H10N2O",
+  "mw": 150.18,
+  "has_nmr": true,
+  "has_ms": true
+}

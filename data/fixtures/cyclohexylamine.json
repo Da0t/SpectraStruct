@@ -1,0 +1,9 @@
+{
+  "id": "cyclohexylamine",
+  "display_name": "Cyclohexylamine",
+  "smiles": "NC1CCCCC1",
+  "formula": "C6H13N",
+  "mw": 99.18,
+  "has_nmr": true,
+  "has_ms": true
+}

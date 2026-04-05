@@ -1,0 +1,9 @@
+{
+  "id": "thioacetamide",
+  "display_name": "Thioacetamide",
+  "smiles": "CC(N)=S",
+  "formula": "C2H5NS",
+  "mw": 75.14,
+  "has_nmr": true,
+  "has_ms": true
+}

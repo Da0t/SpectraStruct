@@ -1,0 +1,9 @@
+{
+  "id": "tricresyl_phosphate",
+  "display_name": "Tricresyl Phosphate",
+  "smiles": "Cc1ccc(OP(=O)(Oc2ccc(C)cc2)Oc2ccc(C)cc2)cc1",
+  "formula": "C21H21O4P",
+  "mw": 368.37,
+  "has_nmr": true,
+  "has_ms": true
+}

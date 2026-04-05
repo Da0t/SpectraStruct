@@ -1,0 +1,9 @@
+{
+  "id": "stilbene_4_oh",
+  "display_name": "Stilbene 4 Oh",
+  "smiles": "Oc1ccc(/C=C/c2ccccc2)cc1",
+  "formula": "C14H12O",
+  "mw": 196.25,
+  "has_nmr": true,
+  "has_ms": true
+}

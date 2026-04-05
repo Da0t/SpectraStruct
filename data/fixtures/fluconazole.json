@@ -1,0 +1,20 @@
+{
+  "id": "fluconazole",
+  "display_name": "Fluconazole",
+  "smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+  "formula": "C13H12F2N6O",
+  "mw": 306.28,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/fluconazole_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/fluconazole_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+      "name": "Fluconazole",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

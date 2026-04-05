@@ -1,0 +1,9 @@
+{
+  "id": "diphenylacetylene",
+  "display_name": "Diphenylacetylene",
+  "smiles": "C(#Cc1ccccc1)c1ccccc1",
+  "formula": "C14H10",
+  "mw": 178.23,
+  "has_nmr": true,
+  "has_ms": true
+}

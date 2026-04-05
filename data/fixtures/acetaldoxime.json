@@ -1,0 +1,9 @@
+{
+  "id": "acetaldoxime",
+  "display_name": "Acetaldoxime",
+  "smiles": "CC=NO",
+  "formula": "C2H5NO",
+  "mw": 59.07,
+  "has_nmr": true,
+  "has_ms": true
+}

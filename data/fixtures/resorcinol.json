@@ -1,0 +1,20 @@
+{
+  "id": "resorcinol",
+  "display_name": "Resorcinol",
+  "smiles": "Oc1cccc(O)c1",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/resorcinol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/resorcinol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Oc1cccc(O)c1",
+      "name": "Resorcinol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

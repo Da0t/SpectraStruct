@@ -1,0 +1,9 @@
+{
+  "id": "2_aminopyrimidine",
+  "display_name": "2 Aminopyrimidine",
+  "smiles": "Nc1ncccn1",
+  "formula": "C4H5N3",
+  "mw": 95.1,
+  "has_nmr": true,
+  "has_ms": true
+}

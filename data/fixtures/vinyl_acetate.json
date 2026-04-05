@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_acetate",
+  "display_name": "Vinyl-Acetate",
+  "smiles": "C=COC(C)=O",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "has_nmr": true,
+  "has_ms": true
+}

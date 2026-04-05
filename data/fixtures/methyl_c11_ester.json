@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c11_ester",
+  "display_name": "Methyl C11 Ester",
+  "smiles": "CCCCCCCCCCC(=O)OC",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "has_nmr": true,
+  "has_ms": true
+}

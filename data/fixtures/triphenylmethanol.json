@@ -1,0 +1,9 @@
+{
+  "id": "triphenylmethanol",
+  "display_name": "Triphenylmethanol",
+  "smiles": "OC(c1ccccc1)(c1ccccc1)c1ccccc1",
+  "formula": "C19H16O",
+  "mw": 260.34,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import axios from "axios";
 import FileUpload from "./components/FileUpload";
-import CandidateCard from "./components/CandidateCard";
 import MolViewer from "./components/MolViewer";
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
@@ -46,21 +45,48 @@ function fileToBase64(file: File): Promise<string> {
   });
 }
 
+function Inline3DViewer({ sdf }: { sdf: string }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!containerRef.current || !sdf) return;
+    let mounted = true;
+
+    import("3dmol").then(($3Dmol) => {
+      if (!mounted || !containerRef.current) return;
+      containerRef.current.innerHTML = "";
+      const viewer = $3Dmol.createViewer(containerRef.current, {
+        backgroundColor: "black",
+      });
+      viewer.addModel(sdf, "sdf");
+      viewer.setStyle({}, { stick: { radius: 0.15, colorscheme: "whiteCarbon" } });
+      viewer.addStyle({}, { sphere: { scale: 0.25, colorscheme: "whiteCarbon" } });
+      viewer.zoomTo();
+      viewer.render();
+      viewer.spin("y", 0.4);
+    });
+
+    return () => { mounted = false; };
+  }, [sdf]);
+
+  return (
+    <div
+      ref={containerRef}
+      style={{ width: "100%", height: "320px", position: "relative" }}
+    />
+  );
+}
+
 export default function Home() {
   const [nmrFile, setNmrFile] = useState<File | null>(null);
   const [msFile, setMsFile] = useState<File | null>(null);
-  const [irFile, setIrFile] = useState<File | null>(null);
-  const [topK, setTopK] = useState(5);
   const [demoMolecule, setDemoMolecule] = useState<string>("");
   const [demoMolecules, setDemoMolecules] = useState<DemoMolecule[]>([]);
 
   const [results, setResults] = useState<PredictResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
-  const [viewerCandidate, setViewerCandidate] = useState<Candidate | null>(
-    null
-  );
+  const [showViewer, setShowViewer] = useState(false);
 
   const [apiStatus, setApiStatus] = useState<"checking" | "online" | "offline">(
     "checking"
@@ -83,7 +109,7 @@ export default function Home() {
     setResults(null);
 
     try {
-      const body: Record<string, unknown> = { top_k: topK };
+      const body: Record<string, unknown> = {};
 
       if (demoMolecule) {
         body.demo_molecule = demoMolecule;
@@ -91,9 +117,8 @@ export default function Home() {
 
       if (nmrFile) body.nmr_csv = await fileToBase64(nmrFile);
       if (msFile) body.ms_csv = await fileToBase64(msFile);
-      if (irFile) body.ir_csv = await fileToBase64(irFile);
 
-      if (!demoMolecule && !nmrFile && !msFile && !irFile) {
+      if (!demoMolecule && !nmrFile && !msFile) {
         setError("Upload at least one spectrum or select a demo molecule.");
         setLoading(false);
         return;
@@ -127,8 +152,8 @@ export default function Home() {
           <span className="text-neutral-500">Struct</span>
         </h1>
         <p className="text-sm text-neutral-500 max-w-md tracking-wide leading-relaxed font-mono">
-          Upload NMR, MS, and/or IR spectra. Get ranked candidate molecules with
-          3D conformers. Multimodal fusion for better accuracy.
+          Upload NMR and/or MS spectra. Get candidate molecules with
+          3D conformers.
         </p>
 
         <div className="mt-6 flex items-center gap-2">
@@ -158,10 +183,9 @@ export default function Home() {
             01 / Input Spectra
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <FileUpload label="NMR Spectrum" onFile={setNmrFile} file={nmrFile} />
             <FileUpload label="MS Spectrum" onFile={setMsFile} file={msFile} />
-            <FileUpload label="IR Spectrum" onFile={setIrFile} file={irFile} />
           </div>
 
           {/* Demo picker */}
@@ -186,24 +210,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Top-K slider */}
-          <div className="flex items-center gap-6 mb-8">
-            <div className="text-xs tracking-[0.2em] uppercase text-neutral-600 shrink-0">
-              Top-K Results
-            </div>
-            <input
-              type="range"
-              min={1}
-              max={10}
-              value={topK}
-              onChange={(e) => setTopK(parseInt(e.target.value))}
-              className="flex-1 max-w-xs"
-            />
-            <span className="text-sm font-bold tabular-nums w-6 text-right">
-              {topK}
-            </span>
-          </div>
-
           {/* Predict */}
           <button
             onClick={handlePredict}
@@ -226,64 +232,112 @@ export default function Home() {
         )}
 
         {/* Results */}
-        {results && (
-          <section>
-            <div className="flex items-center justify-between mb-6">
-              <div className="text-xs tracking-[0.3em] uppercase text-neutral-500">
-                02 / Results
-              </div>
-              <div className="flex items-center gap-4 text-xs text-neutral-600">
-                {results.demo_mode && (
-                  <span className="px-2 py-0.5 border border-white/10 rounded text-[10px] tracking-wider uppercase">
-                    Demo
+        {results && results.candidates.length > 0 && (() => {
+          const prediction = results.candidates[0];
+          const confPercent = prediction.score * 100;
+          const confColor =
+            confPercent > 80
+              ? "rgb(74, 222, 128)"
+              : confPercent > 50
+              ? "rgb(250, 204, 21)"
+              : "rgb(248, 113, 113)";
+
+          return (
+            <section>
+              <div className="flex items-center justify-between mb-6">
+                <div className="text-xs tracking-[0.3em] uppercase text-neutral-500">
+                  02 / Prediction
+                </div>
+                <div className="flex items-center gap-4 text-xs text-neutral-600">
+                  {results.demo_mode && (
+                    <span className="px-2 py-0.5 border border-white/10 rounded text-[10px] tracking-wider uppercase">
+                      Demo
+                    </span>
+                  )}
+                  <span>
+                    Modalities:{" "}
+                    {results.modalities_used.map((m) => m.toUpperCase()).join(" + ")}
                   </span>
+                </div>
+              </div>
+
+              <div className="border border-white/10 rounded-lg overflow-hidden">
+                {/* Confidence bar */}
+                <div className="px-6 py-4 border-b border-white/10">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-medium text-white">
+                      {prediction.name}
+                    </span>
+                    <span
+                      className="text-lg font-bold tabular-nums"
+                      style={{ color: confColor }}
+                    >
+                      {confPercent.toFixed(1)}%
+                    </span>
+                  </div>
+                  <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                    <div
+                      className="h-full rounded-full transition-all duration-500"
+                      style={{
+                        width: `${confPercent}%`,
+                        backgroundColor: confColor,
+                      }}
+                    />
+                  </div>
+                </div>
+
+                {/* Molecule info */}
+                <div className="px-6 py-4 border-b border-white/10 space-y-2">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs text-neutral-500 w-20">SMILES</span>
+                    <code className="text-sm font-mono text-white break-all">
+                      {prediction.smiles}
+                    </code>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs text-neutral-500 w-20">Valid</span>
+                    <span className={`text-sm ${prediction.valid ? "text-green-400" : "text-red-400"}`}>
+                      {prediction.valid ? "Yes (RDKit-verified)" : "No"}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Inline 3D Viewer */}
+                {prediction.conformer_sdf && (
+                  <div className="border-b border-white/10">
+                    <Inline3DViewer sdf={prediction.conformer_sdf} />
+                  </div>
                 )}
-                <span>
-                  Modalities:{" "}
-                  {results.modalities_used.map((m) => m.toUpperCase()).join(" + ")}
-                </span>
+
+                {/* Footer */}
+                <div className="px-6 py-3 flex items-center justify-between">
+                  <span className="text-xs text-neutral-600">
+                    Drag to rotate · Scroll to zoom
+                  </span>
+                  {prediction.conformer_sdf && (
+                    <button
+                      onClick={() => setShowViewer(true)}
+                      className="text-xs text-blue-400/70 hover:text-blue-400 transition-colors"
+                    >
+                      Expand 3D View
+                    </button>
+                  )}
+                </div>
               </div>
-            </div>
-
-            {results.warning && (
-              <div className="mb-6 px-4 py-2 border border-yellow-500/20 rounded text-xs text-yellow-500/70">
-                {results.warning}
-              </div>
-            )}
-
-            <div className="space-y-3">
-              {results.candidates.map((c) => (
-                <CandidateCard
-                  key={c.rank}
-                  candidate={c}
-                  onClick={() => {
-                    if (c.conformer_sdf) {
-                      setViewerCandidate(c);
-                    }
-                  }}
-                  isCorrect={c.rank === 1}
-                />
-              ))}
-            </div>
-
-            <div className="mt-6 text-xs text-neutral-600">
-              Click a candidate with{" "}
-              <span className="text-blue-400/70">3D</span> badge to view its
-              molecular conformer
-            </div>
-          </section>
-        )}
+            </section>
+          );
+        })()}
       </div>
 
-      {/* 3D Viewer modal */}
-      {viewerCandidate && viewerCandidate.conformer_sdf && (
+      {/* Full-screen 3D Viewer modal */}
+      {showViewer && results?.candidates[0]?.conformer_sdf && (
         <MolViewer
-          sdf={viewerCandidate.conformer_sdf}
-          smiles={viewerCandidate.smiles}
-          name={viewerCandidate.name}
-          score={viewerCandidate.score}
-          rank={viewerCandidate.rank}
-          onClose={() => setViewerCandidate(null)}
+          sdf={results.candidates[0].conformer_sdf}
+          smiles={results.candidates[0].smiles}
+          name={results.candidates[0].name}
+          score={results.candidates[0].score}
+          rank={results.candidates[0].rank}
+          onClose={() => setShowViewer(false)}
         />
       )}
     </div>

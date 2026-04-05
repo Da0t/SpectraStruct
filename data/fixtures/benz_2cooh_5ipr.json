@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cooh_5ipr",
+  "display_name": "Benz 2Cooh 5Ipr",
+  "smiles": "CC(C)c1cccc(OC=O)c1",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "has_nmr": true,
+  "has_ms": true
+}

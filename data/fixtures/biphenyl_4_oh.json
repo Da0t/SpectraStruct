@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_oh",
+  "display_name": "Biphenyl 4 Oh",
+  "smiles": "Oc1ccc(-c2ccccc2)cc1",
+  "formula": "C12H10O",
+  "mw": 170.21,
+  "has_nmr": true,
+  "has_ms": true
+}

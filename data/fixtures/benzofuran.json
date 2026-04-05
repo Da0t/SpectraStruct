@@ -1,0 +1,9 @@
+{
+  "id": "benzofuran",
+  "display_name": "Benzofuran",
+  "smiles": "c1ccc2occc2c1",
+  "formula": "C8H6O",
+  "mw": 118.13,
+  "has_nmr": true,
+  "has_ms": true
+}

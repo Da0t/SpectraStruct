@@ -1,0 +1,9 @@
+{
+  "id": "malonic_acid",
+  "display_name": "Malonic Acid",
+  "smiles": "O=C(O)CC(=O)O",
+  "formula": "C3H4O4",
+  "mw": 104.06,
+  "has_nmr": true,
+  "has_ms": true
+}

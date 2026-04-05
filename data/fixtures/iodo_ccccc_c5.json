@@ -1,0 +1,9 @@
+{
+  "id": "iodo_ccccc_c5",
+  "display_name": "Iodo Ccccc C5",
+  "smiles": "CCCCCI",
+  "formula": "C5H11I",
+  "mw": 198.05,
+  "has_nmr": true,
+  "has_ms": true
+}

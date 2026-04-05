@@ -1,0 +1,20 @@
+{
+  "id": "l_lysine",
+  "display_name": "Lysine",
+  "smiles": "NCCCCC(N)C(=O)O",
+  "formula": "C6H14N2O2",
+  "mw": 146.19,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_lysine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_lysine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCCCC(N)C(=O)O",
+      "name": "Lysine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

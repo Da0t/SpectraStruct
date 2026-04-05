@@ -1,0 +1,9 @@
+{
+  "id": "benzohydroxamic",
+  "display_name": "Benzohydroxamic",
+  "smiles": "O=C(NO)c1ccccc1",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

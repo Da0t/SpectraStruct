@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_carbamate",
+  "display_name": "Ethyl Carbamate",
+  "smiles": "CCOC(N)=O",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true
+}

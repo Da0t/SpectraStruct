@@ -1,0 +1,9 @@
+{
+  "id": "thiosemicarbazide",
+  "display_name": "Thiosemicarbazide",
+  "smiles": "NNC(N)=S",
+  "formula": "CH5N3S",
+  "mw": 91.14,
+  "has_nmr": true,
+  "has_ms": true
+}

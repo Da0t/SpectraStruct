@@ -1,0 +1,9 @@
+{
+  "id": "prilocaine",
+  "display_name": "Prilocaine",
+  "smiles": "CCCNC(C)C(=O)Nc1ccccc1C",
+  "formula": "C13H20N2O",
+  "mw": 220.32,
+  "has_nmr": true,
+  "has_ms": true
+}

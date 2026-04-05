@@ -1,0 +1,9 @@
+{
+  "id": "n_c3_acetamide",
+  "display_name": "N C3 Acetamide",
+  "smiles": "CCCNC(C)=O",
+  "formula": "C5H11NO",
+  "mw": 101.15,
+  "has_nmr": true,
+  "has_ms": true
+}

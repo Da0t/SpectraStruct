@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_acetal_formaldehyde",
+  "display_name": "Dimethyl Acetal Formaldehyde",
+  "smiles": "COCOC",
+  "formula": "C3H8O2",
+  "mw": 76.09,
+  "has_nmr": true,
+  "has_ms": true
+}

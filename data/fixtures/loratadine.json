@@ -1,0 +1,20 @@
+{
+  "id": "loratadine",
+  "display_name": "Loratadine",
+  "smiles": "CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+  "formula": "C22H23ClN2O2",
+  "mw": 382.89,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/loratadine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/loratadine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+      "name": "Loratadine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

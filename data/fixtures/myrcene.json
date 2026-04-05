@@ -1,0 +1,9 @@
+{
+  "id": "myrcene",
+  "display_name": "Myrcene",
+  "smiles": "C=CC(=C)CCC=C(C)C",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "has_nmr": true,
+  "has_ms": true
+}

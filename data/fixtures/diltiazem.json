@@ -1,0 +1,20 @@
+{
+  "id": "diltiazem",
+  "display_name": "Diltiazem",
+  "smiles": "COc1ccc(C2Sc3ccccc3N(CCN(C)C)C(=O)C2OC(C)=O)cc1",
+  "formula": "C22H26N2O4S",
+  "mw": 414.53,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/diltiazem_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/diltiazem_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1ccc(C2Sc3ccccc3N(CCN(C)C)C(=O)C2OC(C)=O)cc1",
+      "name": "Diltiazem",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

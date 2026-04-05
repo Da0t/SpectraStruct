@@ -1,0 +1,9 @@
+{
+  "id": "salicyl_hydrazide",
+  "display_name": "Salicyl Hydrazide",
+  "smiles": "NNC(=O)c1ccccc1O",
+  "formula": "C7H8N2O2",
+  "mw": 152.15,
+  "has_nmr": true,
+  "has_ms": true
+}

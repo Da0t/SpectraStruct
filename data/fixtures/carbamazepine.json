@@ -1,0 +1,20 @@
+{
+  "id": "carbamazepine",
+  "display_name": "Carbamazepine",
+  "smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+  "formula": "C15H12N2O",
+  "mw": 236.27,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/carbamazepine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/carbamazepine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+      "name": "Carbamazepine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

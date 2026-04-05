@@ -1,0 +1,20 @@
+{
+  "id": "gemfibrozil",
+  "display_name": "Gemfibrozil",
+  "smiles": "Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1",
+  "formula": "C15H22O3",
+  "mw": 250.34,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/gemfibrozil_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/gemfibrozil_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1",
+      "name": "Gemfibrozil",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

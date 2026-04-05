@@ -1,0 +1,9 @@
+{
+  "id": "methylcyclopentane",
+  "display_name": "Methylcyclopentane",
+  "smiles": "CC1CCCC1",
+  "formula": "C6H12",
+  "mw": 84.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "squalene_fragment",
+  "display_name": "Squalene Fragment",
+  "smiles": "CC(C)=CCC/C=C(\\C)CCC=C(C)C",
+  "formula": "C15H26",
+  "mw": 206.37,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "di_tert_butyl_peroxide",
+  "display_name": "Di Tert Butyl Peroxide",
+  "smiles": "CC(C)(C)OOC(C)(C)C",
+  "formula": "C8H18O2",
+  "mw": 146.23,
+  "has_nmr": true,
+  "has_ms": true
+}

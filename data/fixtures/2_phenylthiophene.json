@@ -1,0 +1,9 @@
+{
+  "id": "2_phenylthiophene",
+  "display_name": "2 Phenylthiophene",
+  "smiles": "c1ccc(-c2cccs2)cc1",
+  "formula": "C10H8S",
+  "mw": 160.24,
+  "has_nmr": true,
+  "has_ms": true
+}

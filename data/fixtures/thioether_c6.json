@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c6",
+  "display_name": "Thioether C6",
+  "smiles": "CCCSCCC",
+  "formula": "C6H14S",
+  "mw": 118.24,
+  "has_nmr": true,
+  "has_ms": true
+}

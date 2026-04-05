@@ -1,0 +1,9 @@
+{
+  "id": "atrazine",
+  "display_name": "Atrazine",
+  "smiles": "CCNc1nc(Cl)nc(NC(C)C)n1",
+  "formula": "C8H14ClN5",
+  "mw": 215.69,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4_chloroanisole",
+  "display_name": "4 Chloroanisole",
+  "smiles": "COc1ccc(Cl)cc1",
+  "formula": "C7H7ClO",
+  "mw": 142.59,
+  "has_nmr": true,
+  "has_ms": true
+}

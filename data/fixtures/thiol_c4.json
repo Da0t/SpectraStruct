@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c4",
+  "display_name": "Thiol C4",
+  "smiles": "CCCCS",
+  "formula": "C4H10S",
+  "mw": 90.19,
+  "has_nmr": true,
+  "has_ms": true
+}

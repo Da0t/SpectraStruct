@@ -1,0 +1,9 @@
+{
+  "id": "phenyl_methyl_sulfide",
+  "display_name": "Phenyl Methyl Sulfide",
+  "smiles": "CSc1ccccc1",
+  "formula": "C7H8S",
+  "mw": 124.21,
+  "has_nmr": true,
+  "has_ms": true
+}

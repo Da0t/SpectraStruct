@@ -1,0 +1,9 @@
+{
+  "id": "tert_butylamine",
+  "display_name": "Tert Butylamine",
+  "smiles": "CC(C)(C)N",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "has_nmr": true,
+  "has_ms": true
+}

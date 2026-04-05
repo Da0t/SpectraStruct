@@ -1,0 +1,20 @@
+{
+  "id": "l_serine",
+  "display_name": "Serine",
+  "smiles": "NC(CO)C(=O)O",
+  "formula": "C3H7NO3",
+  "mw": 105.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_serine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_serine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(CO)C(=O)O",
+      "name": "Serine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

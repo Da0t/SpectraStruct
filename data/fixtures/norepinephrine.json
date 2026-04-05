@@ -1,0 +1,20 @@
+{
+  "id": "norepinephrine",
+  "display_name": "Norepinephrine",
+  "smiles": "NCC(O)c1ccc(O)c(O)c1",
+  "formula": "C8H11NO3",
+  "mw": 169.18,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/norepinephrine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/norepinephrine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCC(O)c1ccc(O)c(O)c1",
+      "name": "Norepinephrine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

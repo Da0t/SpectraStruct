@@ -1,0 +1,9 @@
+{
+  "id": "ala_ser",
+  "display_name": "Ala Ser",
+  "smiles": "CC(N)C(=O)NC(CO)C(=O)O",
+  "formula": "C6H12N2O4",
+  "mw": 176.17,
+  "has_nmr": true,
+  "has_ms": true
+}

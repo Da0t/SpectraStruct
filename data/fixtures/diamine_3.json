@@ -1,0 +1,9 @@
+{
+  "id": "diamine_3",
+  "display_name": "Diamine 3",
+  "smiles": "NCCCN",
+  "formula": "C3H10N2",
+  "mw": 74.13,
+  "has_nmr": true,
+  "has_ms": true
+}

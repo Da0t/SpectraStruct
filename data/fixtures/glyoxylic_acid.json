@@ -1,0 +1,9 @@
+{
+  "id": "glyoxylic_acid",
+  "display_name": "Glyoxylic Acid",
+  "smiles": "O=CC(=O)O",
+  "formula": "C2H2O3",
+  "mw": 74.03,
+  "has_nmr": true,
+  "has_ms": true
+}

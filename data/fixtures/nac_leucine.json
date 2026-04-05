@@ -1,0 +1,9 @@
+{
+  "id": "nac_leucine",
+  "display_name": "Nac Leucine",
+  "smiles": "CC(=O)NC(CC(C)C)C(=O)O",
+  "formula": "C8H15NO3",
+  "mw": 173.21,
+  "has_nmr": true,
+  "has_ms": true
+}

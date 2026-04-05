@@ -1,0 +1,9 @@
+{
+  "id": "benz_3_hydroxy_amide",
+  "display_name": "Benz 3 Hydroxy Amide",
+  "smiles": "NC(=O)c1cccc(O)c1",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

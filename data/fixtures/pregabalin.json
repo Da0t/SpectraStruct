@@ -1,0 +1,9 @@
+{
+  "id": "pregabalin",
+  "display_name": "Pregabalin",
+  "smiles": "CC(C)C[C@H](CN)CC(=O)O",
+  "formula": "C8H17NO2",
+  "mw": 159.23,
+  "has_nmr": true,
+  "has_ms": true
+}

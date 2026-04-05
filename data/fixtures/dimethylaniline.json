@@ -1,0 +1,9 @@
+{
+  "id": "dimethylaniline",
+  "display_name": "Dimethylaniline",
+  "smiles": "CN(C)c1ccccc1",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "has_nmr": true,
+  "has_ms": true
+}

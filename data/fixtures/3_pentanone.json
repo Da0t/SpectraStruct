@@ -1,0 +1,9 @@
+{
+  "id": "3_pentanone",
+  "display_name": "3 Pentanone",
+  "smiles": "CCC(=O)CC",
+  "formula": "C5H10O",
+  "mw": 86.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bha",
+  "display_name": "Bha",
+  "smiles": "COc1ccc(O)c(C(C)(C)C)c1",
+  "formula": "C11H16O2",
+  "mw": 180.25,
+  "has_nmr": true,
+  "has_ms": true
+}

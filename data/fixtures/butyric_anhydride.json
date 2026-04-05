@@ -1,0 +1,9 @@
+{
+  "id": "butyric_anhydride",
+  "display_name": "Butyric Anhydride",
+  "smiles": "CCCC(=O)OC(=O)CCC",
+  "formula": "C8H14O3",
+  "mw": 158.2,
+  "has_nmr": true,
+  "has_ms": true
+}

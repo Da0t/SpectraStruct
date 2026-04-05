@@ -1,0 +1,20 @@
+{
+  "id": "fluoxetine",
+  "display_name": "Fluoxetine",
+  "smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+  "formula": "C17H18F3NO",
+  "mw": 309.33,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/fluoxetine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/fluoxetine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+      "name": "Fluoxetine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

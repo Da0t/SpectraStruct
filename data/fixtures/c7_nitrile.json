@@ -1,0 +1,9 @@
+{
+  "id": "c7_nitrile",
+  "display_name": "C7 Nitrile",
+  "smiles": "CCCCCCCC#N",
+  "formula": "C8H15N",
+  "mw": 125.22,
+  "has_nmr": true,
+  "has_ms": true
+}

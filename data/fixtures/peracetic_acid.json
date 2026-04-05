@@ -1,0 +1,9 @@
+{
+  "id": "peracetic_acid",
+  "display_name": "Peracetic Acid",
+  "smiles": "CC(=O)OO",
+  "formula": "C2H4O3",
+  "mw": 76.05,
+  "has_nmr": true,
+  "has_ms": true
+}

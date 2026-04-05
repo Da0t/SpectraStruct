@@ -1,0 +1,20 @@
+{
+  "id": "morphine",
+  "display_name": "Morphine",
+  "smiles": "CN1CCC23c4c5ccc(O)c4OC2C(O)C=CC3C1C5",
+  "formula": "C17H19NO3",
+  "mw": 285.34,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/morphine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/morphine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN1CCC23c4c5ccc(O)c4OC2C(O)C=CC3C1C5",
+      "name": "Morphine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

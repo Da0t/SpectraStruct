@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_4_sme",
+  "display_name": "Pyrimidine 4 Sme",
+  "smiles": "SCc1ccncn1",
+  "formula": "C5H6N2S",
+  "mw": 126.18,
+  "has_nmr": true,
+  "has_ms": true
+}

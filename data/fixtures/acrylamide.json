@@ -1,0 +1,9 @@
+{
+  "id": "acrylamide",
+  "display_name": "Acrylamide",
+  "smiles": "C=CC(N)=O",
+  "formula": "C3H5NO",
+  "mw": 71.08,
+  "has_nmr": true,
+  "has_ms": true
+}

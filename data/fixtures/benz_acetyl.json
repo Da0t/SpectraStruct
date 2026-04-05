@@ -1,0 +1,9 @@
+{
+  "id": "benz_acetyl",
+  "display_name": "Benz Acetyl",
+  "smiles": "O=CCc1ccccc1",
+  "formula": "C8H8O",
+  "mw": 120.15,
+  "has_nmr": true,
+  "has_ms": true
+}

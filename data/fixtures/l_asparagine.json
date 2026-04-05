@@ -1,0 +1,20 @@
+{
+  "id": "l_asparagine",
+  "display_name": "Asparagine",
+  "smiles": "NC(=O)CC(N)C(=O)O",
+  "formula": "C4H8N2O3",
+  "mw": 132.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_asparagine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_asparagine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(=O)CC(N)C(=O)O",
+      "name": "Asparagine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

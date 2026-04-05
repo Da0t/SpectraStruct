@@ -1,0 +1,9 @@
+{
+  "id": "acetonitrile",
+  "display_name": "Acetonitrile",
+  "smiles": "CC#N",
+  "formula": "C2H3N",
+  "mw": 41.05,
+  "has_nmr": true,
+  "has_ms": true
+}

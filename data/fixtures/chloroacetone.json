@@ -1,0 +1,9 @@
+{
+  "id": "chloroacetone",
+  "display_name": "Chloroacetone",
+  "smiles": "CC(=O)CCl",
+  "formula": "C3H5ClO",
+  "mw": 92.52,
+  "has_nmr": true,
+  "has_ms": true
+}

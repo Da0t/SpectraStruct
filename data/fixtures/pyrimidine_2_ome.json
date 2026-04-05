@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_2_ome",
+  "display_name": "Pyrimidine 2 Ome",
+  "smiles": "OCc1ncccn1",
+  "formula": "C5H6N2O",
+  "mw": 110.12,
+  "has_nmr": true,
+  "has_ms": true
+}

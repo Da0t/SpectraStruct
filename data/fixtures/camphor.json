@@ -1,0 +1,20 @@
+{
+  "id": "camphor",
+  "display_name": "Camphor",
+  "smiles": "CC12CCC(CC1=O)C2(C)C",
+  "formula": "C10H16O",
+  "mw": 152.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/camphor_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/camphor_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC12CCC(CC1=O)C2(C)C",
+      "name": "Camphor",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

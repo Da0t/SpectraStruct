@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_phosphite",
+  "display_name": "Dimethyl Phosphite",
+  "smiles": "CO[PH](=O)OC",
+  "formula": "C2H7O3P",
+  "mw": 110.05,
+  "has_nmr": true,
+  "has_ms": true
+}

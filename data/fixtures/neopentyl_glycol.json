@@ -1,0 +1,9 @@
+{
+  "id": "neopentyl_glycol",
+  "display_name": "Neopentyl Glycol",
+  "smiles": "CC(C)(CO)CO",
+  "formula": "C5H12O2",
+  "mw": 104.15,
+  "has_nmr": true,
+  "has_ms": true
+}

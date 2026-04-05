@@ -1,0 +1,9 @@
+{
+  "id": "benz_2nh2_5sme",
+  "display_name": "Benz 2Nh2 5Sme",
+  "smiles": "CSc1cccc(N)c1",
+  "formula": "C7H9NS",
+  "mw": 139.22,
+  "has_nmr": true,
+  "has_ms": true
+}

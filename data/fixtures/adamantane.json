@@ -1,0 +1,9 @@
+{
+  "id": "adamantane",
+  "display_name": "Adamantane",
+  "smiles": "C1C2CC3CC1CC(C2)C3",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "has_nmr": true,
+  "has_ms": true
+}

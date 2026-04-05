@@ -1,0 +1,9 @@
+{
+  "id": "acetone_semicarbazone",
+  "display_name": "Acetone Semicarbazone",
+  "smiles": "CC(C)=NNC(N)=O",
+  "formula": "C4H9N3O",
+  "mw": 115.14,
+  "has_nmr": true,
+  "has_ms": true
+}

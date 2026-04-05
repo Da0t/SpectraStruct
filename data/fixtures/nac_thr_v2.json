@@ -1,0 +1,9 @@
+{
+  "id": "nac_thr_v2",
+  "display_name": "Nac Thr V2",
+  "smiles": "CC(=O)NC(C(=O)O)C(C)O",
+  "formula": "C6H11NO4",
+  "mw": 161.16,
+  "has_nmr": true,
+  "has_ms": true
+}

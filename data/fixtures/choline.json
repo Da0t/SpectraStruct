@@ -1,0 +1,20 @@
+{
+  "id": "choline",
+  "display_name": "Choline",
+  "smiles": "C[N+](C)(C)CCO",
+  "formula": "C5H14NO+",
+  "mw": 104.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/choline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/choline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C[N+](C)(C)CCO",
+      "name": "Choline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

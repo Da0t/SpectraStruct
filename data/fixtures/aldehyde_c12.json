@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c12",
+  "display_name": "Aldehyde C12",
+  "smiles": "CCCCCCCCCCCC=O",
+  "formula": "C12H24O",
+  "mw": 184.32,
+  "has_nmr": true,
+  "has_ms": true
+}

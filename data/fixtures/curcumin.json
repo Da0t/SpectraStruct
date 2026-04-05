@@ -1,0 +1,20 @@
+{
+  "id": "curcumin",
+  "display_name": "Curcumin",
+  "smiles": "COc1cc(C=CC(=O)CC(=O)C=Cc2ccc(O)c(OC)c2)ccc1O",
+  "formula": "C21H20O6",
+  "mw": 368.39,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/curcumin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/curcumin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1cc(C=CC(=O)CC(=O)C=Cc2ccc(O)c(OC)c2)ccc1O",
+      "name": "Curcumin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thiourea",
+  "display_name": "Thiourea",
+  "smiles": "NC(N)=S",
+  "formula": "CH4N2S",
+  "mw": 76.12,
+  "has_nmr": true,
+  "has_ms": true
+}

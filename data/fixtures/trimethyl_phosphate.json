@@ -1,0 +1,9 @@
+{
+  "id": "trimethyl_phosphate",
+  "display_name": "Trimethyl-Phosphate",
+  "smiles": "COP(=O)(OC)OC",
+  "formula": "C3H9O4P",
+  "mw": 140.07,
+  "has_nmr": true,
+  "has_ms": true
+}

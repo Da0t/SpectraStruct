@@ -1,0 +1,9 @@
+{
+  "id": "pyrazinamide",
+  "display_name": "Pyrazinamide",
+  "smiles": "NC(=O)c1cnccn1",
+  "formula": "C5H5N3O",
+  "mw": 123.11,
+  "has_nmr": true,
+  "has_ms": true
+}

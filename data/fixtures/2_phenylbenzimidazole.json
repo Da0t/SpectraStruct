@@ -1,0 +1,9 @@
+{
+  "id": "2_phenylbenzimidazole",
+  "display_name": "2 Phenylbenzimidazole",
+  "smiles": "c1ccc(-c2nc3ccccc3[nH]2)cc1",
+  "formula": "C13H10N2",
+  "mw": 194.24,
+  "has_nmr": true,
+  "has_ms": true
+}

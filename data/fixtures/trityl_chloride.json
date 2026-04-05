@@ -1,0 +1,9 @@
+{
+  "id": "trityl_chloride",
+  "display_name": "Trityl Chloride",
+  "smiles": "ClC(c1ccccc1)(c1ccccc1)c1ccccc1",
+  "formula": "C19H15Cl",
+  "mw": 278.78,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "propargyl_alcohol",
+  "display_name": "Propargyl-Alcohol",
+  "smiles": "C#CCO",
+  "formula": "C3H4O",
+  "mw": 56.06,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "theobromine",
+  "display_name": "Theobromine",
+  "smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+  "formula": "C7H8N4O2",
+  "mw": 180.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/theobromine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/theobromine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "name": "Theobromine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

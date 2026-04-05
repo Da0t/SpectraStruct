@@ -1,0 +1,9 @@
+{
+  "id": "2_ethylhexyl_acrylate",
+  "display_name": "2 Ethylhexyl Acrylate",
+  "smiles": "C=CC(=O)OCC(CC)CCCC",
+  "formula": "C11H20O2",
+  "mw": 184.28,
+  "has_nmr": true,
+  "has_ms": true
+}

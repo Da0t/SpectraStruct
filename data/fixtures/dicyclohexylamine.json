@@ -1,0 +1,9 @@
+{
+  "id": "dicyclohexylamine",
+  "display_name": "Dicyclohexylamine",
+  "smiles": "C1CCC(NC2CCCCC2)CC1",
+  "formula": "C12H23N",
+  "mw": 181.32,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "hydrazine_phenyl",
+  "display_name": "Hydrazine Phenyl",
+  "smiles": "NNc1ccccc1",
+  "formula": "C6H8N2",
+  "mw": 108.14,
+  "has_nmr": true,
+  "has_ms": true
+}

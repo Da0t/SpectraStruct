@@ -1,0 +1,21 @@
+{
+  "id": "methanol",
+  "display_name": "Methanol",
+  "smiles": "CO",
+  "formula": "CH4O",
+  "mw": 32.04,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/methanol_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/methanol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CO",
+      "name": "Methanol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n   -0.3710    0.0073   -0.0095 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9181   -0.5026   -0.2965 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5227    0.0287    1.0725 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4654    1.0150   -0.4214 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1203   -0.6427   -0.4674 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5613    0.0944    0.1223 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  1  3  1  0\n  1  4  1  0\n  1  5  1  0\n  2  6  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

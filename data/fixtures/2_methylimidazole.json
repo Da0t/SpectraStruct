@@ -1,0 +1,9 @@
+{
+  "id": "2_methylimidazole",
+  "display_name": "2 Methylimidazole",
+  "smiles": "Cc1ncc[nH]1",
+  "formula": "C4H6N2",
+  "mw": 82.11,
+  "has_nmr": true,
+  "has_ms": true
+}

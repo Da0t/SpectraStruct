@@ -1,0 +1,9 @@
+{
+  "id": "fluorene_me",
+  "display_name": "Fluorene Me",
+  "smiles": "CC1c2ccccc2-c2ccccc21",
+  "formula": "C14H12",
+  "mw": 180.25,
+  "has_nmr": true,
+  "has_ms": true
+}

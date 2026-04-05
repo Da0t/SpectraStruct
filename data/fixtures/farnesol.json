@@ -1,0 +1,9 @@
+{
+  "id": "farnesol",
+  "display_name": "Farnesol",
+  "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CO",
+  "formula": "C15H26O",
+  "mw": 222.37,
+  "has_nmr": true,
+  "has_ms": true
+}

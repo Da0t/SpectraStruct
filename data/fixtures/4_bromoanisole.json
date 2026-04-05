@@ -1,0 +1,9 @@
+{
+  "id": "4_bromoanisole",
+  "display_name": "4 Bromoanisole",
+  "smiles": "COc1ccc(Br)cc1",
+  "formula": "C7H7BrO",
+  "mw": 187.04,
+  "has_nmr": true,
+  "has_ms": true
+}

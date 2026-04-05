@@ -1,0 +1,9 @@
+{
+  "id": "pyrazole",
+  "display_name": "Pyrazole",
+  "smiles": "c1cn[nH]c1",
+  "formula": "C3H4N2",
+  "mw": 68.08,
+  "has_nmr": true,
+  "has_ms": true
+}

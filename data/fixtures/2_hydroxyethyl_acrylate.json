@@ -1,0 +1,9 @@
+{
+  "id": "2_hydroxyethyl_acrylate",
+  "display_name": "2 Hydroxyethyl Acrylate",
+  "smiles": "C=CC(=O)OCCO",
+  "formula": "C5H8O3",
+  "mw": 116.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diphenyl_sulfone",
+  "display_name": "Diphenyl Sulfone",
+  "smiles": "O=S(=O)(c1ccccc1)c1ccccc1",
+  "formula": "C12H10O2S",
+  "mw": 218.28,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "geranyl_acetate",
+  "display_name": "Geranyl-Acetate",
+  "smiles": "CC(=O)OC/C=C(\\C)CCC=C(C)C",
+  "formula": "C12H20O2",
+  "mw": 196.29,
+  "has_nmr": true,
+  "has_ms": true
+}

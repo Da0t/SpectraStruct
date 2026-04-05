@@ -1,0 +1,9 @@
+{
+  "id": "cinnamaldehyde",
+  "display_name": "Cinnamaldehyde",
+  "smiles": "O=C/C=C/c1ccccc1",
+  "formula": "C9H8O",
+  "mw": 132.16,
+  "has_nmr": true,
+  "has_ms": true
+}

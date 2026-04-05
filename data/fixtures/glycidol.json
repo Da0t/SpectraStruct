@@ -1,0 +1,9 @@
+{
+  "id": "glycidol",
+  "display_name": "Glycidol",
+  "smiles": "OCC1CO1",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "salicylhydroxamic",
+  "display_name": "Salicylhydroxamic",
+  "smiles": "O=C(NO)c1ccccc1O",
+  "formula": "C7H7NO3",
+  "mw": 153.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benz_amino_methoxy_p",
+  "display_name": "Benz Amino Methoxy P",
+  "smiles": "COc1ccc(N)cc1",
+  "formula": "C7H9NO",
+  "mw": 123.15,
+  "has_nmr": true,
+  "has_ms": true
+}

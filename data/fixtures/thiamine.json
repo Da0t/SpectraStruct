@@ -1,0 +1,20 @@
+{
+  "id": "thiamine",
+  "display_name": "Thiamine",
+  "smiles": "Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1",
+  "formula": "C12H17N4OS+",
+  "mw": 265.36,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/thiamine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/thiamine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1",
+      "name": "Thiamine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_3_amino",
+  "display_name": "Thiophene 3 Amino",
+  "smiles": "Nc1ccsc1",
+  "formula": "C4H5NS",
+  "mw": 99.16,
+  "has_nmr": true,
+  "has_ms": true
+}

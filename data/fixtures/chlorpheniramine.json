@@ -1,0 +1,20 @@
+{
+  "id": "chlorpheniramine",
+  "display_name": "Chlorpheniramine",
+  "smiles": "CN(C)CCC(c1ccc(Cl)cc1)c1ccccn1",
+  "formula": "C16H19ClN2",
+  "mw": 274.8,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/chlorpheniramine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/chlorpheniramine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(C)CCC(c1ccc(Cl)cc1)c1ccccn1",
+      "name": "Chlorpheniramine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

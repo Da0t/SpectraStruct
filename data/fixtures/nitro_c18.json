@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c18",
+  "display_name": "Nitro C18",
+  "smiles": "CCCCCCCCCCCCCCCCCC[N+](=O)[O-]",
+  "formula": "C18H37NO2",
+  "mw": 299.5,
+  "has_nmr": true,
+  "has_ms": true
+}

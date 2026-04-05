@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ipr_4ome",
+  "display_name": "Benz 2Ipr 4Ome",
+  "smiles": "CCCc1ccc(OC)cc1",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "has_nmr": true,
+  "has_ms": true
+}

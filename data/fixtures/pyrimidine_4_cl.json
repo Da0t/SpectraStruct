@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_4_cl",
+  "display_name": "Pyrimidine 4 Cl",
+  "smiles": "Clc1ccncn1",
+  "formula": "C4H3ClN2",
+  "mw": 114.53,
+  "has_nmr": true,
+  "has_ms": true
+}

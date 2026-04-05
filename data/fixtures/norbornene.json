@@ -1,0 +1,9 @@
+{
+  "id": "norbornene",
+  "display_name": "Norbornene",
+  "smiles": "C1=CC2CCC1C2",
+  "formula": "C7H10",
+  "mw": 94.16,
+  "has_nmr": true,
+  "has_ms": true
+}

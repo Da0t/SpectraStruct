@@ -1,0 +1,9 @@
+{
+  "id": "gallic_acid",
+  "display_name": "Gallic Acid",
+  "smiles": "O=C(O)c1cc(O)c(O)c(O)c1",
+  "formula": "C7H6O5",
+  "mw": 170.12,
+  "has_nmr": true,
+  "has_ms": true
+}

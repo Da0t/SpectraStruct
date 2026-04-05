@@ -1,0 +1,9 @@
+{
+  "id": "vanillic_acid",
+  "display_name": "Vanillic Acid",
+  "smiles": "COc1cc(C(=O)O)ccc1O",
+  "formula": "C8H8O4",
+  "mw": 168.15,
+  "has_nmr": true,
+  "has_ms": true
+}

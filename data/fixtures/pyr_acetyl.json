@@ -1,0 +1,9 @@
+{
+  "id": "pyr_acetyl",
+  "display_name": "Pyr Acetyl",
+  "smiles": "O=CCc1ccncc1",
+  "formula": "C7H7NO",
+  "mw": 121.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_c8_ester",
+  "display_name": "Ethyl C8 Ester",
+  "smiles": "CCCCCCCC(=O)OCC",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "has_nmr": true,
+  "has_ms": true
+}

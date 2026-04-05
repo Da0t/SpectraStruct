@@ -1,0 +1,9 @@
+{
+  "id": "ethane_thiol",
+  "display_name": "Ethane Thiol",
+  "smiles": "CCS",
+  "formula": "C2H6S",
+  "mw": 62.14,
+  "has_nmr": true,
+  "has_ms": true
+}

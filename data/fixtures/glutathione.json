@@ -1,0 +1,20 @@
+{
+  "id": "glutathione",
+  "display_name": "Glutathione",
+  "smiles": "NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O",
+  "formula": "C10H17N3O6S",
+  "mw": 307.33,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/glutathione_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/glutathione_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O",
+      "name": "Glutathione",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

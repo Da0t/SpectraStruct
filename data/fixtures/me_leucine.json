@@ -1,0 +1,9 @@
+{
+  "id": "me_leucine",
+  "display_name": "Me Leucine",
+  "smiles": "COC(=O)C(N)CC(C)C",
+  "formula": "C7H15NO2",
+  "mw": 145.2,
+  "has_nmr": true,
+  "has_ms": true
+}

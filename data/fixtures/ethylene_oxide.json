@@ -1,0 +1,9 @@
+{
+  "id": "ethylene_oxide",
+  "display_name": "Ethylene Oxide",
+  "smiles": "C1CO1",
+  "formula": "C2H4O",
+  "mw": 44.05,
+  "has_nmr": true,
+  "has_ms": true
+}

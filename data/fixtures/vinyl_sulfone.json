@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_sulfone",
+  "display_name": "Vinyl Sulfone",
+  "smiles": "C=CS(=O)(=O)C=C",
+  "formula": "C4H6O2S",
+  "mw": 118.16,
+  "has_nmr": true,
+  "has_ms": true
+}

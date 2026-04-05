@@ -1,0 +1,9 @@
+{
+  "id": "nac_glycine",
+  "display_name": "Nac Glycine",
+  "smiles": "NC(=O)CCC(=O)O",
+  "formula": "C4H7NO3",
+  "mw": 117.1,
+  "has_nmr": true,
+  "has_ms": true
+}

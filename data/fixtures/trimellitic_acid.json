@@ -1,0 +1,9 @@
+{
+  "id": "trimellitic_acid",
+  "display_name": "Trimellitic Acid",
+  "smiles": "O=C(O)c1ccc(C(=O)O)c(C(=O)O)c1",
+  "formula": "C9H6O6",
+  "mw": 210.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tetraglyme",
+  "display_name": "Tetraglyme",
+  "smiles": "COCCOCCOCCOCCOC",
+  "formula": "C10H22O5",
+  "mw": 222.28,
+  "has_nmr": true,
+  "has_ms": true
+}

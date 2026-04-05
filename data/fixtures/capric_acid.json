@@ -1,0 +1,9 @@
+{
+  "id": "capric_acid",
+  "display_name": "Capric Acid",
+  "smiles": "CCCCCCCCCC(=O)O",
+  "formula": "C10H20O2",
+  "mw": 172.27,
+  "has_nmr": true,
+  "has_ms": true
+}

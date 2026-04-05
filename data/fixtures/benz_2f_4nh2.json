@@ -1,0 +1,9 @@
+{
+  "id": "benz_2f_4nh2",
+  "display_name": "Benz 2F 4Nh2",
+  "smiles": "Nc1ccc(F)cc1",
+  "formula": "C6H6FN",
+  "mw": 111.12,
+  "has_nmr": true,
+  "has_ms": true
+}

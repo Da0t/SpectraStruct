@@ -1,0 +1,9 @@
+{
+  "id": "n_acetylpiperidine",
+  "display_name": "N Acetylpiperidine",
+  "smiles": "CC(=O)N1CCCCC1",
+  "formula": "C7H13NO",
+  "mw": 127.19,
+  "has_nmr": true,
+  "has_ms": true
+}

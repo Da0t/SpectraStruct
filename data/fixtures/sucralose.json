@@ -1,0 +1,20 @@
+{
+  "id": "sucralose",
+  "display_name": "Sucralose",
+  "smiles": "OCC1OC(OC2(CCl)OC(CCl)C(O)C2O)C(O)C(O)C1Cl",
+  "formula": "C12H19Cl3O8",
+  "mw": 397.64,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/sucralose_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/sucralose_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC1OC(OC2(CCl)OC(CCl)C(O)C2O)C(O)C(O)C1Cl",
+      "name": "Sucralose",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ethoxyethanol",
+  "display_name": "Ethoxyethanol",
+  "smiles": "CCOCCO",
+  "formula": "C4H10O2",
+  "mw": 90.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "n_methylmorpholine",
+  "display_name": "N Methylmorpholine",
+  "smiles": "CN1CCOCC1",
+  "formula": "C5H11NO",
+  "mw": 101.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sulfamethoxazole",
+  "display_name": "Sulfamethoxazole",
+  "smiles": "Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1",
+  "formula": "C10H11N3O3S",
+  "mw": 253.28,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/sulfamethoxazole_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/sulfamethoxazole_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1",
+      "name": "Sulfamethoxazole",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

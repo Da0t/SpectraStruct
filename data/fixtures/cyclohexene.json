@@ -1,0 +1,9 @@
+{
+  "id": "cyclohexene",
+  "display_name": "Cyclohexene",
+  "smiles": "C1=CCCCC1",
+  "formula": "C6H10",
+  "mw": 82.15,
+  "has_nmr": true,
+  "has_ms": true
+}

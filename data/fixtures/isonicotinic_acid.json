@@ -1,0 +1,9 @@
+{
+  "id": "isonicotinic_acid",
+  "display_name": "Isonicotinic Acid",
+  "smiles": "O=C(O)c1ccncc1",
+  "formula": "C6H5NO2",
+  "mw": 123.11,
+  "has_nmr": true,
+  "has_ms": true
+}

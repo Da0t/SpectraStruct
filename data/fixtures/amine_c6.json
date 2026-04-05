@@ -1,0 +1,9 @@
+{
+  "id": "amine_c6",
+  "display_name": "Amine C6",
+  "smiles": "CCCCCCN",
+  "formula": "C6H15N",
+  "mw": 101.19,
+  "has_nmr": true,
+  "has_ms": true
+}

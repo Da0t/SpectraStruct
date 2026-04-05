@@ -1,0 +1,9 @@
+{
+  "id": "propylene_glycol",
+  "display_name": "Propylene Glycol",
+  "smiles": "CC(O)CO",
+  "formula": "C3H8O2",
+  "mw": 76.09,
+  "has_nmr": true,
+  "has_ms": true
+}

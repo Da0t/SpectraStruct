@@ -1,0 +1,9 @@
+{
+  "id": "methyl_methacrylate",
+  "display_name": "Methyl-Methacrylate",
+  "smiles": "C=C(C)C(=O)OC",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "has_nmr": true,
+  "has_ms": true
+}

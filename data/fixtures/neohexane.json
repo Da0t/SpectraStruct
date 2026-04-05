@@ -1,0 +1,9 @@
+{
+  "id": "neohexane",
+  "display_name": "Neohexane",
+  "smiles": "CCC(C)(C)C",
+  "formula": "C6H14",
+  "mw": 86.18,
+  "has_nmr": true,
+  "has_ms": true
+}

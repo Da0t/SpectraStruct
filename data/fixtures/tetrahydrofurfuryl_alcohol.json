@@ -1,0 +1,9 @@
+{
+  "id": "tetrahydrofurfuryl_alcohol",
+  "display_name": "Tetrahydrofurfuryl-Alcohol",
+  "smiles": "OCC1CCCO1",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

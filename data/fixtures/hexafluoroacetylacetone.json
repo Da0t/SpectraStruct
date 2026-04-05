@@ -1,0 +1,9 @@
+{
+  "id": "hexafluoroacetylacetone",
+  "display_name": "Hexafluoroacetylacetone",
+  "smiles": "O=C(CC(=O)C(F)(F)F)C(F)(F)F",
+  "formula": "C5H2F6O2",
+  "mw": 208.06,
+  "has_nmr": true,
+  "has_ms": true
+}

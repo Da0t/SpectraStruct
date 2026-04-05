@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_4_chloro",
+  "display_name": "Acetophenone 4 Chloro",
+  "smiles": "CC(=O)c1ccc(Cl)cc1",
+  "formula": "C8H7ClO",
+  "mw": 154.6,
+  "has_nmr": true,
+  "has_ms": true
+}

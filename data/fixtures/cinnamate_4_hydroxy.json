@@ -1,0 +1,9 @@
+{
+  "id": "cinnamate_4_hydroxy",
+  "display_name": "Cinnamate 4 Hydroxy",
+  "smiles": "O=C(O)/C=C/c1ccc(O)cc1",
+  "formula": "C9H8O3",
+  "mw": 164.16,
+  "has_nmr": true,
+  "has_ms": true
+}

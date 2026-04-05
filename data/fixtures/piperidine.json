@@ -1,0 +1,20 @@
+{
+  "id": "piperidine",
+  "display_name": "Piperidine",
+  "smiles": "C1CCNCC1",
+  "formula": "C5H11N",
+  "mw": 85.15,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/piperidine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/piperidine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C1CCNCC1",
+      "name": "Piperidine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

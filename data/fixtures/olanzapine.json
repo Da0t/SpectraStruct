@@ -1,0 +1,9 @@
+{
+  "id": "olanzapine",
+  "display_name": "Olanzapine",
+  "smiles": "Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1",
+  "formula": "C17H20N4S",
+  "mw": 312.44,
+  "has_nmr": true,
+  "has_ms": true
+}

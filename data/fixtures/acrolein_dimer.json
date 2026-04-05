@@ -1,0 +1,9 @@
+{
+  "id": "acrolein_dimer",
+  "display_name": "Acrolein Dimer",
+  "smiles": "C=CC(=O)OC=CC=O",
+  "formula": "C6H6O3",
+  "mw": 126.11,
+  "has_nmr": true,
+  "has_ms": true
+}

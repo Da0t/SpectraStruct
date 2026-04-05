@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c14",
+  "display_name": "Alcohol C14",
+  "smiles": "CCCCCCCCCCCCCCO",
+  "formula": "C14H30O",
+  "mw": 214.39,
+  "has_nmr": true,
+  "has_ms": true
+}

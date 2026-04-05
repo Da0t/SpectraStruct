@@ -1,0 +1,9 @@
+{
+  "id": "acetone_hydrazone",
+  "display_name": "Acetone Hydrazone",
+  "smiles": "CC(C)=NN",
+  "formula": "C3H8N2",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true
+}

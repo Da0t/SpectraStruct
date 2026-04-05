@@ -1,0 +1,9 @@
+{
+  "id": "crotonaldehyde",
+  "display_name": "Crotonaldehyde",
+  "smiles": "CC=CC=O",
+  "formula": "C4H6O",
+  "mw": 70.09,
+  "has_nmr": true,
+  "has_ms": true
+}

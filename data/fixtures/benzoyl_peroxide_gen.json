@@ -1,0 +1,9 @@
+{
+  "id": "benzoyl_peroxide_gen",
+  "display_name": "Benzoyl Peroxide Gen",
+  "smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+  "formula": "C14H10O4",
+  "mw": 242.23,
+  "has_nmr": true,
+  "has_ms": true
+}

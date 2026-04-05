@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_succinate",
+  "display_name": "Diethyl-Succinate",
+  "smiles": "CCOC(=O)CCC(=O)OCC",
+  "formula": "C8H14O4",
+  "mw": 174.2,
+  "has_nmr": true,
+  "has_ms": true
+}

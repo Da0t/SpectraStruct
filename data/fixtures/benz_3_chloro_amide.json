@@ -1,0 +1,9 @@
+{
+  "id": "benz_3_chloro_amide",
+  "display_name": "Benz 3 Chloro Amide",
+  "smiles": "NC(=O)c1cccc(Cl)c1",
+  "formula": "C7H6ClNO",
+  "mw": 155.58,
+  "has_nmr": true,
+  "has_ms": true
+}

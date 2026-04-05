@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_acetal_acetaldehyde",
+  "display_name": "Dimethyl Acetal Acetaldehyde",
+  "smiles": "COC(C)OC",
+  "formula": "C4H10O2",
+  "mw": 90.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "methylcyclohexane",
+  "display_name": "Methylcyclohexane",
+  "smiles": "CC1CCCCC1",
+  "formula": "C7H14",
+  "mw": 98.19,
+  "has_nmr": true,
+  "has_ms": true
+}

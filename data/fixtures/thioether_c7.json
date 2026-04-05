@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c7",
+  "display_name": "Thioether C7",
+  "smiles": "CCCCSCCC",
+  "formula": "C7H16S",
+  "mw": 132.27,
+  "has_nmr": true,
+  "has_ms": true
+}

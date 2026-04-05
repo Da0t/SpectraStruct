@@ -1,0 +1,21 @@
+{
+  "id": "urea",
+  "display_name": "Urea",
+  "smiles": "O=C(N)N",
+  "formula": "CH4N2O",
+  "mw": 60.06,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/urea_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/urea_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(N)N",
+      "name": "Urea",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n  8  7  0  0  0  0  0  0  0  0999 V2000\n   -0.1461    1.6271   -0.4609 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0412    0.4588   -0.1300 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0880   -0.3898   -0.0469 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1340   -0.1226    0.1920 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9045   -1.3354   -0.3507 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9437    0.0060   -0.4171 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0950   -0.7869    0.9518 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8944    0.5428    0.2616 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  2  3  1  0\n  2  4  1  0\n  3  5  1  0\n  3  6  1  0\n  4  7  1  0\n  4  8  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

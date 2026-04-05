@@ -1,0 +1,9 @@
+{
+  "id": "d_leucine",
+  "display_name": "D Leucine",
+  "smiles": "CC(C)C[C@H](N)C(=O)O",
+  "formula": "C6H13NO2",
+  "mw": 131.18,
+  "has_nmr": true,
+  "has_ms": true
+}

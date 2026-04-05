@@ -1,0 +1,9 @@
+{
+  "id": "bupropion",
+  "display_name": "Bupropion",
+  "smiles": "CC(NC(C)(C)C)C(=O)c1ccc(Cl)cc1",
+  "formula": "C13H18ClNO",
+  "mw": 239.75,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "lauric_acid",
+  "display_name": "Lauric Acid",
+  "smiles": "CCCCCCCCCCCC(=O)O",
+  "formula": "C12H24O2",
+  "mw": 200.32,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tetralin",
+  "display_name": "Tetralin",
+  "smiles": "c1ccc2c(c1)CCCC2",
+  "formula": "C10H12",
+  "mw": 132.21,
+  "has_nmr": true,
+  "has_ms": true
+}

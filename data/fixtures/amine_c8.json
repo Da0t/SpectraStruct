@@ -1,0 +1,9 @@
+{
+  "id": "amine_c8",
+  "display_name": "Amine C8",
+  "smiles": "CCCCCCCCN",
+  "formula": "C8H19N",
+  "mw": 129.25,
+  "has_nmr": true,
+  "has_ms": true
+}

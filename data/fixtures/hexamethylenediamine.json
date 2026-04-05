@@ -1,0 +1,9 @@
+{
+  "id": "hexamethylenediamine",
+  "display_name": "Hexamethylenediamine",
+  "smiles": "NCCCCCCN",
+  "formula": "C6H16N2",
+  "mw": 116.21,
+  "has_nmr": true,
+  "has_ms": true
+}

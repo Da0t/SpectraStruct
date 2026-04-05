@@ -1,0 +1,9 @@
+{
+  "id": "ethanesulfonamide",
+  "display_name": "Ethanesulfonamide",
+  "smiles": "CCS(N)(=O)=O",
+  "formula": "C2H7NO2S",
+  "mw": 109.15,
+  "has_nmr": true,
+  "has_ms": true
+}

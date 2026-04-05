@@ -1,0 +1,20 @@
+{
+  "id": "kaempferol",
+  "display_name": "Kaempferol",
+  "smiles": "O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12",
+  "formula": "C15H10O6",
+  "mw": 286.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/kaempferol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/kaempferol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12",
+      "name": "Kaempferol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

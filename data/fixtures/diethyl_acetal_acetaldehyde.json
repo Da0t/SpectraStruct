@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_acetal_acetaldehyde",
+  "display_name": "Diethyl Acetal Acetaldehyde",
+  "smiles": "CCOC(C)OCC",
+  "formula": "C6H14O2",
+  "mw": 118.18,
+  "has_nmr": true,
+  "has_ms": true
+}

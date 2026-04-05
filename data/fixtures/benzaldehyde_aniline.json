@@ -1,0 +1,9 @@
+{
+  "id": "benzaldehyde_aniline",
+  "display_name": "Benzaldehyde Aniline",
+  "smiles": "C(=N/c1ccccc1)\\c1ccccc1",
+  "formula": "C13H11N",
+  "mw": 181.24,
+  "has_nmr": true,
+  "has_ms": true
+}

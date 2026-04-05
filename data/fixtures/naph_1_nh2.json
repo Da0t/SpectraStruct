@@ -1,0 +1,9 @@
+{
+  "id": "naph_1_nh2",
+  "display_name": "Naph 1 Nh2",
+  "smiles": "Nc1cccc2ccccc12",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "has_nmr": true,
+  "has_ms": true
+}

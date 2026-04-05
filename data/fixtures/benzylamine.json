@@ -1,0 +1,9 @@
+{
+  "id": "benzylamine",
+  "display_name": "Benzylamine",
+  "smiles": "NCc1ccccc1",
+  "formula": "C7H9N",
+  "mw": 107.16,
+  "has_nmr": true,
+  "has_ms": true
+}

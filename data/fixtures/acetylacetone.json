@@ -1,0 +1,9 @@
+{
+  "id": "acetylacetone",
+  "display_name": "Acetylacetone",
+  "smiles": "CC(=O)CC(C)=O",
+  "formula": "C5H8O2",
+  "mw": 100.12,
+  "has_nmr": true,
+  "has_ms": true
+}

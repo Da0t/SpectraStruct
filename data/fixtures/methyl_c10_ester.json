@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c10_ester",
+  "display_name": "Methyl C10 Ester",
+  "smiles": "CCCCCCCCCC(=O)OC",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "has_nmr": true,
+  "has_ms": true
+}

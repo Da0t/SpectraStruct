@@ -1,0 +1,9 @@
+{
+  "id": "oxime_acetone",
+  "display_name": "Oxime Acetone",
+  "smiles": "CC(C)=NO",
+  "formula": "C3H7NO",
+  "mw": 73.09,
+  "has_nmr": true,
+  "has_ms": true
+}

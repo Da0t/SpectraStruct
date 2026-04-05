@@ -1,0 +1,9 @@
+{
+  "id": "tosyl_chloride",
+  "display_name": "Tosyl-Chloride",
+  "smiles": "Cc1ccc(S(=O)(=O)Cl)cc1",
+  "formula": "C7H7ClO2S",
+  "mw": 190.65,
+  "has_nmr": true,
+  "has_ms": true
+}

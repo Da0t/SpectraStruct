@@ -1,0 +1,9 @@
+{
+  "id": "2_aminothiazole",
+  "display_name": "2 Aminothiazole",
+  "smiles": "Nc1nccs1",
+  "formula": "C3H4N2S",
+  "mw": 100.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "phenacyl_chloride",
+  "display_name": "Phenacyl-Chloride",
+  "smiles": "O=C(CCl)c1ccccc1",
+  "formula": "C8H7ClO",
+  "mw": 154.6,
+  "has_nmr": true,
+  "has_ms": true
+}

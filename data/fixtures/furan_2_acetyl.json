@@ -1,0 +1,9 @@
+{
+  "id": "furan_2_acetyl",
+  "display_name": "Furan 2 Acetyl",
+  "smiles": "O=CCc1ccco1",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "has_nmr": true,
+  "has_ms": true
+}

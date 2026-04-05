@@ -1,0 +1,9 @@
+{
+  "id": "cycloalcohol_c7",
+  "display_name": "Cycloalcohol C7",
+  "smiles": "C1CCCOCCC1",
+  "formula": "C7H14O",
+  "mw": 114.19,
+  "has_nmr": true,
+  "has_ms": true
+}

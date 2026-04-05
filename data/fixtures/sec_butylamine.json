@@ -1,0 +1,9 @@
+{
+  "id": "sec_butylamine",
+  "display_name": "Sec Butylamine",
+  "smiles": "CCC(C)N",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "has_nmr": true,
+  "has_ms": true
+}

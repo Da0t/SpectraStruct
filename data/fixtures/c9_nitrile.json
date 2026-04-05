@@ -1,0 +1,9 @@
+{
+  "id": "c9_nitrile",
+  "display_name": "C9 Nitrile",
+  "smiles": "CCCCCCCCCC#N",
+  "formula": "C10H19N",
+  "mw": 153.27,
+  "has_nmr": true,
+  "has_ms": true
+}

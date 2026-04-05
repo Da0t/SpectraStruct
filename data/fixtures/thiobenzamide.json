@@ -1,0 +1,9 @@
+{
+  "id": "thiobenzamide",
+  "display_name": "Thiobenzamide",
+  "smiles": "NC(=S)c1ccccc1",
+  "formula": "C7H7NS",
+  "mw": 137.21,
+  "has_nmr": true,
+  "has_ms": true
+}

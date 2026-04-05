@@ -1,0 +1,9 @@
+{
+  "id": "hexyl_benzoate_gen",
+  "display_name": "Hexyl Benzoate Gen",
+  "smiles": "CCCCCCOC(=O)c1ccccc1",
+  "formula": "C13H18O2",
+  "mw": 206.29,
+  "has_nmr": true,
+  "has_ms": true
+}

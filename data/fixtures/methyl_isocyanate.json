@@ -1,0 +1,9 @@
+{
+  "id": "methyl_isocyanate",
+  "display_name": "Methyl-Isocyanate",
+  "smiles": "CN=C=O",
+  "formula": "C2H3NO",
+  "mw": 57.05,
+  "has_nmr": true,
+  "has_ms": true
+}

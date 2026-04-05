@@ -1,0 +1,9 @@
+{
+  "id": "hippuric_acid",
+  "display_name": "Hippuric Acid",
+  "smiles": "O=C(O)CNC(=O)c1ccccc1",
+  "formula": "C9H9NO3",
+  "mw": 179.18,
+  "has_nmr": true,
+  "has_ms": true
+}

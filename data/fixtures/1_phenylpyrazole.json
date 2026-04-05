@@ -1,0 +1,9 @@
+{
+  "id": "1_phenylpyrazole",
+  "display_name": "1 Phenylpyrazole",
+  "smiles": "c1ccc(-n2cccc2)cc1",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "has_nmr": true,
+  "has_ms": true
+}

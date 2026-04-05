@@ -1,0 +1,9 @@
+{
+  "id": "phenylhydrazine_acetone",
+  "display_name": "Phenylhydrazine Acetone",
+  "smiles": "CC(C)=NNc1ccccc1",
+  "formula": "C9H12N2",
+  "mw": 148.21,
+  "has_nmr": true,
+  "has_ms": true
+}

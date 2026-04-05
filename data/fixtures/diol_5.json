@@ -1,0 +1,9 @@
+{
+  "id": "diol_5",
+  "display_name": "Diol 5",
+  "smiles": "OCCCCCO",
+  "formula": "C5H12O2",
+  "mw": 104.15,
+  "has_nmr": true,
+  "has_ms": true
+}

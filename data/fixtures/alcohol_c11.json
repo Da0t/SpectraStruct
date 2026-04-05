@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c11",
+  "display_name": "Alcohol C11",
+  "smiles": "CCCCCCCCCCCO",
+  "formula": "C11H24O",
+  "mw": 172.31,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "quinoline_6_oh",
+  "display_name": "Quinoline 6 Oh",
+  "smiles": "Oc1ccc2ncccc2c1",
+  "formula": "C9H7NO",
+  "mw": 145.16,
+  "has_nmr": true,
+  "has_ms": true
+}

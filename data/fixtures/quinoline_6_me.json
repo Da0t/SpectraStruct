@@ -1,0 +1,9 @@
+{
+  "id": "quinoline_6_me",
+  "display_name": "Quinoline 6 Me",
+  "smiles": "Cc1ccc2ncccc2c1",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "hydroxylamine_o_methyl",
+  "display_name": "Hydroxylamine O Methyl",
+  "smiles": "CON",
+  "formula": "CH5NO",
+  "mw": 47.06,
+  "has_nmr": true,
+  "has_ms": true
+}

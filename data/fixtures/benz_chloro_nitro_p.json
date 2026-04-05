@@ -1,0 +1,9 @@
+{
+  "id": "benz_chloro_nitro_p",
+  "display_name": "Benz Chloro Nitro P",
+  "smiles": "O=[N+]([O-])c1ccc(Cl)cc1",
+  "formula": "C6H4ClNO2",
+  "mw": 157.56,
+  "has_nmr": true,
+  "has_ms": true
+}

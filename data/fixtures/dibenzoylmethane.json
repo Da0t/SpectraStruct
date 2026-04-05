@@ -1,0 +1,9 @@
+{
+  "id": "dibenzoylmethane",
+  "display_name": "Dibenzoylmethane",
+  "smiles": "O=C(CC(=O)c1ccccc1)c1ccccc1",
+  "formula": "C15H12O2",
+  "mw": 224.26,
+  "has_nmr": true,
+  "has_ms": true
+}

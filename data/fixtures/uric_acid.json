@@ -1,0 +1,20 @@
+{
+  "id": "uric_acid",
+  "display_name": "Uric Acid",
+  "smiles": "O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1",
+  "formula": "C5H4N4O3",
+  "mw": 168.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/uric_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/uric_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1",
+      "name": "Uric Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

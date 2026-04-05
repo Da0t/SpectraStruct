@@ -1,0 +1,9 @@
+{
+  "id": "amine_c15",
+  "display_name": "Amine C15",
+  "smiles": "CCCCCCCCCCCCCCCN",
+  "formula": "C15H33N",
+  "mw": 227.44,
+  "has_nmr": true,
+  "has_ms": true
+}

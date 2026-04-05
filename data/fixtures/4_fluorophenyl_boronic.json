@@ -1,0 +1,9 @@
+{
+  "id": "4_fluorophenyl_boronic",
+  "display_name": "4 Fluorophenyl Boronic",
+  "smiles": "OB(O)c1ccc(F)cc1",
+  "formula": "C6H6BFO2",
+  "mw": 139.92,
+  "has_nmr": true,
+  "has_ms": true
+}

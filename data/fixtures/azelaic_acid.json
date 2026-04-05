@@ -1,0 +1,9 @@
+{
+  "id": "azelaic_acid",
+  "display_name": "Azelaic Acid",
+  "smiles": "O=C(O)CCCCCCCC(=O)O",
+  "formula": "C9H16O4",
+  "mw": 188.22,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rosuvastatin",
+  "display_name": "Rosuvastatin",
+  "smiles": "CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1C=CC(O)CC(O)CC(=O)O",
+  "formula": "C22H28FN3O6S",
+  "mw": 481.55,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/rosuvastatin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/rosuvastatin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1C=CC(O)CC(O)CC(=O)O",
+      "name": "Rosuvastatin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

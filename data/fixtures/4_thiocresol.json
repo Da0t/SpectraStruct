@@ -1,0 +1,9 @@
+{
+  "id": "4_thiocresol",
+  "display_name": "4 Thiocresol",
+  "smiles": "Cc1ccc(S)cc1",
+  "formula": "C7H8S",
+  "mw": 124.21,
+  "has_nmr": true,
+  "has_ms": true
+}

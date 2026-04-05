@@ -1,0 +1,9 @@
+{
+  "id": "pyr_allyl",
+  "display_name": "Pyr Allyl",
+  "smiles": "CC=Cc1ccncc1",
+  "formula": "C8H9N",
+  "mw": 119.17,
+  "has_nmr": true,
+  "has_ms": true
+}

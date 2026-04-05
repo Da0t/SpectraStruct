@@ -1,0 +1,9 @@
+{
+  "id": "2_phenylnaphthalene",
+  "display_name": "2 Phenylnaphthalene",
+  "smiles": "c1ccc(-c2ccc3ccccc3c2)cc1",
+  "formula": "C16H12",
+  "mw": 204.27,
+  "has_nmr": true,
+  "has_ms": true
+}

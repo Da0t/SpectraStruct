@@ -1,0 +1,9 @@
+{
+  "id": "diphenyl_ether_4_cl",
+  "display_name": "Diphenyl Ether 4 Cl",
+  "smiles": "Clc1ccc(Oc2ccccc2)cc1",
+  "formula": "C12H9ClO",
+  "mw": 204.66,
+  "has_nmr": true,
+  "has_ms": true
+}

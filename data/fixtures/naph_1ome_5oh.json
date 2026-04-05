@@ -1,0 +1,9 @@
+{
+  "id": "naph_1ome_5oh",
+  "display_name": "Naph 1Ome 5Oh",
+  "smiles": "OCc1cccc2c(O)cccc12",
+  "formula": "C11H10O2",
+  "mw": 174.2,
+  "has_nmr": true,
+  "has_ms": true
+}

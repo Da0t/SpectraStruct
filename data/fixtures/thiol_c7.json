@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c7",
+  "display_name": "Thiol C7",
+  "smiles": "CCCCCCCS",
+  "formula": "C7H16S",
+  "mw": 132.27,
+  "has_nmr": true,
+  "has_ms": true
+}

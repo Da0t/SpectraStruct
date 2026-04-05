@@ -1,0 +1,20 @@
+{
+  "id": "sorbitol",
+  "display_name": "Sorbitol",
+  "smiles": "OCC(O)C(O)C(O)C(O)CO",
+  "formula": "C6H14O6",
+  "mw": 182.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/sorbitol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/sorbitol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC(O)C(O)C(O)C(O)CO",
+      "name": "Sorbitol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

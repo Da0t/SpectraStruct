@@ -1,0 +1,9 @@
+{
+  "id": "shogaol",
+  "display_name": "Shogaol",
+  "smiles": "CCCCCC(=O)/C=C/c1ccc(O)c(OC)c1",
+  "formula": "C15H20O3",
+  "mw": 248.32,
+  "has_nmr": true,
+  "has_ms": true
+}

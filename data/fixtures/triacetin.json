@@ -1,0 +1,9 @@
+{
+  "id": "triacetin",
+  "display_name": "Triacetin",
+  "smiles": "CC(=O)OCC(COC(C)=O)OC(C)=O",
+  "formula": "C9H14O6",
+  "mw": 218.2,
+  "has_nmr": true,
+  "has_ms": true
+}

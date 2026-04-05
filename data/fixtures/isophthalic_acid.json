@@ -1,0 +1,9 @@
+{
+  "id": "isophthalic_acid",
+  "display_name": "Isophthalic Acid",
+  "smiles": "O=C(O)c1cccc(C(=O)O)c1",
+  "formula": "C8H6O4",
+  "mw": 166.13,
+  "has_nmr": true,
+  "has_ms": true
+}

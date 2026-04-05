@@ -1,0 +1,9 @@
+{
+  "id": "bibenzyl",
+  "display_name": "Bibenzyl",
+  "smiles": "c1ccc(CCc2ccccc2)cc1",
+  "formula": "C14H14",
+  "mw": 182.27,
+  "has_nmr": true,
+  "has_ms": true
+}

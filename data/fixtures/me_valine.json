@@ -1,0 +1,9 @@
+{
+  "id": "me_valine",
+  "display_name": "Me Valine",
+  "smiles": "COC(=O)C(N)C(C)C",
+  "formula": "C6H13NO2",
+  "mw": 131.17,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "l_proline",
+  "display_name": "Proline",
+  "smiles": "O=C(O)C1CCCN1",
+  "formula": "C5H9NO2",
+  "mw": 115.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_proline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_proline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)C1CCCN1",
+      "name": "Proline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

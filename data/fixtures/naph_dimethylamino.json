@@ -1,0 +1,9 @@
+{
+  "id": "naph_dimethylamino",
+  "display_name": "Naph Dimethylamino",
+  "smiles": "CNCc1ccc2ccccc2c1",
+  "formula": "C12H13N",
+  "mw": 171.24,
+  "has_nmr": true,
+  "has_ms": true
+}

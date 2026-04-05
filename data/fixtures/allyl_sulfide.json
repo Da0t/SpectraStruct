@@ -1,0 +1,9 @@
+{
+  "id": "allyl_sulfide",
+  "display_name": "Allyl Sulfide",
+  "smiles": "C=CCSCC=C",
+  "formula": "C6H10S",
+  "mw": 114.21,
+  "has_nmr": true,
+  "has_ms": true
+}

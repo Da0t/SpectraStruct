@@ -1,0 +1,9 @@
+{
+  "id": "bupivacaine",
+  "display_name": "Bupivacaine",
+  "smiles": "CCCCN1CCCC1C(=O)Nc1c(C)cccc1C",
+  "formula": "C17H26N2O",
+  "mw": 274.41,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "trimesic_acid",
+  "display_name": "Trimesic Acid",
+  "smiles": "O=C(O)c1cc(C(=O)O)cc(C(=O)O)c1",
+  "formula": "C9H6O6",
+  "mw": 210.14,
+  "has_nmr": true,
+  "has_ms": true
+}

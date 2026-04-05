@@ -1,0 +1,9 @@
+{
+  "id": "naph_fluoro",
+  "display_name": "Naph Fluoro",
+  "smiles": "Fc1ccc2ccccc2c1",
+  "formula": "C10H7F",
+  "mw": 146.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tetrahydropyran_4_ol",
+  "display_name": "Tetrahydropyran 4 Ol",
+  "smiles": "OC1CCOCC1",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

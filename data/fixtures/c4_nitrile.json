@@ -1,0 +1,9 @@
+{
+  "id": "c4_nitrile",
+  "display_name": "C4 Nitrile",
+  "smiles": "CCCCC#N",
+  "formula": "C5H9N",
+  "mw": 83.13,
+  "has_nmr": true,
+  "has_ms": true
+}

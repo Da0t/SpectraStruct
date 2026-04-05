@@ -1,0 +1,9 @@
+{
+  "id": "chlorobenzene",
+  "display_name": "Chlorobenzene",
+  "smiles": "Clc1ccccc1",
+  "formula": "C6H5Cl",
+  "mw": 112.56,
+  "has_nmr": true,
+  "has_ms": true
+}

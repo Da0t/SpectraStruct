@@ -1,0 +1,9 @@
+{
+  "id": "c5_nitrile",
+  "display_name": "C5 Nitrile",
+  "smiles": "CCCCCC#N",
+  "formula": "C6H11N",
+  "mw": 97.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diphenhydramine",
+  "display_name": "Diphenhydramine",
+  "smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+  "formula": "C17H21NO",
+  "mw": 255.36,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/diphenhydramine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/diphenhydramine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+      "name": "Diphenhydramine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

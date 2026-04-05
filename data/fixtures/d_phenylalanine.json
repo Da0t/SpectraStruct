@@ -1,0 +1,9 @@
+{
+  "id": "d_phenylalanine",
+  "display_name": "D Phenylalanine",
+  "smiles": "N[C@H](Cc1ccccc1)C(=O)O",
+  "formula": "C9H11NO2",
+  "mw": 165.19,
+  "has_nmr": true,
+  "has_ms": true
+}

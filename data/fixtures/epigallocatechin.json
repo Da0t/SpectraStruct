@@ -1,0 +1,20 @@
+{
+  "id": "epigallocatechin",
+  "display_name": "Epigallocatechin",
+  "smiles": "Oc1cc(O)c2c(c1)OC(c1cc(O)c(O)c(O)c1)C(O)C2",
+  "formula": "C15H14O7",
+  "mw": 306.27,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/epigallocatechin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/epigallocatechin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Oc1cc(O)c2c(c1)OC(c1cc(O)c(O)c(O)c1)C(O)C2",
+      "name": "Epigallocatechin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

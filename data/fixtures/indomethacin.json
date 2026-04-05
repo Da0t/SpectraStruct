@@ -1,0 +1,9 @@
+{
+  "id": "indomethacin",
+  "display_name": "Indomethacin",
+  "smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+  "formula": "C19H16ClNO4",
+  "mw": 357.79,
+  "has_nmr": true,
+  "has_ms": true
+}

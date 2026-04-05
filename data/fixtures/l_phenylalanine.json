@@ -1,0 +1,20 @@
+{
+  "id": "l_phenylalanine",
+  "display_name": "Phenylalanine",
+  "smiles": "NC(Cc1ccccc1)C(=O)O",
+  "formula": "C9H11NO2",
+  "mw": 165.19,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_phenylalanine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_phenylalanine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(Cc1ccccc1)C(=O)O",
+      "name": "Phenylalanine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

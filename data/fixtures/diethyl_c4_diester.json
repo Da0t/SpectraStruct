@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_c4_diester",
+  "display_name": "Diethyl C4 Diester",
+  "smiles": "CCOC(=O)CCCCC(=O)OCC",
+  "formula": "C10H18O4",
+  "mw": 202.25,
+  "has_nmr": true,
+  "has_ms": true
+}

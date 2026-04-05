@@ -1,0 +1,20 @@
+{
+  "id": "acridine",
+  "display_name": "Acridine",
+  "smiles": "c1ccc2nc3ccccc3cc2c1",
+  "formula": "C13H9N",
+  "mw": 179.22,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/acridine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/acridine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc2nc3ccccc3cc2c1",
+      "name": "Acridine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

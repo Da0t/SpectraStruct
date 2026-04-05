@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_c6_diester",
+  "display_name": "Diethyl C6 Diester",
+  "smiles": "CCOC(=O)CCCCCCC(=O)OCC",
+  "formula": "C12H22O4",
+  "mw": 230.3,
+  "has_nmr": true,
+  "has_ms": true
+}

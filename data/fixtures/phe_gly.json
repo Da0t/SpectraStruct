@@ -1,0 +1,9 @@
+{
+  "id": "phe_gly",
+  "display_name": "Phe Gly",
+  "smiles": "NC(Cc1ccccc1)C(=O)NCC(=O)O",
+  "formula": "C11H14N2O3",
+  "mw": 222.24,
+  "has_nmr": true,
+  "has_ms": true
+}

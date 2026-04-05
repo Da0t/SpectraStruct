@@ -1,0 +1,9 @@
+{
+  "id": "cyclopentanecarboxylic_acid",
+  "display_name": "Cyclopentanecarboxylic Acid",
+  "smiles": "O=C(O)C1CCCC1",
+  "formula": "C6H10O2",
+  "mw": 114.14,
+  "has_nmr": true,
+  "has_ms": true
+}

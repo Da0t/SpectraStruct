@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_malonate_gen",
+  "display_name": "Dimethyl Malonate Gen",
+  "smiles": "COC(=O)CC(=O)OC",
+  "formula": "C5H8O4",
+  "mw": 132.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "biphenyl_4_f",
+  "display_name": "Biphenyl 4 F",
+  "smiles": "Fc1ccc(-c2ccccc2)cc1",
+  "formula": "C12H9F",
+  "mw": 172.2,
+  "has_nmr": true,
+  "has_ms": true
+}

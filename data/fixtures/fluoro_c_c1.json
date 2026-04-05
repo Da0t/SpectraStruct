@@ -1,0 +1,9 @@
+{
+  "id": "fluoro_c_c1",
+  "display_name": "Fluoro C C1",
+  "smiles": "CF",
+  "formula": "CH3F",
+  "mw": 34.03,
+  "has_nmr": true,
+  "has_ms": true
+}

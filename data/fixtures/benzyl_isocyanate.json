@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_isocyanate",
+  "display_name": "Benzyl Isocyanate",
+  "smiles": "O=C=NCc1ccccc1",
+  "formula": "C8H7NO",
+  "mw": 133.15,
+  "has_nmr": true,
+  "has_ms": true
+}

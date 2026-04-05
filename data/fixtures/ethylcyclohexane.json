@@ -1,0 +1,9 @@
+{
+  "id": "ethylcyclohexane",
+  "display_name": "Ethylcyclohexane",
+  "smiles": "CCC1CCCCC1",
+  "formula": "C8H16",
+  "mw": 112.22,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pantothenic_acid",
+  "display_name": "Pantothenic Acid",
+  "smiles": "CC(C)(CO)C(O)C(=O)NCCC(=O)O",
+  "formula": "C9H17NO5",
+  "mw": 219.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pantothenic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pantothenic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)(CO)C(O)C(=O)NCCC(=O)O",
+      "name": "Pantothenic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

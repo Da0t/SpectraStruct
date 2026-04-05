@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_2_carboxyl",
+  "display_name": "Thiophene 2 Carboxyl",
+  "smiles": "O=COc1cccs1",
+  "formula": "C5H4O2S",
+  "mw": 128.15,
+  "has_nmr": true,
+  "has_ms": true
+}

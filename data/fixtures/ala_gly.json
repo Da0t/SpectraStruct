@@ -1,0 +1,9 @@
+{
+  "id": "ala_gly",
+  "display_name": "Ala Gly",
+  "smiles": "CC(N)C(=O)NCC(=O)O",
+  "formula": "C5H10N2O3",
+  "mw": 146.15,
+  "has_nmr": true,
+  "has_ms": true
+}

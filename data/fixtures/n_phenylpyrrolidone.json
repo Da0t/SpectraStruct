@@ -1,0 +1,9 @@
+{
+  "id": "n_phenylpyrrolidone",
+  "display_name": "N Phenylpyrrolidone",
+  "smiles": "O=C1CCCN1c1ccccc1",
+  "formula": "C10H11NO",
+  "mw": 161.2,
+  "has_nmr": true,
+  "has_ms": true
+}

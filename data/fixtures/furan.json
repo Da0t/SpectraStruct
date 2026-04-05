@@ -1,0 +1,20 @@
+{
+  "id": "furan",
+  "display_name": "Furan",
+  "smiles": "c1ccoc1",
+  "formula": "C4H4O",
+  "mw": 68.08,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/furan_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/furan_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccoc1",
+      "name": "Furan",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

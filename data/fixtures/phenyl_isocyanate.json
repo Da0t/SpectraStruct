@@ -1,0 +1,9 @@
+{
+  "id": "phenyl_isocyanate",
+  "display_name": "Phenyl Isocyanate",
+  "smiles": "O=C=Nc1ccccc1",
+  "formula": "C7H5NO",
+  "mw": 119.12,
+  "has_nmr": true,
+  "has_ms": true
+}

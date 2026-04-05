@@ -1,0 +1,9 @@
+{
+  "id": "benz_2f_4oh",
+  "display_name": "Benz 2F 4Oh",
+  "smiles": "Oc1ccc(F)cc1",
+  "formula": "C6H5FO",
+  "mw": 112.1,
+  "has_nmr": true,
+  "has_ms": true
+}

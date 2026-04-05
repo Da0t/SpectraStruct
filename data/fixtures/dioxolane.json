@@ -1,0 +1,9 @@
+{
+  "id": "dioxolane",
+  "display_name": "Dioxolane",
+  "smiles": "C1COCO1",
+  "formula": "C3H6O2",
+  "mw": 74.08,
+  "has_nmr": true,
+  "has_ms": true
+}

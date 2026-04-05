@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_acetate",
+  "display_name": "Ethyl-Acetate",
+  "smiles": "CCOC(C)=O",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "has_nmr": true,
+  "has_ms": true
+}

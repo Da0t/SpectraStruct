@@ -1,0 +1,9 @@
+{
+  "id": "cineole",
+  "display_name": "Cineole",
+  "smiles": "CC12CCC(CC1)C(C)(C)O2",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "has_nmr": true,
+  "has_ms": true
+}

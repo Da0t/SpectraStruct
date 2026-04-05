@@ -1,0 +1,9 @@
+{
+  "id": "myristicin",
+  "display_name": "Myristicin",
+  "smiles": "C=CCc1cc(OC)c2c(c1)OCO2",
+  "formula": "C11H12O3",
+  "mw": 192.21,
+  "has_nmr": true,
+  "has_ms": true
+}

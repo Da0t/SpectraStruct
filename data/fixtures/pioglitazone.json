@@ -1,0 +1,20 @@
+{
+  "id": "pioglitazone",
+  "display_name": "Pioglitazone",
+  "smiles": "CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1",
+  "formula": "C19H20N2O3S",
+  "mw": 356.45,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pioglitazone_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pioglitazone_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1",
+      "name": "Pioglitazone",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

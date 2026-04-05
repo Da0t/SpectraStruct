@@ -1,0 +1,9 @@
+{
+  "id": "hexamethylbenzene",
+  "display_name": "Hexamethylbenzene",
+  "smiles": "Cc1c(C)c(C)c(C)c(C)c1C",
+  "formula": "C12H18",
+  "mw": 162.28,
+  "has_nmr": true,
+  "has_ms": true
+}

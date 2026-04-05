@@ -1,0 +1,9 @@
+{
+  "id": "diol_3",
+  "display_name": "Diol 3",
+  "smiles": "OCCCO",
+  "formula": "C3H8O2",
+  "mw": 76.09,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "methyl_benzoate",
+  "display_name": "Methyl-Benzoate",
+  "smiles": "COC(=O)c1ccccc1",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

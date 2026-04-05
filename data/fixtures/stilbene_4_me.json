@@ -1,0 +1,9 @@
+{
+  "id": "stilbene_4_me",
+  "display_name": "Stilbene 4 Me",
+  "smiles": "Cc1ccc(/C=C/c2ccccc2)cc1",
+  "formula": "C15H14",
+  "mw": 194.28,
+  "has_nmr": true,
+  "has_ms": true
+}

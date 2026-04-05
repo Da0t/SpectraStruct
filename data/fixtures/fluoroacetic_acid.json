@@ -1,0 +1,9 @@
+{
+  "id": "fluoroacetic_acid",
+  "display_name": "Fluoroacetic Acid",
+  "smiles": "O=C(O)CF",
+  "formula": "C2H3FO2",
+  "mw": 78.04,
+  "has_nmr": true,
+  "has_ms": true
+}

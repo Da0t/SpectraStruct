@@ -1,0 +1,20 @@
+{
+  "id": "ergocalciferol",
+  "display_name": "Ergocalciferol",
+  "smiles": "C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)C=CC(C)C(C)C",
+  "formula": "C28H44O",
+  "mw": 396.66,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ergocalciferol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ergocalciferol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C=C1CCC(O)CC1=CC=C1CCCC2(C)C1CCC2C(C)C=CC(C)C(C)C",
+      "name": "Ergocalciferol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

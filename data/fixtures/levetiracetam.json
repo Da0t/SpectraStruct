@@ -1,0 +1,9 @@
+{
+  "id": "levetiracetam",
+  "display_name": "Levetiracetam",
+  "smiles": "CC[C@@H](C(N)=O)N1CCCC1=O",
+  "formula": "C8H14N2O2",
+  "mw": 170.21,
+  "has_nmr": true,
+  "has_ms": true
+}

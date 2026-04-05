@@ -1,0 +1,9 @@
+{
+  "id": "fluoro_cccccc_c6",
+  "display_name": "Fluoro Cccccc C6",
+  "smiles": "CCCCCCF",
+  "formula": "C6H13F",
+  "mw": 104.17,
+  "has_nmr": true,
+  "has_ms": true
+}

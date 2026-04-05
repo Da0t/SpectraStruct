@@ -1,0 +1,9 @@
+{
+  "id": "diethylamine",
+  "display_name": "Diethylamine",
+  "smiles": "CCNCC",
+  "formula": "C4H11N",
+  "mw": 73.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "phthalic_anhydride",
+  "display_name": "Phthalic Anhydride",
+  "smiles": "O=C1OC(=O)c2ccccc21",
+  "formula": "C8H4O3",
+  "mw": 148.12,
+  "has_nmr": true,
+  "has_ms": true
+}

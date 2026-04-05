@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_benzoate",
+  "display_name": "Benzyl-Benzoate",
+  "smiles": "O=C(OCc1ccccc1)c1ccccc1",
+  "formula": "C14H12O2",
+  "mw": 212.25,
+  "has_nmr": true,
+  "has_ms": true
+}

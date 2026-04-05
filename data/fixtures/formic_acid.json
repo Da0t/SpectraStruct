@@ -1,0 +1,9 @@
+{
+  "id": "formic_acid",
+  "display_name": "Formic Acid",
+  "smiles": "O=CO",
+  "formula": "CH2O2",
+  "mw": 46.02,
+  "has_nmr": true,
+  "has_ms": true
+}

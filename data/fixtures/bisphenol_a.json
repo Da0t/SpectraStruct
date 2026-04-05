@@ -1,0 +1,9 @@
+{
+  "id": "bisphenol_a",
+  "display_name": "Bisphenol-A",
+  "smiles": "CC(C)(c1ccc(O)cc1)c1ccc(O)cc1",
+  "formula": "C15H16O2",
+  "mw": 228.29,
+  "has_nmr": true,
+  "has_ms": true
+}

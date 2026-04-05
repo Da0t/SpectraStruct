@@ -1,0 +1,9 @@
+{
+  "id": "thiazole",
+  "display_name": "Thiazole",
+  "smiles": "c1cscn1",
+  "formula": "C3H3NS",
+  "mw": 85.13,
+  "has_nmr": true,
+  "has_ms": true
+}

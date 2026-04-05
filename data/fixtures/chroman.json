@@ -1,0 +1,9 @@
+{
+  "id": "chroman",
+  "display_name": "Chroman",
+  "smiles": "c1ccc2c(c1)CCCO2",
+  "formula": "C9H10O",
+  "mw": 134.18,
+  "has_nmr": true,
+  "has_ms": true
+}

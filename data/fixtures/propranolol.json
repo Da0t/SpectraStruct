@@ -1,0 +1,20 @@
+{
+  "id": "propranolol",
+  "display_name": "Propranolol",
+  "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+  "formula": "C16H21NO2",
+  "mw": 259.35,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/propranolol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/propranolol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+      "name": "Propranolol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

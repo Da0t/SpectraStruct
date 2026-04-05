@@ -1,0 +1,9 @@
+{
+  "id": "furan_2_ethyl",
+  "display_name": "Furan 2 Ethyl",
+  "smiles": "CCc1ccco1",
+  "formula": "C6H8O",
+  "mw": 96.13,
+  "has_nmr": true,
+  "has_ms": true
+}

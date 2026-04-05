@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_pyridine_2",
+  "display_name": "Vinyl Pyridine 2",
+  "smiles": "C=Cc1ccccn1",
+  "formula": "C7H7N",
+  "mw": 105.14,
+  "has_nmr": true,
+  "has_ms": true
+}

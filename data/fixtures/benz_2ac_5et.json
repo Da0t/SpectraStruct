@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ac_5et",
+  "display_name": "Benz 2Ac 5Et",
+  "smiles": "CCc1cccc(CC=O)c1",
+  "formula": "C10H12O",
+  "mw": 148.2,
+  "has_nmr": true,
+  "has_ms": true
+}

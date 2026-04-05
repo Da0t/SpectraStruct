@@ -1,0 +1,9 @@
+{
+  "id": "benzimidazole",
+  "display_name": "Benzimidazole",
+  "smiles": "c1ccc2[nH]cnc2c1",
+  "formula": "C7H6N2",
+  "mw": 118.14,
+  "has_nmr": true,
+  "has_ms": true
+}

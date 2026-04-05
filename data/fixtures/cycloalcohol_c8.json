@@ -1,0 +1,9 @@
+{
+  "id": "cycloalcohol_c8",
+  "display_name": "Cycloalcohol C8",
+  "smiles": "C1CCCCOCCC1",
+  "formula": "C8H16O",
+  "mw": 128.22,
+  "has_nmr": true,
+  "has_ms": true
+}

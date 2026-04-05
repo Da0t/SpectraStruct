@@ -1,0 +1,9 @@
+{
+  "id": "benz_propargyl",
+  "display_name": "Benz Propargyl",
+  "smiles": "CC#Cc1ccccc1",
+  "formula": "C9H8",
+  "mw": 116.16,
+  "has_nmr": true,
+  "has_ms": true
+}

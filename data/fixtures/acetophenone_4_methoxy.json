@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_4_methoxy",
+  "display_name": "Acetophenone 4 Methoxy",
+  "smiles": "COc1ccc(C(C)=O)cc1",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "has_nmr": true,
+  "has_ms": true
+}

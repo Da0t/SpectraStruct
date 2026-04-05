@@ -1,0 +1,9 @@
+{
+  "id": "benz_methyl_nitro_p",
+  "display_name": "Benz Methyl Nitro P",
+  "smiles": "Cc1ccc([N+](=O)[O-])cc1",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

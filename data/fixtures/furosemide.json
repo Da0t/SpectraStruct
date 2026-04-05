@@ -1,0 +1,20 @@
+{
+  "id": "furosemide",
+  "display_name": "Furosemide",
+  "smiles": "NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl",
+  "formula": "C12H11ClN2O5S",
+  "mw": 330.75,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/furosemide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/furosemide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl",
+      "name": "Furosemide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

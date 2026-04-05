@@ -1,0 +1,9 @@
+{
+  "id": "triglyme",
+  "display_name": "Triglyme",
+  "smiles": "COCCOCCOCCOC",
+  "formula": "C8H18O4",
+  "mw": 178.23,
+  "has_nmr": true,
+  "has_ms": true
+}

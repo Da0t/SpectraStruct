@@ -1,0 +1,9 @@
+{
+  "id": "triethyl_phosphate",
+  "display_name": "Triethyl-Phosphate",
+  "smiles": "CCOP(=O)(OCC)OCC",
+  "formula": "C6H15O4P",
+  "mw": 182.16,
+  "has_nmr": true,
+  "has_ms": true
+}

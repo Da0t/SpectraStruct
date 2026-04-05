@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_sulfide",
+  "display_name": "Dimethyl-Sulfide",
+  "smiles": "CSC",
+  "formula": "C2H6S",
+  "mw": 62.14,
+  "has_nmr": true,
+  "has_ms": true
+}

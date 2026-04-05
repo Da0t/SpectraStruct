@@ -1,0 +1,9 @@
+{
+  "id": "tributyrin",
+  "display_name": "Tributyrin",
+  "smiles": "CCCC(=O)OCC(COC(=O)CCC)OC(=O)CCC",
+  "formula": "C15H26O6",
+  "mw": 302.37,
+  "has_nmr": true,
+  "has_ms": true
+}

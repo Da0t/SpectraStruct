@@ -1,0 +1,9 @@
+{
+  "id": "nac_glu_v2",
+  "display_name": "Nac Glu V2",
+  "smiles": "NC(=O)CC(CCC(=O)O)C(=O)O",
+  "formula": "C7H11NO5",
+  "mw": 189.17,
+  "has_nmr": true,
+  "has_ms": true
+}

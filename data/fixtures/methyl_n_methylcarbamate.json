@@ -1,0 +1,9 @@
+{
+  "id": "methyl_n_methylcarbamate",
+  "display_name": "Methyl N Methylcarbamate",
+  "smiles": "CNC(=O)OC",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true
+}

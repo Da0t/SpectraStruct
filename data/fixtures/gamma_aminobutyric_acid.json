@@ -1,0 +1,20 @@
+{
+  "id": "gamma_aminobutyric_acid",
+  "display_name": "Gamma-Aminobutyric Acid",
+  "smiles": "NCCCC(=O)O",
+  "formula": "C4H9NO2",
+  "mw": 103.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/gamma_aminobutyric_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/gamma_aminobutyric_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCCC(=O)O",
+      "name": "Gamma-Aminobutyric Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

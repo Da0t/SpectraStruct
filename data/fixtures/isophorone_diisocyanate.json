@@ -1,0 +1,9 @@
+{
+  "id": "isophorone_diisocyanate",
+  "display_name": "Isophorone Diisocyanate",
+  "smiles": "CC1(C)CC(N=C=O)CC(C)(CN=C=O)C1",
+  "formula": "C12H18N2O2",
+  "mw": 222.29,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pyridoxine",
+  "display_name": "Pyridoxine",
+  "smiles": "Cc1ncc(CO)c(CO)c1O",
+  "formula": "C8H11NO3",
+  "mw": 169.18,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pyridoxine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pyridoxine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1ncc(CO)c(CO)c1O",
+      "name": "Pyridoxine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

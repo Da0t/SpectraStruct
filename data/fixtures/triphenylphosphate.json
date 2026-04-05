@@ -1,0 +1,9 @@
+{
+  "id": "triphenylphosphate",
+  "display_name": "Triphenylphosphate",
+  "smiles": "O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1",
+  "formula": "C18H15O4P",
+  "mw": 326.29,
+  "has_nmr": true,
+  "has_ms": true
+}

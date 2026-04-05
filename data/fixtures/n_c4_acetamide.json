@@ -1,0 +1,9 @@
+{
+  "id": "n_c4_acetamide",
+  "display_name": "N C4 Acetamide",
+  "smiles": "CCCCNC(C)=O",
+  "formula": "C6H13NO",
+  "mw": 115.18,
+  "has_nmr": true,
+  "has_ms": true
+}

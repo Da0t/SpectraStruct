@@ -1,0 +1,20 @@
+{
+  "id": "carnitine",
+  "display_name": "Carnitine",
+  "smiles": "C[N+](C)(C)CC(O)CC(=O)[O-]",
+  "formula": "C7H15NO3",
+  "mw": 161.2,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/carnitine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/carnitine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C[N+](C)(C)CC(O)CC(=O)[O-]",
+      "name": "Carnitine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

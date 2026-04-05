@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c15",
+  "display_name": "Alkane C15",
+  "smiles": "CCCCCCCCCCCCCCC",
+  "formula": "C15H32",
+  "mw": 212.42,
+  "has_nmr": true,
+  "has_ms": true
+}

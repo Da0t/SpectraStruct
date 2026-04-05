@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c3",
+  "display_name": "Thiol C3",
+  "smiles": "CCCS",
+  "formula": "C3H8S",
+  "mw": 76.16,
+  "has_nmr": true,
+  "has_ms": true
+}

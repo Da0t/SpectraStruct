@@ -1,0 +1,9 @@
+{
+  "id": "2_tetralone",
+  "display_name": "2 Tetralone",
+  "smiles": "O=C1CCc2ccccc2C1",
+  "formula": "C10H10O",
+  "mw": 146.19,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "propanol",
+  "display_name": "Propanol",
+  "smiles": "CCCO",
+  "formula": "C3H8O",
+  "mw": 60.1,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/propanol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/propanol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCO",
+      "name": "Propanol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

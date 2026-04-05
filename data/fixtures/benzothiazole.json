@@ -1,0 +1,9 @@
+{
+  "id": "benzothiazole",
+  "display_name": "Benzothiazole",
+  "smiles": "c1ccc2scnc2c1",
+  "formula": "C7H5NS",
+  "mw": 135.19,
+  "has_nmr": true,
+  "has_ms": true
+}

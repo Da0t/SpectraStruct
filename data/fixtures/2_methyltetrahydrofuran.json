@@ -1,0 +1,9 @@
+{
+  "id": "2_methyltetrahydrofuran",
+  "display_name": "2 Methyltetrahydrofuran",
+  "smiles": "CC1CCCO1",
+  "formula": "C5H10O",
+  "mw": 86.13,
+  "has_nmr": true,
+  "has_ms": true
+}

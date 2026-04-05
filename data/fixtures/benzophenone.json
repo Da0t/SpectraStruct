@@ -1,0 +1,9 @@
+{
+  "id": "benzophenone",
+  "display_name": "Benzophenone",
+  "smiles": "O=C(c1ccccc1)c1ccccc1",
+  "formula": "C13H10O",
+  "mw": 182.22,
+  "has_nmr": true,
+  "has_ms": true
+}

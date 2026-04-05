@@ -1,0 +1,9 @@
+{
+  "id": "trichloroethylene",
+  "display_name": "Trichloroethylene",
+  "smiles": "ClC=C(Cl)Cl",
+  "formula": "C2HCl3",
+  "mw": 131.39,
+  "has_nmr": true,
+  "has_ms": true
+}

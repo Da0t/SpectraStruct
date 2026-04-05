@@ -1,0 +1,9 @@
+{
+  "id": "3_methyl_1_phenylpyrazole",
+  "display_name": "3 Methyl 1 Phenylpyrazole",
+  "smiles": "Cc1ccn(-c2ccccc2)n1",
+  "formula": "C10H10N2",
+  "mw": 158.2,
+  "has_nmr": true,
+  "has_ms": true
+}

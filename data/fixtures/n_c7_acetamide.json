@@ -1,0 +1,9 @@
+{
+  "id": "n_c7_acetamide",
+  "display_name": "N C7 Acetamide",
+  "smiles": "CCCCCCCNC(C)=O",
+  "formula": "C9H19NO",
+  "mw": 157.26,
+  "has_nmr": true,
+  "has_ms": true
+}

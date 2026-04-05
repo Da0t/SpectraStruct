@@ -1,0 +1,9 @@
+{
+  "id": "methane_thiol",
+  "display_name": "Methane Thiol",
+  "smiles": "CS",
+  "formula": "CH4S",
+  "mw": 48.11,
+  "has_nmr": true,
+  "has_ms": true
+}

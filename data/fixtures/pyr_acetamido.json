@@ -1,0 +1,9 @@
+{
+  "id": "pyr_acetamido",
+  "display_name": "Pyr Acetamido",
+  "smiles": "NC(=O)Cc1ccncc1",
+  "formula": "C7H8N2O",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

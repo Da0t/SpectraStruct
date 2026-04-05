@@ -1,0 +1,9 @@
+{
+  "id": "picric_acid",
+  "display_name": "Picric Acid",
+  "smiles": "O=[N+]([O-])c1ccc(O)c([N+](=O)[O-])c1[N+](=O)[O-]",
+  "formula": "C6H3N3O7",
+  "mw": 229.1,
+  "has_nmr": true,
+  "has_ms": true
+}

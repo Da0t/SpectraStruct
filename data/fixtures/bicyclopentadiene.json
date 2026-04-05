@@ -1,0 +1,9 @@
+{
+  "id": "bicyclopentadiene",
+  "display_name": "Bicyclopentadiene",
+  "smiles": "C1=CC2C=CC1C2",
+  "formula": "C7H8",
+  "mw": 92.14,
+  "has_nmr": true,
+  "has_ms": true
+}

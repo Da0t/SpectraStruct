@@ -1,0 +1,9 @@
+{
+  "id": "bromo_ccccc_c5",
+  "display_name": "Bromo Ccccc C5",
+  "smiles": "CCCCCBr",
+  "formula": "C5H11Br",
+  "mw": 151.05,
+  "has_nmr": true,
+  "has_ms": true
+}

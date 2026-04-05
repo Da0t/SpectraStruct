@@ -1,0 +1,9 @@
+{
+  "id": "venlafaxine",
+  "display_name": "Venlafaxine",
+  "smiles": "COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1",
+  "formula": "C17H27NO2",
+  "mw": 277.41,
+  "has_nmr": true,
+  "has_ms": true
+}

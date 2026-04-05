@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ome_4nh2_6me",
+  "display_name": "Benz 2Ome 4Nh2 6Me",
+  "smiles": "Cc1cc(N)cc(CO)c1",
+  "formula": "C8H11NO",
+  "mw": 137.18,
+  "has_nmr": true,
+  "has_ms": true
+}

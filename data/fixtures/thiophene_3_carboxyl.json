@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_3_carboxyl",
+  "display_name": "Thiophene 3 Carboxyl",
+  "smiles": "O=COc1ccsc1",
+  "formula": "C5H4O2S",
+  "mw": 128.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "myristic_acid",
+  "display_name": "Myristic Acid",
+  "smiles": "CCCCCCCCCCCCCC(=O)O",
+  "formula": "C14H28O2",
+  "mw": 228.38,
+  "has_nmr": true,
+  "has_ms": true
+}

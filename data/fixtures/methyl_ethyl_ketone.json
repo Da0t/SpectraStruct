@@ -1,0 +1,9 @@
+{
+  "id": "methyl_ethyl_ketone",
+  "display_name": "Methyl-Ethyl-Ketone",
+  "smiles": "CCC(C)=O",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true
+}

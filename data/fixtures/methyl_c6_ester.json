@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c6_ester",
+  "display_name": "Methyl C6 Ester",
+  "smiles": "CCCCCC(=O)OC",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "has_nmr": true,
+  "has_ms": true
+}

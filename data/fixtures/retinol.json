@@ -1,0 +1,20 @@
+{
+  "id": "retinol",
+  "display_name": "Retinol",
+  "smiles": "CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CCO",
+  "formula": "C20H30O",
+  "mw": 286.46,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/retinol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/retinol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CCO",
+      "name": "Retinol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

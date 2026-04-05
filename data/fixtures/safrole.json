@@ -1,0 +1,9 @@
+{
+  "id": "safrole",
+  "display_name": "Safrole",
+  "smiles": "C=CCc1ccc2c(c1)OCO2",
+  "formula": "C10H10O2",
+  "mw": 162.19,
+  "has_nmr": true,
+  "has_ms": true
+}

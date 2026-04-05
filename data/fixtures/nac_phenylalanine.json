@@ -1,0 +1,9 @@
+{
+  "id": "nac_phenylalanine",
+  "display_name": "Nac Phenylalanine",
+  "smiles": "NC(=O)CC(Cc1ccccc1)C(=O)O",
+  "formula": "C11H13NO3",
+  "mw": 207.23,
+  "has_nmr": true,
+  "has_ms": true
+}

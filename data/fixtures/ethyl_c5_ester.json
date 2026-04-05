@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_c5_ester",
+  "display_name": "Ethyl C5 Ester",
+  "smiles": "CCCCC(=O)OCC",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "has_nmr": true,
+  "has_ms": true
+}

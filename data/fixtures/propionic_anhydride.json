@@ -1,0 +1,9 @@
+{
+  "id": "propionic_anhydride",
+  "display_name": "Propionic Anhydride",
+  "smiles": "CCC(=O)OC(=O)CC",
+  "formula": "C6H10O3",
+  "mw": 130.14,
+  "has_nmr": true,
+  "has_ms": true
+}

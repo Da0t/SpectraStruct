@@ -1,0 +1,9 @@
+{
+  "id": "pyr_propyl",
+  "display_name": "Pyr Propyl",
+  "smiles": "CCCc1ccncc1",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "has_nmr": true,
+  "has_ms": true
+}

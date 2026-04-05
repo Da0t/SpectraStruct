@@ -1,0 +1,9 @@
+{
+  "id": "nitromethane",
+  "display_name": "Nitromethane",
+  "smiles": "C[N+](=O)[O-]",
+  "formula": "CH3NO2",
+  "mw": 61.04,
+  "has_nmr": true,
+  "has_ms": true
+}

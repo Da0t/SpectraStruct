@@ -1,0 +1,9 @@
+{
+  "id": "valinol",
+  "display_name": "Valinol",
+  "smiles": "CC(C)C(N)CO",
+  "formula": "C5H13NO",
+  "mw": 103.16,
+  "has_nmr": true,
+  "has_ms": true
+}

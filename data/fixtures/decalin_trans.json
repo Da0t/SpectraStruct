@@ -1,0 +1,9 @@
+{
+  "id": "decalin_trans",
+  "display_name": "Decalin Trans",
+  "smiles": "C1CCC2CCCCC2C1",
+  "formula": "C10H18",
+  "mw": 138.25,
+  "has_nmr": true,
+  "has_ms": true
+}

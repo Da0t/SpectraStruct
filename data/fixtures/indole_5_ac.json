@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_ac",
+  "display_name": "Indole 5 Ac",
+  "smiles": "O=CCc1ccc2[nH]ccc2c1",
+  "formula": "C10H9NO",
+  "mw": 159.19,
+  "has_nmr": true,
+  "has_ms": true
+}

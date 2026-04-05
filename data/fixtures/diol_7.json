@@ -1,0 +1,9 @@
+{
+  "id": "diol_7",
+  "display_name": "Diol 7",
+  "smiles": "OCCCCCCCO",
+  "formula": "C7H16O2",
+  "mw": 132.2,
+  "has_nmr": true,
+  "has_ms": true
+}

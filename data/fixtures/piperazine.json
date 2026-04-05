@@ -1,0 +1,20 @@
+{
+  "id": "piperazine",
+  "display_name": "Piperazine",
+  "smiles": "C1CNCCN1",
+  "formula": "C4H10N2",
+  "mw": 86.14,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/piperazine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/piperazine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C1CNCCN1",
+      "name": "Piperazine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

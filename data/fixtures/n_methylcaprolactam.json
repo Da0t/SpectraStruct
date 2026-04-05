@@ -1,0 +1,9 @@
+{
+  "id": "n_methylcaprolactam",
+  "display_name": "N Methylcaprolactam",
+  "smiles": "CN1CCCCCC1=O",
+  "formula": "C7H13NO",
+  "mw": 127.19,
+  "has_nmr": true,
+  "has_ms": true
+}

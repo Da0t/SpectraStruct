@@ -1,0 +1,9 @@
+{
+  "id": "pentamethylbenzene",
+  "display_name": "Pentamethylbenzene",
+  "smiles": "Cc1cc(C)c(C)c(C)c1C",
+  "formula": "C11H16",
+  "mw": 148.25,
+  "has_nmr": true,
+  "has_ms": true
+}

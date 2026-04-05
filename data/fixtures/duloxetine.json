@@ -1,0 +1,9 @@
+{
+  "id": "duloxetine",
+  "display_name": "Duloxetine",
+  "smiles": "CNCC[C@@H](Oc1cccc2ccccc12)c1cccs1",
+  "formula": "C18H19NOS",
+  "mw": 297.42,
+  "has_nmr": true,
+  "has_ms": true
+}

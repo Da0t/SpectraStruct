@@ -1,0 +1,9 @@
+{
+  "id": "epichlorohydrin",
+  "display_name": "Epichlorohydrin",
+  "smiles": "ClCC1CO1",
+  "formula": "C3H5ClO",
+  "mw": 92.53,
+  "has_nmr": true,
+  "has_ms": true
+}

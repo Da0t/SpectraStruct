@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c9",
+  "display_name": "Thioether C9",
+  "smiles": "CCCCCSCCCC",
+  "formula": "C9H20S",
+  "mw": 160.33,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pyr_propargyl",
+  "display_name": "Pyr Propargyl",
+  "smiles": "CC#Cc1ccncc1",
+  "formula": "C8H7N",
+  "mw": 117.15,
+  "has_nmr": true,
+  "has_ms": true
+}

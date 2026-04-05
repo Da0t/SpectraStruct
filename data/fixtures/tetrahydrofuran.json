@@ -1,0 +1,20 @@
+{
+  "id": "tetrahydrofuran",
+  "display_name": "Tetrahydrofuran",
+  "smiles": "C1CCOC1",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tetrahydrofuran_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tetrahydrofuran_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C1CCOC1",
+      "name": "Tetrahydrofuran",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

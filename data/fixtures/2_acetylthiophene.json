@@ -1,0 +1,9 @@
+{
+  "id": "2_acetylthiophene",
+  "display_name": "2 Acetylthiophene",
+  "smiles": "CC(=O)c1cccs1",
+  "formula": "C6H6OS",
+  "mw": 126.18,
+  "has_nmr": true,
+  "has_ms": true
+}

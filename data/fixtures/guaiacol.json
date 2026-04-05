@@ -1,0 +1,9 @@
+{
+  "id": "guaiacol",
+  "display_name": "Guaiacol",
+  "smiles": "COc1ccccc1O",
+  "formula": "C7H8O2",
+  "mw": 124.14,
+  "has_nmr": true,
+  "has_ms": true
+}

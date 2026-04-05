@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c11",
+  "display_name": "Nitro C11",
+  "smiles": "CCCCCCCCCCC[N+](=O)[O-]",
+  "formula": "C11H23NO2",
+  "mw": 201.31,
+  "has_nmr": true,
+  "has_ms": true
+}

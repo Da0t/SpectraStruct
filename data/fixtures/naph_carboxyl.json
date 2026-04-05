@@ -1,0 +1,9 @@
+{
+  "id": "naph_carboxyl",
+  "display_name": "Naph Carboxyl",
+  "smiles": "O=COc1ccc2ccccc2c1",
+  "formula": "C11H8O2",
+  "mw": 172.18,
+  "has_nmr": true,
+  "has_ms": true
+}

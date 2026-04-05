@@ -1,0 +1,9 @@
+{
+  "id": "4_chlorophenol",
+  "display_name": "4 Chlorophenol",
+  "smiles": "Oc1ccc(Cl)cc1",
+  "formula": "C6H5ClO",
+  "mw": 128.56,
+  "has_nmr": true,
+  "has_ms": true
+}

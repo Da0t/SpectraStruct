@@ -1,0 +1,9 @@
+{
+  "id": "furfuryl_alcohol",
+  "display_name": "Furfuryl-Alcohol",
+  "smiles": "OCc1ccco1",
+  "formula": "C5H6O2",
+  "mw": 98.1,
+  "has_nmr": true,
+  "has_ms": true
+}

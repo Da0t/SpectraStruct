@@ -1,0 +1,20 @@
+{
+  "id": "l_arginine",
+  "display_name": "Arginine",
+  "smiles": "NC(N)=NCCCC(N)C(=O)O",
+  "formula": "C6H14N4O2",
+  "mw": 174.2,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_arginine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_arginine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(N)=NCCCC(N)C(=O)O",
+      "name": "Arginine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

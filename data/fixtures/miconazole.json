@@ -1,0 +1,9 @@
+{
+  "id": "miconazole",
+  "display_name": "Miconazole",
+  "smiles": "Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1",
+  "formula": "C18H14Cl4N2O",
+  "mw": 416.14,
+  "has_nmr": true,
+  "has_ms": true
+}

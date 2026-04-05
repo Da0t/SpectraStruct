@@ -1,0 +1,9 @@
+{
+  "id": "cyclopentanone",
+  "display_name": "Cyclopentanone",
+  "smiles": "O=C1CCCC1",
+  "formula": "C5H8O",
+  "mw": 84.12,
+  "has_nmr": true,
+  "has_ms": true
+}

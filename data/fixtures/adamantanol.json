@@ -1,0 +1,9 @@
+{
+  "id": "adamantanol",
+  "display_name": "Adamantanol",
+  "smiles": "OC12CC3CC(CC(C3)C1)C2",
+  "formula": "C10H16O",
+  "mw": 152.24,
+  "has_nmr": true,
+  "has_ms": true
+}

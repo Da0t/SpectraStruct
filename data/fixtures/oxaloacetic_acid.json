@@ -1,0 +1,9 @@
+{
+  "id": "oxaloacetic_acid",
+  "display_name": "Oxaloacetic Acid",
+  "smiles": "O=C(O)CC(=O)C(=O)O",
+  "formula": "C4H4O5",
+  "mw": 132.07,
+  "has_nmr": true,
+  "has_ms": true
+}

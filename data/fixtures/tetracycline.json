@@ -1,0 +1,20 @@
+{
+  "id": "tetracycline",
+  "display_name": "Tetracycline",
+  "smiles": "CN(C)C1C(=O)C(C(N)=O)=C(O)C2(O)C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3CC12",
+  "formula": "C22H24N2O8",
+  "mw": 444.44,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tetracycline_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tetracycline_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(C)C1C(=O)C(C(N)=O)=C(O)C2(O)C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3CC12",
+      "name": "Tetracycline",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

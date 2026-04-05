@@ -1,0 +1,20 @@
+{
+  "id": "citronellol",
+  "display_name": "Citronellol",
+  "smiles": "CC(C)=CCCC(C)CCO",
+  "formula": "C10H20O",
+  "mw": 156.27,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/citronellol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/citronellol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)=CCCC(C)CCO",
+      "name": "Citronellol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

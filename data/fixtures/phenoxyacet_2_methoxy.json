@@ -1,0 +1,9 @@
+{
+  "id": "phenoxyacet_2_methoxy",
+  "display_name": "Phenoxyacet 2 Methoxy",
+  "smiles": "COc1ccccc1OCC(=O)O",
+  "formula": "C9H10O4",
+  "mw": 182.17,
+  "has_nmr": true,
+  "has_ms": true
+}

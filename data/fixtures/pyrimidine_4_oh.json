@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_4_oh",
+  "display_name": "Pyrimidine 4 Oh",
+  "smiles": "Oc1ccncn1",
+  "formula": "C4H4N2O",
+  "mw": 96.09,
+  "has_nmr": true,
+  "has_ms": true
+}

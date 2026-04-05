@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c3",
+  "display_name": "Thioether C3",
+  "smiles": "CCSC",
+  "formula": "C3H8S",
+  "mw": 76.16,
+  "has_nmr": true,
+  "has_ms": true
+}

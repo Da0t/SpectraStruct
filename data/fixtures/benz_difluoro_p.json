@@ -1,0 +1,9 @@
+{
+  "id": "benz_difluoro_p",
+  "display_name": "Benz Difluoro P",
+  "smiles": "Fc1ccc(F)cc1",
+  "formula": "C6H4F2",
+  "mw": 114.09,
+  "has_nmr": true,
+  "has_ms": true
+}

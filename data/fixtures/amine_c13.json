@@ -1,0 +1,9 @@
+{
+  "id": "amine_c13",
+  "display_name": "Amine C13",
+  "smiles": "CCCCCCCCCCCCCN",
+  "formula": "C13H29N",
+  "mw": 199.38,
+  "has_nmr": true,
+  "has_ms": true
+}

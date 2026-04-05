@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c13",
+  "display_name": "Alcohol C13",
+  "smiles": "CCCCCCCCCCCCCO",
+  "formula": "C13H28O",
+  "mw": 200.37,
+  "has_nmr": true,
+  "has_ms": true
+}

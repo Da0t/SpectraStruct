@@ -1,0 +1,9 @@
+{
+  "id": "isoamyl_acetate",
+  "display_name": "Isoamyl-Acetate",
+  "smiles": "CC(=O)OCCC(C)C",
+  "formula": "C7H14O2",
+  "mw": 130.19,
+  "has_nmr": true,
+  "has_ms": true
+}

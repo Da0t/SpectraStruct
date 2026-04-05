@@ -1,0 +1,9 @@
+{
+  "id": "quetiapine",
+  "display_name": "Quetiapine",
+  "smiles": "O=c1cc(N2CCCCC2)c2cc(SCCOCCCO)ccc2[nH]1",
+  "formula": "C19H26N2O3S",
+  "mw": 362.5,
+  "has_nmr": true,
+  "has_ms": true
+}

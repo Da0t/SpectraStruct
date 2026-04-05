@@ -1,0 +1,20 @@
+{
+  "id": "ferulic_acid",
+  "display_name": "Ferulic Acid",
+  "smiles": "COc1cc(C=CC(=O)O)ccc1O",
+  "formula": "C10H10O4",
+  "mw": 194.19,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ferulic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ferulic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1cc(C=CC(=O)O)ccc1O",
+      "name": "Ferulic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

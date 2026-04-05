@@ -1,0 +1,9 @@
+{
+  "id": "7_methoxycoumarin",
+  "display_name": "7 Methoxycoumarin",
+  "smiles": "COc1ccc2ccc(=O)oc2c1",
+  "formula": "C10H8O3",
+  "mw": 176.17,
+  "has_nmr": true,
+  "has_ms": true
+}

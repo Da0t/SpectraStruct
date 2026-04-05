@@ -1,0 +1,9 @@
+{
+  "id": "nitrofurantoin_drug",
+  "display_name": "Nitrofurantoin Drug",
+  "smiles": "O=C1CN(/N=C/c2ccc([N+](=O)[O-])o2)C(=O)N1",
+  "formula": "C8H6N4O5",
+  "mw": 238.16,
+  "has_nmr": true,
+  "has_ms": true
+}

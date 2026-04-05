@@ -1,0 +1,9 @@
+{
+  "id": "5_methoxyindole",
+  "display_name": "5 Methoxyindole",
+  "smiles": "COc1ccc2[nH]ccc2c1",
+  "formula": "C9H9NO",
+  "mw": 147.18,
+  "has_nmr": true,
+  "has_ms": true
+}

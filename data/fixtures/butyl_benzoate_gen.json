@@ -1,0 +1,9 @@
+{
+  "id": "butyl_benzoate_gen",
+  "display_name": "Butyl Benzoate Gen",
+  "smiles": "CCCCOC(=O)c1ccccc1",
+  "formula": "C11H14O2",
+  "mw": 178.23,
+  "has_nmr": true,
+  "has_ms": true
+}

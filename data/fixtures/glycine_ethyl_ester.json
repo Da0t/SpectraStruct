@@ -1,0 +1,9 @@
+{
+  "id": "glycine_ethyl_ester",
+  "display_name": "Glycine Ethyl-Ester",
+  "smiles": "CCOC(=O)CN",
+  "formula": "C4H9NO2",
+  "mw": 103.12,
+  "has_nmr": true,
+  "has_ms": true
+}

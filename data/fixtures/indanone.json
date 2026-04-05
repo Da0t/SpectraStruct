@@ -1,0 +1,9 @@
+{
+  "id": "indanone",
+  "display_name": "Indanone",
+  "smiles": "O=C1CCc2ccccc21",
+  "formula": "C9H8O",
+  "mw": 132.16,
+  "has_nmr": true,
+  "has_ms": true
+}

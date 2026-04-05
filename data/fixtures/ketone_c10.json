@@ -1,0 +1,9 @@
+{
+  "id": "ketone_c10",
+  "display_name": "Ketone C10",
+  "smiles": "CCCCCC(=O)CCCCC",
+  "formula": "C11H22O",
+  "mw": 170.3,
+  "has_nmr": true,
+  "has_ms": true
+}

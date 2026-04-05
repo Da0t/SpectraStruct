@@ -1,0 +1,9 @@
+{
+  "id": "cinnamate_4_methoxy",
+  "display_name": "Cinnamate 4 Methoxy",
+  "smiles": "COc1ccc(/C=C/C(=O)O)cc1",
+  "formula": "C10H10O3",
+  "mw": 178.19,
+  "has_nmr": true,
+  "has_ms": true
+}

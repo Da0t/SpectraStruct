@@ -1,0 +1,9 @@
+{
+  "id": "bromo_cccc_c4",
+  "display_name": "Bromo Cccc C4",
+  "smiles": "CCCCBr",
+  "formula": "C4H9Br",
+  "mw": 137.02,
+  "has_nmr": true,
+  "has_ms": true
+}

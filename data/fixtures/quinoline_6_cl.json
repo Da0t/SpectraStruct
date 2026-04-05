@@ -1,0 +1,9 @@
+{
+  "id": "quinoline_6_cl",
+  "display_name": "Quinoline 6 Cl",
+  "smiles": "Clc1ccc2ncccc2c1",
+  "formula": "C9H6ClN",
+  "mw": 163.61,
+  "has_nmr": true,
+  "has_ms": true
+}

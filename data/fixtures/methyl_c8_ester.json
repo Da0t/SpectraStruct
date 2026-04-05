@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c8_ester",
+  "display_name": "Methyl C8 Ester",
+  "smiles": "CCCCCCCC(=O)OC",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "has_nmr": true,
+  "has_ms": true
+}

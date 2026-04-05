@@ -1,0 +1,9 @@
+{
+  "id": "2_thienyl_boronic",
+  "display_name": "2 Thienyl Boronic",
+  "smiles": "OB(O)c1cccs1",
+  "formula": "C4H5BO2S",
+  "mw": 127.96,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "methyl_levulinate",
+  "display_name": "Methyl Levulinate",
+  "smiles": "COC(=O)CCC(C)=O",
+  "formula": "C6H10O3",
+  "mw": 130.14,
+  "has_nmr": true,
+  "has_ms": true
+}

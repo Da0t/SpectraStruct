@@ -1,0 +1,9 @@
+{
+  "id": "trichloroacetic_acid",
+  "display_name": "Trichloroacetic Acid",
+  "smiles": "O=C(O)C(Cl)(Cl)Cl",
+  "formula": "C2HCl3O2",
+  "mw": 163.39,
+  "has_nmr": true,
+  "has_ms": true
+}

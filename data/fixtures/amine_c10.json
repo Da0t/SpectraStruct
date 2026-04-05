@@ -1,0 +1,9 @@
+{
+  "id": "amine_c10",
+  "display_name": "Amine C10",
+  "smiles": "CCCCCCCCCCN",
+  "formula": "C10H23N",
+  "mw": 157.3,
+  "has_nmr": true,
+  "has_ms": true
+}

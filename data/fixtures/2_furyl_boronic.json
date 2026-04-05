@@ -1,0 +1,9 @@
+{
+  "id": "2_furyl_boronic",
+  "display_name": "2 Furyl Boronic",
+  "smiles": "OB(O)c1ccco1",
+  "formula": "C4H5BO3",
+  "mw": 111.89,
+  "has_nmr": true,
+  "has_ms": true
+}

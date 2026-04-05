@@ -1,0 +1,9 @@
+{
+  "id": "3_acetylindole",
+  "display_name": "3 Acetylindole",
+  "smiles": "CC(=O)c1c[nH]c2ccccc12",
+  "formula": "C10H9NO",
+  "mw": 159.19,
+  "has_nmr": true,
+  "has_ms": true
+}

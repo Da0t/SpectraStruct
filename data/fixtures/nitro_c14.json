@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c14",
+  "display_name": "Nitro C14",
+  "smiles": "CCCCCCCCCCCCCC[N+](=O)[O-]",
+  "formula": "C14H29NO2",
+  "mw": 243.39,
+  "has_nmr": true,
+  "has_ms": true
+}

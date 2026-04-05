@@ -1,0 +1,9 @@
+{
+  "id": "3_hydroxybenzoic_acid",
+  "display_name": "3 Hydroxybenzoic Acid",
+  "smiles": "O=C(O)c1cccc(O)c1",
+  "formula": "C7H6O3",
+  "mw": 138.12,
+  "has_nmr": true,
+  "has_ms": true
+}

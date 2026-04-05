@@ -1,0 +1,20 @@
+{
+  "id": "phenytoin",
+  "display_name": "Phenytoin",
+  "smiles": "O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1",
+  "formula": "C15H12N2O2",
+  "mw": 252.27,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/phenytoin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/phenytoin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1",
+      "name": "Phenytoin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

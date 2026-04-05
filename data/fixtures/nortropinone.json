@@ -1,0 +1,9 @@
+{
+  "id": "nortropinone",
+  "display_name": "Nortropinone",
+  "smiles": "O=C1CC2CCC(C1)N2",
+  "formula": "C7H11NO",
+  "mw": 125.17,
+  "has_nmr": true,
+  "has_ms": true
+}

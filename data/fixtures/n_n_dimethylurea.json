@@ -1,0 +1,9 @@
+{
+  "id": "n_n_dimethylurea",
+  "display_name": "N N Dimethylurea",
+  "smiles": "CN(C)C(N)=O",
+  "formula": "C3H8N2O",
+  "mw": 88.11,
+  "has_nmr": true,
+  "has_ms": true
+}

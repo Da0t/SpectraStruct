@@ -1,0 +1,9 @@
+{
+  "id": "cubane",
+  "display_name": "Cubane",
+  "smiles": "C12C3C4C1C1C3C2C41",
+  "formula": "C8H8",
+  "mw": 104.15,
+  "has_nmr": true,
+  "has_ms": true
+}

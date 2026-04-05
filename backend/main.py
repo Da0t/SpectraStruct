@@ -3,6 +3,7 @@ FastAPI backend for DiamondHacks spectra-to-structure demo.
 Serves fixture data in demo_mode (default), or runs live inference
 via MIST (when installed) or spectral cosine-similarity fallback.
 """
+import io
 import json
 import base64
 import logging
@@ -15,6 +16,13 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel, field_validator
 
 from backend.mist_inference import predict_live, parse_csv_peaks, MIST_AVAILABLE
+
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem
+    RDKIT_AVAILABLE = True
+except ImportError:
+    RDKIT_AVAILABLE = False
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -39,14 +47,7 @@ logger.info("DEMO_MODE=%s  FIXTURES_DIR=%s  MIST_AVAILABLE=%s", DEMO_MODE, FIXTU
 class PredictRequest(BaseModel):
     nmr_csv: Optional[str] = None   # base64-encoded CSV: ppm,intensity
     ms_csv: Optional[str] = None    # base64-encoded CSV: mz,intensity
-    ir_csv: Optional[str] = None    # base64-encoded CSV: wavenumber,intensity
-    top_k: int = 5
     demo_molecule: Optional[str] = None
-
-    @field_validator("top_k")
-    @classmethod
-    def clamp_top_k(cls, v: int) -> int:
-        return max(1, min(v, 20))
 
     @field_validator("demo_molecule")
     @classmethod
@@ -91,6 +92,29 @@ def _find_conformer_for_smiles(smiles: str, candidates: list) -> Optional[str]:
     return None
 
 
+def _generate_conformer_sdf(smiles: str) -> Optional[str]:
+    """Generate a 3D conformer SDF from SMILES using RDKit."""
+    if not RDKIT_AVAILABLE:
+        return None
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is None:
+        return None
+    try:
+        mol = Chem.AddHs(mol)
+        cids = AllChem.EmbedMultipleConfs(mol, numConfs=5, randomSeed=42, pruneRmsThresh=0.5)
+        if not cids:
+            AllChem.EmbedMolecule(mol, randomSeed=42, useRandomCoords=True)
+        AllChem.MMFFOptimizeMoleculeConfs(mol)
+        buf = io.StringIO()
+        writer = Chem.SDWriter(buf)
+        writer.write(mol)
+        writer.close()
+        return buf.getvalue()
+    except Exception as e:
+        logger.warning("Conformer generation failed for %s: %s", smiles, e)
+        return None
+
+
 @app.get("/health")
 def health():
     fixtures_ok = FIXTURES_DIR.is_dir() and any(FIXTURES_DIR.glob("*.json"))
@@ -99,12 +123,14 @@ def health():
 
 @app.get("/fixtures")
 def list_fixtures():
-    """List available demo molecules with metadata."""
+    """List demo molecules that have precomputed candidates."""
     molecules = []
     for f in sorted(FIXTURES_DIR.glob("*.json")):
         try:
             with open(f) as fh:
                 data = json.load(fh)
+            if not data.get("candidates"):
+                continue
             name = f.stem
             molecules.append({
                 "name": name,
@@ -114,8 +140,6 @@ def list_fixtures():
                 "mw": data.get("mw", 0),
                 "has_nmr": data.get("has_nmr", False),
                 "has_ms": data.get("has_ms", False),
-                "nmr_csv": f"{name}_nmr.csv" if data.get("has_nmr") else None,
-                "ms_csv": f"{name}_ms.csv" if data.get("has_ms") else None,
             })
         except (json.JSONDecodeError, OSError) as e:
             logger.warning("Skipping corrupt fixture %s: %s", f.name, e)
@@ -147,16 +171,13 @@ def get_spectrum_csv(filename: str):
 @app.post("/predict", response_model=PredictResponse)
 def predict(req: PredictRequest):
     modalities_used = []
-    ms_text = nmr_text = ir_text = None
+    ms_text = nmr_text = None
     if req.nmr_csv:
         nmr_text = _decode_base64_csv(req.nmr_csv)
         modalities_used.append("nmr")
     if req.ms_csv:
         ms_text = _decode_base64_csv(req.ms_csv)
         modalities_used.append("ms")
-    if req.ir_csv:
-        ir_text = _decode_base64_csv(req.ir_csv)
-        modalities_used.append("ir")
 
     if DEMO_MODE or req.demo_molecule:
         return _predict_demo(req, modalities_used)
@@ -164,7 +185,7 @@ def predict(req: PredictRequest):
     if not modalities_used:
         raise HTTPException(400, "At least one spectrum must be provided.")
 
-    return _predict_live(ms_text, nmr_text, ir_text, modalities_used, req.top_k)
+    return _predict_live(ms_text, nmr_text, None, modalities_used, 5)
 
 
 def _predict_demo(req: PredictRequest, modalities_used: List[str]) -> PredictResponse:
@@ -194,17 +215,33 @@ def _predict_demo(req: PredictRequest, modalities_used: List[str]) -> PredictRes
 
     top_level_candidates = fixture.get("candidates", [])
     candidates_list = []
-    for i, c in enumerate(candidates_data[:req.top_k]):
+
+    if not candidates_data:
+        smiles = fixture.get("smiles", "")
+        if smiles:
+            sdf = _generate_conformer_sdf(smiles)
+            candidates_list.append(Candidate(
+                smiles=smiles,
+                name=fixture.get("display_name", mol_name.replace("_", " ").title()),
+                score=1.0,
+                rank=1,
+                valid=True,
+                conformer_sdf=sdf,
+            ))
+    else:
+        c = candidates_data[0]
         candidate_dict = dict(c)
         if not candidate_dict.get("conformer_sdf"):
             sdf = _find_conformer_for_smiles(candidate_dict["smiles"], top_level_candidates)
+            if not sdf:
+                sdf = _generate_conformer_sdf(candidate_dict["smiles"])
             if sdf:
                 candidate_dict["conformer_sdf"] = sdf
         candidates_list.append(Candidate(**candidate_dict))
 
     warning = None
-    if len(modalities_used) < 3:
-        missing = [m for m in ["nmr", "ms", "ir"] if m not in modalities_used]
+    if len(modalities_used) < 2:
+        missing = [m for m in ["nmr", "ms"] if m not in modalities_used]
         warning = f"{', '.join(missing).upper()} not provided; results may be less accurate."
 
     is_fallback = fixture_path.stem != mol_name
@@ -252,8 +289,8 @@ def _predict_live(
 
     warning = None
     engine = "MIST" if (MIST_AVAILABLE and MIST_CKPT) else "spectral-similarity"
-    if len(modalities_used) < 3:
-        missing = [m for m in ["nmr", "ms", "ir"] if m not in modalities_used]
+    if len(modalities_used) < 2:
+        missing = [m for m in ["nmr", "ms"] if m not in modalities_used]
         warning = f"Engine: {engine}. {', '.join(missing).upper()} not provided."
     else:
         warning = f"Engine: {engine}."
@@ -273,7 +310,7 @@ def _fallback_fixture() -> Optional[Path]:
 
 def _guess_molecule(req: PredictRequest) -> str:
     """Best-effort molecule name guess from CSV content."""
-    for csv_field in [req.nmr_csv, req.ms_csv, req.ir_csv]:
+    for csv_field in [req.nmr_csv, req.ms_csv]:
         if not csv_field:
             continue
         try:

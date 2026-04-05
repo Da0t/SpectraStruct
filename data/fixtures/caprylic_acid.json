@@ -1,0 +1,9 @@
+{
+  "id": "caprylic_acid",
+  "display_name": "Caprylic Acid",
+  "smiles": "CCCCCCCC(=O)O",
+  "formula": "C8H16O2",
+  "mw": 144.21,
+  "has_nmr": true,
+  "has_ms": true
+}

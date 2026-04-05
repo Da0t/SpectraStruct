@@ -1,0 +1,9 @@
+{
+  "id": "mevalonic_acid",
+  "display_name": "Mevalonic Acid",
+  "smiles": "O=C(O)CC(O)(CO)CC(=O)O",
+  "formula": "C6H10O6",
+  "mw": 178.14,
+  "has_nmr": true,
+  "has_ms": true
+}

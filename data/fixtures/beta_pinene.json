@@ -1,0 +1,9 @@
+{
+  "id": "beta_pinene",
+  "display_name": "Beta Pinene",
+  "smiles": "C=C1CCC2CC1C2(C)C",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "has_nmr": true,
+  "has_ms": true
+}

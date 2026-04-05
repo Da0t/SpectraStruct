@@ -1,0 +1,9 @@
+{
+  "id": "dipropylene_glycol",
+  "display_name": "Dipropylene Glycol",
+  "smiles": "CC(O)COCC(C)O",
+  "formula": "C6H14O3",
+  "mw": 134.18,
+  "has_nmr": true,
+  "has_ms": true
+}

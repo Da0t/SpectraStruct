@@ -1,0 +1,9 @@
+{
+  "id": "phenanthridine",
+  "display_name": "Phenanthridine",
+  "smiles": "c1ccc2c(c1)ccc1cccnc12",
+  "formula": "C13H9N",
+  "mw": 179.22,
+  "has_nmr": true,
+  "has_ms": true
+}

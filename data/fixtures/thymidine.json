@@ -1,0 +1,20 @@
+{
+  "id": "thymidine",
+  "display_name": "Thymidine",
+  "smiles": "Cc1cn(C2CC(O)C(CO)O2)c(=O)[nH]c1=O",
+  "formula": "C10H14N2O5",
+  "mw": 242.23,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/thymidine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/thymidine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1cn(C2CC(O)C(CO)O2)c(=O)[nH]c1=O",
+      "name": "Thymidine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

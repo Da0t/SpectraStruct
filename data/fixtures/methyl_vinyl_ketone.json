@@ -1,0 +1,9 @@
+{
+  "id": "methyl_vinyl_ketone",
+  "display_name": "Methyl-Vinyl-Ketone",
+  "smiles": "C=CC(C)=O",
+  "formula": "C4H6O",
+  "mw": 70.09,
+  "has_nmr": true,
+  "has_ms": true
+}

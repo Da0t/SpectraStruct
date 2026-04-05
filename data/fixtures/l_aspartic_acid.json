@@ -1,0 +1,20 @@
+{
+  "id": "l_aspartic_acid",
+  "display_name": "Aspartic Acid",
+  "smiles": "NC(CC(=O)O)C(=O)O",
+  "formula": "C4H7NO4",
+  "mw": 133.1,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_aspartic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_aspartic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(CC(=O)O)C(=O)O",
+      "name": "Aspartic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

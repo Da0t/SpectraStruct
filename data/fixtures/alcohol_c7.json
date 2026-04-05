@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c7",
+  "display_name": "Alcohol C7",
+  "smiles": "CCCCCCCO",
+  "formula": "C7H16O",
+  "mw": 116.2,
+  "has_nmr": true,
+  "has_ms": true
+}

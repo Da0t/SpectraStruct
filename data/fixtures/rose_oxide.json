@@ -1,0 +1,9 @@
+{
+  "id": "rose_oxide",
+  "display_name": "Rose Oxide",
+  "smiles": "C=CC1CCC(C)OC1C",
+  "formula": "C9H16O",
+  "mw": 140.23,
+  "has_nmr": true,
+  "has_ms": true
+}

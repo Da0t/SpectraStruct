@@ -1,0 +1,9 @@
+{
+  "id": "fluoro_ccccc_c5",
+  "display_name": "Fluoro Ccccc C5",
+  "smiles": "CCCCCF",
+  "formula": "C5H11F",
+  "mw": 90.14,
+  "has_nmr": true,
+  "has_ms": true
+}

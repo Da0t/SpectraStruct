@@ -1,0 +1,9 @@
+{
+  "id": "ionone_beta",
+  "display_name": "Ionone Beta",
+  "smiles": "CC(=O)C=CC1=C(C)C=CCC1(C)C",
+  "formula": "C13H18O",
+  "mw": 190.29,
+  "has_nmr": true,
+  "has_ms": true
+}

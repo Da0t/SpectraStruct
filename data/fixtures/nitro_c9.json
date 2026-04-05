@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c9",
+  "display_name": "Nitro C9",
+  "smiles": "CCCCCCCCC[N+](=O)[O-]",
+  "formula": "C9H19NO2",
+  "mw": 173.26,
+  "has_nmr": true,
+  "has_ms": true
+}

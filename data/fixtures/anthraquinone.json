@@ -1,0 +1,9 @@
+{
+  "id": "anthraquinone",
+  "display_name": "Anthraquinone",
+  "smiles": "O=C1c2ccccc2C(=O)c2ccccc21",
+  "formula": "C14H8O2",
+  "mw": 208.22,
+  "has_nmr": true,
+  "has_ms": true
+}

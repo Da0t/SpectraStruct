@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_f",
+  "display_name": "Indole 5 F",
+  "smiles": "Fc1ccc2[nH]ccc2c1",
+  "formula": "C8H6FN",
+  "mw": 135.14,
+  "has_nmr": true,
+  "has_ms": true
+}

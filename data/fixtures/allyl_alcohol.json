@@ -1,0 +1,9 @@
+{
+  "id": "allyl_alcohol",
+  "display_name": "Allyl-Alcohol",
+  "smiles": "C=CCO",
+  "formula": "C3H6O",
+  "mw": 58.08,
+  "has_nmr": true,
+  "has_ms": true
+}

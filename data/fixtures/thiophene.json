@@ -1,0 +1,20 @@
+{
+  "id": "thiophene",
+  "display_name": "Thiophene",
+  "smiles": "c1ccsc1",
+  "formula": "C4H4S",
+  "mw": 84.14,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/thiophene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/thiophene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccsc1",
+      "name": "Thiophene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

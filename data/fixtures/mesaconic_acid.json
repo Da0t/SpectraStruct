@@ -1,0 +1,9 @@
+{
+  "id": "mesaconic_acid",
+  "display_name": "Mesaconic Acid",
+  "smiles": "CC(=CC(=O)O)C(=O)O",
+  "formula": "C5H6O4",
+  "mw": 130.1,
+  "has_nmr": true,
+  "has_ms": true
+}

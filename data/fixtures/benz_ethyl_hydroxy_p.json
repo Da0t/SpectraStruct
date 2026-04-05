@@ -1,0 +1,9 @@
+{
+  "id": "benz_ethyl_hydroxy_p",
+  "display_name": "Benz Ethyl Hydroxy P",
+  "smiles": "CCc1ccc(O)cc1",
+  "formula": "C8H10O",
+  "mw": 122.17,
+  "has_nmr": true,
+  "has_ms": true
+}

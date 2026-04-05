@@ -1,0 +1,20 @@
+{
+  "id": "taurine",
+  "display_name": "Taurine",
+  "smiles": "NCCS(=O)(=O)O",
+  "formula": "C2H7NO3S",
+  "mw": 125.15,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/taurine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/taurine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCS(=O)(=O)O",
+      "name": "Taurine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

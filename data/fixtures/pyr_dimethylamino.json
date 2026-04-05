@@ -1,0 +1,9 @@
+{
+  "id": "pyr_dimethylamino",
+  "display_name": "Pyr Dimethylamino",
+  "smiles": "CNCc1ccncc1",
+  "formula": "C7H10N2",
+  "mw": 122.17,
+  "has_nmr": true,
+  "has_ms": true
+}

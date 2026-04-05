@@ -1,0 +1,9 @@
+{
+  "id": "gingerol",
+  "display_name": "Gingerol",
+  "smiles": "CCCCCC(O)CC(=O)CCc1ccc(O)c(OC)c1",
+  "formula": "C17H26O4",
+  "mw": 294.39,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "simvastatin",
+  "display_name": "Simvastatin",
+  "smiles": "CCC(C)(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21",
+  "formula": "C25H38O5",
+  "mw": 418.57,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/simvastatin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/simvastatin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCC(C)(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21",
+      "name": "Simvastatin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

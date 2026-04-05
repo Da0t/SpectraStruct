@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c4_ester",
+  "display_name": "Methyl C4 Ester",
+  "smiles": "CCCC(=O)OC",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

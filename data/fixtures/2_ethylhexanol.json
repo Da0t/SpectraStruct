@@ -1,0 +1,9 @@
+{
+  "id": "2_ethylhexanol",
+  "display_name": "2 Ethylhexanol",
+  "smiles": "CCCCC(CC)CO",
+  "formula": "C8H18O",
+  "mw": 130.23,
+  "has_nmr": true,
+  "has_ms": true
+}

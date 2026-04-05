@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_disulfide",
+  "display_name": "Diethyl Disulfide",
+  "smiles": "CCSSCC",
+  "formula": "C4H10S2",
+  "mw": 122.26,
+  "has_nmr": true,
+  "has_ms": true
+}

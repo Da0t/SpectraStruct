@@ -1,0 +1,9 @@
+{
+  "id": "clotrimazole",
+  "display_name": "Clotrimazole",
+  "smiles": "Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1",
+  "formula": "C22H17ClN2",
+  "mw": 344.85,
+  "has_nmr": true,
+  "has_ms": true
+}

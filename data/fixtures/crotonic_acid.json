@@ -1,0 +1,9 @@
+{
+  "id": "crotonic_acid",
+  "display_name": "Crotonic Acid",
+  "smiles": "CC=CC(=O)O",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "has_nmr": true,
+  "has_ms": true
+}

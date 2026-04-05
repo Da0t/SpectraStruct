@@ -1,0 +1,9 @@
+{
+  "id": "4_chlorophenyl_boronic",
+  "display_name": "4 Chlorophenyl Boronic",
+  "smiles": "OB(O)c1ccc(Cl)cc1",
+  "formula": "C6H6BClO2",
+  "mw": 156.38,
+  "has_nmr": true,
+  "has_ms": true
+}

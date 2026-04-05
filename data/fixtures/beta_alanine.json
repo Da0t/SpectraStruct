@@ -1,0 +1,9 @@
+{
+  "id": "beta_alanine",
+  "display_name": "Beta Alanine",
+  "smiles": "NCCC(=O)O",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true
+}

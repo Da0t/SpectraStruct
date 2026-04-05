@@ -1,0 +1,9 @@
+{
+  "id": "sulfanilamide",
+  "display_name": "Sulfanilamide",
+  "smiles": "Nc1ccc(S(N)(=O)=O)cc1",
+  "formula": "C6H8N2O2S",
+  "mw": 172.21,
+  "has_nmr": true,
+  "has_ms": true
+}

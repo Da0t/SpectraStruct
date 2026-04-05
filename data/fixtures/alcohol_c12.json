@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c12",
+  "display_name": "Alcohol C12",
+  "smiles": "CCCCCCCCCCCCO",
+  "formula": "C12H26O",
+  "mw": 186.34,
+  "has_nmr": true,
+  "has_ms": true
+}

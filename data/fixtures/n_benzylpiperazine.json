@@ -1,0 +1,9 @@
+{
+  "id": "n_benzylpiperazine",
+  "display_name": "N Benzylpiperazine",
+  "smiles": "c1ccc(CN2CCNCC2)cc1",
+  "formula": "C11H16N2",
+  "mw": 176.26,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "quinazoline",
+  "display_name": "Quinazoline",
+  "smiles": "c1ccc2ncncc2c1",
+  "formula": "C8H6N2",
+  "mw": 130.15,
+  "has_nmr": true,
+  "has_ms": true
+}

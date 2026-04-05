@@ -1,0 +1,9 @@
+{
+  "id": "amino_alc_1_7",
+  "display_name": "Amino Alc 1 7",
+  "smiles": "NCCCCCCCO",
+  "formula": "C7H17NO",
+  "mw": 131.22,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "naph_1_ac",
+  "display_name": "Naph 1 Ac",
+  "smiles": "O=CCc1cccc2ccccc12",
+  "formula": "C12H10O",
+  "mw": 170.21,
+  "has_nmr": true,
+  "has_ms": true
+}

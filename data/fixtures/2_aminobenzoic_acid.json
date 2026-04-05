@@ -1,0 +1,9 @@
+{
+  "id": "2_aminobenzoic_acid",
+  "display_name": "2 Aminobenzoic Acid",
+  "smiles": "Nc1ccccc1C(=O)O",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

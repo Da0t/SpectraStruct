@@ -1,0 +1,9 @@
+{
+  "id": "isoxazole",
+  "display_name": "Isoxazole",
+  "smiles": "c1cnoc1",
+  "formula": "C3H3NO",
+  "mw": 69.06,
+  "has_nmr": true,
+  "has_ms": true
+}

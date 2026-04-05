@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_cyanoacetate",
+  "display_name": "Ethyl-Cyanoacetate",
+  "smiles": "CCOC(=O)CC#N",
+  "formula": "C5H7NO2",
+  "mw": 113.12,
+  "has_nmr": true,
+  "has_ms": true
+}

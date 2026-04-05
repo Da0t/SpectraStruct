@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c7",
+  "display_name": "Nitro C7",
+  "smiles": "CCCCCCC[N+](=O)[O-]",
+  "formula": "C7H15NO2",
+  "mw": 145.2,
+  "has_nmr": true,
+  "has_ms": true
+}

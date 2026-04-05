@@ -1,0 +1,9 @@
+{
+  "id": "2_phenylimidazole",
+  "display_name": "2 Phenylimidazole",
+  "smiles": "c1ccc(-c2ncc[nH]2)cc1",
+  "formula": "C9H8N2",
+  "mw": 144.18,
+  "has_nmr": true,
+  "has_ms": true
+}

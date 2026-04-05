@@ -1,0 +1,20 @@
+{
+  "id": "cinnamic_acid",
+  "display_name": "Cinnamic Acid",
+  "smiles": "O=C(O)C=Cc1ccccc1",
+  "formula": "C9H8O2",
+  "mw": 148.16,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/cinnamic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/cinnamic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)C=Cc1ccccc1",
+      "name": "Cinnamic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

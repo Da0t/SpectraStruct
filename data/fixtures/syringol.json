@@ -1,0 +1,9 @@
+{
+  "id": "syringol",
+  "display_name": "Syringol",
+  "smiles": "COc1cccc(OC)c1O",
+  "formula": "C8H10O3",
+  "mw": 154.16,
+  "has_nmr": true,
+  "has_ms": true
+}

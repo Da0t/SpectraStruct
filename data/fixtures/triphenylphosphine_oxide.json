@@ -1,0 +1,9 @@
+{
+  "id": "triphenylphosphine_oxide",
+  "display_name": "Triphenylphosphine Oxide",
+  "smiles": "O=P(c1ccccc1)(c1ccccc1)c1ccccc1",
+  "formula": "C18H15OP",
+  "mw": 278.29,
+  "has_nmr": true,
+  "has_ms": true
+}

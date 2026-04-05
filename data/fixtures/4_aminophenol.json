@@ -1,0 +1,9 @@
+{
+  "id": "4_aminophenol",
+  "display_name": "4 Aminophenol",
+  "smiles": "Nc1ccc(O)cc1",
+  "formula": "C6H7NO",
+  "mw": 109.13,
+  "has_nmr": true,
+  "has_ms": true
+}

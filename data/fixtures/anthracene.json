@@ -1,0 +1,20 @@
+{
+  "id": "anthracene",
+  "display_name": "Anthracene",
+  "smiles": "c1ccc2cc3ccccc3cc2c1",
+  "formula": "C14H10",
+  "mw": 178.23,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/anthracene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/anthracene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc2cc3ccccc3cc2c1",
+      "name": "Anthracene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

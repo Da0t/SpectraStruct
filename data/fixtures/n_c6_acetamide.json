@@ -1,0 +1,9 @@
+{
+  "id": "n_c6_acetamide",
+  "display_name": "N C6 Acetamide",
+  "smiles": "CCCCCCNC(C)=O",
+  "formula": "C8H17NO",
+  "mw": 143.23,
+  "has_nmr": true,
+  "has_ms": true
+}

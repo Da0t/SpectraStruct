@@ -1,0 +1,9 @@
+{
+  "id": "cinnamate_4_chloro",
+  "display_name": "Cinnamate 4 Chloro",
+  "smiles": "O=C(O)/C=C/c1ccc(Cl)cc1",
+  "formula": "C9H7ClO2",
+  "mw": 182.61,
+  "has_nmr": true,
+  "has_ms": true
+}

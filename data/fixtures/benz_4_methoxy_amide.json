@@ -1,0 +1,9 @@
+{
+  "id": "benz_4_methoxy_amide",
+  "display_name": "Benz 4 Methoxy Amide",
+  "smiles": "COc1ccc(C(N)=O)cc1",
+  "formula": "C8H9NO2",
+  "mw": 151.16,
+  "has_nmr": true,
+  "has_ms": true
+}

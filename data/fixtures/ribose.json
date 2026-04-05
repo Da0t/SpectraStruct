@@ -1,0 +1,20 @@
+{
+  "id": "ribose",
+  "display_name": "Ribose",
+  "smiles": "OC1COC(O)C(O)C1O",
+  "formula": "C5H10O5",
+  "mw": 150.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ribose_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ribose_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OC1COC(O)C(O)C1O",
+      "name": "Ribose",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

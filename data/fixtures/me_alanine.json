@@ -1,0 +1,9 @@
+{
+  "id": "me_alanine",
+  "display_name": "Me Alanine",
+  "smiles": "COC(=O)C(C)N",
+  "formula": "C4H9NO2",
+  "mw": 103.12,
+  "has_nmr": true,
+  "has_ms": true
+}

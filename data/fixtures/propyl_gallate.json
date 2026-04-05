@@ -1,0 +1,9 @@
+{
+  "id": "propyl_gallate",
+  "display_name": "Propyl-Gallate",
+  "smiles": "CCCOC(=O)c1cc(O)c(O)c(O)c1",
+  "formula": "C10H12O5",
+  "mw": 212.2,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thyronine",
+  "display_name": "Thyronine",
+  "smiles": "N[C@@H](Cc1ccc(Oc2ccc(O)cc2)cc1)C(=O)O",
+  "formula": "C15H15NO4",
+  "mw": 273.29,
+  "has_nmr": true,
+  "has_ms": true
+}

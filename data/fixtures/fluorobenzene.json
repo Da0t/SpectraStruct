@@ -1,0 +1,9 @@
+{
+  "id": "fluorobenzene",
+  "display_name": "Fluorobenzene",
+  "smiles": "Fc1ccccc1",
+  "formula": "C6H5F",
+  "mw": 96.1,
+  "has_nmr": true,
+  "has_ms": true
+}

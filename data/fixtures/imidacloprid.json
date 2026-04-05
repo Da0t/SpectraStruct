@@ -1,0 +1,9 @@
+{
+  "id": "imidacloprid",
+  "display_name": "Imidacloprid",
+  "smiles": "O=[N+]([O-])NC1=NCCN1Cc1ccc(Cl)nc1",
+  "formula": "C9H10ClN5O2",
+  "mw": 255.67,
+  "has_nmr": true,
+  "has_ms": true
+}

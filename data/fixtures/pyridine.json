@@ -1,0 +1,21 @@
+{
+  "id": "pyridine",
+  "display_name": "Pyridine",
+  "smiles": "c1ccncc1",
+  "formula": "C5H5N",
+  "mw": 79.1,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/pyridine_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/pyridine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccncc1",
+      "name": "Pyridine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n 11 11  0  0  0  0  0  0  0  0999 V2000\n   -0.0963    1.1799    0.0098 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2356    0.3819    0.0102 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0721   -0.9942   -0.0015 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1313   -1.6079   -0.0133 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2192   -0.8070   -0.0135 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1573    0.5774   -0.0023 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1847    2.2624    0.0187 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2268    0.8205    0.0195 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9305   -1.6597   -0.0016 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1742   -1.3244   -0.0231 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0642    1.1711   -0.0030 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  2  3  1  0\n  3  4  2  0\n  4  5  1  0\n  5  6  2  0\n  6  1  1  0\n  1  7  1  0\n  2  8  1  0\n  3  9  1  0\n  5 10  1  0\n  6 11  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lorazepam",
+  "display_name": "Lorazepam",
+  "smiles": "O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O",
+  "formula": "C15H10Cl2N2O2",
+  "mw": 321.16,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/lorazepam_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/lorazepam_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O",
+      "name": "Lorazepam",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

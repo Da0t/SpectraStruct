@@ -1,0 +1,9 @@
+{
+  "id": "nac_alanine",
+  "display_name": "Nac Alanine",
+  "smiles": "CC(=O)NC(C)C(=O)O",
+  "formula": "C5H9NO3",
+  "mw": 131.13,
+  "has_nmr": true,
+  "has_ms": true
+}

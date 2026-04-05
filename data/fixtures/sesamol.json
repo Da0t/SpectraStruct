@@ -1,0 +1,9 @@
+{
+  "id": "sesamol",
+  "display_name": "Sesamol",
+  "smiles": "Oc1ccc2c(c1)OCO2",
+  "formula": "C7H6O3",
+  "mw": 138.12,
+  "has_nmr": true,
+  "has_ms": true
+}

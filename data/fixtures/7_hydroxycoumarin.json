@@ -1,0 +1,9 @@
+{
+  "id": "7_hydroxycoumarin",
+  "display_name": "7 Hydroxycoumarin",
+  "smiles": "O=c1ccc2cc(O)ccc2o1",
+  "formula": "C9H6O3",
+  "mw": 162.14,
+  "has_nmr": true,
+  "has_ms": true
+}

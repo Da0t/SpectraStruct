@@ -1,0 +1,20 @@
+{
+  "id": "l_threonine",
+  "display_name": "Threonine",
+  "smiles": "CC(O)C(N)C(=O)O",
+  "formula": "C4H9NO3",
+  "mw": 119.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_threonine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_threonine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(O)C(N)C(=O)O",
+      "name": "Threonine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

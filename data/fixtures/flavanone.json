@@ -1,0 +1,9 @@
+{
+  "id": "flavanone",
+  "display_name": "Flavanone",
+  "smiles": "O=C1CC(c2ccccc2)Oc2ccccc21",
+  "formula": "C15H12O2",
+  "mw": 224.26,
+  "has_nmr": true,
+  "has_ms": true
+}

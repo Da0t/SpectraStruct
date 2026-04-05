@@ -1,0 +1,9 @@
+{
+  "id": "alpha_tocopherol",
+  "display_name": "Alpha Tocopherol",
+  "smiles": "Cc1c(C)c2c(c(C)c1O)OC(C)(CCCC(C)CCCC(C)CCCC(C)C)CC2",
+  "formula": "C29H50O2",
+  "mw": 430.72,
+  "has_nmr": true,
+  "has_ms": true
+}

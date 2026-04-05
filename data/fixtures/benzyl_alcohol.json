@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_alcohol",
+  "display_name": "Benzyl-Alcohol",
+  "smiles": "OCc1ccccc1",
+  "formula": "C7H8O",
+  "mw": 108.14,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_3_chloro",
+  "display_name": "Thiophene 3 Chloro",
+  "smiles": "Clc1ccsc1",
+  "formula": "C4H3ClS",
+  "mw": 118.59,
+  "has_nmr": true,
+  "has_ms": true
+}

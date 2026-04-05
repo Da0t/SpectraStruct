@@ -1,0 +1,9 @@
+{
+  "id": "2_methylpyrazine",
+  "display_name": "2 Methylpyrazine",
+  "smiles": "Cc1cnccn1",
+  "formula": "C5H6N2",
+  "mw": 94.12,
+  "has_nmr": true,
+  "has_ms": true
+}

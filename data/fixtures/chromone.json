@@ -1,0 +1,9 @@
+{
+  "id": "chromone",
+  "display_name": "Chromone",
+  "smiles": "O=c1ccoc2ccccc12",
+  "formula": "C9H6O2",
+  "mw": 146.14,
+  "has_nmr": true,
+  "has_ms": true
+}

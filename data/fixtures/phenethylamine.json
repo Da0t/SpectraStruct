@@ -1,0 +1,20 @@
+{
+  "id": "phenethylamine",
+  "display_name": "Phenethylamine",
+  "smiles": "NCCc1ccccc1",
+  "formula": "C8H11N",
+  "mw": 121.18,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/phenethylamine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/phenethylamine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NCCc1ccccc1",
+      "name": "Phenethylamine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

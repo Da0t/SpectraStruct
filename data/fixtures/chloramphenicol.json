@@ -1,0 +1,9 @@
+{
+  "id": "chloramphenicol",
+  "display_name": "Chloramphenicol",
+  "smiles": "O=C(NC(CO)C(O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl",
+  "formula": "C11H12Cl2N2O5",
+  "mw": 323.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hydroquinone",
+  "display_name": "Hydroquinone",
+  "smiles": "Oc1ccc(O)cc1",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/hydroquinone_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/hydroquinone_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Oc1ccc(O)cc1",
+      "name": "Hydroquinone",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

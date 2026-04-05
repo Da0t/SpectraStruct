@@ -1,0 +1,9 @@
+{
+  "id": "cycloalcohol_c5",
+  "display_name": "Cycloalcohol C5",
+  "smiles": "C1CCOCC1",
+  "formula": "C5H10O",
+  "mw": 86.13,
+  "has_nmr": true,
+  "has_ms": true
+}

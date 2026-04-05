@@ -1,0 +1,9 @@
+{
+  "id": "phenobarbital",
+  "display_name": "Phenobarbital",
+  "smiles": "CCC1(c2ccccc2)C(=O)NC(=O)NC1=O",
+  "formula": "C12H12N2O3",
+  "mw": 232.24,
+  "has_nmr": true,
+  "has_ms": true
+}

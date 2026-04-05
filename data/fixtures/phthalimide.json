@@ -1,0 +1,9 @@
+{
+  "id": "phthalimide",
+  "display_name": "Phthalimide",
+  "smiles": "O=C1NC(=O)c2ccccc21",
+  "formula": "C8H5NO2",
+  "mw": 147.13,
+  "has_nmr": true,
+  "has_ms": true
+}

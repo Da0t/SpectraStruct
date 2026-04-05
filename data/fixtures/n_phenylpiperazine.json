@@ -1,0 +1,9 @@
+{
+  "id": "n_phenylpiperazine",
+  "display_name": "N Phenylpiperazine",
+  "smiles": "c1ccc(N2CCNCC2)cc1",
+  "formula": "C10H14N2",
+  "mw": 162.24,
+  "has_nmr": true,
+  "has_ms": true
+}

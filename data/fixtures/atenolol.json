@@ -1,0 +1,20 @@
+{
+  "id": "atenolol",
+  "display_name": "Atenolol",
+  "smiles": "CC(C)NCC(O)COc1ccc(CC(N)=O)cc1",
+  "formula": "C14H22N2O3",
+  "mw": 266.34,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/atenolol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/atenolol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(C)NCC(O)COc1ccc(CC(N)=O)cc1",
+      "name": "Atenolol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

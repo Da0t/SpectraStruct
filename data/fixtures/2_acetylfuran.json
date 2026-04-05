@@ -1,0 +1,9 @@
+{
+  "id": "2_acetylfuran",
+  "display_name": "2 Acetylfuran",
+  "smiles": "CC(=O)c1ccco1",
+  "formula": "C6H6O2",
+  "mw": 110.11,
+  "has_nmr": true,
+  "has_ms": true
+}

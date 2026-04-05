@@ -1,0 +1,9 @@
+{
+  "id": "glutaric_acid",
+  "display_name": "Glutaric Acid",
+  "smiles": "O=C(O)CCCC(=O)O",
+  "formula": "C5H8O4",
+  "mw": 132.12,
+  "has_nmr": true,
+  "has_ms": true
+}

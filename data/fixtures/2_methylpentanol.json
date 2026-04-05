@@ -1,0 +1,9 @@
+{
+  "id": "2_methylpentanol",
+  "display_name": "2 Methylpentanol",
+  "smiles": "CCCC(C)CO",
+  "formula": "C6H14O",
+  "mw": 102.18,
+  "has_nmr": true,
+  "has_ms": true
+}

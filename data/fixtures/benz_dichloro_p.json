@@ -1,0 +1,9 @@
+{
+  "id": "benz_dichloro_p",
+  "display_name": "Benz Dichloro P",
+  "smiles": "Clc1ccc(Cl)cc1",
+  "formula": "C6H4Cl2",
+  "mw": 147.0,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "erythromycin",
+  "display_name": "Erythromycin",
+  "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)C(=O)C(C)C(O)C1(C)O",
+  "formula": "C37H67NO13",
+  "mw": 733.94,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/erythromycin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/erythromycin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)C(=O)C(C)C(O)C1(C)O",
+      "name": "Erythromycin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c12",
+  "display_name": "Alkane C12",
+  "smiles": "CCCCCCCCCCCC",
+  "formula": "C12H26",
+  "mw": 170.34,
+  "has_nmr": true,
+  "has_ms": true
+}

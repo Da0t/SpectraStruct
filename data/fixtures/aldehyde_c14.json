@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c14",
+  "display_name": "Aldehyde C14",
+  "smiles": "CCCCCCCCCCCCCC=O",
+  "formula": "C14H28O",
+  "mw": 212.38,
+  "has_nmr": true,
+  "has_ms": true
+}

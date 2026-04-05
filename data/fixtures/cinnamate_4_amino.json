@@ -1,0 +1,9 @@
+{
+  "id": "cinnamate_4_amino",
+  "display_name": "Cinnamate 4 Amino",
+  "smiles": "Nc1ccc(/C=C/C(=O)O)cc1",
+  "formula": "C9H9NO2",
+  "mw": 163.18,
+  "has_nmr": true,
+  "has_ms": true
+}

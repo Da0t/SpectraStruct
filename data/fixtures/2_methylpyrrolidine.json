@@ -1,0 +1,9 @@
+{
+  "id": "2_methylpyrrolidine",
+  "display_name": "2 Methylpyrrolidine",
+  "smiles": "CC1CCCN1",
+  "formula": "C5H11N",
+  "mw": 85.15,
+  "has_nmr": true,
+  "has_ms": true
+}

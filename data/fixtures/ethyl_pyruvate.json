@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_pyruvate",
+  "display_name": "Ethyl Pyruvate",
+  "smiles": "CCOC(=O)C(C)=O",
+  "formula": "C5H8O3",
+  "mw": 116.12,
+  "has_nmr": true,
+  "has_ms": true
+}

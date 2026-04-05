@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_azodicarboxylate",
+  "display_name": "Diethyl Azodicarboxylate",
+  "smiles": "CCOC(=O)N=NC(=O)OCC",
+  "formula": "C6H10N2O4",
+  "mw": 174.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone",
+  "display_name": "Acetophenone",
+  "smiles": "CC(=O)c1ccccc1",
+  "formula": "C8H8O",
+  "mw": 120.15,
+  "has_nmr": true,
+  "has_ms": true
+}

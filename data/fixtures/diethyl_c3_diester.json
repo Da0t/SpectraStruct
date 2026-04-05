@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_c3_diester",
+  "display_name": "Diethyl C3 Diester",
+  "smiles": "CCOC(=O)CCCC(=O)OCC",
+  "formula": "C9H16O4",
+  "mw": 188.22,
+  "has_nmr": true,
+  "has_ms": true
+}

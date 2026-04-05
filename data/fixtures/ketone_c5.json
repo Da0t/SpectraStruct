@@ -1,0 +1,9 @@
+{
+  "id": "ketone_c5",
+  "display_name": "Ketone C5",
+  "smiles": "CCCC(=O)CC",
+  "formula": "C6H12O",
+  "mw": 100.16,
+  "has_nmr": true,
+  "has_ms": true
+}

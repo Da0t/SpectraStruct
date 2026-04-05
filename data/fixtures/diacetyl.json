@@ -1,0 +1,9 @@
+{
+  "id": "diacetyl",
+  "display_name": "Diacetyl",
+  "smiles": "CC(=O)C(C)=O",
+  "formula": "C4H6O2",
+  "mw": 86.09,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tramadol",
+  "display_name": "Tramadol",
+  "smiles": "COc1cccc(C2(O)CCCCC2CN(C)C)c1",
+  "formula": "C16H25NO2",
+  "mw": 263.38,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tramadol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tramadol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "COc1cccc(C2(O)CCCCC2CN(C)C)c1",
+      "name": "Tramadol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

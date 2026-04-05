@@ -1,0 +1,9 @@
+{
+  "id": "benz_4_fluoro_amide",
+  "display_name": "Benz 4 Fluoro Amide",
+  "smiles": "NC(=O)c1ccc(F)cc1",
+  "formula": "C7H6FNO",
+  "mw": 139.13,
+  "has_nmr": true,
+  "has_ms": true
+}

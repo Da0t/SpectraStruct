@@ -1,0 +1,9 @@
+{
+  "id": "n_c5_acetamide",
+  "display_name": "N C5 Acetamide",
+  "smiles": "CCCCCNC(C)=O",
+  "formula": "C7H15NO",
+  "mw": 129.2,
+  "has_nmr": true,
+  "has_ms": true
+}

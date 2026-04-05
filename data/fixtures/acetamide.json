@@ -1,0 +1,9 @@
+{
+  "id": "acetamide",
+  "display_name": "Acetamide",
+  "smiles": "CC(N)=O",
+  "formula": "C2H5NO",
+  "mw": 59.07,
+  "has_nmr": true,
+  "has_ms": true
+}

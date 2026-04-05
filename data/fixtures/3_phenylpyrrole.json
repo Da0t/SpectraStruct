@@ -1,0 +1,9 @@
+{
+  "id": "3_phenylpyrrole",
+  "display_name": "3 Phenylpyrrole",
+  "smiles": "c1ccc(-c2cc[nH]c2)cc1",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "has_nmr": true,
+  "has_ms": true
+}

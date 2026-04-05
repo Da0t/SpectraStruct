@@ -1,0 +1,9 @@
+{
+  "id": "n_methylpiperazine",
+  "display_name": "N Methylpiperazine",
+  "smiles": "CN1CCNCC1",
+  "formula": "C5H12N2",
+  "mw": 100.16,
+  "has_nmr": true,
+  "has_ms": true
+}

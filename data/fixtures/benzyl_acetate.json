@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_acetate",
+  "display_name": "Benzyl-Acetate",
+  "smiles": "CC(=O)OCc1ccccc1",
+  "formula": "C9H10O2",
+  "mw": 150.18,
+  "has_nmr": true,
+  "has_ms": true
+}

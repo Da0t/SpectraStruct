@@ -1,0 +1,9 @@
+{
+  "id": "3_methyl_5_methylisoxazole",
+  "display_name": "3 Methyl 5 Methylisoxazole",
+  "smiles": "Cc1cc(C)on1",
+  "formula": "C5H7NO",
+  "mw": 97.12,
+  "has_nmr": true,
+  "has_ms": true
+}

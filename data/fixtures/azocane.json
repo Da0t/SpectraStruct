@@ -1,0 +1,9 @@
+{
+  "id": "azocane",
+  "display_name": "Azocane",
+  "smiles": "C1CCCNCCC1",
+  "formula": "C7H15N",
+  "mw": 113.2,
+  "has_nmr": true,
+  "has_ms": true
+}

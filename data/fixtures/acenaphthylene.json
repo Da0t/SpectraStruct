@@ -1,0 +1,9 @@
+{
+  "id": "acenaphthylene",
+  "display_name": "Acenaphthylene",
+  "smiles": "C1=Cc2cccc3cccc1c23",
+  "formula": "C12H8",
+  "mw": 152.2,
+  "has_nmr": true,
+  "has_ms": true
+}

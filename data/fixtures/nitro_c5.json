@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c5",
+  "display_name": "Nitro C5",
+  "smiles": "CCCCC[N+](=O)[O-]",
+  "formula": "C5H11NO2",
+  "mw": 117.15,
+  "has_nmr": true,
+  "has_ms": true
+}

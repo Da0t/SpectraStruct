@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ipr_4oh",
+  "display_name": "Benz 2Ipr 4Oh",
+  "smiles": "CCCc1ccc(O)cc1",
+  "formula": "C9H12O",
+  "mw": 136.19,
+  "has_nmr": true,
+  "has_ms": true
+}

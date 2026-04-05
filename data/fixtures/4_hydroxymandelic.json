@@ -1,0 +1,9 @@
+{
+  "id": "4_hydroxymandelic",
+  "display_name": "4 Hydroxymandelic",
+  "smiles": "O=C(O)C(O)c1ccc(O)cc1",
+  "formula": "C8H8O4",
+  "mw": 168.15,
+  "has_nmr": true,
+  "has_ms": true
+}

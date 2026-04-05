@@ -1,0 +1,9 @@
+{
+  "id": "thiol_c6",
+  "display_name": "Thiol C6",
+  "smiles": "CCCCCCS",
+  "formula": "C6H14S",
+  "mw": 118.24,
+  "has_nmr": true,
+  "has_ms": true
+}

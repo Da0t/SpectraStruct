@@ -1,0 +1,9 @@
+{
+  "id": "sarcosine",
+  "display_name": "Sarcosine",
+  "smiles": "CNCC(=O)O",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true
+}

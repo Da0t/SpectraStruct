@@ -1,0 +1,9 @@
+{
+  "id": "scopolamine",
+  "display_name": "Scopolamine",
+  "smiles": "CN1C2CC(OC(=O)C(CO)c3ccccc3)CC1C1OC12",
+  "formula": "C17H21NO4",
+  "mw": 303.36,
+  "has_nmr": true,
+  "has_ms": true
+}

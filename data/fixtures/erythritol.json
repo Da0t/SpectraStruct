@@ -1,0 +1,20 @@
+{
+  "id": "erythritol",
+  "display_name": "Erythritol",
+  "smiles": "OCC(O)C(O)CO",
+  "formula": "C4H10O4",
+  "mw": 122.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/erythritol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/erythritol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC(O)C(O)CO",
+      "name": "Erythritol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "paroxetine",
+  "display_name": "Paroxetine",
+  "smiles": "Fc1ccc(C2CCNC[C@@H]2COc2ccc3c(c2)OCO3)cc1",
+  "formula": "C19H20FNO3",
+  "mw": 329.37,
+  "has_nmr": true,
+  "has_ms": true
+}

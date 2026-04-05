@@ -1,0 +1,20 @@
+{
+  "id": "l_cysteine",
+  "display_name": "Cysteine",
+  "smiles": "NC(CS)C(=O)O",
+  "formula": "C3H7NO2S",
+  "mw": 121.16,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_cysteine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_cysteine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(CS)C(=O)O",
+      "name": "Cysteine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

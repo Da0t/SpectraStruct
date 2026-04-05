@@ -1,0 +1,9 @@
+{
+  "id": "piperine",
+  "display_name": "Piperine",
+  "smiles": "O=C(/C=C/C=C/c1ccc2c(c1)OCO2)N1CCCCC1",
+  "formula": "C17H19NO3",
+  "mw": 285.34,
+  "has_nmr": true,
+  "has_ms": true
+}

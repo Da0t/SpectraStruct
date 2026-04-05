@@ -1,0 +1,20 @@
+{
+  "id": "l_glutamic_acid",
+  "display_name": "Glutamic Acid",
+  "smiles": "NC(CCC(=O)O)C(=O)O",
+  "formula": "C5H9NO4",
+  "mw": 147.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_glutamic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_glutamic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(CCC(=O)O)C(=O)O",
+      "name": "Glutamic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

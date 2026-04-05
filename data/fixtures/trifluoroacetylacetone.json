@@ -1,0 +1,9 @@
+{
+  "id": "trifluoroacetylacetone",
+  "display_name": "Trifluoroacetylacetone",
+  "smiles": "CC(=O)CC(=O)C(F)(F)F",
+  "formula": "C5H5F3O2",
+  "mw": 154.09,
+  "has_nmr": true,
+  "has_ms": true
+}

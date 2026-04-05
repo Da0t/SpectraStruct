@@ -1,0 +1,9 @@
+{
+  "id": "benz_4_hydroxy_amide",
+  "display_name": "Benz 4 Hydroxy Amide",
+  "smiles": "NC(=O)c1ccc(O)cc1",
+  "formula": "C7H7NO2",
+  "mw": 137.14,
+  "has_nmr": true,
+  "has_ms": true
+}

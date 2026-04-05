@@ -1,0 +1,9 @@
+{
+  "id": "2_chloropyridine",
+  "display_name": "2 Chloropyridine",
+  "smiles": "Clc1ccccn1",
+  "formula": "C5H4ClN",
+  "mw": 113.55,
+  "has_nmr": true,
+  "has_ms": true
+}

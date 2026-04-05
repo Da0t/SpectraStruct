@@ -1,0 +1,9 @@
+{
+  "id": "chloro_ccccc_c5",
+  "display_name": "Chloro Ccccc C5",
+  "smiles": "CCCCCCl",
+  "formula": "C5H11Cl",
+  "mw": 106.6,
+  "has_nmr": true,
+  "has_ms": true
+}

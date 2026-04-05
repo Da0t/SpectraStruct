@@ -1,0 +1,9 @@
+{
+  "id": "diphenylmethane",
+  "display_name": "Diphenylmethane",
+  "smiles": "c1ccc(Cc2ccccc2)cc1",
+  "formula": "C13H12",
+  "mw": 168.24,
+  "has_nmr": true,
+  "has_ms": true
+}

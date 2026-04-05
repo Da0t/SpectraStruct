@@ -1,0 +1,9 @@
+{
+  "id": "citric_lactone",
+  "display_name": "Citric Lactone",
+  "smiles": "O=C(O)CC1(O)CC(=O)C(=O)O1",
+  "formula": "C6H6O6",
+  "mw": 174.11,
+  "has_nmr": true,
+  "has_ms": true
+}

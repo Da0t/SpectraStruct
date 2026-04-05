@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_acetoacetate",
+  "display_name": "Ethyl Acetoacetate",
+  "smiles": "CCOC(=O)CC(C)=O",
+  "formula": "C6H10O3",
+  "mw": 130.14,
+  "has_nmr": true,
+  "has_ms": true
+}

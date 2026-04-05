@@ -1,0 +1,9 @@
+{
+  "id": "hemimellitic_acid",
+  "display_name": "Hemimellitic Acid",
+  "smiles": "O=C(O)c1cccc(C(=O)O)c1C(=O)O",
+  "formula": "C9H6O6",
+  "mw": 210.14,
+  "has_nmr": true,
+  "has_ms": true
+}

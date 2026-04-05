@@ -1,0 +1,9 @@
+{
+  "id": "amine_c7",
+  "display_name": "Amine C7",
+  "smiles": "CCCCCCCN",
+  "formula": "C7H17N",
+  "mw": 115.22,
+  "has_nmr": true,
+  "has_ms": true
+}

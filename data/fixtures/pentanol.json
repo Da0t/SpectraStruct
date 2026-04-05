@@ -1,0 +1,20 @@
+{
+  "id": "pentanol",
+  "display_name": "Pentanol",
+  "smiles": "CCCCCO",
+  "formula": "C5H12O",
+  "mw": 88.15,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pentanol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pentanol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCO",
+      "name": "Pentanol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

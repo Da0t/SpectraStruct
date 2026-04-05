@@ -1,0 +1,9 @@
+{
+  "id": "levofloxacin",
+  "display_name": "Levofloxacin",
+  "smiles": "C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+  "formula": "C18H20FN3O4",
+  "mw": 361.37,
+  "has_nmr": true,
+  "has_ms": true
+}

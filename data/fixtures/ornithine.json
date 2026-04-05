@@ -1,0 +1,9 @@
+{
+  "id": "ornithine",
+  "display_name": "Ornithine",
+  "smiles": "NCCC[C@@H](N)C(=O)O",
+  "formula": "C5H12N2O2",
+  "mw": 132.16,
+  "has_nmr": true,
+  "has_ms": true
+}

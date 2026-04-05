@@ -1,0 +1,20 @@
+{
+  "id": "losartan",
+  "display_name": "Losartan",
+  "smiles": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+  "formula": "C22H23ClN6O",
+  "mw": 422.92,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/losartan_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/losartan_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+      "name": "Losartan",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

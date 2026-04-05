@@ -1,0 +1,9 @@
+{
+  "id": "benzonitrile",
+  "display_name": "Benzonitrile",
+  "smiles": "N#Cc1ccccc1",
+  "formula": "C7H5N",
+  "mw": 103.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_c5_diester",
+  "display_name": "Diethyl C5 Diester",
+  "smiles": "CCOC(=O)CCCCCC(=O)OCC",
+  "formula": "C11H20O4",
+  "mw": 216.28,
+  "has_nmr": true,
+  "has_ms": true
+}

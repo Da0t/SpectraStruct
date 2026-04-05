@@ -1,0 +1,9 @@
+{
+  "id": "n_n_dimethylbenzylamine",
+  "display_name": "N N Dimethylbenzylamine",
+  "smiles": "CN(C)Cc1ccccc1",
+  "formula": "C9H13N",
+  "mw": 135.21,
+  "has_nmr": true,
+  "has_ms": true
+}

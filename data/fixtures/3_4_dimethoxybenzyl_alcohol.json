@@ -1,0 +1,9 @@
+{
+  "id": "3_4_dimethoxybenzyl_alcohol",
+  "display_name": "3 4 Dimethoxybenzyl Alcohol",
+  "smiles": "COc1ccc(CO)cc1OC",
+  "formula": "C9H12O3",
+  "mw": 168.19,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "isopropyl_acetate",
+  "display_name": "Isopropyl-Acetate",
+  "smiles": "CC(=O)OC(C)C",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

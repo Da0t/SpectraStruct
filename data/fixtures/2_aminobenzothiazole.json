@@ -1,0 +1,9 @@
+{
+  "id": "2_aminobenzothiazole",
+  "display_name": "2 Aminobenzothiazole",
+  "smiles": "Nc1nc2ccccc2s1",
+  "formula": "C7H6N2S",
+  "mw": 150.21,
+  "has_nmr": true,
+  "has_ms": true
+}

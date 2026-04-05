@@ -1,0 +1,9 @@
+{
+  "id": "crotyl_alcohol",
+  "display_name": "Crotyl-Alcohol",
+  "smiles": "C/C=C/CO",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true
+}

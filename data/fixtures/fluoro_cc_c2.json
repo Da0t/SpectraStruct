@@ -1,0 +1,9 @@
+{
+  "id": "fluoro_cc_c2",
+  "display_name": "Fluoro Cc C2",
+  "smiles": "CCF",
+  "formula": "C2H5F",
+  "mw": 48.06,
+  "has_nmr": true,
+  "has_ms": true
+}

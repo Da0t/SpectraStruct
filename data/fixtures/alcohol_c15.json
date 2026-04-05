@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c15",
+  "display_name": "Alcohol C15",
+  "smiles": "CCCCCCCCCCCCCCCO",
+  "formula": "C15H32O",
+  "mw": 228.42,
+  "has_nmr": true,
+  "has_ms": true
+}

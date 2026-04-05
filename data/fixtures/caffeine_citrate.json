@@ -1,0 +1,20 @@
+{
+  "id": "caffeine_citrate",
+  "display_name": "Caffeine Citrate",
+  "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O.O=C(O)CC(O)(CC(=O)O)C(=O)O",
+  "formula": "C14H18N4O9",
+  "mw": 386.32,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/caffeine_citrate_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/caffeine_citrate_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O.O=C(O)CC(O)(CC(=O)O)C(=O)O",
+      "name": "Caffeine Citrate",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

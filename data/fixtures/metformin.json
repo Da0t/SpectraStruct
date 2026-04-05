@@ -1,0 +1,20 @@
+{
+  "id": "metformin",
+  "display_name": "Metformin",
+  "smiles": "CN(C)C(=N)N=C(N)N",
+  "formula": "C4H11N5",
+  "mw": 129.17,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/metformin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/metformin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(C)C(=N)N=C(N)N",
+      "name": "Metformin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

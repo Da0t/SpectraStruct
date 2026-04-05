@@ -1,0 +1,9 @@
+{
+  "id": "citronellal",
+  "display_name": "Citronellal",
+  "smiles": "CC(C)=CCCC(C)CCC=O",
+  "formula": "C11H20O",
+  "mw": 168.28,
+  "has_nmr": true,
+  "has_ms": true
+}

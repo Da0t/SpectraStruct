@@ -1,0 +1,9 @@
+{
+  "id": "piperonyl_alcohol",
+  "display_name": "Piperonyl Alcohol",
+  "smiles": "OCc1ccc2c(c1)OCO2",
+  "formula": "C8H8O3",
+  "mw": 152.15,
+  "has_nmr": true,
+  "has_ms": true
+}

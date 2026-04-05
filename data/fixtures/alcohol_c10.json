@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c10",
+  "display_name": "Alcohol C10",
+  "smiles": "CCCCCCCCCCO",
+  "formula": "C10H22O",
+  "mw": 158.28,
+  "has_nmr": true,
+  "has_ms": true
+}

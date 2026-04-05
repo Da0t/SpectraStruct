@@ -1,0 +1,9 @@
+{
+  "id": "dimedone",
+  "display_name": "Dimedone",
+  "smiles": "CC1(C)CC(=O)CC(=O)C1",
+  "formula": "C8H12O2",
+  "mw": 140.18,
+  "has_nmr": true,
+  "has_ms": true
+}

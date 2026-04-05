@@ -1,0 +1,9 @@
+{
+  "id": "perimidine",
+  "display_name": "Perimidine",
+  "smiles": "C1=Cc2[nH]cnc2-c2cccc1c2",
+  "formula": "C11H8N2",
+  "mw": 168.2,
+  "has_nmr": true,
+  "has_ms": true
+}

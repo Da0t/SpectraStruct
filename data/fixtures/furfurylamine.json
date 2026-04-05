@@ -1,0 +1,9 @@
+{
+  "id": "furfurylamine",
+  "display_name": "Furfurylamine",
+  "smiles": "NCc1ccco1",
+  "formula": "C5H7NO",
+  "mw": 97.12,
+  "has_nmr": true,
+  "has_ms": true
+}

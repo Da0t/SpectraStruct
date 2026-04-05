@@ -1,0 +1,20 @@
+{
+  "id": "pyruvic_acid",
+  "display_name": "Pyruvic Acid",
+  "smiles": "CC(=O)C(=O)O",
+  "formula": "C3H4O3",
+  "mw": 88.06,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/pyruvic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/pyruvic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(=O)C(=O)O",
+      "name": "Pyruvic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

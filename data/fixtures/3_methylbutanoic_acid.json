@@ -1,0 +1,9 @@
+{
+  "id": "3_methylbutanoic_acid",
+  "display_name": "3 Methylbutanoic Acid",
+  "smiles": "CC(C)CC(=O)O",
+  "formula": "C5H10O2",
+  "mw": 102.13,
+  "has_nmr": true,
+  "has_ms": true
+}

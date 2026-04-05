@@ -1,0 +1,9 @@
+{
+  "id": "3_aminopyridine",
+  "display_name": "3 Aminopyridine",
+  "smiles": "Nc1cccnc1",
+  "formula": "C5H6N2",
+  "mw": 94.12,
+  "has_nmr": true,
+  "has_ms": true
+}

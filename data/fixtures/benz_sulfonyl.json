@@ -1,0 +1,9 @@
+{
+  "id": "benz_sulfonyl",
+  "display_name": "Benz Sulfonyl",
+  "smiles": "O=[SH](=O)Cc1ccccc1",
+  "formula": "C7H8O2S",
+  "mw": 156.21,
+  "has_nmr": true,
+  "has_ms": true
+}

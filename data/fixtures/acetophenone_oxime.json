@@ -1,0 +1,9 @@
+{
+  "id": "acetophenone_oxime",
+  "display_name": "Acetophenone Oxime",
+  "smiles": "CC(=NO)c1ccccc1",
+  "formula": "C8H9NO",
+  "mw": 135.17,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c6",
+  "display_name": "Aldehyde C6",
+  "smiles": "CCCCCC=O",
+  "formula": "C6H12O",
+  "mw": 100.16,
+  "has_nmr": true,
+  "has_ms": true
+}

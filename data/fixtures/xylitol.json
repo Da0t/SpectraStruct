@@ -1,0 +1,20 @@
+{
+  "id": "xylitol",
+  "display_name": "Xylitol",
+  "smiles": "OCC(O)C(O)C(O)CO",
+  "formula": "C5H12O5",
+  "mw": 152.15,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/xylitol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/xylitol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "OCC(O)C(O)C(O)CO",
+      "name": "Xylitol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

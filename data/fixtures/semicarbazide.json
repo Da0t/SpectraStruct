@@ -1,0 +1,9 @@
+{
+  "id": "semicarbazide",
+  "display_name": "Semicarbazide",
+  "smiles": "NNC(N)=O",
+  "formula": "CH5N3O",
+  "mw": 75.07,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diphenyl_disulfide",
+  "display_name": "Diphenyl Disulfide",
+  "smiles": "c1ccc(SSc2ccccc2)cc1",
+  "formula": "C12H10S2",
+  "mw": 218.35,
+  "has_nmr": true,
+  "has_ms": true
+}

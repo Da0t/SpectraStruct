@@ -1,0 +1,9 @@
+{
+  "id": "naph_allyl",
+  "display_name": "Naph Allyl",
+  "smiles": "CC=Cc1ccc2ccccc2c1",
+  "formula": "C13H12",
+  "mw": 168.24,
+  "has_nmr": true,
+  "has_ms": true
+}

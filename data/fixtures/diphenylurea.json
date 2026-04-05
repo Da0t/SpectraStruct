@@ -1,0 +1,9 @@
+{
+  "id": "diphenylurea",
+  "display_name": "Diphenylurea",
+  "smiles": "O=C(Nc1ccccc1)Nc1ccccc1",
+  "formula": "C13H12N2O",
+  "mw": 212.25,
+  "has_nmr": true,
+  "has_ms": true
+}

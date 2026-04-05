@@ -1,0 +1,9 @@
+{
+  "id": "chloroacetic_acid",
+  "display_name": "Chloroacetic Acid",
+  "smiles": "O=C(O)CCl",
+  "formula": "C2H3ClO2",
+  "mw": 94.5,
+  "has_nmr": true,
+  "has_ms": true
+}

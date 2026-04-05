@@ -1,0 +1,9 @@
+{
+  "id": "adamantanone",
+  "display_name": "Adamantanone",
+  "smiles": "O=C1C2CC3CC(C2)CC1C3",
+  "formula": "C10H14O",
+  "mw": 150.22,
+  "has_nmr": true,
+  "has_ms": true
+}

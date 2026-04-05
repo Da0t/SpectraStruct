@@ -1,0 +1,20 @@
+{
+  "id": "acetylcholine",
+  "display_name": "Acetylcholine",
+  "smiles": "CC(=O)OCC[N+](C)(C)C",
+  "formula": "C7H16NO2+",
+  "mw": 146.21,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/acetylcholine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/acetylcholine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(=O)OCC[N+](C)(C)C",
+      "name": "Acetylcholine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

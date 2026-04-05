@@ -1,0 +1,9 @@
+{
+  "id": "linalyl_acetate",
+  "display_name": "Linalyl-Acetate",
+  "smiles": "C=CC(C)(CCC=C(C)C)OC(C)=O",
+  "formula": "C12H20O2",
+  "mw": 196.29,
+  "has_nmr": true,
+  "has_ms": true
+}

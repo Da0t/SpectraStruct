@@ -1,0 +1,9 @@
+{
+  "id": "acrolein",
+  "display_name": "Acrolein",
+  "smiles": "C=CC=O",
+  "formula": "C3H4O",
+  "mw": 56.06,
+  "has_nmr": true,
+  "has_ms": true
+}

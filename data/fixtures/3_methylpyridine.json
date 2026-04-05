@@ -1,0 +1,9 @@
+{
+  "id": "3_methylpyridine",
+  "display_name": "3 Methylpyridine",
+  "smiles": "Cc1cccnc1",
+  "formula": "C6H7N",
+  "mw": 93.13,
+  "has_nmr": true,
+  "has_ms": true
+}

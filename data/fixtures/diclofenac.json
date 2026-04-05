@@ -1,0 +1,9 @@
+{
+  "id": "diclofenac",
+  "display_name": "Diclofenac",
+  "smiles": "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+  "formula": "C14H11Cl2NO2",
+  "mw": 296.15,
+  "has_nmr": true,
+  "has_ms": true
+}

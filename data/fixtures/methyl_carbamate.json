@@ -1,0 +1,9 @@
+{
+  "id": "methyl_carbamate",
+  "display_name": "Methyl Carbamate",
+  "smiles": "COC(N)=O",
+  "formula": "C2H5NO2",
+  "mw": 75.07,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "alcohol_c9",
+  "display_name": "Alcohol C9",
+  "smiles": "CCCCCCCCCO",
+  "formula": "C9H20O",
+  "mw": 144.26,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4_methoxyphenylacetic",
+  "display_name": "4 Methoxyphenylacetic",
+  "smiles": "COc1ccc(CC(=O)O)cc1",
+  "formula": "C9H10O3",
+  "mw": 166.18,
+  "has_nmr": true,
+  "has_ms": true
+}

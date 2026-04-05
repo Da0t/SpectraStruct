@@ -1,0 +1,9 @@
+{
+  "id": "propiolactone",
+  "display_name": "Propiolactone",
+  "smiles": "O=C1CCO1",
+  "formula": "C3H4O2",
+  "mw": 72.06,
+  "has_nmr": true,
+  "has_ms": true
+}

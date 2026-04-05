@@ -1,0 +1,9 @@
+{
+  "id": "tributylamine",
+  "display_name": "Tributylamine",
+  "smiles": "CCCCN(CCCC)CCCC",
+  "formula": "C12H27N",
+  "mw": 185.35,
+  "has_nmr": true,
+  "has_ms": true
+}

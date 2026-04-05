@@ -1,0 +1,9 @@
+{
+  "id": "phenyl_acetate",
+  "display_name": "Phenyl Acetate",
+  "smiles": "CC(=O)Oc1ccccc1",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

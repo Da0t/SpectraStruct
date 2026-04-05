@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_2_ac",
+  "display_name": "Pyrimidine 2 Ac",
+  "smiles": "O=CCc1ncccn1",
+  "formula": "C6H6N2O",
+  "mw": 122.13,
+  "has_nmr": true,
+  "has_ms": true
+}

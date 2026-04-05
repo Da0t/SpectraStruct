@@ -1,0 +1,9 @@
+{
+  "id": "methyl_formate",
+  "display_name": "Methyl-Formate",
+  "smiles": "COC=O",
+  "formula": "C2H4O2",
+  "mw": 60.05,
+  "has_nmr": true,
+  "has_ms": true
+}

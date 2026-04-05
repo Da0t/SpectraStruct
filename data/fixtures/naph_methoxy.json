@@ -1,0 +1,9 @@
+{
+  "id": "naph_methoxy",
+  "display_name": "Naph Methoxy",
+  "smiles": "OCc1ccc2ccccc2c1",
+  "formula": "C11H10O",
+  "mw": 158.2,
+  "has_nmr": true,
+  "has_ms": true
+}

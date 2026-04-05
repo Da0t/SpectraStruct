@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c13",
+  "display_name": "Aldehyde C13",
+  "smiles": "CCCCCCCCCCCCC=O",
+  "formula": "C13H26O",
+  "mw": 198.35,
+  "has_nmr": true,
+  "has_ms": true
+}

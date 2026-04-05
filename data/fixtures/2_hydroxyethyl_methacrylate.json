@@ -1,0 +1,9 @@
+{
+  "id": "2_hydroxyethyl_methacrylate",
+  "display_name": "2 Hydroxyethyl Methacrylate",
+  "smiles": "C=C(C)C(=O)OCCO",
+  "formula": "C6H10O3",
+  "mw": 130.14,
+  "has_nmr": true,
+  "has_ms": true
+}

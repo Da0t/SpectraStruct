@@ -1,0 +1,9 @@
+{
+  "id": "diketopiperazine",
+  "display_name": "Diketopiperazine",
+  "smiles": "O=C1CNC(=O)CN1",
+  "formula": "C4H6N2O2",
+  "mw": 114.1,
+  "has_nmr": true,
+  "has_ms": true
+}

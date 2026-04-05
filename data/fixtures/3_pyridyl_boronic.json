@@ -1,0 +1,9 @@
+{
+  "id": "3_pyridyl_boronic",
+  "display_name": "3 Pyridyl Boronic",
+  "smiles": "OB(O)c1cccnc1",
+  "formula": "C5H6BNO2",
+  "mw": 122.92,
+  "has_nmr": true,
+  "has_ms": true
+}

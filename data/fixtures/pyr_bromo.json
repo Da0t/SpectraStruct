@@ -1,0 +1,9 @@
+{
+  "id": "pyr_bromo",
+  "display_name": "Pyr Bromo",
+  "smiles": "Brc1ccncc1",
+  "formula": "C5H4BrN",
+  "mw": 158.0,
+  "has_nmr": true,
+  "has_ms": true
+}

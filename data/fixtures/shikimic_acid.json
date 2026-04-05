@@ -1,0 +1,9 @@
+{
+  "id": "shikimic_acid",
+  "display_name": "Shikimic Acid",
+  "smiles": "O=C(O)C1=CCC(O)CC(O)C1O",
+  "formula": "C8H12O5",
+  "mw": 188.18,
+  "has_nmr": true,
+  "has_ms": true
+}

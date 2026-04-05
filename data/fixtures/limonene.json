@@ -1,0 +1,20 @@
+{
+  "id": "limonene",
+  "display_name": "Limonene",
+  "smiles": "C=C(C)C1CC=C(C)CC1",
+  "formula": "C10H16",
+  "mw": 136.24,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/limonene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/limonene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C=C(C)C1CC=C(C)CC1",
+      "name": "Limonene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

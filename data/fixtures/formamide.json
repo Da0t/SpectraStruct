@@ -1,0 +1,9 @@
+{
+  "id": "formamide",
+  "display_name": "Formamide",
+  "smiles": "NC=O",
+  "formula": "CH3NO",
+  "mw": 45.04,
+  "has_nmr": true,
+  "has_ms": true
+}

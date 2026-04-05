@@ -1,0 +1,9 @@
+{
+  "id": "divinylbenzene",
+  "display_name": "Divinylbenzene",
+  "smiles": "C=Cc1ccc(C=C)cc1",
+  "formula": "C10H10",
+  "mw": 130.19,
+  "has_nmr": true,
+  "has_ms": true
+}

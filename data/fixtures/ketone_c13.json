@@ -1,0 +1,9 @@
+{
+  "id": "ketone_c13",
+  "display_name": "Ketone C13",
+  "smiles": "CCCCCCCC(=O)CCCCCC",
+  "formula": "C14H28O",
+  "mw": 212.38,
+  "has_nmr": true,
+  "has_ms": true
+}

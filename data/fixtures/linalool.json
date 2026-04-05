@@ -1,0 +1,20 @@
+{
+  "id": "linalool",
+  "display_name": "Linalool",
+  "smiles": "C=CC(C)(O)CCC=C(C)C",
+  "formula": "C10H18O",
+  "mw": 154.25,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/linalool_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/linalool_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C=CC(C)(O)CCC=C(C)C",
+      "name": "Linalool",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

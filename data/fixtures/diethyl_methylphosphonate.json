@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_methylphosphonate",
+  "display_name": "Diethyl Methylphosphonate",
+  "smiles": "CCOP(C)(=O)OCC",
+  "formula": "C5H13O3P",
+  "mw": 152.13,
+  "has_nmr": true,
+  "has_ms": true
+}

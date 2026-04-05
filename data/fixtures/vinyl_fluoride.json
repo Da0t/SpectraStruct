@@ -1,0 +1,9 @@
+{
+  "id": "vinyl_fluoride",
+  "display_name": "Vinyl Fluoride",
+  "smiles": "C=CF",
+  "formula": "C2H3F",
+  "mw": 46.04,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benz_2ac_4oh",
+  "display_name": "Benz 2Ac 4Oh",
+  "smiles": "O=CCc1ccc(O)cc1",
+  "formula": "C8H8O2",
+  "mw": 136.15,
+  "has_nmr": true,
+  "has_ms": true
+}

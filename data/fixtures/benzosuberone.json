@@ -1,0 +1,9 @@
+{
+  "id": "benzosuberone",
+  "display_name": "Benzosuberone",
+  "smiles": "O=C1CCCCc2ccccc21",
+  "formula": "C11H12O",
+  "mw": 160.22,
+  "has_nmr": true,
+  "has_ms": true
+}

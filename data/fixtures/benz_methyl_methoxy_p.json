@@ -1,0 +1,9 @@
+{
+  "id": "benz_methyl_methoxy_p",
+  "display_name": "Benz Methyl Methoxy P",
+  "smiles": "COc1ccc(C)cc1",
+  "formula": "C8H10O",
+  "mw": 122.17,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4_phenylpyridine",
+  "display_name": "4 Phenylpyridine",
+  "smiles": "c1ccc(-c2ccncc2)cc1",
+  "formula": "C11H9N",
+  "mw": 155.2,
+  "has_nmr": true,
+  "has_ms": true
+}

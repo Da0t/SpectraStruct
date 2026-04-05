@@ -1,0 +1,9 @@
+{
+  "id": "benzofuranone",
+  "display_name": "Benzofuranone",
+  "smiles": "O=C1COc2ccccc21",
+  "formula": "C8H6O2",
+  "mw": 134.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "acid_c9",
+  "display_name": "Acid C9",
+  "smiles": "CCCCCCCCC(=O)O",
+  "formula": "C9H18O2",
+  "mw": 158.24,
+  "has_nmr": true,
+  "has_ms": true
+}

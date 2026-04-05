@@ -1,0 +1,9 @@
+{
+  "id": "n_vinylpyrrolidone",
+  "display_name": "N Vinylpyrrolidone",
+  "smiles": "C=CN1CCCC1=O",
+  "formula": "C6H9NO",
+  "mw": 111.14,
+  "has_nmr": true,
+  "has_ms": true
+}

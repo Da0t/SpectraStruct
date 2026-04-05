@@ -1,0 +1,9 @@
+{
+  "id": "benzoic_anhydride",
+  "display_name": "Benzoic Anhydride",
+  "smiles": "O=C(OC(=O)c1ccccc1)c1ccccc1",
+  "formula": "C14H10O3",
+  "mw": 226.23,
+  "has_nmr": true,
+  "has_ms": true
+}

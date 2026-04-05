@@ -1,0 +1,9 @@
+{
+  "id": "testosterone",
+  "display_name": "Testosterone",
+  "smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2O",
+  "formula": "C19H28O2",
+  "mw": 288.43,
+  "has_nmr": true,
+  "has_ms": true
+}

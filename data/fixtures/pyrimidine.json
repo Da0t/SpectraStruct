@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine",
+  "display_name": "Pyrimidine",
+  "smiles": "c1cncnc1",
+  "formula": "C4H4N2",
+  "mw": 80.09,
+  "has_nmr": true,
+  "has_ms": true
+}

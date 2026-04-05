@@ -1,0 +1,9 @@
+{
+  "id": "phosphoenolpyruvic_acid",
+  "display_name": "Phosphoenolpyruvic Acid",
+  "smiles": "C=C(OP(=O)(O)O)C(=O)O",
+  "formula": "C3H5O6P",
+  "mw": 168.04,
+  "has_nmr": true,
+  "has_ms": true
+}

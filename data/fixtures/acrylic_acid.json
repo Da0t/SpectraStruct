@@ -1,0 +1,9 @@
+{
+  "id": "acrylic_acid",
+  "display_name": "Acrylic Acid",
+  "smiles": "C=CC(=O)O",
+  "formula": "C3H4O2",
+  "mw": 72.06,
+  "has_nmr": true,
+  "has_ms": true
+}

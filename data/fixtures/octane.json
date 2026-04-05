@@ -1,0 +1,9 @@
+{
+  "id": "octane",
+  "display_name": "Octane",
+  "smiles": "CCCCCCCC",
+  "formula": "C8H18",
+  "mw": 114.23,
+  "has_nmr": true,
+  "has_ms": true
+}

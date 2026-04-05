@@ -1,0 +1,9 @@
+{
+  "id": "2_benzoylpyridine",
+  "display_name": "2 Benzoylpyridine",
+  "smiles": "O=C(c1ccccc1)c1ccccn1",
+  "formula": "C12H9NO",
+  "mw": 183.21,
+  "has_nmr": true,
+  "has_ms": true
+}

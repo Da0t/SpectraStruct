@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_bromide",
+  "display_name": "Benzyl-Bromide",
+  "smiles": "BrCc1ccccc1",
+  "formula": "C7H7Br",
+  "mw": 171.04,
+  "has_nmr": true,
+  "has_ms": true
+}

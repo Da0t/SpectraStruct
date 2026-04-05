@@ -1,0 +1,9 @@
+{
+  "id": "acid_c13",
+  "display_name": "Acid C13",
+  "smiles": "CCCCCCCCCCCCC(=O)O",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "has_nmr": true,
+  "has_ms": true
+}

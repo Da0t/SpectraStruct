@@ -1,0 +1,9 @@
+{
+  "id": "4_chloro_benzonitrile",
+  "display_name": "4 Chloro Benzonitrile",
+  "smiles": "N#Cc1ccc(Cl)cc1",
+  "formula": "C7H4ClN",
+  "mw": 137.57,
+  "has_nmr": true,
+  "has_ms": true
+}

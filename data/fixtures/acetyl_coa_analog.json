@@ -1,0 +1,9 @@
+{
+  "id": "acetyl_coa_analog",
+  "display_name": "Acetyl-Coa Analog",
+  "smiles": "CC(=O)SCCNC(=O)CCNC(=O)C(O)C(C)(C)CO",
+  "formula": "C13H24N2O5S",
+  "mw": 320.41,
+  "has_nmr": true,
+  "has_ms": true
+}

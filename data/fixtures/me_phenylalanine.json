@@ -1,0 +1,9 @@
+{
+  "id": "me_phenylalanine",
+  "display_name": "Me Phenylalanine",
+  "smiles": "COC(=O)C(N)Cc1ccccc1",
+  "formula": "C10H13NO2",
+  "mw": 179.22,
+  "has_nmr": true,
+  "has_ms": true
+}

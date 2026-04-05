@@ -1,0 +1,20 @@
+{
+  "id": "dimethyl_sulfoxide",
+  "display_name": "Dimethyl Sulfoxide",
+  "smiles": "CS(C)=O",
+  "formula": "C2H6OS",
+  "mw": 78.14,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/dimethyl_sulfoxide_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/dimethyl_sulfoxide_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CS(C)=O",
+      "name": "Dimethyl Sulfoxide",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

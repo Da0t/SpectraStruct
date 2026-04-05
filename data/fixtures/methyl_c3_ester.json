@@ -1,0 +1,9 @@
+{
+  "id": "methyl_c3_ester",
+  "display_name": "Methyl C3 Ester",
+  "smiles": "CCC(=O)OC",
+  "formula": "C4H8O2",
+  "mw": 88.11,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "3_hydroxybutyric_acid",
+  "display_name": "3 Hydroxybutyric Acid",
+  "smiles": "CC(O)CC(=O)O",
+  "formula": "C4H8O3",
+  "mw": 104.1,
+  "has_nmr": true,
+  "has_ms": true
+}

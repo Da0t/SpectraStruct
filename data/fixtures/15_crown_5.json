@@ -1,0 +1,9 @@
+{
+  "id": "15_crown_5",
+  "display_name": "15 Crown 5",
+  "smiles": "C1COCCOCCOCCOCCOC1",
+  "formula": "C11H22O5",
+  "mw": 234.29,
+  "has_nmr": true,
+  "has_ms": true
+}

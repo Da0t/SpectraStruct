@@ -1,0 +1,9 @@
+{
+  "id": "stilbene_4_ome",
+  "display_name": "Stilbene 4 Ome",
+  "smiles": "OCc1ccc(/C=C/c2ccccc2)cc1",
+  "formula": "C15H14O",
+  "mw": 210.28,
+  "has_nmr": true,
+  "has_ms": true
+}

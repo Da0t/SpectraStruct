@@ -1,0 +1,9 @@
+{
+  "id": "cycloalkane_c4",
+  "display_name": "Cycloalkane C4",
+  "smiles": "C1CCC1",
+  "formula": "C4H8",
+  "mw": 56.11,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_phenylphosphonate",
+  "display_name": "Diethyl Phenylphosphonate",
+  "smiles": "CCOP(=O)(OCC)c1ccccc1",
+  "formula": "C10H15O3P",
+  "mw": 214.2,
+  "has_nmr": true,
+  "has_ms": true
+}

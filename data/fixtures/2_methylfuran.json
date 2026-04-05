@@ -1,0 +1,9 @@
+{
+  "id": "2_methylfuran",
+  "display_name": "2 Methylfuran",
+  "smiles": "Cc1ccco1",
+  "formula": "C5H6O",
+  "mw": 82.1,
+  "has_nmr": true,
+  "has_ms": true
+}

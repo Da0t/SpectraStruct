@@ -1,0 +1,9 @@
+{
+  "id": "2_methyloxetane",
+  "display_name": "2 Methyloxetane",
+  "smiles": "CC1COC1",
+  "formula": "C4H8O",
+  "mw": 72.11,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "naph_propargyl",
+  "display_name": "Naph Propargyl",
+  "smiles": "CC#Cc1ccc2ccccc2c1",
+  "formula": "C13H10",
+  "mw": 166.22,
+  "has_nmr": true,
+  "has_ms": true
+}

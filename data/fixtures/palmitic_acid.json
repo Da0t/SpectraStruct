@@ -1,0 +1,20 @@
+{
+  "id": "palmitic_acid",
+  "display_name": "Palmitic Acid",
+  "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+  "formula": "C16H32O2",
+  "mw": 256.43,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/palmitic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/palmitic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+      "name": "Palmitic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "benz_2f_4ipr",
+  "display_name": "Benz 2F 4Ipr",
+  "smiles": "CC(C)c1ccc(F)cc1",
+  "formula": "C9H11F",
+  "mw": 138.19,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4_methoxybenzyl_alcohol",
+  "display_name": "4 Methoxybenzyl Alcohol",
+  "smiles": "COc1ccc(CO)cc1",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "has_nmr": true,
+  "has_ms": true
+}

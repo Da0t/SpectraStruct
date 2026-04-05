@@ -1,0 +1,9 @@
+{
+  "id": "isobutane",
+  "display_name": "Isobutane",
+  "smiles": "CC(C)C",
+  "formula": "C4H10",
+  "mw": 58.12,
+  "has_nmr": true,
+  "has_ms": true
+}

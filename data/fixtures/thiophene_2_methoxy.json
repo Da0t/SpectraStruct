@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_2_methoxy",
+  "display_name": "Thiophene 2 Methoxy",
+  "smiles": "OCc1cccs1",
+  "formula": "C5H6OS",
+  "mw": 114.17,
+  "has_nmr": true,
+  "has_ms": true
+}

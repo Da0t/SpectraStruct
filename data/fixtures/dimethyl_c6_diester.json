@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_c6_diester",
+  "display_name": "Dimethyl C6 Diester",
+  "smiles": "COC(=O)CCCCCCC(=O)OC",
+  "formula": "C10H18O4",
+  "mw": 202.25,
+  "has_nmr": true,
+  "has_ms": true
+}

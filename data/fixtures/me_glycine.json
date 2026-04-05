@@ -1,0 +1,9 @@
+{
+  "id": "me_glycine",
+  "display_name": "Me Glycine",
+  "smiles": "COC(=O)CN",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c13",
+  "display_name": "Alkane C13",
+  "smiles": "CCCCCCCCCCCCC",
+  "formula": "C13H28",
+  "mw": 184.37,
+  "has_nmr": true,
+  "has_ms": true
+}

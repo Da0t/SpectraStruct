@@ -1,0 +1,9 @@
+{
+  "id": "glycidyl_acrylate",
+  "display_name": "Glycidyl Acrylate",
+  "smiles": "C=CC(=O)OCC1CO1",
+  "formula": "C6H8O3",
+  "mw": 128.13,
+  "has_nmr": true,
+  "has_ms": true
+}

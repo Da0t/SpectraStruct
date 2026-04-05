@@ -1,0 +1,20 @@
+{
+  "id": "l_histidine",
+  "display_name": "Histidine",
+  "smiles": "NC(Cc1cnc[nH]1)C(=O)O",
+  "formula": "C6H9N3O2",
+  "mw": 155.16,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_histidine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_histidine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(Cc1cnc[nH]1)C(=O)O",
+      "name": "Histidine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_oh",
+  "display_name": "Indole 5 Oh",
+  "smiles": "Oc1ccc2[nH]ccc2c1",
+  "formula": "C8H7NO",
+  "mw": 133.15,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "creatol",
+  "display_name": "Creatol",
+  "smiles": "CN1CC(=O)N(C)C1=O",
+  "formula": "C5H8N2O2",
+  "mw": 128.13,
+  "has_nmr": true,
+  "has_ms": true
+}

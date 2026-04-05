@@ -1,0 +1,9 @@
+{
+  "id": "methanesulfonamide",
+  "display_name": "Methanesulfonamide",
+  "smiles": "CS(N)(=O)=O",
+  "formula": "CH5NO2S",
+  "mw": 95.12,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lamotrigine",
+  "display_name": "Lamotrigine",
+  "smiles": "Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1",
+  "formula": "C9H7Cl2N5",
+  "mw": 256.1,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/lamotrigine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/lamotrigine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1",
+      "name": "Lamotrigine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

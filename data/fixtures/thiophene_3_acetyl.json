@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_3_acetyl",
+  "display_name": "Thiophene 3 Acetyl",
+  "smiles": "O=CCc1ccsc1",
+  "formula": "C6H6OS",
+  "mw": 126.18,
+  "has_nmr": true,
+  "has_ms": true
+}

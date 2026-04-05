@@ -1,0 +1,9 @@
+{
+  "id": "melamine",
+  "display_name": "Melamine",
+  "smiles": "Nc1nc(N)nc(N)n1",
+  "formula": "C3H6N6",
+  "mw": 126.12,
+  "has_nmr": true,
+  "has_ms": true
+}

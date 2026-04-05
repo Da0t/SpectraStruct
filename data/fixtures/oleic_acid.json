@@ -1,0 +1,20 @@
+{
+  "id": "oleic_acid",
+  "display_name": "Oleic Acid",
+  "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O",
+  "formula": "C18H34O2",
+  "mw": 282.47,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/oleic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/oleic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCCCCCCCC=CCCCCCCCC(=O)O",
+      "name": "Oleic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

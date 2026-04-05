@@ -1,0 +1,9 @@
+{
+  "id": "4_methoxy_benzonitrile",
+  "display_name": "4 Methoxy Benzonitrile",
+  "smiles": "COc1ccc(C#N)cc1",
+  "formula": "C8H7NO",
+  "mw": 133.15,
+  "has_nmr": true,
+  "has_ms": true
+}

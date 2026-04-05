@@ -1,0 +1,9 @@
+{
+  "id": "n_benzylpiperidine",
+  "display_name": "N Benzylpiperidine",
+  "smiles": "c1ccc(CN2CCCCC2)cc1",
+  "formula": "C12H17N",
+  "mw": 175.28,
+  "has_nmr": true,
+  "has_ms": true
+}

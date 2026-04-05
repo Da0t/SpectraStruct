@@ -1,0 +1,9 @@
+{
+  "id": "chalcone",
+  "display_name": "Chalcone",
+  "smiles": "O=C(/C=C/c1ccccc1)c1ccccc1",
+  "formula": "C15H12O",
+  "mw": 208.26,
+  "has_nmr": true,
+  "has_ms": true
+}

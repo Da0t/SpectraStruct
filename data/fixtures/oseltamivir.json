@@ -1,0 +1,20 @@
+{
+  "id": "oseltamivir",
+  "display_name": "Oseltamivir",
+  "smiles": "CCOC(=O)C1=CC(OC(CC)CC)C(NC(C)=O)C(N)C1",
+  "formula": "C16H28N2O4",
+  "mw": 312.41,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/oseltamivir_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/oseltamivir_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCOC(=O)C1=CC(OC(CC)CC)C(NC(C)=O)C(N)C1",
+      "name": "Oseltamivir",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

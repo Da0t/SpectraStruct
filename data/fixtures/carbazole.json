@@ -1,0 +1,9 @@
+{
+  "id": "carbazole",
+  "display_name": "Carbazole",
+  "smiles": "c1ccc2c(c1)[nH]c1ccccc12",
+  "formula": "C12H9N",
+  "mw": 167.21,
+  "has_nmr": true,
+  "has_ms": true
+}

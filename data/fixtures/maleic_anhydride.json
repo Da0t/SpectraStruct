@@ -1,0 +1,9 @@
+{
+  "id": "maleic_anhydride",
+  "display_name": "Maleic Anhydride",
+  "smiles": "O=C1C=CC(=O)O1",
+  "formula": "C4H2O3",
+  "mw": 98.06,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "epinephrine",
+  "display_name": "Epinephrine",
+  "smiles": "CNCC(O)c1ccc(O)c(O)c1",
+  "formula": "C9H13NO3",
+  "mw": 183.21,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/epinephrine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/epinephrine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CNCC(O)c1ccc(O)c(O)c1",
+      "name": "Epinephrine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

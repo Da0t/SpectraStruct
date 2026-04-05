@@ -1,0 +1,9 @@
+{
+  "id": "cycloalkane_c8",
+  "display_name": "Cycloalkane C8",
+  "smiles": "C1CCCCCCC1",
+  "formula": "C8H16",
+  "mw": 112.22,
+  "has_nmr": true,
+  "has_ms": true
+}

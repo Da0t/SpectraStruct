@@ -1,0 +1,9 @@
+{
+  "id": "dimethylacetamide",
+  "display_name": "Dimethylacetamide",
+  "smiles": "CC(=O)N(C)C",
+  "formula": "C4H9NO",
+  "mw": 87.12,
+  "has_nmr": true,
+  "has_ms": true
+}

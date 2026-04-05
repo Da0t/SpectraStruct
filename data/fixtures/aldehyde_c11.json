@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c11",
+  "display_name": "Aldehyde C11",
+  "smiles": "CCCCCCCCCCC=O",
+  "formula": "C11H22O",
+  "mw": 170.3,
+  "has_nmr": true,
+  "has_ms": true
+}

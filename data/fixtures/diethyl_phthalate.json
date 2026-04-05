@@ -1,0 +1,9 @@
+{
+  "id": "diethyl_phthalate",
+  "display_name": "Diethyl-Phthalate",
+  "smiles": "CCOC(=O)c1ccccc1C(=O)OCC",
+  "formula": "C12H14O4",
+  "mw": 222.24,
+  "has_nmr": true,
+  "has_ms": true
+}

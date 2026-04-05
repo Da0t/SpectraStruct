@@ -1,0 +1,20 @@
+{
+  "id": "adenine",
+  "display_name": "Adenine",
+  "smiles": "Nc1ncnc2nc[nH]c12",
+  "formula": "C5H5N5",
+  "mw": 135.13,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/adenine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/adenine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Nc1ncnc2nc[nH]c12",
+      "name": "Adenine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

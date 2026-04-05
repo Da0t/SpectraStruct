@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c8",
+  "display_name": "Thioether C8",
+  "smiles": "CCCCSCCCC",
+  "formula": "C8H18S",
+  "mw": 146.3,
+  "has_nmr": true,
+  "has_ms": true
+}

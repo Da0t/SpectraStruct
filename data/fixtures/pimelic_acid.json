@@ -1,0 +1,9 @@
+{
+  "id": "pimelic_acid",
+  "display_name": "Pimelic Acid",
+  "smiles": "O=C(O)CCCCCC(=O)O",
+  "formula": "C7H12O4",
+  "mw": 160.17,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diphenyl_sulfide",
+  "display_name": "Diphenyl Sulfide",
+  "smiles": "c1ccc(Sc2ccccc2)cc1",
+  "formula": "C12H10S",
+  "mw": 186.28,
+  "has_nmr": true,
+  "has_ms": true
+}

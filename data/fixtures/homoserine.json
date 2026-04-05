@@ -1,0 +1,9 @@
+{
+  "id": "homoserine",
+  "display_name": "Homoserine",
+  "smiles": "N[C@@H](CCO)C(=O)O",
+  "formula": "C4H9NO3",
+  "mw": 119.12,
+  "has_nmr": true,
+  "has_ms": true
+}

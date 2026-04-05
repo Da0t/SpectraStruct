@@ -1,0 +1,9 @@
+{
+  "id": "zingerone",
+  "display_name": "Zingerone",
+  "smiles": "COc1cc(CCC(C)=O)ccc1O",
+  "formula": "C11H14O3",
+  "mw": 194.23,
+  "has_nmr": true,
+  "has_ms": true
+}

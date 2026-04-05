@@ -1,0 +1,20 @@
+{
+  "id": "acetaldehyde",
+  "display_name": "Acetaldehyde",
+  "smiles": "CC=O",
+  "formula": "C2H4O",
+  "mw": 44.05,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/acetaldehyde_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/acetaldehyde_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC=O",
+      "name": "Acetaldehyde",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

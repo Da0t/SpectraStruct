@@ -1,0 +1,20 @@
+{
+  "id": "malic_acid",
+  "display_name": "Malic Acid",
+  "smiles": "O=C(O)CC(O)C(=O)O",
+  "formula": "C4H6O5",
+  "mw": 134.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/malic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/malic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)CC(O)C(=O)O",
+      "name": "Malic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

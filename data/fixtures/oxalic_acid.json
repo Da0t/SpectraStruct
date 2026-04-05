@@ -1,0 +1,20 @@
+{
+  "id": "oxalic_acid",
+  "display_name": "Oxalic Acid",
+  "smiles": "O=C(O)C(=O)O",
+  "formula": "C2H2O4",
+  "mw": 90.03,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/oxalic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/oxalic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)C(=O)O",
+      "name": "Oxalic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

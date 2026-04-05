@@ -1,0 +1,9 @@
+{
+  "id": "tetrazole_drug",
+  "display_name": "Tetrazole Drug",
+  "smiles": "c1nn[nH]n1",
+  "formula": "CH2N4",
+  "mw": 70.05,
+  "has_nmr": true,
+  "has_ms": true
+}

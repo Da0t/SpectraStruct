@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cooh_4sme",
+  "display_name": "Benz 2Cooh 4Sme",
+  "smiles": "CSc1ccc(OC=O)cc1",
+  "formula": "C8H8O2S",
+  "mw": 168.22,
+  "has_nmr": true,
+  "has_ms": true
+}

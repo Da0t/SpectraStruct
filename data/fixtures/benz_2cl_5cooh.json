@@ -1,0 +1,9 @@
+{
+  "id": "benz_2cl_5cooh",
+  "display_name": "Benz 2Cl 5Cooh",
+  "smiles": "O=C(O)c1cccc(Cl)c1",
+  "formula": "C7H5ClO2",
+  "mw": 156.57,
+  "has_nmr": true,
+  "has_ms": true
+}

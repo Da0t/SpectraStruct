@@ -1,0 +1,9 @@
+{
+  "id": "nitro_c2",
+  "display_name": "Nitro C2",
+  "smiles": "CC[N+](=O)[O-]",
+  "formula": "C2H5NO2",
+  "mw": 75.07,
+  "has_nmr": true,
+  "has_ms": true
+}

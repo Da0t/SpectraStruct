@@ -1,0 +1,9 @@
+{
+  "id": "aldehyde_c8",
+  "display_name": "Aldehyde C8",
+  "smiles": "CCCCCCCC=O",
+  "formula": "C8H16O",
+  "mw": 128.22,
+  "has_nmr": true,
+  "has_ms": true
+}

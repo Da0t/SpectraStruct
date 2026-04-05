@@ -1,0 +1,9 @@
+{
+  "id": "benz_4_chloro_amide",
+  "display_name": "Benz 4 Chloro Amide",
+  "smiles": "NC(=O)c1ccc(Cl)cc1",
+  "formula": "C7H6ClNO",
+  "mw": 155.58,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "toluene_diisocyanate",
+  "display_name": "Toluene Diisocyanate",
+  "smiles": "Cc1ccc(N=C=O)cc1N=C=O",
+  "formula": "C9H6N2O2",
+  "mw": 174.16,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bromoacetic_acid",
+  "display_name": "Bromoacetic Acid",
+  "smiles": "O=C(O)CBr",
+  "formula": "C2H3BrO2",
+  "mw": 138.95,
+  "has_nmr": true,
+  "has_ms": true
+}

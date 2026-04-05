@@ -1,0 +1,9 @@
+{
+  "id": "benzanilide",
+  "display_name": "Benzanilide",
+  "smiles": "O=C(Nc1ccccc1)c1ccccc1",
+  "formula": "C13H11NO",
+  "mw": 197.24,
+  "has_nmr": true,
+  "has_ms": true
+}

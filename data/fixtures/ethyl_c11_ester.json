@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_c11_ester",
+  "display_name": "Ethyl C11 Ester",
+  "smiles": "CCCCCCCCCCC(=O)OCC",
+  "formula": "C13H26O2",
+  "mw": 214.35,
+  "has_nmr": true,
+  "has_ms": true
+}

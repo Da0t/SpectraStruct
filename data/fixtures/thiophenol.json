@@ -1,0 +1,9 @@
+{
+  "id": "thiophenol",
+  "display_name": "Thiophenol",
+  "smiles": "Sc1ccccc1",
+  "formula": "C6H6S",
+  "mw": 110.18,
+  "has_nmr": true,
+  "has_ms": true
+}

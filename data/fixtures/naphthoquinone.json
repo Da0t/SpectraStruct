@@ -1,0 +1,9 @@
+{
+  "id": "naphthoquinone",
+  "display_name": "Naphthoquinone",
+  "smiles": "O=C1C=CC(=O)c2ccccc21",
+  "formula": "C10H6O2",
+  "mw": 158.16,
+  "has_nmr": true,
+  "has_ms": true
+}

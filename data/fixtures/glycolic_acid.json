@@ -1,0 +1,9 @@
+{
+  "id": "glycolic_acid",
+  "display_name": "Glycolic Acid",
+  "smiles": "O=C(O)CO",
+  "formula": "C2H4O3",
+  "mw": 76.05,
+  "has_nmr": true,
+  "has_ms": true
+}

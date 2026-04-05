@@ -1,0 +1,20 @@
+{
+  "id": "tartaric_acid",
+  "display_name": "Tartaric Acid",
+  "smiles": "O=C(O)C(O)C(O)C(=O)O",
+  "formula": "C4H6O6",
+  "mw": 150.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/tartaric_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/tartaric_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)C(O)C(O)C(=O)O",
+      "name": "Tartaric Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

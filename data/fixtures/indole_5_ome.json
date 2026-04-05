@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_ome",
+  "display_name": "Indole 5 Ome",
+  "smiles": "OCc1ccc2[nH]ccc2c1",
+  "formula": "C9H9NO",
+  "mw": 147.18,
+  "has_nmr": true,
+  "has_ms": true
+}

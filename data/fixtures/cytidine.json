@@ -1,0 +1,20 @@
+{
+  "id": "cytidine",
+  "display_name": "Cytidine",
+  "smiles": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
+  "formula": "C9H13N3O5",
+  "mw": 243.22,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/cytidine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/cytidine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
+      "name": "Cytidine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

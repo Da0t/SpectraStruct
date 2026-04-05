@@ -1,0 +1,9 @@
+{
+  "id": "naph_vinyl",
+  "display_name": "Naph Vinyl",
+  "smiles": "C=Cc1ccc2ccccc2c1",
+  "formula": "C12H10",
+  "mw": 154.21,
+  "has_nmr": true,
+  "has_ms": true
+}

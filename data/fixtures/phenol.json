@@ -1,0 +1,21 @@
+{
+  "id": "phenol",
+  "display_name": "Phenol",
+  "smiles": "Oc1ccccc1",
+  "formula": "C6H6O",
+  "mw": 94.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/phenol_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/phenol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Oc1ccccc1",
+      "name": "Phenol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n 13 13  0  0  0  0  0  0  0  0999 V2000\n    2.4916   -0.0965    0.0109 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1295   -0.0300    0.0106 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3520   -1.0925   -0.4416 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0393   -0.9797   -0.4235 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6409    0.1897    0.0446 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.8522    1.2488    0.4957 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5380    1.1381    0.4784 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7573   -0.9622   -0.3393 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8061   -2.0073   -0.8082 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6562   -1.8030   -0.7742 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.7244    0.2761    0.0581 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3190    2.1597    0.8604 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1575    1.9588    0.8281 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  6  7  2  0\n  7  2  1  0\n  1  8  1  0\n  3  9  1  0\n  4 10  1  0\n  5 11  1  0\n  6 12  1  0\n  7 13  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

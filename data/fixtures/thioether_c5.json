@@ -1,0 +1,9 @@
+{
+  "id": "thioether_c5",
+  "display_name": "Thioether C5",
+  "smiles": "CCCSCC",
+  "formula": "C5H12S",
+  "mw": 104.22,
+  "has_nmr": true,
+  "has_ms": true
+}

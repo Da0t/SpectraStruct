@@ -1,0 +1,20 @@
+{
+  "id": "biotin",
+  "display_name": "Biotin",
+  "smiles": "O=C(O)CCCCC1SCC2NC(=O)NC21",
+  "formula": "C10H16N2O3S",
+  "mw": 244.32,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/biotin_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/biotin_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)CCCCC1SCC2NC(=O)NC21",
+      "name": "Biotin",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

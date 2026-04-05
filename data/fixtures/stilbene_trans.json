@@ -1,0 +1,9 @@
+{
+  "id": "stilbene_trans",
+  "display_name": "Stilbene Trans",
+  "smiles": "C(=Cc1ccccc1)c1ccccc1",
+  "formula": "C14H12",
+  "mw": 180.25,
+  "has_nmr": true,
+  "has_ms": true
+}

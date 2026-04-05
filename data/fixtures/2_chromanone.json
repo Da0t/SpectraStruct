@@ -1,0 +1,9 @@
+{
+  "id": "2_chromanone",
+  "display_name": "2 Chromanone",
+  "smiles": "O=C1CCc2ccccc2O1",
+  "formula": "C9H8O2",
+  "mw": 148.16,
+  "has_nmr": true,
+  "has_ms": true
+}

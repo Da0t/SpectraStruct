@@ -1,0 +1,9 @@
+{
+  "id": "procaine",
+  "display_name": "Procaine",
+  "smiles": "CCN(CC)CCOC(=O)c1ccc(N)cc1",
+  "formula": "C13H20N2O2",
+  "mw": 236.31,
+  "has_nmr": true,
+  "has_ms": true
+}

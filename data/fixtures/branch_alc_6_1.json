@@ -1,0 +1,9 @@
+{
+  "id": "branch_alc_6_1",
+  "display_name": "Branch Alc 6 1",
+  "smiles": "CCCCCC(C)O",
+  "formula": "C7H16O",
+  "mw": 116.2,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "quinuclidine",
+  "display_name": "Quinuclidine",
+  "smiles": "C1CN2CCC1CC2",
+  "formula": "C7H13N",
+  "mw": 111.19,
+  "has_nmr": true,
+  "has_ms": true
+}

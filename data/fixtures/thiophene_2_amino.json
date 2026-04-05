@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_2_amino",
+  "display_name": "Thiophene 2 Amino",
+  "smiles": "Nc1cccs1",
+  "formula": "C4H5NS",
+  "mw": 99.16,
+  "has_nmr": true,
+  "has_ms": true
+}

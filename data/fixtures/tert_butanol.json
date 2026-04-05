@@ -1,0 +1,9 @@
+{
+  "id": "tert_butanol",
+  "display_name": "Tert Butanol",
+  "smiles": "CC(C)(C)O",
+  "formula": "C4H10O",
+  "mw": 74.12,
+  "has_nmr": true,
+  "has_ms": true
+}

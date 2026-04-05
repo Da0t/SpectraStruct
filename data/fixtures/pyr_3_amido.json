@@ -1,0 +1,9 @@
+{
+  "id": "pyr_3_amido",
+  "display_name": "Pyr 3 Amido",
+  "smiles": "O=CNc1cccnc1",
+  "formula": "C6H6N2O",
+  "mw": 122.13,
+  "has_nmr": true,
+  "has_ms": true
+}

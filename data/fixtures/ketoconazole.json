@@ -1,0 +1,20 @@
+{
+  "id": "ketoconazole",
+  "display_name": "Ketoconazole",
+  "smiles": "CC(=O)N1CCN(c2ccc(OCC3COC(Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+  "formula": "C26H28Cl2N4O4",
+  "mw": 531.44,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/ketoconazole_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/ketoconazole_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(=O)N1CCN(c2ccc(OCC3COC(Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1",
+      "name": "Ketoconazole",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

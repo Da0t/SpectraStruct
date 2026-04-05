@@ -1,0 +1,20 @@
+{
+  "id": "l_glutamine",
+  "display_name": "Glutamine",
+  "smiles": "NC(=O)CCC(N)C(=O)O",
+  "formula": "C5H10N2O3",
+  "mw": 146.15,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/l_glutamine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/l_glutamine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "NC(=O)CCC(N)C(=O)O",
+      "name": "Glutamine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

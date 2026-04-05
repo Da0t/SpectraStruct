@@ -1,0 +1,9 @@
+{
+  "id": "4_chlorophenyl_isocyanate",
+  "display_name": "4 Chlorophenyl Isocyanate",
+  "smiles": "O=C=Nc1ccc(Cl)cc1",
+  "formula": "C7H4ClNO",
+  "mw": 153.57,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "benzoic_acid",
+  "display_name": "Benzoic Acid",
+  "smiles": "O=C(O)c1ccccc1",
+  "formula": "C7H6O2",
+  "mw": 122.12,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/benzoic_acid_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/benzoic_acid_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)c1ccccc1",
+      "name": "Benzoic Acid",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

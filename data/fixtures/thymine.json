@@ -1,0 +1,20 @@
+{
+  "id": "thymine",
+  "display_name": "Thymine",
+  "smiles": "Cc1c[nH]c(=O)[nH]c1=O",
+  "formula": "C5H6N2O2",
+  "mw": 126.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/thymine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/thymine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "Cc1c[nH]c(=O)[nH]c1=O",
+      "name": "Thymine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bromobenzene",
+  "display_name": "Bromobenzene",
+  "smiles": "Brc1ccccc1",
+  "formula": "C6H5Br",
+  "mw": 157.01,
+  "has_nmr": true,
+  "has_ms": true
+}

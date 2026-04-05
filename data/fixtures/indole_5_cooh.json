@@ -1,0 +1,9 @@
+{
+  "id": "indole_5_cooh",
+  "display_name": "Indole 5 Cooh",
+  "smiles": "O=COc1ccc2[nH]ccc2c1",
+  "formula": "C9H7NO2",
+  "mw": 161.16,
+  "has_nmr": true,
+  "has_ms": true
+}

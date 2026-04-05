@@ -1,0 +1,20 @@
+{
+  "id": "eugenol",
+  "display_name": "Eugenol",
+  "smiles": "C=CCc1ccc(O)c(OC)c1",
+  "formula": "C10H12O2",
+  "mw": 164.2,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/eugenol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/eugenol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "C=CCc1ccc(O)c(OC)c1",
+      "name": "Eugenol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

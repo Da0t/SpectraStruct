@@ -1,0 +1,9 @@
+{
+  "id": "mesyl_chloride",
+  "display_name": "Mesyl-Chloride",
+  "smiles": "CS(=O)(=O)Cl",
+  "formula": "CH3ClO2S",
+  "mw": 114.55,
+  "has_nmr": true,
+  "has_ms": true
+}

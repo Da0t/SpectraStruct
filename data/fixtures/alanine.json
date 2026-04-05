@@ -1,0 +1,21 @@
+{
+  "id": "alanine",
+  "display_name": "Alanine",
+  "smiles": "CC(N)C(=O)O",
+  "formula": "C3H7NO2",
+  "mw": 89.09,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/alanine_nmr.csv",
+  "ms_csv_path": "/Users/anthonychen/SpectraStruct/data/fixtures/spectra/alanine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CC(N)C(=O)O",
+      "name": "Alanine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true,
+      "conformer_sdf": "\n     RDKit          3D\n\n 13 12  0  0  0  0  0  0  0  0999 V2000\n   -0.8530    1.0321    0.4846 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2604   -0.3269    0.1360 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9786   -0.8658   -1.0366 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2439   -0.2582   -0.1611 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8524   -0.9513   -0.9648 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9208    0.5986    0.6289 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4079    1.4303    1.4030 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.6731    1.7637   -0.3115 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9341    0.9631    0.6492 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.3870   -1.0183    0.9767 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9009   -1.1888   -0.7516 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4706   -1.6852   -1.3782 H   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8484    0.5067    0.3254 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  2  4  1  0\n  4  5  2  0\n  4  6  1  0\n  1  7  1  0\n  1  8  1  0\n  1  9  1  0\n  2 10  1  0\n  3 11  1  0\n  3 12  1  0\n  6 13  1  0\nM  END\n$$$$\n"
+    }
+  ]
+}

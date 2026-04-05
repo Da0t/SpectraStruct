@@ -1,0 +1,9 @@
+{
+  "id": "thioxanthene",
+  "display_name": "Thioxanthene",
+  "smiles": "c1ccc2c(c1)Cc1ccccc1S2",
+  "formula": "C13H10S",
+  "mw": 198.29,
+  "has_nmr": true,
+  "has_ms": true
+}

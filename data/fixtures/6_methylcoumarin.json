@@ -1,0 +1,9 @@
+{
+  "id": "6_methylcoumarin",
+  "display_name": "6 Methylcoumarin",
+  "smiles": "Cc1ccc2oc(=O)ccc2c1",
+  "formula": "C10H8O2",
+  "mw": 160.17,
+  "has_nmr": true,
+  "has_ms": true
+}

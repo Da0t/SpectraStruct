@@ -1,0 +1,9 @@
+{
+  "id": "pteridine",
+  "display_name": "Pteridine",
+  "smiles": "c1cnc2nccnc2n1",
+  "formula": "C6H4N4",
+  "mw": 132.13,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ketoprofen",
+  "display_name": "Ketoprofen",
+  "smiles": "CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1",
+  "formula": "C16H14O3",
+  "mw": 254.28,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mesityl_oxide",
+  "display_name": "Mesityl-Oxide",
+  "smiles": "CC(=O)C=C(C)C",
+  "formula": "C6H10O",
+  "mw": 98.14,
+  "has_nmr": true,
+  "has_ms": true
+}

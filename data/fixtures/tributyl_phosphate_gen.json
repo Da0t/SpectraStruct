@@ -1,0 +1,9 @@
+{
+  "id": "tributyl_phosphate_gen",
+  "display_name": "Tributyl Phosphate Gen",
+  "smiles": "CCCCOP(=O)(OCCCC)OCCCC",
+  "formula": "C12H27O4P",
+  "mw": 266.32,
+  "has_nmr": true,
+  "has_ms": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "diphenylamine",
+  "display_name": "Diphenylamine",
+  "smiles": "c1ccc(Nc2ccccc2)cc1",
+  "formula": "C12H11N",
+  "mw": 169.23,
+  "has_nmr": true,
+  "has_ms": true
+}

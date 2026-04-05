@@ -1,0 +1,9 @@
+{
+  "id": "phenylalaninol",
+  "display_name": "Phenylalaninol",
+  "smiles": "NC(CO)Cc1ccccc1",
+  "formula": "C9H13NO",
+  "mw": 151.21,
+  "has_nmr": true,
+  "has_ms": true
+}

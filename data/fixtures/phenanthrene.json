@@ -1,0 +1,20 @@
+{
+  "id": "phenanthrene",
+  "display_name": "Phenanthrene",
+  "smiles": "c1ccc2c(c1)ccc1ccccc12",
+  "formula": "C14H10",
+  "mw": 178.23,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/phenanthrene_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/phenanthrene_ms.csv",
+  "candidates": [
+    {
+      "smiles": "c1ccc2c(c1)ccc1ccccc12",
+      "name": "Phenanthrene",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

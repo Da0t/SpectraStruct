@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_4_ac",
+  "display_name": "Pyrimidine 4 Ac",
+  "smiles": "O=CCc1ccncn1",
+  "formula": "C6H6N2O",
+  "mw": 122.13,
+  "has_nmr": true,
+  "has_ms": true
+}

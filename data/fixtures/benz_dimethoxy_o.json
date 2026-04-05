@@ -1,0 +1,9 @@
+{
+  "id": "benz_dimethoxy_o",
+  "display_name": "Benz Dimethoxy O",
+  "smiles": "COc1ccccc1OC",
+  "formula": "C8H10O2",
+  "mw": 138.17,
+  "has_nmr": true,
+  "has_ms": true
+}

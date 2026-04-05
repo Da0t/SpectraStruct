@@ -1,0 +1,9 @@
+{
+  "id": "thiophene_2_ethyl",
+  "display_name": "Thiophene 2 Ethyl",
+  "smiles": "CCc1cccs1",
+  "formula": "C6H8S",
+  "mw": 112.2,
+  "has_nmr": true,
+  "has_ms": true
+}

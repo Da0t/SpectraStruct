@@ -1,0 +1,9 @@
+{
+  "id": "ethyl_c9_ester",
+  "display_name": "Ethyl C9 Ester",
+  "smiles": "CCCCCCCCC(=O)OCC",
+  "formula": "C11H22O2",
+  "mw": 186.29,
+  "has_nmr": true,
+  "has_ms": true
+}

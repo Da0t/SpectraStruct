@@ -1,0 +1,20 @@
+{
+  "id": "cetirizine",
+  "display_name": "Cetirizine",
+  "smiles": "O=C(O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+  "formula": "C21H25ClN2O3",
+  "mw": 388.9,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/cetirizine_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/cetirizine_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=C(O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+      "name": "Cetirizine",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

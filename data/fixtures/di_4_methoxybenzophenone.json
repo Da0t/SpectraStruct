@@ -1,0 +1,9 @@
+{
+  "id": "di_4_methoxybenzophenone",
+  "display_name": "Di 4 Methoxybenzophenone",
+  "smiles": "COc1ccc(C(=O)c2ccc(OC)cc2)cc1",
+  "formula": "C15H14O3",
+  "mw": 242.27,
+  "has_nmr": true,
+  "has_ms": true
+}

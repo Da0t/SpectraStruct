@@ -1,0 +1,9 @@
+{
+  "id": "pyr_hydroxyl",
+  "display_name": "Pyr Hydroxyl",
+  "smiles": "Oc1ccncc1",
+  "formula": "C5H5NO",
+  "mw": 95.1,
+  "has_nmr": true,
+  "has_ms": true
+}

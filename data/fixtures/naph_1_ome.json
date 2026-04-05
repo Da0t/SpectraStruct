@@ -1,0 +1,9 @@
+{
+  "id": "naph_1_ome",
+  "display_name": "Naph 1 Ome",
+  "smiles": "OCc1cccc2ccccc12",
+  "formula": "C11H10O",
+  "mw": 158.2,
+  "has_nmr": true,
+  "has_ms": true
+}

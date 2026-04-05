@@ -1,0 +1,9 @@
+{
+  "id": "pyr_methylthio",
+  "display_name": "Pyr Methylthio",
+  "smiles": "SCc1ccncc1",
+  "formula": "C6H7NS",
+  "mw": 125.2,
+  "has_nmr": true,
+  "has_ms": true
+}

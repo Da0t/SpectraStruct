@@ -1,0 +1,9 @@
+{
+  "id": "naph_amino",
+  "display_name": "Naph Amino",
+  "smiles": "Nc1ccc2ccccc2c1",
+  "formula": "C10H9N",
+  "mw": 143.19,
+  "has_nmr": true,
+  "has_ms": true
+}

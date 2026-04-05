@@ -1,0 +1,9 @@
+{
+  "id": "methyl_isobutyl_ketone",
+  "display_name": "Methyl-Isobutyl-Ketone",
+  "smiles": "CC(=O)CC(C)C",
+  "formula": "C6H12O",
+  "mw": 100.16,
+  "has_nmr": true,
+  "has_ms": true
+}

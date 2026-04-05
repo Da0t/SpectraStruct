@@ -1,0 +1,20 @@
+{
+  "id": "allopurinol",
+  "display_name": "Allopurinol",
+  "smiles": "O=c1[nH]cnc2[nH]ncc12",
+  "formula": "C5H4N4O",
+  "mw": 136.11,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/allopurinol_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/allopurinol_ms.csv",
+  "candidates": [
+    {
+      "smiles": "O=c1[nH]cnc2[nH]ncc12",
+      "name": "Allopurinol",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

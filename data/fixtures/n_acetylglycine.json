@@ -1,0 +1,9 @@
+{
+  "id": "n_acetylglycine",
+  "display_name": "N Acetylglycine",
+  "smiles": "CC(=O)NCC(=O)O",
+  "formula": "C4H7NO3",
+  "mw": 117.1,
+  "has_nmr": true,
+  "has_ms": true
+}

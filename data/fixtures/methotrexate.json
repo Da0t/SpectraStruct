@@ -1,0 +1,20 @@
+{
+  "id": "methotrexate",
+  "display_name": "Methotrexate",
+  "smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1",
+  "formula": "C20H22N8O5",
+  "mw": 454.45,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/methotrexate_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/methotrexate_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1",
+      "name": "Methotrexate",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

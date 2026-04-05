@@ -1,0 +1,9 @@
+{
+  "id": "benzyl_cyanide",
+  "display_name": "Benzyl Cyanide",
+  "smiles": "N#CCc1ccccc1",
+  "formula": "C8H7N",
+  "mw": 117.15,
+  "has_nmr": true,
+  "has_ms": true
+}

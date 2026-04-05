@@ -1,0 +1,9 @@
+{
+  "id": "thioxanthone",
+  "display_name": "Thioxanthone",
+  "smiles": "O=c1c2ccccc2sc2ccccc12",
+  "formula": "C13H8OS",
+  "mw": 212.27,
+  "has_nmr": true,
+  "has_ms": true
+}

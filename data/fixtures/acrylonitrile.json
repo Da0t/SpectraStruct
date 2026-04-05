@@ -1,0 +1,9 @@
+{
+  "id": "acrylonitrile",
+  "display_name": "Acrylonitrile",
+  "smiles": "C=CC#N",
+  "formula": "C3H3N",
+  "mw": 53.06,
+  "has_nmr": true,
+  "has_ms": true
+}

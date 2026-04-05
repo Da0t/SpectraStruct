@@ -1,0 +1,9 @@
+{
+  "id": "alkane_c5",
+  "display_name": "Alkane C5",
+  "smiles": "CCCCC",
+  "formula": "C5H12",
+  "mw": 72.15,
+  "has_nmr": true,
+  "has_ms": true
+}

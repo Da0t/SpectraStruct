@@ -1,0 +1,20 @@
+{
+  "id": "enalapril",
+  "display_name": "Enalapril",
+  "smiles": "CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(=O)O",
+  "formula": "C20H28N2O5",
+  "mw": 376.45,
+  "has_nmr": true,
+  "has_ms": true,
+  "nmr_csv_path": "data/fixtures/spectra/enalapril_nmr.csv",
+  "ms_csv_path": "data/fixtures/spectra/enalapril_ms.csv",
+  "candidates": [
+    {
+      "smiles": "CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(=O)O",
+      "name": "Enalapril",
+      "score": 0.95,
+      "rank": 1,
+      "valid": true
+    }
+  ]
+}

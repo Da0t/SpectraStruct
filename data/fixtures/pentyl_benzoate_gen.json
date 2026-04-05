@@ -1,0 +1,9 @@
+{
+  "id": "pentyl_benzoate_gen",
+  "display_name": "Pentyl Benzoate Gen",
+  "smiles": "CCCCCOC(=O)c1ccccc1",
+  "formula": "C12H16O2",
+  "mw": 192.26,
+  "has_nmr": true,
+  "has_ms": true
+}

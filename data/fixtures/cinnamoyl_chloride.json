@@ -1,0 +1,9 @@
+{
+  "id": "cinnamoyl_chloride",
+  "display_name": "Cinnamoyl Chloride",
+  "smiles": "O=C(Cl)/C=C/c1ccccc1",
+  "formula": "C9H7ClO",
+  "mw": 166.61,
+  "has_nmr": true,
+  "has_ms": true
+}

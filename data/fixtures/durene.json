@@ -1,0 +1,9 @@
+{
+  "id": "durene",
+  "display_name": "Durene",
+  "smiles": "Cc1cc(C)c(C)cc1C",
+  "formula": "C10H14",
+  "mw": 134.22,
+  "has_nmr": true,
+  "has_ms": true
+}

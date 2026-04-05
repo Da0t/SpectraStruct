@@ -1,0 +1,9 @@
+{
+  "id": "dimethyl_sulfone",
+  "display_name": "Dimethyl-Sulfone",
+  "smiles": "CS(C)(=O)=O",
+  "formula": "C2H6O2S",
+  "mw": 94.13,
+  "has_nmr": true,
+  "has_ms": true
+}

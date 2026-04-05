@@ -1,0 +1,9 @@
+{
+  "id": "pyrimidine_4_nh2",
+  "display_name": "Pyrimidine 4 Nh2",
+  "smiles": "Nc1ccncn1",
+  "formula": "C4H5N3",
+  "mw": 95.11,
+  "has_nmr": true,
+  "has_ms": true
+}

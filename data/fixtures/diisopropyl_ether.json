@@ -1,0 +1,9 @@
+{
+  "id": "diisopropyl_ether",
+  "display_name": "Diisopropyl-Ether",
+  "smiles": "CC(C)OC(C)C",
+  "formula": "C6H14O",
+  "mw": 102.18,
+  "has_nmr": true,
+  "has_ms": true
+}
