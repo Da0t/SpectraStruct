@@ -91,7 +91,7 @@ cd frontend && npm install && npm run dev
 
 1. Open site → clean landing page
 2. Upload `data/fixtures/spectra/caffeine_nmr.csv`
-3. Show top-5 candidates (correct molecule in top-3 with NMR alone)
+3. Show top-10 candidates (correct molecule in top-3 with NMR alone)
 4. Add `caffeine_ms.csv` → correct molecule jumps to #1
 5. Click top-1 → show 3D conformer viewer
 6. Compare: NMR alone vs NMR+MS vs all three modalities
@@ -163,7 +163,7 @@ Serves raw spectrum CSV files (e.g., `caffeine_ms.csv`).
   "nmr_csv": "<base64-encoded CSV: ppm,intensity>",
   "ms_csv": "<base64-encoded CSV: mz,intensity>",
   "ir_csv": "<base64-encoded CSV: wavenumber,intensity>",
-  "top_k": 5,
+  "top_k": 10,
   "demo_molecule": "caffeine"
 }
 ```

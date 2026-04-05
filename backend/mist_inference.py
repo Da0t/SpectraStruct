@@ -339,6 +339,7 @@ def _build_candidates(scored_indices: List[Tuple[float, int]], library: dict) ->
 
         candidates.append({
             "smiles": smiles,
+            "name": mol_data.get("display_name", smiles),
             "score": round(float(score), 4),
             "rank": rank,
             "valid": valid,

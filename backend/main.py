@@ -61,6 +61,7 @@ class PredictRequest(BaseModel):
 
 class Candidate(BaseModel):
     smiles: str
+    name: str = ""
     score: float
     rank: int
     valid: bool

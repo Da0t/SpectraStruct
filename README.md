@@ -57,14 +57,14 @@ citric_acid, lidocaine, quinine, penicillin_g, ethanol, benzene,
 acetone, toluene
 
 ## API
-`POST /predict` — accepts base64-encoded CSV spectra, returns top-5 candidates
+`POST /predict` — accepts base64-encoded CSV spectra, returns top-10 candidates
 `GET  /fixtures` — lists available demo molecules
 `GET  /health`   — health check
 
 ## Demo flow (rehearse twice!)
 1. Open site → clean landing page
 2. Upload caffeine NMR CSV
-3. Show top-5 candidates (correct molecule in top-3)
+3. Show top-10 candidates (correct molecule in top-3)
 4. Add MS input → correct molecule moves to #1
 5. Click top-1 → show 3D conformer in viewer
 6. Ablation: NMR alone vs NMR+MS vs all three

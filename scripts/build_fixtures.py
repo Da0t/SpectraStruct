@@ -47,27 +47,229 @@ DEMO_MOLECULES = [
 ]
 
 # Manually curated distractor molecules (structurally similar, wrong answer)
+# 9 distractors per molecule to support top-10 results
+# Each entry is (SMILES, display_name)
 DISTRACTORS = {
-    "caffeine":      ["Cn1cnc2c1c(=O)[nH]c(=O)n2C", "Cn1cnc2c1c(=O)n(c(=O)[nH]2)C", "O=c1[nH]cnc2c1[nH]cn2", "Cn1ccc(=O)[nH]1"],
-    "aspirin":       ["OC(=O)c1ccccc1O", "CC(=O)Oc1ccccc1", "OC(=O)c1ccccc1", "CC(=O)Oc1cccc(C(=O)O)c1"],
-    "ibuprofen":     ["CC(C)Cc1ccccc1", "CC(C(=O)O)c1ccc(cc1)CC(C)C", "Cc1ccc(CC(C)C(=O)O)cc1", "CCC(c1ccc(CC(C)C)cc1)C(=O)O"],
-    "acetaminophen": ["CC(=O)Nc1ccccc1", "Nc1ccc(O)cc1", "CC(=O)Nc1ccc(O)c(O)c1", "OC(=O)Nc1ccc(O)cc1"],
-    "dopamine":      ["NCCc1ccc(O)cc1", "NCCc1ccc(O)c(O)c1CC", "OC(=O)CCc1ccc(O)c(O)c1", "NCCC1=CC=C(O)C(O)=C1"],
-    "serotonin":     ["NCCc1c[nH]c2ccccc12", "NCCc1ccc(O)cc1", "OCC1=CNC2=CC=C(O)C=C12", "NCCc1c[nH]c2cc(O)ccc12"],
-    "nicotine":      ["CN1CCC[C@@H]1c1ccccn1", "c1ccncc1", "C1CCN(C)CC1", "CN1CCCC1"],
-    "glucose":       ["OC[C@@H]1OC(O)[C@@H](O)[C@@H](O)[C@H]1O", "OCC1OC(O)C(O)C(O)C1O", "OC[C@H]1OC(O)[C@@H](O)[C@H](O)[C@@H]1O", "OCC(O)C(O)C(O)C(O)C=O"],
-    "cholesterol":   ["C[C@@H](CCCC(C)C)[C@H]1CC[C@H]2[C@@H]1CCC3=CC(=O)CC[C@]23C", "C[C@H](CCCC(C)C)[C@@H]1CC[C@@H]2[C@H]1CC=C3C[C@@H](O)CC[C@]23C", "OC1CCC2(C1)CCCC1CC=CCC12C", "C1CCC2(CC1)CCCC1CC=CCC12"],
-    "vanillin":      ["COc1cc(CO)ccc1O", "COc1ccc(C=O)cc1", "Oc1ccc(C=O)cc1", "COc1cc(C=O)cc(OC)c1O"],
-    "menthol":       ["CC(C)[C@H]1CC[C@@H](C)C[C@@H]1O", "CC1CCC(C(C)C)CC1O", "CC(C)C1CCC(C)CC1", "OC1CCCCC1"],
-    "capsaicin":     ["COc1cc(CNC(=O)CCCCCCC(C)C)ccc1O", "COc1cc(CNC(=O)CCCCCC)ccc1O", "COc1cc(CNC(=O)CC=CC(C)C)ccc1O", "OC1=CC(CNC(=O)CCCCC)=CC=C1OC"],
-    "citric_acid":   ["OC(=O)CC(O)CC(=O)O", "OC(CC(=O)O)(CC(=O)O)C(=O)O", "OC(=O)C(O)CC(=O)O", "OCC(O)(CC(=O)O)C(=O)O"],
-    "lidocaine":     ["CCN(CC)CC(=O)Nc1ccccc1", "CCN(CC)CC(=O)Nc1c(C)cccc1", "CCNCC(=O)Nc1c(C)cccc1C", "CCN(CC)C(=O)CNc1c(C)cccc1C"],
-    "quinine":       ["COc1ccc2nccc(c2c1)[C@H](O)[C@H]3CC[N@@]4CC[C@@H](C=C)[C@H](C3)C4", "COc1ccc2nccc(C(O)C3CCN4CCC(C=C)C(C3)C4)c2c1", "OC(c1ccnc2ccccc12)C1CCN2CCC(C=C)C(C1)C2", "COc1ccc2ncc(C(O)C3CCN4CCC(C=C)CC34)c2c1"],
-    "penicillin_g":  ["CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)O", "CC1(C)SC2C(NC(=O)CC3=CC=CC=C3)C(=O)N2C1C(=O)[O-]", "CC1(C)S[C@@H]2[C@H](NC(=O)c3ccccc3)C(=O)N2[C@H]1C(=O)O", "CC1(C)SC2C(N)C(=O)N2C1C(=O)O"],
-    "ethanol":       ["CCCO", "CO", "OCC(C)O", "COCO"],
-    "benzene":       ["Cc1ccccc1", "c1ccc(F)cc1", "c1cccnc1", "c1ccoc1"],
-    "acetone":       ["CCC=O", "CC(=O)CC", "CC(O)=O", "CCCO"],
-    "toluene":       ["c1ccc(CC)cc1", "Cc1cccc(C)c1", "Cc1cccnc1", "Cc1ccc(F)cc1"],
+    "caffeine": [
+        ("Cn1cnc2c1c(=O)[nH]c(=O)n2C",        "Theobromine"),
+        ("Cn1cnc2c1c(=O)n(c(=O)[nH]2)C",       "Theophylline"),
+        ("O=c1[nH]cnc2c1[nH]cn2",               "Hypoxanthine"),
+        ("Cn1ccc(=O)[nH]1",                      "1-Methylpyrimidinone"),
+        ("O=c1[nH]c(=O)c2[nH]cnc2[nH]1",       "Xanthine"),
+        ("Cn1c(=O)c2[nH]cnc2n(C)c1=O",          "Paraxanthine"),
+        ("c1nc2[nH]cnc2c(=O)[nH]1",             "Guanine"),
+        ("O=c1ccn([C@@H]2CCCO2)[nH]1",          "Piracetam"),
+        ("Cn1c(=O)[nH]c(=O)c2nccn21",           "Imidazopyrimidine"),
+    ],
+    "aspirin": [
+        ("OC(=O)c1ccccc1O",                      "Salicylic Acid"),
+        ("CC(=O)Oc1ccccc1",                       "Phenyl Acetate"),
+        ("OC(=O)c1ccccc1",                        "Benzoic Acid"),
+        ("CC(=O)Oc1cccc(C(=O)O)c1",              "3-Acetoxybenzoic Acid"),
+        ("COC(=O)c1ccccc1O",                      "Methyl Salicylate"),
+        ("OC(=O)c1ccc(O)cc1",                     "4-Hydroxybenzoic Acid"),
+        ("CC(=O)Oc1ccc(C(=O)O)cc1",              "4-Acetoxybenzoic Acid"),
+        ("OC(=O)c1ccccc1OC(=O)CC",               "Salicyl Propanoate"),
+        ("OC(=O)c1cc(O)ccc1",                     "3-Hydroxybenzoic Acid"),
+    ],
+    "ibuprofen": [
+        ("CC(C)Cc1ccccc1",                        "Isobutylbenzene"),
+        ("CC(C(=O)O)c1ccc(cc1)CC(C)C",           "S-Ibuprofen"),
+        ("Cc1ccc(CC(C)C(=O)O)cc1",               "Ibuprofen Isomer"),
+        ("CCC(c1ccc(CC(C)C)cc1)C(=O)O",          "Ethyl Ibuprofen"),
+        ("CC(C)Cc1ccc(cc1)C(=O)O",               "Ibuprofen Dehydro"),
+        ("CC(C(=O)O)c1ccccc1",                    "2-Phenylpropanoic Acid"),
+        ("CC(C)Cc1ccc(cc1)CC(=O)O",              "Phenylacetic Variant"),
+        ("OC(=O)Cc1ccc(CC(C)C)cc1",              "Ibufenac"),
+        ("CC(C)c1ccc(CC(C)C)cc1",                 "Diisopropylbenzene"),
+    ],
+    "acetaminophen": [
+        ("CC(=O)Nc1ccccc1",                       "Acetanilide"),
+        ("Nc1ccc(O)cc1",                           "4-Aminophenol"),
+        ("CC(=O)Nc1ccc(O)c(O)c1",                "3-Hydroxyacetaminophen"),
+        ("OC(=O)Nc1ccc(O)cc1",                    "N-Carboxyl Aminophenol"),
+        ("CC(=O)Nc1cccc(O)c1",                    "3-Acetamidophenol"),
+        ("CC(=O)Nc1ccc(OC)cc1",                   "Metacetin"),
+        ("Oc1ccc(NC=O)cc1",                        "4-Hydroxyformanilide"),
+        ("CC(=O)Nc1ccc(cc1)O",                    "p-Acetamidophenol"),
+        ("Oc1ccc(NC(C)=O)c(O)c1",                "Catechol Acetamide"),
+    ],
+    "dopamine": [
+        ("NCCc1ccc(O)cc1",                         "Tyramine"),
+        ("NCCc1ccc(O)c(O)c1CC",                   "Ethyl Dopamine"),
+        ("OC(=O)CCc1ccc(O)c(O)c1",               "Dihydrocaffeic Acid"),
+        ("NCCC1=CC=C(O)C(O)=C1",                  "Dopamine Tautomer"),
+        ("CNCCc1ccc(O)c(O)c1",                    "Epinine"),
+        ("NCCc1cc(O)c(O)cc1",                      "2,3-Dihydroxyphenethylamine"),
+        ("OC(=O)C(N)Cc1ccc(O)c(O)c1",            "L-DOPA"),
+        ("NCCc1ccc(O)c(OC)c1",                    "3-Methoxytyramine"),
+        ("ONCCc1ccc(O)c(O)c1",                    "Hydroxylamine Dopamine"),
+    ],
+    "serotonin": [
+        ("NCCc1c[nH]c2ccccc12",                   "Tryptamine"),
+        ("NCCc1ccc(O)cc1",                          "Tyramine"),
+        ("OCC1=CNC2=CC=C(O)C=C12",               "5-HIAA Analog"),
+        ("NCCc1c[nH]c2cc(O)ccc12",               "6-Hydroxytryptamine"),
+        ("CNCCc1c[nH]c2ccc(O)cc12",              "N-Methylserotonin"),
+        ("NCCc1c[nH]c2ccc(OC)cc12",              "5-Methoxytryptamine"),
+        ("OC(=O)CCc1c[nH]c2ccc(O)cc12",          "5-HIAA"),
+        ("NCCc1c[nH]c2cc(O)c(O)cc12",            "Dihydroxytryptamine"),
+        ("NCCc1c[nH]c2cccc(O)c12",               "4-Hydroxytryptamine"),
+    ],
+    "nicotine": [
+        ("CN1CCC[C@@H]1c1ccccn1",                 "R-Nicotine"),
+        ("c1ccncc1",                                "Pyridine"),
+        ("C1CCN(C)CC1",                             "N-Methylpiperidine"),
+        ("CN1CCCC1",                                "N-Methylpyrrolidine"),
+        ("c1ccnc(C2CCCN2C)c1",                    "Anabasine Analog"),
+        ("CN1CCC(c2cccnc2)C1",                    "Cotinine"),
+        ("c1cncc(C2CCCCN2)c1",                     "Anabasine"),
+        ("CN1CCCC1c1cccc(O)n1",                    "Hydroxypyridyl Pyrrolidine"),
+        ("c1ccnc(C2CCCN2)c1",                      "Nornicotine"),
+    ],
+    "glucose": [
+        ("OC[C@@H]1OC(O)[C@@H](O)[C@@H](O)[C@H]1O",   "Galactose"),
+        ("OCC1OC(O)C(O)C(O)C1O",                          "Hexose"),
+        ("OC[C@H]1OC(O)[C@@H](O)[C@H](O)[C@@H]1O",     "Mannose"),
+        ("OCC(O)C(O)C(O)C(O)C=O",                          "Open-Chain Glucose"),
+        ("OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",     "Allose"),
+        ("OC1C(O)C(O)C(CO)OC1O",                           "Hexose Isomer"),
+        ("OC[C@@H]1OC(=O)[C@H](O)[C@@H](O)[C@@H]1O",   "Gluconolactone"),
+        ("OCC(O)C(O)C(O)CO",                                "Ribitol"),
+        ("OC[C@H]1OCC(O)[C@@H](O)[C@@H]1O",              "Deoxysugar"),
+    ],
+    "cholesterol": [
+        ("C[C@@H](CCCC(C)C)[C@H]1CC[C@H]2[C@@H]1CCC3=CC(=O)CC[C@]23C",  "Cholestenone"),
+        ("C[C@H](CCCC(C)C)[C@@H]1CC[C@@H]2[C@H]1CC=C3C[C@@H](O)CC[C@]23C",  "Epicholesterol"),
+        ("OC1CCC2(C1)CCCC1CC=CCC12C",                    "Sterol Fragment"),
+        ("C1CCC2(CC1)CCCC1CC=CCC12",                      "Steroid Skeleton"),
+        ("CC(C)CCCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C",  "Sitosterol"),
+        ("CC(C)C=CC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C",  "Stigmasterol"),
+        ("CC(CCCC(C)C)C1CCC2C3CCC4=CC(=O)CCC4(C)C3CCC12C", "4-Cholesten-3-one"),
+        ("CC(CCCC(C)C)C1CCC2C3CC=C4CC(OC(C)=O)CCC4(C)C3CCC12C",  "Cholesteryl Acetate"),
+        ("OC1CCC2(C)C(CC3C4CCCCC4CCC23)C1",               "Androstanol"),
+    ],
+    "vanillin": [
+        ("COc1cc(CO)ccc1O",                        "Vanillyl Alcohol"),
+        ("COc1ccc(C=O)cc1",                         "p-Anisaldehyde"),
+        ("Oc1ccc(C=O)cc1",                          "4-Hydroxybenzaldehyde"),
+        ("COc1cc(C=O)cc(OC)c1O",                   "Syringaldehyde"),
+        ("COc1cc(C(=O)O)ccc1O",                    "Vanillic Acid"),
+        ("COc1cc(CC=O)ccc1O",                       "Homovanillin"),
+        ("COc1cc(/C=C/C=O)ccc1O",                  "Coniferaldehyde"),
+        ("COc1cc(C(C)=O)ccc1O",                    "Acetovanillone"),
+        ("Oc1cc(C=O)ccc1O",                         "Protocatechualdehyde"),
+    ],
+    "menthol": [
+        ("CC(C)[C@H]1CC[C@@H](C)C[C@@H]1O",      "Neomenthol"),
+        ("CC1CCC(C(C)C)CC1O",                       "Racemic Menthol"),
+        ("CC(C)C1CCC(C)CC1",                         "Menthane"),
+        ("OC1CCCCC1",                                 "Cyclohexanol"),
+        ("CC1CCC(C(C)C)CC1=O",                      "Menthone"),
+        ("CC1=CC(O)CC(C(C)C)C1",                    "Thymol"),
+        ("CC1CCC(C(C)C)C(O)C1O",                    "Menthol Diol"),
+        ("CC(C)C1CCC(C)C(=O)C1",                    "Isomenthone"),
+        ("CC(C)C1=CC(=O)C(C)CC1",                   "Pulegone"),
+    ],
+    "capsaicin": [
+        ("COc1cc(CNC(=O)CCCCCCC(C)C)ccc1O",       "Dihydrocapsaicin"),
+        ("COc1cc(CNC(=O)CCCCCC)ccc1O",             "Nordihydrocapsaicin"),
+        ("COc1cc(CNC(=O)CC=CC(C)C)ccc1O",          "Short Chain Capsaicin"),
+        ("OC1=CC(CNC(=O)CCCCC)=CC=C1OC",           "Truncated Capsaicin"),
+        ("COc1cc(CNC(=O)CCCCCCCCC)ccc1O",          "Homocapsaicin"),
+        ("COc1cc(CNC=O)ccc1O",                       "Vanillyl Formamide"),
+        ("COc1cc(CNC(=O)/C=C/C(C)C)ccc1O",         "Dehydrocapsaicin"),
+        ("COc1cc(CNCC(=O)O)ccc1O",                  "Vanillylglycine"),
+        ("COc1cc(CNC(=O)CCCC/C=C\\C(C)C)ccc1O",   "cis-Capsaicin"),
+    ],
+    "citric_acid": [
+        ("OC(=O)CC(O)CC(=O)O",                      "Malic Acid Analog"),
+        ("OC(CC(=O)O)(CC(=O)O)C(=O)O",             "Isocitric Acid"),
+        ("OC(=O)C(O)CC(=O)O",                       "Malic Acid"),
+        ("OCC(O)(CC(=O)O)C(=O)O",                   "Reduced Citric Acid"),
+        ("OC(=O)CC(=O)CC(=O)O",                     "3-Ketoglutaric Acid"),
+        ("OC(=O)CCC(=O)O",                           "Succinic Acid"),
+        ("OC(=O)CC(O)(C)C(=O)O",                    "Methylcitric Acid"),
+        ("OC(=O)/C=C/C(=O)O",                        "Fumaric Acid"),
+        ("OC(=O)C(O)(CC(=O)O)CC(=O)O",             "Hydroxycitric Acid"),
+    ],
+    "lidocaine": [
+        ("CCN(CC)CC(=O)Nc1ccccc1",                  "Lidocaine (no methyls)"),
+        ("CCN(CC)CC(=O)Nc1c(C)cccc1",              "Mono-Methyl Lidocaine"),
+        ("CCNCC(=O)Nc1c(C)cccc1C",                  "Monoethylamine Variant"),
+        ("CCN(CC)C(=O)CNc1c(C)cccc1C",             "Amide Swap Variant"),
+        ("CCN(CC)CC(=O)Nc1c(CC)cccc1CC",           "Diethyl Ring Variant"),
+        ("CN(C)CC(=O)Nc1c(C)cccc1C",               "Dimethylamine Variant"),
+        ("CCN(CC)CC(=O)Nc1ccc(C)cc1",              "Para-Methyl Variant"),
+        ("CCN(CC)CC(=O)NC1CCCCC1",                  "Cyclohexyl Variant"),
+        ("CCN(CC)C(C)C(=O)Nc1c(C)cccc1C",          "Mepivacaine Analog"),
+    ],
+    "quinine": [
+        ("COc1ccc2nccc(c2c1)[C@H](O)[C@H]3CC[N@@]4CC[C@@H](C=C)[C@H](C3)C4",  "Quinidine"),
+        ("COc1ccc2nccc(C(O)C3CCN4CCC(C=C)C(C3)C4)c2c1",  "Dehydroquinine"),
+        ("OC(c1ccnc2ccccc12)C1CCN2CCC(C=C)C(C1)C2",      "Demethylquinine"),
+        ("COc1ccc2nccc(C(O)C3CCNCC3C=C)c2c1",               "Cinchonidine"),
+        ("COc1ccc2nccc(C(=O)C3CCN4CCC(C=C)C(C3)C4)c2c1", "Quininone"),
+        ("COc1ccc2nccc(c2c1)C(O)C3CCNCC3",                "Simplified Quinine"),
+        ("COc1ccc2nccc(CO)c2c1",                            "Quinoline Methanol"),
+        ("c1ccc2nccc(C(O)C3CCNCC3)c2c1",                   "Demethoxyquinine"),
+        ("COc1ccc2nccc(c2c1)C(O)CC3CCCCN3",               "Piperidine Variant"),
+    ],
+    "penicillin_g": [
+        ("CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)O",                    "Flat Penicillin G"),
+        ("CC1(C)SC2C(NC(=O)CC3=CC=CC=C3)C(=O)N2C1C(=O)[O-]",             "Penicillin G (deprot.)"),
+        ("CC1(C)S[C@@H]2[C@H](NC(=O)c3ccccc3)C(=O)N2[C@H]1C(=O)O",     "Penicillin (benzoyl)"),
+        ("CC1(C)SC2C(N)C(=O)N2C1C(=O)O",                                    "6-APA"),
+        ("CC1(C)SC2C(NC(=O)COc3ccccc3)C(=O)N2C1C(=O)O",                   "Penicillin V"),
+        ("CC1(C)SC2C(NC(=O)C(c3ccccc3)Cl)C(=O)N2C1C(=O)O",               "Chloro Penicillin"),
+        ("CC1(C)SC2C(NC(=O)CCc3ccccc3)C(=O)N2C1C(=O)O",                   "Phenylpropanoyl Pen."),
+        ("CC1(C)SC2C(NC(=O)Cc3ccc(O)cc3)C(=O)N2C1C(=O)O",                "Amoxicillin"),
+        ("OC(=O)C1N2C(=O)C(NC(=O)Cc3ccccc3)C2SC1(C)C",                    "Redrawn Penicillin"),
+    ],
+    "ethanol": [
+        ("CCCO",             "1-Propanol"),
+        ("CO",               "Methanol"),
+        ("OCC(C)O",          "Propylene Glycol"),
+        ("COCO",             "Dimethoxymethane"),
+        ("CC(O)C",           "Isopropanol"),
+        ("OCCO",             "Ethylene Glycol"),
+        ("CCOC",             "Diethyl Ether"),
+        ("CC(C)O",           "2-Propanol"),
+        ("CCCCO",            "1-Butanol"),
+    ],
+    "benzene": [
+        ("Cc1ccccc1",        "Toluene"),
+        ("c1ccc(F)cc1",      "Fluorobenzene"),
+        ("c1cccnc1",         "Pyridine"),
+        ("c1ccoc1",          "Furan"),
+        ("c1ccc(O)cc1",      "Phenol"),
+        ("c1ccc(N)cc1",      "Aniline"),
+        ("C1CC=CCC1",        "Cyclohexene"),
+        ("c1ccsc1",          "Thiophene"),
+        ("c1ccc2ccccc2c1",   "Naphthalene"),
+    ],
+    "acetone": [
+        ("CCC=O",            "Propanal"),
+        ("CC(=O)CC",         "Butanone"),
+        ("CC(O)=O",          "Acetic Acid"),
+        ("CCCO",             "1-Propanol"),
+        ("CCC(=O)CC",        "3-Pentanone"),
+        ("CC=O",             "Acetaldehyde"),
+        ("CC(=O)OC",         "Methyl Acetate"),
+        ("CCCC=O",           "Butanal"),
+        ("CC(=O)C(C)=O",    "Diacetyl"),
+    ],
+    "toluene": [
+        ("c1ccc(CC)cc1",     "Ethylbenzene"),
+        ("Cc1cccc(C)c1",     "m-Xylene"),
+        ("Cc1cccnc1",        "3-Picoline"),
+        ("Cc1ccc(F)cc1",     "4-Fluorotoluene"),
+        ("Cc1ccc(C)cc1",     "p-Xylene"),
+        ("c1ccc(C(C)C)cc1",  "Cumene"),
+        ("Cc1ccc(O)cc1",     "p-Cresol"),
+        ("Cc1cc(C)cc(C)c1",  "Mesitylene"),
+        ("CCc1ccccc1C",      "2-Ethyltoluene"),
+    ],
 }
 
 def read_csv_spectrum(path: Path):
@@ -125,58 +327,78 @@ def build_fixture(mol_info: dict) -> dict:
         except Exception as e:
             print(f"  Conformer error for {name}: {e}")
 
-    # Build candidates: correct answer + 4 distractors
-    distractors = DISTRACTORS.get(name, [])[:4]
+    # Build candidates: correct answer + 9 distractors (supports top-10)
+    distractors = DISTRACTORS.get(name, [])[:9]  # list of (smiles, display_name) tuples
+    display_name = name.replace("_", " ").title()
 
-    def make_candidate(smi, rank, score, is_correct=False):
+    def make_candidate(smi, rank, score, cand_name=None, is_correct=False):
         sdf = None
         if is_correct:
             sdf = conformer_sdf
+        elif rdkit_ok:
+            # Generate 3D conformer for distractors too
+            try:
+                m = Chem.MolFromSmiles(smi)
+                if m:
+                    m3d = Chem.AddHs(m)
+                    AllChem.EmbedMolecule(m3d, randomSeed=42)
+                    AllChem.MMFFOptimizeMolecule(m3d)
+                    sdf = mol_to_sdf_string(m3d)
+            except Exception:
+                pass
         return {
             "smiles": smi,
+            "name": cand_name or smi,
             "score": round(score, 3),
             "rank": rank,
             "valid": True,
             "conformer_sdf": sdf,
         }
 
-    # Variant: nmr only — correct answer ranked lower
-    nmr_candidates = [make_candidate(smiles, 1, 0.61, True)] + [
-        make_candidate(d, i+2, round(0.61 - (i+1)*0.07, 3))
-        for i, d in enumerate(distractors)
-    ]
-    # Re-rank so correct is at position 3
-    if len(nmr_candidates) >= 3:
-        nmr_candidates[0]["rank"] = 3
-        nmr_candidates[0]["score"] = 0.54
-        nmr_candidates[2]["rank"] = 1
-        nmr_candidates[2]["score"] = 0.61
-        nmr_candidates[0], nmr_candidates[2] = nmr_candidates[2], nmr_candidates[0]
-        nmr_candidates[1]["rank"] = 2
-        nmr_candidates[1]["score"] = 0.57
+    # Variant: nmr only — correct answer ranked at position 3
+    nmr_top = 0.61
+    nmr_step = 0.04
+    nmr_candidates = [make_candidate(smiles, 3, round(nmr_top - 2 * nmr_step, 3), display_name, True)]
+    distractor_idx = 0
+    for rank in range(1, 11):
+        if rank == 3:
+            continue  # correct answer already placed here
+        if distractor_idx < len(distractors):
+            d_smi, d_name = distractors[distractor_idx]
+            score = round(nmr_top - (rank - 1) * nmr_step, 3)
+            nmr_candidates.append(make_candidate(d_smi, rank, score, d_name))
+            distractor_idx += 1
+    nmr_candidates.sort(key=lambda c: c["rank"])
 
-    # Variant: ms only — correct answer rank 2
-    ms_candidates = [make_candidate(smiles, 1, 0.72, True)] + [
-        make_candidate(d, i+2, round(0.72 - (i+1)*0.06, 3))
-        for i, d in enumerate(distractors)
-    ]
-    if len(ms_candidates) >= 2:
-        ms_candidates[0]["rank"] = 2
-        ms_candidates[0]["score"] = 0.68
-        ms_candidates[1]["rank"] = 1
-        ms_candidates[1]["score"] = 0.72
-        ms_candidates[0], ms_candidates[1] = ms_candidates[1], ms_candidates[0]
+    # Variant: ms only — correct answer at rank 2
+    ms_top = 0.75
+    ms_step = 0.04
+    ms_candidates = [make_candidate(smiles, 2, round(ms_top - 1 * ms_step, 3), display_name, True)]
+    distractor_idx = 0
+    for rank in range(1, 11):
+        if rank == 2:
+            continue
+        if distractor_idx < len(distractors):
+            d_smi, d_name = distractors[distractor_idx]
+            score = round(ms_top - (rank - 1) * ms_step, 3)
+            ms_candidates.append(make_candidate(d_smi, rank, score, d_name))
+            distractor_idx += 1
+    ms_candidates.sort(key=lambda c: c["rank"])
 
     # Variant: nmr + ms — correct answer rank 1
-    nmr_ms_candidates = [make_candidate(smiles, 1, 0.87, True)] + [
-        make_candidate(d, i+2, round(0.87 - (i+1)*0.08, 3))
-        for i, d in enumerate(distractors)
+    nmr_ms_top = 0.89
+    nmr_ms_step = 0.05
+    nmr_ms_candidates = [make_candidate(smiles, 1, nmr_ms_top, display_name, True)] + [
+        make_candidate(d_smi, i + 2, round(nmr_ms_top - (i + 1) * nmr_ms_step, 3), d_name)
+        for i, (d_smi, d_name) in enumerate(distractors)
     ]
 
-    # Variant: all three — correct answer rank 1, higher score
-    all_candidates = [make_candidate(smiles, 1, 0.94, True)] + [
-        make_candidate(d, i+2, round(0.94 - (i+1)*0.09, 3))
-        for i, d in enumerate(distractors)
+    # Variant: all three — correct answer rank 1, highest score
+    all_top = 0.95
+    all_step = 0.05
+    all_candidates = [make_candidate(smiles, 1, all_top, display_name, True)] + [
+        make_candidate(d_smi, i + 2, round(all_top - (i + 1) * all_step, 3), d_name)
+        for i, (d_smi, d_name) in enumerate(distractors)
     ]
 
     fixture = {

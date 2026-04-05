@@ -102,11 +102,11 @@ class TestSpectra:
 
 class TestPredictDemo:
     def test_predict_by_name(self, client):
-        r = client.post("/predict", json={"demo_molecule": "caffeine", "top_k": 5})
+        r = client.post("/predict", json={"demo_molecule": "caffeine", "top_k": 10})
         assert r.status_code == 200
         data = r.json()
         assert data["demo_mode"] is True
-        assert len(data["candidates"]) == 5
+        assert len(data["candidates"]) == 10
         assert data["candidates"][0]["rank"] == 1
 
     def test_predict_top_k_clamped(self, client):
@@ -165,7 +165,7 @@ class TestPredictDemo:
         assert "fallback" in r.json()["warning"].lower()
 
     def test_ethanol_no_self_distractor(self, client):
-        r = client.post("/predict", json={"demo_molecule": "ethanol", "top_k": 5})
+        r = client.post("/predict", json={"demo_molecule": "ethanol", "top_k": 10})
         data = r.json()
         smiles_list = [c["smiles"] for c in data["candidates"]]
         assert smiles_list.count("CCO") == 1, "Ethanol SMILES should appear exactly once"
@@ -182,11 +182,11 @@ class TestPredictLive:
         bm.DEMO_MODE = False
         try:
             ms_b64 = _load_spectrum_b64("caffeine_ms.csv")
-            r = client.post("/predict", json={"ms_csv": ms_b64, "top_k": 5})
+            r = client.post("/predict", json={"ms_csv": ms_b64, "top_k": 10})
             assert r.status_code == 200
             data = r.json()
             assert data["demo_mode"] is False
-            assert len(data["candidates"]) == 5
+            assert len(data["candidates"]) == 10
             assert data["candidates"][0]["smiles"] == "Cn1cnc2c1c(=O)n(c(=O)n2C)C"
             assert data["candidates"][0]["score"] > 0.9
         finally:
