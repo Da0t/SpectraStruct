@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import FileUpload from "./components/FileUpload";
 import MolViewer from "./components/MolViewer";
+import { useTheme } from "./components/ThemeProvider";
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
@@ -47,32 +48,36 @@ function fileToBase64(file: File): Promise<string> {
 
 function Inline3DViewer({ sdf }: { sdf: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const { theme } = useTheme();
 
   useEffect(() => {
     if (!containerRef.current || !sdf) return;
     let mounted = true;
 
+    const bgColor = theme === "dark" ? "#050505" : "#f0f0f0";
+    const colorscheme = theme === "dark" ? "whiteCarbon" : "default";
+
     import("3dmol").then(($3Dmol) => {
       if (!mounted || !containerRef.current) return;
       containerRef.current.innerHTML = "";
       const viewer = $3Dmol.createViewer(containerRef.current, {
-        backgroundColor: "#050505",
+        backgroundColor: bgColor,
       });
       viewer.addModel(sdf, "sdf");
-      viewer.setStyle({}, { stick: { radius: 0.15, colorscheme: "whiteCarbon" } });
-      viewer.addStyle({}, { sphere: { scale: 0.25, colorscheme: "whiteCarbon" } });
+      viewer.setStyle({}, { stick: { radius: 0.15, colorscheme } });
+      viewer.addStyle({}, { sphere: { scale: 0.25, colorscheme } });
       viewer.zoomTo();
       viewer.render();
       viewer.spin("y", 0.4);
     });
 
     return () => { mounted = false; };
-  }, [sdf]);
+  }, [sdf, theme]);
 
   return (
     <div
       ref={containerRef}
-      style={{ width: "100%", height: "360px", position: "relative" }}
+      style={{ width: "100%", height: "360px", position: "relative", background: "var(--viewer-bg)" }}
     />
   );
 }
@@ -148,7 +153,7 @@ export default function Home() {
       {/* Hero */}
       <section className="relative px-8 pt-20 pb-16 flex flex-col items-center text-center hero-grid">
         <div className="relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/[0.08] bg-white/[0.02] mb-8">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[var(--border)] bg-[var(--card-bg)] mb-8">
             <div
               className={`w-1.5 h-1.5 rounded-full ${
                 apiStatus === "online"
@@ -158,7 +163,7 @@ export default function Home() {
                   : "bg-amber-400 animate-pulse"
               }`}
             />
-            <span className="text-[10px] tracking-[0.15em] uppercase text-neutral-500">
+            <span className="text-[10px] tracking-[0.15em] uppercase" style={{ color: "var(--text-muted)" }}>
               {apiStatus === "online"
                 ? "System Online"
                 : apiStatus === "offline"
@@ -168,11 +173,11 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-5">
-            <span className="text-white">Spectra</span>
-            <span className="text-neutral-600">Struct</span>
+            <span style={{ color: "var(--text-primary)" }}>Spectra</span>
+            <span style={{ color: "var(--text-muted)" }}>Struct</span>
           </h1>
 
-          <p className="text-sm text-neutral-500 max-w-lg leading-relaxed">
+          <p className="text-sm max-w-lg leading-relaxed" style={{ color: "var(--text-secondary)" }}>
             Upload NMR or MS spectral data and predict molecular structures
             with 3D conformer visualization.
           </p>
@@ -183,10 +188,10 @@ export default function Home() {
         {/* Upload Section */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-[10px] tracking-[0.3em] uppercase text-neutral-600 font-medium">
+            <div className="text-[10px] tracking-[0.3em] uppercase font-medium" style={{ color: "var(--text-muted)" }}>
               Upload Spectra
             </div>
-            <div className="flex-1 h-px bg-white/[0.06]" />
+            <div className="flex-1 h-px" style={{ background: "var(--border)" }} />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
@@ -198,10 +203,10 @@ export default function Home() {
         {/* Demo Molecules */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-[10px] tracking-[0.3em] uppercase text-neutral-600 font-medium">
+            <div className="text-[10px] tracking-[0.3em] uppercase font-medium" style={{ color: "var(--text-muted)" }}>
               Demo Molecules
             </div>
-            <div className="flex-1 h-px bg-white/[0.06]" />
+            <div className="flex-1 h-px" style={{ background: "var(--border)" }} />
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -209,15 +214,18 @@ export default function Home() {
               <button
                 key={mol.name}
                 className={`mol-pill px-3.5 py-2 text-xs border rounded-lg transition-all ${
-                  demoMolecule === mol.name
-                    ? "active border-white/30 text-white bg-white/[0.06]"
-                    : "border-white/[0.06] text-neutral-500 hover:border-white/15 hover:text-neutral-300 hover:bg-white/[0.02]"
+                  demoMolecule === mol.name ? "active" : ""
                 }`}
+                style={{
+                  borderColor: demoMolecule === mol.name ? "var(--border-strong)" : "var(--border)",
+                  color: demoMolecule === mol.name ? "var(--text-primary)" : "var(--text-secondary)",
+                  background: demoMolecule === mol.name ? "var(--hover-bg)" : "transparent",
+                }}
                 onClick={() => handleDemoSelect(mol.name)}
               >
                 <span>{mol.display_name}</span>
                 {demoMolecule === mol.name && (
-                  <span className="ml-2 text-neutral-500 text-[10px]">{mol.formula}</span>
+                  <span className="ml-2 text-[10px]" style={{ color: "var(--text-muted)" }}>{mol.formula}</span>
                 )}
               </button>
             ))}
@@ -230,12 +238,25 @@ export default function Home() {
             onClick={handlePredict}
             disabled={loading || apiStatus !== "online"}
             className={`btn-glow px-10 py-3.5 text-sm tracking-[0.2em] uppercase rounded-lg border transition-all ${
-              loading
-                ? "border-white/[0.06] text-neutral-600 cursor-wait loading-shimmer"
-                : apiStatus !== "online"
-                ? "border-white/[0.06] text-neutral-700 cursor-not-allowed"
-                : "border-white/20 text-white hover:bg-white hover:text-black hover:border-white"
+              loading ? "cursor-wait loading-shimmer" : ""
             }`}
+            style={{
+              borderColor: loading || apiStatus !== "online" ? "var(--border)" : "var(--border-strong)",
+              color: loading || apiStatus !== "online" ? "var(--text-muted)" : "var(--text-primary)",
+              cursor: apiStatus !== "online" && !loading ? "not-allowed" : undefined,
+            }}
+            onMouseEnter={(e) => {
+              if (!loading && apiStatus === "online") {
+                e.currentTarget.style.background = "var(--btn-hover-bg)";
+                e.currentTarget.style.color = "var(--btn-hover-text)";
+                e.currentTarget.style.borderColor = "var(--btn-hover-bg)";
+              }
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+              e.currentTarget.style.color = loading || apiStatus !== "online" ? "var(--text-muted)" : "var(--text-primary)";
+              e.currentTarget.style.borderColor = loading || apiStatus !== "online" ? "var(--border)" : "var(--border-strong)";
+            }}
           >
             {loading ? "Analyzing..." : "Predict Structure"}
           </button>
@@ -243,84 +264,155 @@ export default function Home() {
 
         {/* Error */}
         {error && (
-          <div className="animate-fade-up mb-8 px-5 py-4 border border-red-500/20 rounded-lg text-sm text-red-400/80 bg-red-500/[0.03]">
+          <div className="animate-fade-up mb-8 px-5 py-4 rounded-lg text-sm" style={{
+            border: "1px solid var(--error)",
+            color: "var(--error)",
+            opacity: 0.8,
+            background: "var(--card-bg)",
+          }}>
             {error}
           </div>
         )}
 
         {/* Results */}
-        {results && results.candidates.length > 0 && (() => {
-          const prediction = results.candidates[0];
-
-          return (
-            <section className="animate-fade-up">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="text-[10px] tracking-[0.3em] uppercase text-neutral-600 font-medium">
-                  Predicted Structure
-                </div>
-                <div className="flex-1 h-px bg-white/[0.06]" />
-                {results.demo_mode && (
-                  <span className="px-2.5 py-1 border border-white/[0.08] rounded text-[9px] tracking-[0.15em] uppercase text-neutral-600 bg-white/[0.02]">
-                    Demo
-                  </span>
-                )}
+        {results && results.candidates.length > 0 && (
+          <section className="animate-fade-up">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="text-[10px] tracking-[0.3em] uppercase font-medium" style={{ color: "var(--text-muted)" }}>
+                Top {results.candidates.length} Candidates
               </div>
+              <div className="flex-1 h-px" style={{ background: "var(--border)" }} />
+              <div className="text-xs" style={{ color: "var(--text-muted)" }}>
+                {results.modalities_used.map((m) => m.toUpperCase()).join(" + ")}
+              </div>
+              {results.demo_mode && (
+                <span className="px-2.5 py-1 rounded text-[9px] tracking-[0.15em] uppercase" style={{
+                  border: "1px solid var(--border)",
+                  color: "var(--text-muted)",
+                  background: "var(--card-bg)",
+                }}>
+                  Demo
+                </span>
+              )}
+            </div>
 
-              <div className="result-card border border-white/[0.08] rounded-xl overflow-hidden">
-                {/* Molecule header */}
-                <div className="px-6 py-5 border-b border-white/[0.06]">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h2 className="text-xl font-bold text-white mb-1">
-                        {prediction.name}
-                      </h2>
-                      <div className="flex items-center gap-3">
-                        {prediction.valid && (
-                          <span className="inline-flex items-center gap-1.5 text-[10px] tracking-wider uppercase text-emerald-400/70">
-                            <span className="w-1 h-1 rounded-full bg-emerald-400/70" />
-                            RDKit Verified
-                          </span>
-                        )}
+            {/* Top prediction with 3D viewer */}
+            {(() => {
+              const prediction = results.candidates[0];
+              return (
+                <div className="result-card rounded-xl overflow-hidden mb-6" style={{ border: "1px solid var(--border)" }}>
+                  <div className="px-6 py-5" style={{ borderBottom: "1px solid var(--border)" }}>
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <div className="flex items-center gap-3 mb-1">
+                          <span className="text-[10px] font-mono px-2 py-0.5 rounded" style={{ background: "var(--hover-bg)", color: "var(--text-muted)" }}>#1</span>
+                          <h2 className="text-xl font-bold" style={{ color: "var(--text-primary)" }}>
+                            {prediction.name}
+                          </h2>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          {prediction.valid && (
+                            <span className="inline-flex items-center gap-1.5 text-[10px] tracking-wider uppercase" style={{ color: "var(--success)" }}>
+                              <span className="w-1 h-1 rounded-full" style={{ background: "var(--success)" }} />
+                              RDKit Verified
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <div className="text-2xl font-bold" style={{ color: "var(--text-primary)" }}>
+                          {(prediction.score * 100).toFixed(1)}%
+                        </div>
+                        <div className="text-[10px] tracking-wider uppercase" style={{ color: "var(--text-muted)" }}>
+                          Confidence
+                        </div>
                       </div>
                     </div>
-                    <div className="text-xs text-neutral-600">
-                      {results.modalities_used.map((m) => m.toUpperCase()).join(" + ")}
+                  </div>
+
+                  <div className="px-6 py-3" style={{ borderBottom: "1px solid var(--border)", background: "var(--card-bg)" }}>
+                    <code className="text-xs font-mono break-all" style={{ color: "var(--text-secondary)" }}>
+                      {prediction.smiles}
+                    </code>
+                  </div>
+
+                  {prediction.conformer_sdf && (
+                    <div style={{ borderBottom: "1px solid var(--border)" }}>
+                      <Inline3DViewer sdf={prediction.conformer_sdf} />
+                    </div>
+                  )}
+
+                  <div className="px-6 py-3 flex items-center justify-between">
+                    <span className="text-[10px] tracking-wide" style={{ color: "var(--text-muted)" }}>
+                      Drag to rotate · Scroll to zoom
+                    </span>
+                    {prediction.conformer_sdf && (
+                      <button
+                        onClick={() => setShowViewer(true)}
+                        className="text-[10px] tracking-wider uppercase transition-colors"
+                        style={{ color: "var(--text-secondary)" }}
+                        onMouseEnter={(e) => { e.currentTarget.style.color = "var(--text-primary)"; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-secondary)"; }}
+                      >
+                        Expand View
+                      </button>
+                    )}
+                  </div>
+                </div>
+              );
+            })()}
+
+            {/* Remaining candidates list */}
+            {results.candidates.length > 1 && (
+              <div className="rounded-xl overflow-hidden" style={{ border: "1px solid var(--border)" }}>
+                {results.candidates.slice(1).map((candidate) => (
+                  <div
+                    key={candidate.rank}
+                    className="px-6 py-4 flex items-center justify-between transition-colors"
+                    style={{
+                      borderBottom: "1px solid var(--border)",
+                      cursor: candidate.conformer_sdf ? "pointer" : "default",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = "var(--hover-bg)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+                    onClick={() => {
+                      if (candidate.conformer_sdf) {
+                        setResults({
+                          ...results,
+                          candidates: [candidate, ...results.candidates.filter((c) => c.rank !== candidate.rank)],
+                        });
+                      }
+                    }}
+                  >
+                    <div className="flex items-center gap-4 min-w-0">
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded shrink-0" style={{ background: "var(--hover-bg)", color: "var(--text-muted)" }}>
+                        #{candidate.rank}
+                      </span>
+                      <div className="min-w-0">
+                        <div className="text-sm font-medium truncate" style={{ color: "var(--text-primary)" }}>
+                          {candidate.name}
+                        </div>
+                        <code className="text-[11px] font-mono truncate block" style={{ color: "var(--text-muted)" }}>
+                          {candidate.smiles}
+                        </code>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-4 shrink-0 ml-4">
+                      {candidate.valid && (
+                        <span className="w-1.5 h-1.5 rounded-full" style={{ background: "var(--success)" }} />
+                      )}
+                      <div className="text-right">
+                        <div className="text-sm font-bold" style={{ color: "var(--text-primary)" }}>
+                          {(candidate.score * 100).toFixed(1)}%
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-
-                {/* SMILES */}
-                <div className="px-6 py-3 border-b border-white/[0.06] bg-white/[0.01]">
-                  <code className="text-xs font-mono text-neutral-400 break-all">
-                    {prediction.smiles}
-                  </code>
-                </div>
-
-                {/* Inline 3D Viewer */}
-                {prediction.conformer_sdf && (
-                  <div className="border-b border-white/[0.06]">
-                    <Inline3DViewer sdf={prediction.conformer_sdf} />
-                  </div>
-                )}
-
-                {/* Footer */}
-                <div className="px-6 py-3 flex items-center justify-between">
-                  <span className="text-[10px] text-neutral-600 tracking-wide">
-                    Drag to rotate · Scroll to zoom
-                  </span>
-                  {prediction.conformer_sdf && (
-                    <button
-                      onClick={() => setShowViewer(true)}
-                      className="text-[10px] tracking-wider uppercase text-neutral-500 hover:text-white transition-colors"
-                    >
-                      Expand View
-                    </button>
-                  )}
-                </div>
+                ))}
               </div>
-            </section>
-          );
-        })()}
+            )}
+          </section>
+        )}
       </div>
 
       {/* Full-screen 3D Viewer modal */}

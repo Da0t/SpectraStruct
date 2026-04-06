@@ -235,15 +235,15 @@ def _predict_demo(req: PredictRequest, modalities_used: List[str]) -> PredictRes
                 conformer_sdf=sdf,
             ))
     else:
-        c = candidates_data[0]
-        candidate_dict = dict(c)
-        if not candidate_dict.get("conformer_sdf"):
-            sdf = _find_conformer_for_smiles(candidate_dict["smiles"], top_level_candidates)
-            if not sdf:
-                sdf = _generate_conformer_sdf(candidate_dict["smiles"])
-            if sdf:
-                candidate_dict["conformer_sdf"] = sdf
-        candidates_list.append(Candidate(**candidate_dict))
+        for c in candidates_data[:10]:
+            candidate_dict = dict(c)
+            if not candidate_dict.get("conformer_sdf"):
+                sdf = _find_conformer_for_smiles(candidate_dict["smiles"], top_level_candidates)
+                if not sdf:
+                    sdf = _generate_conformer_sdf(candidate_dict["smiles"])
+                if sdf:
+                    candidate_dict["conformer_sdf"] = sdf
+            candidates_list.append(Candidate(**candidate_dict))
 
     warning = None
     if len(modalities_used) < 2:
